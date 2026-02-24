@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero card">
+        <p class="eyebrow">Daily Investing Notebook</p>
+        <h1>Track Mutual Fund & Stock Analysis</h1>
+        <p>
+          Capture your view each day, monitor conviction trends, and review what
+          changed in your market thinking.
+        </p>
+      </section>
+
+      <section class="card form-card">
+        <h2>Add Daily Entry</h2>
+        <form id="entryForm" class="entry-form">
+          <div class="grid two">
+            <label>
+              Dateyes
+              <input type="date" id="date" required />
+            </label>
+            <label>
+              Type
+              <select id="assetType" required>
+                <option value="stock">Stock</option>
+                <option value="mutual-fund">Mutual Fund</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="grid two">
+            <label>
+              Symbol / Fund Name
+              <input type="text" id="name" placeholder="e.g., INFY / HDFC Mid-Cap Opportunities" required />
+            </label>
+            <label>
+              Time Horizon
+              <select id="horizon" required>
+                <option value="short-term">Short-term</option>
+                <option value="swing">Swing</option>
+                <option value="long-term">Long-term</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="grid three">
+            <label>
+              Bias
+              <select id="bias" required>
+                <option value="bullish">Bullish</option>
+                <option value="neutral">Neutral</option>
+                <option value="bearish">Bearish</option>
+              </select>
+            </label>
+            <label>
+              Confidence (1-10)
+              <input type="number" id="confidence" min="1" max="10" value="6" required />
+            </label>
+            <label>
+              Risk Level
+              <select id="risk" required>
+                <option value="low">Low</option>
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Key Thesis
+            <textarea id="thesis" rows="3" placeholder="Why this view? What supports it?" required></textarea>
+          </label>
+
+          <label>
+            Action Plan
+            <textarea id="action" rows="3" placeholder="Entry/exit plan, SIP change, watch level, rebalance trigger..."></textarea>
+          </label>
+
+          <div class="button-row">
+            <button type="submit">Save Entry</button>
+            <button type="button" id="clearForm" class="ghost">Clear</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="card controls-card">
+        <h2>Review</h2>
+        <div class="grid three">
+          <label>
+            Filter by Date
+            <input type="date" id="filterDate" />
+          </label>
+          <label>
+            Filter by Type
+            <select id="filterType">
+              <option value="all">All</option>
+              <option value="stock">Stock</option>
+              <option value="mutual-fund">Mutual Fund</option>
+            </select>
+          </label>
+          <label>
+            Filter by Bias
+            <select id="filterBias">
+              <option value="all">All</option>
+              <option value="bullish">Bullish</option>
+              <option value="neutral">Neutral</option>
+              <option value="bearish">Bearish</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="button-row">
+          <button type="button" id="exportData" class="ghost">Export JSON</button>
+          <label class="inline-file">
+            Import JSON
+            <input type="file" id="importData" accept="application/json" />
+          </label>
+          <button type="button" id="clearAll" class="danger">Delete All</button>
+        </div>
+      </section>
+
+      <section class="stats-grid" id="statsGrid">
+        <article class="card stat">
+          <p>Total Entries</p>
+          <h3 id="statTotal">0</h3>
+        </article>
+        <article class="card stat">
+          <p>Avg Confidence</p>
+          <h3 id="statConfidence">0.0</h3>
+        </article>
+        <article class="card stat">
+          <p>Bullish Ratio</p>
+          <h3 id="statBullish">0%</h3>
+        </article>
+      </section>
+
+      <section class="card">
+        <h2>Journal Entries</h2>
+        <div id="entryList" class="entry-list"></div>
+      </section>
+    </main>
+
+    <template id="entryTemplate">
+      <article class="entry-item">
+        <header>
+          <div>
+            <h3 class="entry-title"></h3>
+            <p class="entry-meta"></p>
+          </div>
+          <span class="pill entry-bias"></span>
+        </header>
+        <p class="entry-thesis"></p>
+        <p class="entry-action"></p>
+        <footer>
+          <span class="small entry-confidence"></span>
+          <button class="ghost danger-text delete-btn" type="button">Delete</button>
+        </footer>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
