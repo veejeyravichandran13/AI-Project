@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GTA-7 Development Program — PMO Console (Mock)</title>
+<style>
+  :root{
+    --bg:#0d1017; --bg2:#141924; --panel:#181e2b; --panel2:#1f2636;
+    --line:#2a3346; --line2:#374056;
+    --txt:#e7ecf4; --mut:#9aa7bd; --mut2:#6c788f;
+    --pink:#ff2e88; --orange:#ff9f1c; --cyan:#2ec5ff; --violet:#8b5cf6;
+    --green:#22c55e; --amber:#f59e0b; --red:#ef4444; --blue:#3b82f6;
+    --radius:10px; --sb:248px;
+    --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;height:100%;}
+  body{background:var(--bg);color:var(--txt);font-family:var(--font);font-size:14px;line-height:1.45;}
+  a{color:var(--cyan);text-decoration:none;}
+  ::-webkit-scrollbar{width:10px;height:10px;}
+  ::-webkit-scrollbar-thumb{background:#2a3346;border-radius:6px;}
+  ::-webkit-scrollbar-track{background:transparent;}
+
+  /* Layout */
+  .app{display:grid;grid-template-columns:var(--sb) 1fr;grid-template-rows:56px 1fr;height:100vh;}
+  .topbar{grid-column:1/3;display:flex;align-items:center;gap:16px;padding:0 18px;background:linear-gradient(90deg,#11151f,#161c2a);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40;}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px;}
+  .brand .logo{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--pink),var(--orange));display:flex;align-items:center;justify-content:center;font-weight:900;color:#0d1017;font-size:15px;box-shadow:0 0 18px rgba(255,46,136,.5);}
+  .brand small{display:block;font-weight:500;color:var(--mut);font-size:11px;letter-spacing:0;}
+  .topbar .spacer{flex:1;}
+  .chip{display:inline-flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--line);padding:5px 10px;border-radius:20px;font-size:12px;color:var(--mut);}
+  .chip b{color:var(--txt);font-weight:600;}
+  .rag{display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border-radius:20px;font-weight:700;font-size:12px;}
+  .rag .dot{width:9px;height:9px;border-radius:50%;}
+  .rag.green{background:rgba(34,197,94,.14);color:#7ee2a4;} .rag.green .dot{background:var(--green);box-shadow:0 0 10px var(--green);}
+  .rag.amber{background:rgba(245,158,11,.14);color:#fbcb6b;} .rag.amber .dot{background:var(--amber);box-shadow:0 0 10px var(--amber);}
+  .rag.red{background:rgba(239,68,68,.14);color:#f79393;} .rag.red .dot{background:var(--red);box-shadow:0 0 10px var(--red);}
+  .avatar{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--violet),var(--cyan));display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;color:#0d1017;}
+
+  /* Sidebar */
+  .side{background:var(--bg2);border-right:1px solid var(--line);overflow-y:auto;padding:12px 10px;}
+  .side .grp{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mut2);padding:14px 10px 6px;}
+  .nav{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:8px;color:var(--mut);cursor:pointer;font-weight:500;user-select:none;position:relative;}
+  .nav:hover{background:var(--panel);color:var(--txt);}
+  .nav.active{background:linear-gradient(90deg,rgba(255,46,136,.16),rgba(255,159,28,.05));color:#fff;}
+  .nav.active::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:3px;background:linear-gradient(var(--pink),var(--orange));}
+  .nav .ic{width:18px;text-align:center;font-size:15px;}
+  .nav .badge{margin-left:auto;background:var(--panel2);color:var(--mut);border:1px solid var(--line);font-size:10px;padding:1px 7px;border-radius:10px;font-weight:600;}
+  .nav.active .badge{background:var(--pink);color:#fff;border-color:transparent;}
+
+  /* Main */
+  .main{overflow-y:auto;padding:22px 26px 60px;}
+  .page-h{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap;}
+  .page-h h1{margin:0;font-size:20px;letter-spacing:.3px;}
+  .page-h p{margin:4px 0 0;color:var(--mut);font-size:13px;max-width:820px;}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;}
+  .btn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);padding:7px 13px;border-radius:8px;font-size:12.5px;cursor:pointer;font-weight:600;display:inline-flex;align-items:center;gap:6px;}
+  .btn:hover{border-color:var(--line2);background:var(--panel);}
+  .btn.pri{background:linear-gradient(135deg,var(--pink),#ff5aa0);border-color:transparent;color:#fff;box-shadow:0 4px 14px rgba(255,46,136,.3);}
+  .btn.pri:hover{filter:brightness(1.06);}
+
+  /* Cards & grids */
+  .grid{display:grid;gap:16px;}
+  .g4{grid-template-columns:repeat(4,1fr);} .g3{grid-template-columns:repeat(3,1fr);} .g2{grid-template-columns:repeat(2,1fr);}
+  @media(max-width:1200px){.g4{grid-template-columns:repeat(2,1fr);}.g3{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:820px){.g4,.g3,.g2{grid-template-columns:1fr;}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px;}
+  .card h3{margin:0 0 2px;font-size:13px;color:var(--mut);font-weight:600;letter-spacing:.2px;text-transform:uppercase;}
+  .card .big{font-size:28px;font-weight:800;letter-spacing:.5px;margin:6px 0 2px;}
+  .card .sub{font-size:12px;color:var(--mut);}
+  .card.section{padding:0;overflow:hidden;}
+  .card.section > .hd{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;}
+  .card.section > .hd h2{margin:0;font-size:14px;letter-spacing:.3px;}
+  .card.section > .hd .r{color:var(--mut);font-size:12px;}
+  .card.section > .bd{padding:16px;}
+  .trend{font-size:12px;font-weight:700;}
+  .trend.up{color:var(--green);} .trend.down{color:var(--red);} .trend.flat{color:var(--mut);}
+
+  /* Pills / tags */
+  .tag{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:2px 9px;border-radius:20px;border:1px solid transparent;white-space:nowrap;}
+  .t-green{background:rgba(34,197,94,.15);color:#7ee2a4;} .t-amber{background:rgba(245,158,11,.15);color:#fbcb6b;}
+  .t-red{background:rgba(239,68,68,.15);color:#f79393;} .t-blue{background:rgba(59,130,246,.15);color:#8fbaff;}
+  .t-violet{background:rgba(139,92,246,.16);color:#c4b1ff;} .t-cyan{background:rgba(46,197,255,.14);color:#8fe0ff;}
+  .t-grey{background:var(--panel2);color:var(--mut);border-color:var(--line);}
+  .t-pink{background:rgba(255,46,136,.15);color:#ff8fbf;} .t-orange{background:rgba(255,159,28,.16);color:#ffc76b;}
+
+  /* Tables */
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th{text-align:left;color:var(--mut);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.6px;padding:10px 12px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--panel);}
+  td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:middle;}
+  tr:hover td{background:rgba(255,255,255,.02);}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--cyan);}
+
+  /* Progress */
+  .bar{height:7px;border-radius:5px;background:var(--panel2);overflow:hidden;min-width:90px;}
+  .bar > i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,var(--pink),var(--orange));}
+  .metric-row{display:flex;align-items:center;gap:10px;}
+  .metric-row .lbl{width:130px;color:var(--mut);font-size:12px;}
+  .metric-row .val{width:120px;text-align:right;font-size:12px;}
+
+  /* Milestone timeline */
+  .rail{display:flex;gap:0;overflow-x:auto;padding:8px 2px 16px;}
+  .stage{min-width:150px;flex:1;position:relative;padding:0 8px;}
+  .stage .node{width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px;position:relative;}
+  .stage .node .m{font-weight:800;font-size:13px;letter-spacing:.5px;}
+  .stage .node .nm{font-size:11.5px;color:var(--mut);margin-top:2px;min-height:30px;}
+  .stage .connector{position:absolute;top:24px;right:-6px;width:12px;height:2px;background:var(--line2);z-index:1;}
+  .stage.done .node{border-color:rgba(34,197,94,.5);box-shadow:inset 0 0 0 1px rgba(34,197,94,.15);}
+  .stage.active .node{border-color:var(--pink);box-shadow:0 0 0 1px var(--pink),0 6px 20px rgba(255,46,136,.25);}
+  .stage.active .node .m{color:var(--pink);}
+
+  /* Backlog tree */
+  .tree{font-size:13px;}
+  .node-row{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;cursor:pointer;border:1px solid transparent;}
+  .node-row:hover{background:var(--panel2);}
+  .node-row .tw{width:16px;color:var(--mut2);font-size:11px;text-align:center;}
+  .node-row .type{font-size:9.5px;font-weight:800;letter-spacing:.5px;padding:2px 7px;border-radius:5px;width:66px;text-align:center;flex-shrink:0;}
+  .ty-epic{background:linear-gradient(135deg,var(--pink),var(--orange));color:#0d1017;}
+  .ty-feat{background:rgba(139,92,246,.25);color:#c4b1ff;} .ty-story{background:rgba(46,197,255,.2);color:#8fe0ff;}
+  .ty-task{background:var(--panel);color:var(--mut);border:1px solid var(--line);} .ty-test{background:rgba(34,197,94,.18);color:#7ee2a4;}
+  .ty-bug{background:rgba(239,68,68,.2);color:#f79393;}
+  .node-row .nm{flex:1;} .node-row .key{color:var(--mut2);font-size:11px;font-family:ui-monospace,monospace;}
+  .children{margin-left:26px;border-left:1px solid var(--line);padding-left:6px;display:none;}
+  .children.open{display:block;}
+
+  /* Kanban */
+  .kanban{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;}
+  @media(max-width:1100px){.kanban{grid-template-columns:repeat(2,1fr);}}
+  .col{background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:10px;min-height:200px;}
+  .col > .ch{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:700;color:var(--mut);margin-bottom:10px;padding:0 4px;}
+  .col > .ch .n{background:var(--panel2);border-radius:10px;padding:0 8px;font-size:11px;}
+  .kcard{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px;margin-bottom:9px;cursor:grab;}
+  .kcard:hover{border-color:var(--line2);}
+  .kcard .kkey{font-size:10px;font-family:ui-monospace,monospace;color:var(--mut2);}
+  .kcard .ktitle{font-size:12.5px;margin:4px 0 8px;}
+  .kcard .kmeta{display:flex;align-items:center;justify-content:space-between;gap:6px;}
+
+  /* Use case steps */
+  .steps{counter-reset:s;display:grid;gap:8px;}
+  .step{display:flex;gap:12px;align-items:flex-start;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:10px 12px;}
+  .step::before{counter-increment:s;content:counter(s);width:24px;height:24px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--orange));color:#0d1017;font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;}
+
+  /* Matrix */
+  .matrix td, .matrix th{text-align:center;}
+  .matrix td:first-child, .matrix th:first-child{text-align:left;font-weight:600;}
+  .cell-x{color:var(--pink);font-weight:800;}
+  .cell-o{color:var(--mut2);}
+
+  /* Field/zoho */
+  .kv{display:grid;grid-template-columns:170px 1fr;gap:2px 14px;font-size:13px;}
+  .kv .k{color:var(--mut);padding:6px 0;} .kv .v{padding:6px 0;}
+  .field-list{display:grid;gap:6px;}
+  .field{display:grid;grid-template-columns:1.4fr 1fr 2fr;gap:12px;padding:8px 12px;border:1px solid var(--line);border-radius:7px;background:var(--panel2);font-size:12.5px;align-items:center;}
+  .field .fn{font-weight:600;} .field .ft{color:var(--cyan);font-family:ui-monospace,monospace;font-size:11.5px;} .field .fd{color:var(--mut);}
+
+  .note{background:rgba(46,197,255,.07);border:1px solid rgba(46,197,255,.25);border-radius:8px;padding:12px 14px;color:#bfe6ff;font-size:12.5px;}
+  .warn{background:rgba(245,158,11,.07);border:1px solid rgba(245,158,11,.28);border-radius:8px;padding:12px 14px;color:#ffdca0;font-size:12.5px;}
+  .hidden{display:none;}
+  .flex{display:flex;} .aic{align-items:center;} .jcsb{justify-content:space-between;} .gap8{gap:8px;} .gap12{gap:12px;} .wrap{flex-wrap:wrap;}
+  .mt16{margin-top:16px;} .mt12{margin-top:12px;} .mb12{margin-bottom:12px;}
+  .muted{color:var(--mut);} .small{font-size:12px;}
+  .donut{--p:0;--c:var(--pink);width:120px;height:120px;border-radius:50%;background:conic-gradient(var(--c) calc(var(--p)*1%), var(--panel2) 0);display:flex;align-items:center;justify-content:center;position:relative;margin:0 auto;}
+  .donut::before{content:"";position:absolute;inset:14px;border-radius:50%;background:var(--panel);}
+  .donut span{position:relative;font-weight:800;font-size:22px;}
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo">7</div>
+      <div>GTA-7 <small>Development Program · PMO Console</small></div>
+    </div>
+    <div class="spacer"></div>
+    <span class="chip">Portal <b>rockstar-gta7</b></span>
+    <span class="chip">Build <b>0.42.183</b></span>
+    <span class="rag amber" id="ragTop"><span class="dot"></span> AMBER</span>
+    <div class="avatar" title="Program Director">PD</div>
+  </div>
+
+  <!-- Sidebar -->
+  <nav class="side">
+    <div class="grp">Overview</div>
+    <div class="nav active" data-view="dashboard"><span class="ic">▤</span> Executive Dashboard</div>
+    <div class="nav" data-view="phases"><span class="ic">◈</span> Phases &amp; Gates <span class="badge">12</span></div>
+    <div class="grp">Delivery</div>
+    <div class="nav" data-view="backlog"><span class="ic">☰</span> Product Backlog</div>
+    <div class="nav" data-view="board"><span class="ic">▦</span> Sprint Board</div>
+    <div class="nav" data-view="usecases"><span class="ic">◎</span> Use Cases <span class="badge">UC</span></div>
+    <div class="grp">Quality</div>
+    <div class="nav" data-view="bugs"><span class="ic">✷</span> Bug Management <span class="badge">7</span></div>
+    <div class="nav" data-view="qa"><span class="ic">✓</span> QA &amp; Test Strategy</div>
+    <div class="nav" data-view="perf"><span class="ic">◔</span> Performance &amp; Compat</div>
+    <div class="grp">Program</div>
+    <div class="nav" data-view="risks"><span class="ic">⚠</span> Risk Register</div>
+    <div class="nav" data-view="deps"><span class="ic">⇄</span> Dependency Matrix</div>
+    <div class="nav" data-view="vendors"><span class="ic">◇</span> Vendor Governance</div>
+    <div class="grp">Platform</div>
+    <div class="nav" data-view="zoho"><span class="ic">⚙</span> Zoho Data Model</div>
+  </nav>
+
+  <!-- Main -->
+  <main class="main" id="main"></main>
+</div>
+
+<script>
+/* ============================ MOCK DATA ============================ */
+const DATA = {
+  health: {
+    overall:'AMBER',
+    tiles:[
+      {k:'Schedule', v:'AMBER', d:'VS gate slipped 3 wks', rag:'amber'},
+      {k:'Budget',   v:'GREEN', d:'4% under plan', rag:'green'},
+      {k:'Scope',    v:'AMBER', d:'2 open change requests', rag:'amber'},
+      {k:'Quality',  v:'GREEN', d:'S0=0 · S1=1', rag:'green'},
+      {k:'Performance',v:'RED', d:'City 47 fps vs 60 target', rag:'red'},
+      {k:'Stability',v:'AMBER', d:'Crash rate 0.9/hr', rag:'amber'},
+      {k:'Security', v:'GREEN', d:'Access review passed', rag:'green'},
+      {k:'Vendor',   v:'AMBER', d:'Vendor B staffing risk', rag:'amber'},
+    ],
+    kpis:[
+      {k:'Requirements Complete', big:'62%', sub:'1,284 / 2,060', trend:'up', t:'+4% wk'},
+      {k:'Open Bugs', big:'318', sub:'S0:0 S1:1 S2:44', trend:'down', t:'-27 wk'},
+      {k:'Milestone', big:'M2', sub:'Vertical Slice · in gate review', trend:'flat', t:''},
+      {k:'Crash Rate', big:'0.9/hr', sub:'target < 0.3/hr', trend:'down', t:'improving'},
+    ]
+  },
+  phases:[
+    {id:'P0', name:'Vendor Selection & Due Diligence', out:'Select outsourcing partner', st:'Done', rag:'green'},
+    {id:'P1', name:'Discovery & Pre-Production', out:'Product vision + feasibility', st:'Done', rag:'green'},
+    {id:'P2', name:'Vertical Slice', out:'Prove the core game', st:'In Gate', rag:'amber'},
+    {id:'P3', name:'Full Production', out:'Build the game', st:'Started', rag:'amber'},
+    {id:'P4', name:'Feature Complete', out:'All major features implemented', st:'Not Started', rag:'grey'},
+    {id:'P5', name:'Alpha', out:'Entire game playable end-to-end', st:'Not Started', rag:'grey'},
+    {id:'P6', name:'Beta', out:'Content-complete & stabilization', st:'Not Started', rag:'grey'},
+    {id:'P7', name:'Certification Readiness', out:'Platform compliance', st:'Not Started', rag:'grey'},
+    {id:'P8', name:'Release Candidate', out:'Final release build', st:'Not Started', rag:'grey'},
+    {id:'P9', name:'Launch', out:'Production release', st:'Not Started', rag:'grey'},
+    {id:'P10',name:'Day-0 / Day-1 Stabilization', out:'Emergency launch fixes', st:'Not Started', rag:'grey'},
+    {id:'P11',name:'Post-Launch', out:'Updates, patches, DLC / live ops', st:'Not Started', rag:'grey'},
+  ],
+  milestones:[
+    {id:'M0', name:'Project Kickoff', st:'done', gate:'Rockstar can access source, build, run tests, track bugs', bugs:'—'},
+    {id:'M1', name:'Prototype', st:'done', gate:'Technically difficult pieces proven feasible', bugs:'—'},
+    {id:'M2', name:'Vertical Slice', st:'active', gate:'One polished experience hits visual/AI/audio/perf bar', bugs:'S0:0 · S1:0'},
+    {id:'M3', name:'Full Production', st:'todo', gate:'World, missions, characters, vehicles in pipeline', bugs:'S0:0'},
+    {id:'M4', name:'Feature Complete', st:'todo', gate:'All major systems implemented', bugs:'S0:0 · S1 ctrl'},
+    {id:'M5', name:'Alpha', st:'todo', gate:'Entire game playable end-to-end', bugs:'S0:0 · S1 ctrl · S2 ok'},
+    {id:'M6', name:'Beta', st:'todo', gate:'Content complete; optimization & QA focus', bugs:'S0:0 · S1:0 · S2 ltd'},
+    {id:'M7', name:'Release Candidate', st:'todo', gate:'Cert + security + final QA + perf', bugs:'S0:0 · S1:0 · S2:0'},
+    {id:'M8', name:'Launch', st:'todo', gate:'Production release approved', bugs:'S0:0 · S1:0 · S2:0'},
+    {id:'M9', name:'Post-Launch', st:'todo', gate:'Hotfix / patch / DLC / live ops', bugs:'triage SLA'},
+  ],
+  gates:[
+    {ms:'Alpha', s0:'0', s1:'controlled', s2:'allowed', s34:'backlog'},
+    {ms:'Beta', s0:'0', s1:'0', s2:'very limited', s34:'controlled'},
+    {ms:'Release Candidate', s0:'0', s1:'0', s2:'0 known', s34:'S3 approved-only · S4 backlog'},
+  ],
+  backlog:[
+    {type:'EPIC', key:'GTA7-EP-01', nm:'Police & Wanted System', tag:'t-pink', children:[
+      {type:'FEATURE', key:'GTA7-FE-011', nm:'Wanted Level', tag:'t-violet', children:[
+        {type:'STORY', key:'GTA7-US-111', nm:'Player receives wanted level after committing a crime', tag:'t-cyan', children:[
+          {type:'TASK', key:'GTA7-T-1111', nm:'Implement crime detection', tag:'t-grey', st:'Done'},
+          {type:'TASK', key:'GTA7-T-1112', nm:'Implement witness system', tag:'t-grey', st:'In Progress'},
+          {type:'TASK', key:'GTA7-T-1113', nm:'Implement wanted-level state machine', tag:'t-grey', st:'In Progress'},
+          {type:'TASK', key:'GTA7-T-1114', nm:'Implement police dispatch', tag:'t-grey', st:'To Do'},
+          {type:'TEST', key:'GTA7-QC-1101', nm:'Verify wanted level increases on crime', tag:'t-green', st:'Pass'},
+          {type:'TEST', key:'GTA7-QC-1102', nm:'Verify wanted level decreases after escape', tag:'t-green', st:'Blocked'},
+          {type:'BUG', key:'GTA7-BUG-000123', nm:'Wanted level remains active after player leaves search area', tag:'t-red', st:'S2·In Progress'},
+        ]},
+      ]},
+    ]},
+    {type:'EPIC', key:'GTA7-EP-02', nm:'Vehicle Systems', tag:'t-pink', children:[
+      {type:'FEATURE', key:'GTA7-FE-021', nm:'Driving & Handling', tag:'t-violet', children:[
+        {type:'STORY', key:'GTA7-US-211', nm:'Player drives a car with realistic handling', tag:'t-cyan', children:[
+          {type:'TASK', key:'GTA7-T-2111', nm:'Tune suspension physics', tag:'t-grey', st:'In Progress'},
+          {type:'TASK', key:'GTA7-T-2112', nm:'Damage model integration', tag:'t-grey', st:'To Do'},
+          {type:'TEST', key:'GTA7-QC-2101', nm:'Handling regression across 12 vehicles', tag:'t-green', st:'Pass'},
+        ]},
+      ]},
+    ]},
+    {type:'EPIC', key:'GTA7-EP-03', nm:'Mission Framework', tag:'t-pink', children:[
+      {type:'FEATURE', key:'GTA7-FE-031', nm:'Mission State Machine', tag:'t-violet', children:[
+        {type:'STORY', key:'GTA7-US-311', nm:'Player can start, fail, restart and abandon a mission', tag:'t-cyan', children:[
+          {type:'TASK', key:'GTA7-T-3111', nm:'Checkpoint save/restore', tag:'t-grey', st:'In Progress'},
+          {type:'TEST', key:'GTA7-QC-3101', nm:'Checkpoint restore correctness', tag:'t-green', st:'Pass'},
+          {type:'BUG', key:'GTA7-BUG-000144', nm:'Mission state corrupts on save during transition', tag:'t-red', st:'S1·In Progress'},
+        ]},
+      ]},
+    ]},
+  ],
+  board:{
+    cols:['Backlog','To Do','In Progress','In Review','Done'],
+    cards:[
+      {key:'GTA7-T-1114', t:'Implement police dispatch', col:'Backlog', tag:'AI', tc:'t-violet', who:'AI', pts:8},
+      {key:'GTA7-T-2112', t:'Vehicle damage model integration', col:'To Do', tag:'Vehicle', tc:'t-orange', who:'VEH', pts:13},
+      {key:'GTA7-T-1112', t:'Witness system', col:'In Progress', tag:'AI', tc:'t-violet', who:'AI', pts:5},
+      {key:'GTA7-T-1113', t:'Wanted-level state machine', col:'In Progress', tag:'AI', tc:'t-violet', who:'AI', pts:8},
+      {key:'GTA7-T-3111', t:'Checkpoint save/restore', col:'In Progress', tag:'Mission', tc:'t-cyan', who:'MIS', pts:8},
+      {key:'GTA7-QC-1102', t:'Verify wanted decreases after escape', col:'In Review', tag:'QA', tc:'t-green', who:'QA', pts:3},
+      {key:'GTA7-T-2111', t:'Tune suspension physics', col:'In Review', tag:'Vehicle', tc:'t-orange', who:'VEH', pts:5},
+      {key:'GTA7-T-1111', t:'Crime detection', col:'Done', tag:'AI', tc:'t-violet', who:'AI', pts:5},
+      {key:'GTA7-QC-2101', t:'Handling regression (12 vehicles)', col:'Done', tag:'QA', tc:'t-green', who:'QA', pts:5},
+    ]
+  },
+  bugs:[
+    {id:'GTA7-BUG-000123', t:'Police NPC gets stuck / wanted stays active', sev:'S2', pri:'P1', env:'PS5 DevKit', build:'0.42.183', area:'AI', repro:'100%', owner:'Vendor B · AI', st:'In Progress', fix:'0.42.191', qa:'—'},
+    {id:'GTA7-BUG-000144', t:'Mission state corrupts on save during transition', sev:'S1', pri:'P0', env:'PC (Win11)', build:'0.42.180', area:'Mission', repro:'40%', owner:'Rockstar · Core', st:'In Progress', fix:'0.42.190', qa:'—'},
+    {id:'GTA7-BUG-000156', t:'Streaming hitch when aircraft exits radius', sev:'S2', pri:'P2', env:'Xbox Series X', build:'0.42.183', area:'Streaming', repro:'75%', owner:'Vendor D', st:'Open', fix:'—', qa:'—'},
+    {id:'GTA7-BUG-000161', t:'Subtitle overflow in DE/RU at 4K', sev:'S4', pri:'P3', env:'PC', build:'0.42.182', area:'Localization', repro:'100%', owner:'Vendor A', st:'Open', fix:'—', qa:'—'},
+    {id:'GTA7-BUG-000168', t:'Two NPCs attempt same vehicle entry', sev:'S3', pri:'P2', area:'AI', env:'PS5', build:'0.42.181', repro:'20%', owner:'Vendor B', st:'In Review', fix:'0.42.188', qa:'Pending'},
+    {id:'GTA7-BUG-000170', t:'VRAM spike in dense district at dusk', sev:'S2', pri:'P1', area:'Performance', env:'PC (8GB)', build:'0.42.183', repro:'60%', owner:'Rockstar · Graphics', st:'Open', fix:'—', qa:'—'},
+    {id:'GTA7-BUG-000101', t:'Crash on rapid save/load during streaming', sev:'S0', pri:'P0', area:'Persistence', env:'PS5 DevKit', build:'0.41.902', repro:'30%', owner:'Rockstar · Core', st:'Closed', fix:'0.42.010', qa:'Passed'},
+  ],
+  usecase:{
+    id:'UC-POLICE-001', name:'Crime Detection', epic:'Police & Wanted System', owner:'Vendor B · AI Team',
+    steps:[
+      'Player commits crime',
+      'NPC witnesses crime',
+      'Witness evaluates visibility (line-of-sight, distance, lighting)',
+      'Witness reports crime to dispatch',
+      'Police dispatch receives event',
+      'Wanted level changes',
+      'Police NPC is spawned / redirected',
+      'Police searches for player',
+      'Player escapes search radius',
+      'Search state expires and wanted level clears',
+    ],
+    fr:['Crime type classified within 200ms','Witness credibility weighted by proximity','Dispatch dedupes concurrent reports'],
+    perf:['Detection loop < 0.5ms/frame on game thread','Max 24 concurrent pursuers without fps drop'],
+    edge:['Witness killed before reporting','Player re-enters area as search expires','Crime during cutscene / mission transition'],
+    tele:['crime_detected','witness_report','wanted_level_change','pursuit_start/end'],
+    accept:['Wanted increases on witnessed crime','Wanted clears after search timeout','No stuck pursuers after escape','Telemetry emitted for every state change'],
+  },
+  otherUC:[
+    {id:'UC-PLAYER-014', nm:'Player enters vehicle while NPC is entering', area:'Player', tag:'t-blue', st:'Draft'},
+    {id:'UC-STREAM-007', nm:'Aircraft travels outside streaming radius', area:'World', tag:'t-cyan', st:'Approved'},
+    {id:'UC-AI-022', nm:'Police pursue player into inaccessible area', area:'AI', tag:'t-violet', st:'In QA'},
+    {id:'UC-MISSION-005', nm:'Player saves during mission transition', area:'Mission', tag:'t-orange', st:'Approved'},
+    {id:'UC-WORLD-031', nm:'Multiple high-density zones loaded simultaneously', area:'World', tag:'t-cyan', st:'Draft'},
+  ],
+  qaLayers:[
+    {l:'L1 · Developer Testing', d:'Code works, unit tests pass, no obvious regressions', own:'Engineers', cov:'92%'},
+    {l:'L2 · Feature QA', d:'Functional behavior, requirements, edge cases, error handling', own:'Vendor C QA', cov:'78%'},
+    {l:'L3 · Integration Testing', d:'Mission + Police + AI + Vehicles + Streaming + Save/Load', own:'Vendor C QA', cov:'54%'},
+    {l:'L4 · System Testing', d:'Full game end-to-end', own:'Rockstar QA', cov:'31%'},
+    {l:'L5 · Regression', d:'Smoke, functional, perf, memory, save/load per build', own:'Automation', cov:'auto'},
+  ],
+  soak:[
+    {d:'4 hours', st:'Pass', note:'no leaks'},
+    {d:'8 hours', st:'Pass', note:'minor AI drift'},
+    {d:'24 hours', st:'Fail', note:'VRAM creep + 1 crash'},
+    {d:'72 hours', st:'Not Run', note:'blocked on 24h fix'},
+  ],
+  automation:[
+    'Start game','Start / complete / fail mission','Save / load / respawn',
+    'Spawn NPC / vehicle','Enter / exit vehicle','Change weapon','Trigger wanted level',
+    'City stress · Traffic stress · NPC stress','Streaming stress · Combat stress'
+  ],
+  perf:{
+    fps:[
+      {k:'Average FPS', tgt:60, act:47, unit:'fps', bad:true},
+      {k:'1% Low', tgt:45, act:31, unit:'fps', bad:true},
+      {k:'0.1% Low', tgt:30, act:22, unit:'fps', bad:true},
+    ],
+    budgets:[
+      {k:'Game Thread', tgt:8.0, act:9.6, unit:'ms', bad:true},
+      {k:'Render Thread', tgt:8.0, act:7.4, unit:'ms', bad:false},
+      {k:'AI', tgt:2.0, act:2.1, unit:'ms', bad:true},
+      {k:'Physics', tgt:2.5, act:2.2, unit:'ms', bad:false},
+      {k:'Animation', tgt:2.0, act:1.7, unit:'ms', bad:false},
+      {k:'Streaming', tgt:1.5, act:1.4, unit:'ms', bad:false},
+    ],
+    memory:[
+      {k:'RAM', tgt:12.0, act:11.2, unit:'GB', bad:false},
+      {k:'VRAM', tgt:9.0, act:9.8, unit:'GB', bad:true},
+      {k:'Texture Pool', tgt:4.0, act:3.6, unit:'GB', bad:false},
+      {k:'Streaming Pool', tgt:2.0, act:1.9, unit:'GB', bad:false},
+    ],
+    loading:[
+      {k:'Boot Time', tgt:20, act:24, unit:'s', bad:true},
+      {k:'Save Load', tgt:8, act:7, unit:'s', bad:false},
+      {k:'Fast Travel', tgt:6, act:6, unit:'s', bad:false},
+      {k:'Interior Transition', tgt:1.5, act:1.3, unit:'s', bad:false},
+    ],
+    compat:[
+      {p:'PS5', st:'Pass'},{p:'PS5 Pro', st:'Pass'},{p:'Xbox Series X', st:'Pass'},
+      {p:'Xbox Series S', st:'At Risk'},{p:'PC · High-end', st:'Pass'},{p:'PC · Mid', st:'At Risk'},
+      {p:'PC · Min-spec', st:'Fail'},{p:'Steam Deck', st:'Not Run'},
+    ]
+  },
+  risks:[
+    {r:'Vendor misses milestone', p:'Medium', i:'High', m:'Buffer + hard milestone gates', o:'Program Dir'},
+    {r:'Performance below target', p:'High', i:'High', m:'Early + continuous profiling', o:'Tech Dir'},
+    {r:'Staff turnover / key-person', p:'Medium', i:'High', m:'Key-person protection clauses', o:'Vendor PM'},
+    {r:'Data leak of unreleased IP', p:'Low', i:'Critical', m:'DLP, MFA, scoped access, recording controls', o:'Security Lead'},
+    {r:'Scope creep', p:'High', i:'High', m:'Formal change control board', o:'Product Owner'},
+    {r:'Technical debt', p:'Medium', i:'High', m:'Architecture reviews per milestone', o:'Tech Dir'},
+    {r:'Certification failure', p:'Medium', i:'High', m:'Early + parallel compliance testing', o:'Release Mgr'},
+    {r:'Asset production delay', p:'Medium', i:'High', m:'Parallel content pipelines across vendors', o:'Art Dir'},
+  ],
+  deps:{
+    features:['Police System','Mission System','Cinematics','Interiors','Multiplayer','Save System'],
+    on:['AI','NPC','Vehicles','Animation','Streaming','Lighting','Audio','Networking','Backend','Security','Persistence','Gameplay'],
+    map:{
+      'Police System':['AI','NPC','Vehicles'],
+      'Mission System':['AI','Animation','Streaming'],
+      'Cinematics':['Animation','Audio'],
+      'Interiors':['Streaming','Lighting'],
+      'Multiplayer':['Networking','Backend','Security'],
+      'Save System':['Gameplay','Persistence'],
+    }
+  },
+  vendors:[
+    {v:'Rockstar (Owner)', scope:'Vision · IP · Core engine · Critical systems · Security · Final integration & QA authority', tag:'t-pink'},
+    {v:'Vendor A', scope:'World / content production · Localization', tag:'t-cyan'},
+    {v:'Vendor B', scope:'Character / animation · AI systems', tag:'t-violet'},
+    {v:'Vendor C', scope:'QA / test automation', tag:'t-green'},
+    {v:'Vendor D', scope:'Specialized engineering (streaming, graphics)', tag:'t-orange'},
+  ],
+  governance:[
+    'Executive Sponsor','Steering Committee','Program Director',
+    'Creative Dir · Technical Dir · Production Dir','Vendor PM','Engineering · Art · QA'
+  ],
+  zoho:{
+    defaults:[
+      {m:'Projects', use:'One project per phase (P0–P11)', native:true},
+      {m:'Milestones', use:'M0–M10 gates with exit criteria', native:true},
+      {m:'Task Lists', use:'Epics / Features grouping', native:true},
+      {m:'Tasks', use:'Tasks + User Stories (hierarchy via parent)', native:true},
+      {m:'Bugs (Issues)', use:'Bug management with custom severity fields', native:true},
+      {m:'Timesheets', use:'Vendor effort & billing per milestone', native:true},
+      {m:'Users & Roles', use:'Scoped vendor access (least privilege)', native:true},
+    ],
+    custom:[
+      {m:'cm_UseCase', desc:'UC-XXX-000 records: steps, FR, edge, telemetry, acceptance', fields:[
+        {n:'uc_id', t:'Single Line (unique)', d:'e.g. UC-POLICE-001'},
+        {n:'steps', t:'Multi Line', d:'Ordered flow steps'},
+        {n:'functional_reqs', t:'Multi Line', d:'Functional requirements'},
+        {n:'edge_cases', t:'Multi Line', d:'Edge & failure conditions'},
+        {n:'telemetry', t:'Multi Line', d:'Events emitted'},
+        {n:'acceptance', t:'Multi Line', d:'Acceptance criteria'},
+        {n:'linked_epic', t:'Lookup → Task List', d:'Owning epic'},
+      ]},
+      {m:'cm_TestCase', desc:'Structured QA cases mapped to stories & layers', fields:[
+        {n:'tc_id', t:'Single Line', d:'GTA7-QC-0000'},
+        {n:'qa_layer', t:'Pick List', d:'L1 / L2 / L3 / L4 / L5'},
+        {n:'steps', t:'Multi Line', d:'Test steps'},
+        {n:'expected', t:'Multi Line', d:'Expected result'},
+        {n:'result', t:'Pick List', d:'Pass / Fail / Blocked / Pending'},
+        {n:'linked_story', t:'Lookup → Task', d:'Story under test'},
+      ]},
+      {m:'cm_SeverityGate', desc:'Per-milestone allowed bug thresholds', fields:[
+        {n:'milestone', t:'Lookup → Milestone', d:'M0–M10'},
+        {n:'s0_max', t:'Number', d:'Blocker allowance'},
+        {n:'s1_max', t:'Number', d:'Critical allowance'},
+        {n:'s2_policy', t:'Pick List', d:'allowed / limited / zero'},
+        {n:'s34_policy', t:'Single Line', d:'S3/S4 policy'},
+      ]},
+      {m:'cm_Risk', desc:'Live risk register', fields:[
+        {n:'risk', t:'Single Line', d:'Risk statement'},
+        {n:'probability', t:'Pick List', d:'Low / Medium / High'},
+        {n:'impact', t:'Pick List', d:'Low / High / Critical'},
+        {n:'mitigation', t:'Multi Line', d:'Mitigation plan'},
+        {n:'owner', t:'User', d:'Accountable owner'},
+      ]},
+      {m:'cm_Dependency', desc:'Feature → subsystem dependency matrix', fields:[
+        {n:'feature', t:'Lookup → Task List', d:'Dependent feature'},
+        {n:'depends_on', t:'Multi Select', d:'AI, NPC, Vehicles, …'},
+        {n:'risk_flag', t:'Checkbox', d:'On critical path?'},
+      ]},
+      {m:'cm_Vendor', desc:'Vendor governance & scope', fields:[
+        {n:'vendor', t:'Single Line', d:'Vendor A/B/C/D'},
+        {n:'scope', t:'Multi Line', d:'Delivery scope'},
+        {n:'access_level', t:'Pick List', d:'Scoped least-privilege'},
+        {n:'sla', t:'Multi Line', d:'SLA terms'},
+      ]},
+      {m:'cm_PerfBudget', desc:'Performance budgets: target vs actual per build', fields:[
+        {n:'metric', t:'Single Line', d:'FPS / ms / GB / s'},
+        {n:'target', t:'Decimal', d:'Budget'},
+        {n:'actual', t:'Decimal', d:'Measured'},
+        {n:'build', t:'Single Line', d:'Build number'},
+      ]},
+    ],
+    catalyst:[
+      'Host this console as a Catalyst Web Client (static SPA) behind Catalyst authentication.',
+      'Catalyst Functions rotate Zoho OAuth refresh/access tokens on a schedule (cron) — no secrets in the client.',
+      'Client calls Catalyst Function endpoints; Functions hold the client_id/secret in Catalyst env variables.',
+      'Zoho Projects REST v3 + custom-module APIs are proxied through Functions for scoped, audited access.',
+    ]
+  }
+};
+
+/* ============================ HELPERS ============================ */
+const $ = (s,el=document)=>el.querySelector(s);
+const el = (h)=>{const d=document.createElement('div');d.innerHTML=h.trim();return d.firstElementChild;};
+const ragClass = r => ({green:'t-green',amber:'t-amber',red:'t-red',grey:'t-grey'}[r]||'t-grey');
+const stTag = s=>{
+  const m={'Done':'t-green','Pass':'t-green','Passed':'t-green','Closed':'t-green','Approved':'t-green',
+    'In Progress':'t-blue','Started':'t-blue','In Review':'t-violet','In QA':'t-violet','In Gate':'t-amber',
+    'To Do':'t-grey','Backlog':'t-grey','Not Started':'t-grey','Draft':'t-grey','Not Run':'t-grey','Pending':'t-grey',
+    'Blocked':'t-red','Fail':'t-red','Open':'t-orange','On Hold':'t-amber','At Risk':'t-amber'};
+  return m[s]||'t-grey';
+};
+
+/* ============================ VIEWS ============================ */
+const views = {};
+
+views.dashboard = ()=>{
+  const h=DATA.health;
+  const kpis=h.kpis.map(k=>`
+    <div class="card">
+      <h3>${k.k}</h3>
+      <div class="big">${k.big}</div>
+      <div class="sub">${k.sub} ${k.t?`<span class="trend ${k.trend}">· ${k.t}</span>`:''}</div>
+    </div>`).join('');
+  const tiles=h.tiles.map(t=>`
+    <div class="card" style="display:flex;align-items:center;justify-content:space-between;">
+      <div><h3 style="margin:0">${t.k}</h3><div class="sub" style="margin-top:4px">${t.d}</div></div>
+      <span class="rag ${t.rag}"><span class="dot"></span>${t.v}</span>
+    </div>`).join('');
+  return `
+    <div class="page-h">
+      <div><h1>Executive Dashboard</h1><p>Program-level health for GTA-7. Roll-up only — not 10,000 tickets. Drill into any workstream from the sidebar.</p></div>
+      <div class="toolbar"><button class="btn">Export PDF</button><button class="btn pri">Weekly Report</button></div>
+    </div>
+    <div class="grid g4">${kpis}</div>
+    <div class="card section mt16"><div class="hd"><h2>Program Health · RAG</h2><span class="r">Overall: <span class="rag amber" style="padding:2px 10px"><span class="dot"></span>AMBER</span></span></div>
+      <div class="bd"><div class="grid g4">${tiles}</div></div></div>
+    <div class="grid g2 mt16">
+      <div class="card section"><div class="hd"><h2>Milestone Status</h2><span class="r">Gate-driven</span></div>
+        <div class="bd">${DATA.milestones.slice(0,7).map(m=>`
+          <div class="metric-row" style="margin-bottom:10px">
+            <div style="width:150px"><b>${m.id}</b> · ${m.name}</div>
+            <span class="tag ${m.st==='done'?'t-green':m.st==='active'?'t-amber':'t-grey'}">${m.st==='done'?'Accepted':m.st==='active'?'In Gate Review':'Planned'}</span>
+            <div class="sub" style="flex:1;text-align:right">${m.bugs}</div>
+          </div>`).join('')}</div></div>
+      <div class="card section"><div class="hd"><h2>Requirements Burn-up</h2><span class="r">1,284 / 2,060</span></div>
+        <div class="bd" style="text-align:center">
+          <div class="donut" style="--p:62;--c:var(--pink)"><span>62%</span></div>
+          <div class="sub mt12">Requirements complete across all epics. Vertical Slice quality bar gating promotion to Full Production.</div>
+        </div></div>
+    </div>
+    <div class="note mt16"><b>Gate principle:</b> a milestone is complete only when acceptance criteria, quality thresholds, performance targets, security requirements and defect thresholds are met — never at "95% of tasks done".</div>`;
+};
+
+views.phases = ()=>{
+  const rail=DATA.milestones.map((m,i)=>`
+    <div class="stage ${m.st}">
+      <div class="node"><div class="m">${m.id}</div><div class="nm">${m.name}</div>
+        <span class="tag ${m.st==='done'?'t-green':m.st==='active'?'t-amber':'t-grey'}" style="margin-top:6px">${m.st==='done'?'Accepted':m.st==='active'?'Active':'Planned'}</span></div>
+      ${i<DATA.milestones.length-1?'<div class="connector"></div>':''}
+    </div>`).join('');
+  const phaseRows=DATA.phases.map(p=>`
+    <tr><td class="mono">${p.id}</td><td><b>${p.name}</b></td><td class="muted">${p.out}</td>
+    <td><span class="tag ${stTag(p.st)}">${p.st}</span></td>
+    <td><span class="rag ${p.rag==='grey'?'amber':p.rag}" style="padding:2px 10px;${p.rag==='grey'?'opacity:.4':''}"><span class="dot"></span>${p.rag==='grey'?'—':p.rag.toUpperCase()}</span></td></tr>`).join('');
+  const gates=DATA.gates.map(g=>`
+    <tr><td><b>${g.ms}</b></td><td><span class="tag t-green">S0: ${g.s0}</span></td>
+    <td><span class="tag ${g.s1==='0'?'t-green':'t-amber'}">S1: ${g.s1}</span></td>
+    <td><span class="tag ${g.s2.includes('0')?'t-green':'t-amber'}">S2: ${g.s2}</span></td>
+    <td class="muted">${g.s34}</td></tr>`).join('');
+  return `
+    <div class="page-h"><div><h1>Phases &amp; Milestone Gates</h1><p>12-phase AAA lifecycle with hard gates. Phases run concurrently across teams; promotion requires passing the gate, not the calendar.</p></div></div>
+    <div class="card section"><div class="hd"><h2>Milestone Rail · M0 → M10</h2><span class="r">Vertical Slice in gate review</span></div>
+      <div class="bd"><div class="rail">${rail}</div></div></div>
+    <div class="card section mt16"><div class="hd"><h2>Lifecycle Phases</h2><span class="r">12 phases</span></div>
+      <div class="bd" style="padding:0"><table><thead><tr><th>Phase</th><th>Name</th><th>Primary Outcome</th><th>Status</th><th>Health</th></tr></thead><tbody>${phaseRows}</tbody></table></div></div>
+    <div class="card section mt16"><div class="hd"><h2>Bug Gates by Milestone</h2><span class="r">Thresholds agreed with production leadership</span></div>
+      <div class="bd" style="padding:0"><table><thead><tr><th>Milestone</th><th>S0 Blocker</th><th>S1 Critical</th><th>S2 Major</th><th>S3 / S4</th></tr></thead><tbody>${gates}</tbody></table></div></div>`;
+};
+
+let treeSeq=0;
+function renderNode(n, depth){
+  const id='tn'+(treeSeq++);
+  const hasK=n.children&&n.children.length;
+  const tyc={'EPIC':'ty-epic','FEATURE':'ty-feat','STORY':'ty-story','TASK':'ty-task','TEST':'ty-test','BUG':'ty-bug'}[n.type];
+  const stHtml = n.st?`<span class="tag ${stTag(n.st.split('·')[0].trim())||'t-grey'}">${n.st}</span>`:'';
+  return `
+    <div>
+      <div class="node-row" ${hasK?`onclick="document.getElementById('${id}').classList.toggle('open');this.querySelector('.tw').textContent=document.getElementById('${id}').classList.contains('open')?'▾':'▸'"`:''}>
+        <span class="tw">${hasK?'▸':''}</span>
+        <span class="type ${tyc}">${n.type}</span>
+        <span class="nm">${n.nm}</span>
+        ${stHtml}
+        <span class="key">${n.key}</span>
+      </div>
+      ${hasK?`<div class="children ${depth<1?'open':''}" id="${id}">${n.children.map(c=>renderNode(c,depth+1)).join('')}</div>`:''}
+    </div>`;
+}
+views.backlog = ()=>{
+  treeSeq=0;
+  const tree=DATA.backlog.map(n=>renderNode(n,0)).join('');
+  return `
+    <div class="page-h"><div><h1>Product Backlog</h1><p>Hierarchy: <b>Epic → Feature → User Story → Task → Test Case → Bug</b>. This structure makes outsourced delivery measurable and maps 1:1 to Zoho task hierarchy + custom modules.</p></div>
+      <div class="toolbar"><button class="btn">Filter</button><button class="btn pri">+ New Epic</button></div></div>
+    <div class="flex gap8 wrap mb12">
+      <span class="tag ty-epic" style="border-radius:5px">EPIC</span>
+      <span class="tag ty-feat" style="border-radius:5px">FEATURE</span>
+      <span class="tag ty-story" style="border-radius:5px">STORY</span>
+      <span class="tag ty-task" style="border-radius:5px">TASK</span>
+      <span class="tag ty-test" style="border-radius:5px">TEST</span>
+      <span class="tag ty-bug" style="border-radius:5px">BUG</span>
+    </div>
+    <div class="card"><div class="tree">${tree}</div></div>`;
+};
+
+views.board = ()=>{
+  const b=DATA.board;
+  const cols=b.cols.map(c=>{
+    const cards=b.cards.filter(k=>k.col===c);
+    return `<div class="col"><div class="ch"><span>${c}</span><span class="n">${cards.length}</span></div>
+      ${cards.map(k=>`<div class="kcard">
+        <div class="kkey">${k.key}</div>
+        <div class="ktitle">${k.t}</div>
+        <div class="kmeta"><span class="tag ${k.tc}">${k.tag}</span>
+          <span class="flex aic gap8"><span class="muted small">${k.pts} pts</span><span class="avatar" style="width:24px;height:24px;font-size:10px">${k.who}</span></span></div>
+      </div>`).join('')}</div>`;
+  }).join('');
+  return `
+    <div class="page-h"><div><h1>Sprint Board</h1><p>Vertical Slice sprint · tasks across AI, Vehicle, Mission and QA squads.</p></div>
+      <div class="toolbar"><button class="btn">Sprint 24 ▾</button><button class="btn pri">+ Task</button></div></div>
+    <div class="kanban">${cols}</div>`;
+};
+
+views.usecases = ()=>{
+  const u=DATA.usecase;
+  const li=a=>a.map(x=>`<li>${x}</li>`).join('');
+  const others=DATA.otherUC.map(o=>`
+    <tr><td class="mono">${o.id}</td><td>${o.nm}</td><td><span class="tag ${o.tag}">${o.area}</span></td><td><span class="tag ${stTag(o.st)}">${o.st}</span></td></tr>`).join('');
+  return `
+    <div class="page-h"><div><h1>Use Cases</h1><p>Requirements are broken into measurable use cases — never vague statements like "build a realistic police system". Each UC drives functional reqs, edge cases, telemetry & acceptance.</p></div></div>
+    <div class="card section"><div class="hd"><h2><span class="mono">${u.id}</span> — ${u.name}</h2><span class="r">${u.epic} · ${u.owner}</span></div>
+      <div class="bd">
+        <h3 style="color:var(--mut);font-size:12px;margin:0 0 10px">FLOW</h3>
+        <div class="steps">${u.steps.map(s=>`<div class="step">${s}</div>`).join('')}</div>
+        <div class="grid g2 mt16">
+          <div><h3 style="color:var(--mut);font-size:12px">Functional Requirements</h3><ul>${li(u.fr)}</ul>
+               <h3 style="color:var(--mut);font-size:12px">Performance Requirements</h3><ul>${li(u.perf)}</ul></div>
+          <div><h3 style="color:var(--mut);font-size:12px">Edge Cases</h3><ul>${li(u.edge)}</ul>
+               <h3 style="color:var(--mut);font-size:12px">Telemetry</h3><ul>${li(u.tele)}</ul></div>
+        </div>
+        <div class="note mt12"><b>Acceptance Criteria:</b> ${u.accept.join(' · ')}</div>
+      </div></div>
+    <div class="card section mt16"><div class="hd"><h2>Use-Case Library</h2><span class="r">edge-case program</span></div>
+      <div class="bd" style="padding:0"><table><thead><tr><th>UC ID</th><th>Scenario</th><th>Area</th><th>Status</th></tr></thead><tbody>${others}</tbody></table></div></div>`;
+};
+
+views.bugs = ()=>{
+  const rows=DATA.bugs.map(b=>{
+    const sevc={'S0':'t-red','S1':'t-red','S2':'t-orange','S3':'t-amber','S4':'t-grey'}[b.sev];
+    const pric={'P0':'t-red','P1':'t-orange','P2':'t-amber','P3':'t-grey'}[b.pri];
+    return `<tr>
+      <td class="mono">${b.id}</td><td>${b.t}</td>
+      <td><span class="tag ${sevc}">${b.sev}</span></td><td><span class="tag ${pric}">${b.pri}</span></td>
+      <td class="muted small">${b.area}</td><td class="muted small">${b.env}</td>
+      <td class="muted small">${b.repro}</td><td class="muted small">${b.owner}</td>
+      <td><span class="tag ${stTag(b.st)}">${b.st}</span></td>
+      <td class="mono small">${b.fix}</td><td class="small ${b.qa==='Passed'?'':'muted'}">${b.qa}</td>
+    </tr>`;
+  }).join('');
+  const sevModel=[
+    {s:'S0 · Blocker', d:'Game cannot continue — crash on startup, save corruption, cannot launch, major security issue', c:'t-red'},
+    {s:'S1 · Critical', d:'Major functionality broken — main mission impossible, severe progression blocker', c:'t-red'},
+    {s:'S2 · Major', d:'Important functionality significantly affected', c:'t-orange'},
+    {s:'S3 · Minor', d:'Limited impact', c:'t-amber'},
+    {s:'S4 · Cosmetic', d:'Visual / audio / text issue', c:'t-grey'},
+  ].map(x=>`<div class="card" style="display:flex;gap:12px;align-items:flex-start"><span class="tag ${x.c}" style="margin-top:2px">${x.s}</span><div class="sub">${x.d}</div></div>`).join('');
+  return `
+    <div class="page-h"><div><h1>Bug Management</h1><p>Every bug carries ID, severity, priority, environment, build, area, repro %, owner, fix build and QA result — the full contract-grade record.</p></div>
+      <div class="toolbar"><button class="btn">Severity ▾</button><button class="btn">Area ▾</button><button class="btn pri">+ Log Bug</button></div></div>
+    <div class="card section"><div class="hd"><h2>Active Defects</h2><span class="r">S0:0 · S1:1 · S2:44 · total 318</span></div>
+      <div class="bd" style="padding:0;overflow-x:auto"><table><thead><tr><th>Bug ID</th><th>Title</th><th>Sev</th><th>Pri</th><th>Area</th><th>Env</th><th>Repro</th><th>Owner</th><th>Status</th><th>Fix Build</th><th>QA</th></tr></thead><tbody>${rows}</tbody></table></div></div>
+    <div class="mt16"><h3 style="color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.6px">Severity Model</h3>
+      <div class="grid g2">${sevModel}</div></div>`;
+};
+
+views.qa = ()=>{
+  const layers=DATA.qaLayers.map(l=>`
+    <div class="card"><div class="flex jcsb aic"><h3 style="margin:0">${l.l}</h3><span class="tag t-blue">${l.cov}</span></div>
+      <div class="sub mt12">${l.d}</div><div class="muted small mt12">Owner: ${l.own}</div></div>`).join('');
+  const soak=DATA.soak.map(s=>`
+    <tr><td><b>${s.d}</b></td><td><span class="tag ${stTag(s.st)}">${s.st}</span></td><td class="muted">${s.note}</td></tr>`).join('');
+  const auto=DATA.automation.map(a=>`<span class="tag t-cyan" style="margin:3px">${a}</span>`).join('');
+  return `
+    <div class="page-h"><div><h1>QA &amp; Test Strategy</h1><p>QA starts at the first prototype — not the final phase. Five testing layers, continuous regression, soak testing and automation.</p></div></div>
+    <div class="grid g3">${layers}</div>
+    <div class="grid g2 mt16">
+      <div class="card section"><div class="hd"><h2>Soak Testing</h2><span class="r">open-world stability</span></div>
+        <div class="bd" style="padding:0"><table><thead><tr><th>Duration</th><th>Result</th><th>Notes</th></tr></thead><tbody>${soak}</tbody></table></div>
+        <div class="warn" style="margin:14px">24h soak reveals VRAM creep + 1 crash — blocks 72h run and gates Beta.</div></div>
+      <div class="card section"><div class="hd"><h2>Automation Suite</h2><span class="r">runs per build / nightly</span></div>
+        <div class="bd"><div class="flex wrap">${auto}</div>
+          <div class="note mt16">Every commit triggers: compile · static analysis · unit · integration · asset validation · build verification · perf checks. Nightly: full regression · memory · long-duration · AI/streaming/MP stress.</div></div></div>
+    </div>`;
+};
+
+views.perf = ()=>{
+  const bar=(m)=>{
+    const pct=Math.min(100, Math.round((m.act/Math.max(m.tgt,m.act))*100));
+    const over=m.bad;
+    return `<div class="metric-row" style="margin-bottom:11px">
+      <div class="lbl">${m.k}</div>
+      <div class="bar" style="flex:1"><i style="width:${pct}%;background:${over?'linear-gradient(90deg,var(--red),var(--orange))':'linear-gradient(90deg,var(--green),var(--cyan))'}"></i></div>
+      <div class="val"><b style="color:${over?'var(--red)':'var(--green)'}">${m.act}</b> <span class="muted">/ ${m.tgt} ${m.unit}</span></div>
+    </div>`;
+  };
+  const sect=(title,arr)=>`<div class="card section"><div class="hd"><h2>${title}</h2><span class="r">actual / target</span></div><div class="bd">${arr.map(bar).join('')}</div></div>`;
+  const p=DATA.perf;
+  const compat=p.compat.map(c=>`<tr><td><b>${c.p}</b></td><td><span class="tag ${stTag(c.st)}">${c.st}</span></td></tr>`).join('');
+  return `
+    <div class="page-h"><div><h1>Performance &amp; Compatibility</h1><p>Dedicated performance program: FPS, CPU/GPU budgets, memory and loading — tracked target-vs-actual per build. Current build fails the city FPS target.</p></div>
+      <div class="toolbar"><button class="btn">Build 0.42.183 ▾</button></div></div>
+    <div class="grid g2">${sect('Frame Rate',p.fps)}${sect('CPU Budget (ms/frame)',p.budgets)}</div>
+    <div class="grid g2 mt16">${sect('Memory',p.memory)}${sect('Loading (seconds)',p.loading)}</div>
+    <div class="card section mt16"><div class="hd"><h2>Compatibility Matrix</h2><span class="r">platforms & hardware classes</span></div>
+      <div class="bd" style="padding:0"><table><thead><tr><th>Platform / Config</th><th>Status</th></tr></thead><tbody>${compat}</tbody></table></div></div>`;
+};
+
+views.risks = ()=>{
+  const pc={'Low':'t-green','Medium':'t-amber','High':'t-red'};
+  const ic={'Low':'t-green','High':'t-orange','Critical':'t-red'};
+  const rows=DATA.risks.map(r=>`
+    <tr><td><b>${r.r}</b></td><td><span class="tag ${pc[r.p]}">${r.p}</span></td>
+    <td><span class="tag ${ic[r.i]}">${r.i}</span></td><td class="muted">${r.m}</td><td class="small">${r.o}</td></tr>`).join('');
+  return `
+    <div class="page-h"><div><h1>Risk Register</h1><p>Live register reviewed every week. Probability × impact drives escalation to the steering committee.</p></div>
+      <div class="toolbar"><button class="btn pri">+ Risk</button></div></div>
+    <div class="card section"><div class="hd"><h2>Program Risks</h2><span class="r">8 active</span></div>
+      <div class="bd" style="padding:0"><table><thead><tr><th>Risk</th><th>Probability</th><th>Impact</th><th>Mitigation</th><th>Owner</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+};
+
+views.deps = ()=>{
+  const d=DATA.deps;
+  const head=`<tr><th>Feature ↓ / Subsystem →</th>${d.on.map(o=>`<th style="font-size:9px">${o}</th>`).join('')}</tr>`;
+  const rows=d.features.map(f=>`<tr><td>${f}</td>${d.on.map(o=>d.map[f].includes(o)?'<td class="cell-x">●</td>':'<td class="cell-o">·</td>').join('')}</tr>`).join('');
+  return `
+    <div class="page-h"><div><h1>Dependency Matrix</h1><p>Feature-to-subsystem dependencies surface schedule risk early. A red-flagged feature can't be gated until its dependencies are stable.</p></div></div>
+    <div class="card section"><div class="hd"><h2>Feature × Subsystem</h2><span class="r">● = depends on</span></div>
+      <div class="bd" style="padding:0;overflow-x:auto"><table class="matrix"><thead>${head}</thead><tbody>${rows}</tbody></table></div></div>
+    <div class="note mt16">Critical chains: <b>Multiplayer</b> → Networking + Backend + Security · <b>Mission System</b> → AI + Animation + Streaming. These drive the vertical-slice → alpha sequencing.</div>`;
+};
+
+views.vendors = ()=>{
+  const cards=DATA.vendors.map(v=>`
+    <div class="card"><span class="tag ${v.tag}">${v.v}</span><div class="sub mt12">${v.scope}</div></div>`).join('');
+  const gov=DATA.governance.map((g,i)=>`
+    <div class="stage ${i===0?'active':'done'}" style="min-width:auto;flex:0 0 auto"><div class="node" style="text-align:center"><div class="nm" style="min-height:auto">${g}</div></div></div>`).join('<div style="align-self:center;color:var(--mut2)">↓</div>');
+  return `
+    <div class="page-h"><div><h1>Vendor Governance</h1><p>Multi-vendor model avoids single-vendor lock-in. Rockstar retains vision, IP, core architecture, security, quality bar and final acceptance.</p></div></div>
+    <div class="grid g3">${cards}</div>
+    <div class="card section mt16"><div class="hd"><h2>Governance Layers</h2><span class="r">no single-PM channel</span></div>
+      <div class="bd"><div style="display:flex;flex-direction:column;align-items:center;gap:4px">${gov}</div></div></div>
+    <div class="warn mt16"><b>Critical principle:</b> the vendor receives only the access required for its scope, and must never become the only organization capable of building a critical subsystem.</div>`;
+};
+
+views.zoho = ()=>{
+  const z=DATA.zoho;
+  const defs=z.defaults.map(d=>`
+    <tr><td><b>${d.m}</b></td><td class="muted">${d.use}</td><td><span class="tag t-green">Native</span></td></tr>`).join('');
+  const custom=z.custom.map(c=>`
+    <div class="card section" style="margin-bottom:14px"><div class="hd"><h2><span class="mono">${c.m}</span></h2><span class="r">${c.desc}</span></div>
+      <div class="bd"><div class="field-list">
+        <div class="field" style="background:transparent;border:none;color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:.6px;padding:0 12px"><span>Field</span><span>Type</span><span>Description</span></div>
+        ${c.fields.map(f=>`<div class="field"><span class="fn">${f.n}</span><span class="ft">${f.t}</span><span class="fd">${f.d}</span></div>`).join('')}
+      </div></div></div>`).join('');
+  return `
+    <div class="page-h"><div><h1>Zoho Data Model</h1><p>This console runs on <b>Zoho Projects</b> (native modules) + <b>custom modules</b> for GTA-7-specific data. Hosted on <b>Zoho Catalyst</b> with Functions rotating OAuth tokens. This screen is the blueprint the MCP build step implements.</p></div></div>
+    <div class="card section"><div class="hd"><h2>Native Zoho Projects Modules</h2><span class="r">used as-is</span></div>
+      <div class="bd" style="padding:0"><table><thead><tr><th>Module</th><th>Usage in GTA-7</th><th>Type</th></tr></thead><tbody>${defs}</tbody></table></div></div>
+    <h3 style="color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.6px;margin-top:22px">Custom Modules &amp; Field Sets (built via MCP)</h3>
+    ${custom}
+    <div class="card section"><div class="hd"><h2>Catalyst Hosting &amp; OAuth Rotation</h2><span class="r">web client + functions</span></div>
+      <div class="bd"><ul>${z.catalyst.map(c=>`<li style="margin-bottom:6px">${c}</li>`).join('')}</ul>
+        <div class="note mt12"><b>Next step after mock sign-off:</b> use MCP to create these custom modules &amp; field sets in the Zoho portal, then wire the Catalyst Functions that proxy the Projects APIs and rotate tokens on a cron schedule.</div></div></div>`;
+};
+
+/* ============================ ROUTER ============================ */
+function go(view){
+  $('#main').innerHTML = views[view]();
+  $('#main').scrollTop=0;
+  document.querySelectorAll('.nav').forEach(n=>n.classList.toggle('active', n.dataset.view===view));
+}
+document.querySelectorAll('.nav').forEach(n=>n.addEventListener('click',()=>go(n.dataset.view)));
+go('dashboard');
+</script>
+</body>
+</html>
