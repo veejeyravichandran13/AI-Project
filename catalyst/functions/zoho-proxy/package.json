@@ -1,0 +1,10 @@
+{
+  "name": "zoho-proxy",
+  "version": "1.0.0",
+  "description": "GTA-7 PMO — server-side proxy that reads live Zoho Projects data and reshapes it into the SPA's DATA model.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "zcatalyst-sdk-node": "^3.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "deployment": {
+    "name": "zoho-proxy",
+    "type": "advancedio",
+    "stack": "node18",
+    "memory": 256,
+    "timeout": 30
+  },
+  "execution": {
+    "main": "index.js"
+  }
+}

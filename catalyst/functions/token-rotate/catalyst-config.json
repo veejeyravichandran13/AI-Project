@@ -1,0 +1,12 @@
+{
+  "deployment": {
+    "name": "token-rotate",
+    "type": "basicio",
+    "stack": "node18",
+    "memory": 256,
+    "timeout": 30
+  },
+  "execution": {
+    "main": "index.js"
+  }
+}

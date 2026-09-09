@@ -1,0 +1,6 @@
+{
+  "name": "gta7-pmo-client",
+  "version": "1.0.0",
+  "description": "GTA-7 Program PMO single-page dashboard, hosted on Zoho Catalyst Web Client Hosting. Hydrates its data from the zoho-proxy Catalyst Function (live Zoho Projects), falling back to the embedded sample.",
+  "homepage": "index.html"
+}

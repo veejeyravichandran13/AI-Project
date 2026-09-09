@@ -1,0 +1,1497 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTA-7 · Program Control (mock)</title>
+  <meta name="description" content="Mock UI for the GTA-7 AAA game development program management tool, built on Zoho Projects + custom modules.">
+  <style>
+/* =========================================================================
+   GTA-7 Program Control — mock UI
+   Dark "mission-control" design system.
+   Palette: dataviz validated dark-surface categorical + fixed status ramp.
+   ========================================================================= */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces / planes */
+  --page:        #0d0d0d;
+  --surface-1:   #1a1a19;   /* cards */
+  --surface-2:   #201f1e;   /* raised / hover */
+  --surface-3:   #262523;   /* inputs, chips */
+  --rail:        #131312;   /* sidebar */
+
+  /* Ink */
+  --ink:         #ffffff;
+  --ink-2:       #c3c2b7;
+  --muted:       #898781;
+  --grid:        #2c2c2a;
+  --baseline:    #383835;
+  --border:      rgba(255,255,255,0.10);
+  --border-2:    rgba(255,255,255,0.06);
+
+  /* Status (fixed, never themed) */
+  --good:     #0ca30c;
+  --warning:  #fab219;
+  --serious:  #ec835a;
+  --critical: #d03b3b;
+  --good-ink: #0ca30c;
+
+  /* Categorical (dark steps) */
+  --c1: #3987e5;  /* blue   */
+  --c2: #d95926;  /* orange */
+  --c3: #199e70;  /* aqua   */
+  --c4: #c98500;  /* yellow */
+  --c5: #d55181;  /* magenta*/
+  --c6: #008300;  /* green  */
+  --c7: #9085e9;  /* violet */
+  --c8: #e66767;  /* red    */
+
+  --brand: #e8b923;   /* GTA gold accent */
+  --brand-2: #f6cf3f;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 0 rgba(255,255,255,0.03) inset, 0 8px 24px rgba(0,0,0,0.45);
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--sans);
+  background: var(--page);
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+h1,h2,h3,h4 { margin: 0; font-weight: 650; letter-spacing: -0.01em; }
+p { margin: 0; }
+
+/* ---- Layout shell ---- */
+.app { display: grid; grid-template-columns: 248px 1fr; min-height: 100vh; }
+
+/* ---- Sidebar ---- */
+.rail {
+  background: var(--rail);
+  border-right: 1px solid var(--border-2);
+  padding: 18px 14px;
+  display: flex; flex-direction: column; gap: 4px;
+  position: sticky; top: 0; height: 100vh; overflow-y: auto;
+}
+.brand { display: flex; align-items: center; gap: 11px; padding: 4px 8px 16px; }
+.brand .mark {
+  width: 34px; height: 34px; border-radius: 9px;
+  background: linear-gradient(135deg, var(--brand), #b5850f);
+  color: #1a1400; font-weight: 800; font-size: 15px;
+  display: grid; place-items: center; letter-spacing: -0.04em;
+  box-shadow: 0 2px 10px rgba(232,185,35,0.25);
+}
+.brand .txt b { display: block; font-size: 14px; letter-spacing: -0.01em; }
+.brand .txt span { color: var(--muted); font-size: 11.5px; }
+
+.nav-group { color: var(--muted); font-size: 10.5px; font-weight: 700;
+  letter-spacing: 0.09em; text-transform: uppercase; padding: 14px 10px 6px; }
+.nav-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px; border-radius: var(--radius-sm);
+  color: var(--ink-2); cursor: pointer; user-select: none;
+  border: 1px solid transparent; font-size: 13px;
+}
+.nav-item .ic { width: 18px; text-align: center; opacity: .85; }
+.nav-item:hover { background: var(--surface-2); color: var(--ink); }
+.nav-item.active { background: var(--surface-2); color: var(--ink);
+  border-color: var(--border); box-shadow: inset 3px 0 0 var(--brand); }
+.nav-item .badge { margin-left: auto; }
+
+/* ---- Main ---- */
+.main { min-width: 0; display: flex; flex-direction: column; }
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 26px; background: rgba(13,13,13,0.82);
+  backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-2);
+}
+.topbar .crumb { color: var(--muted); font-size: 12.5px; }
+.topbar .crumb b { color: var(--ink); font-weight: 600; }
+.topbar .searchbox { margin-left: auto; position: relative; }
+.topbar .search {
+  background: var(--surface-3); border: 1px solid var(--border);
+  border-radius: 999px; padding: 7px 14px; color: var(--ink);
+  font-size: 12.5px; min-width: 240px; outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.topbar .search::placeholder { color: var(--muted); }
+.topbar .search:focus {
+  border-color: var(--brand-2); box-shadow: 0 0 0 3px rgba(144,133,233,0.18);
+}
+.search-results {
+  position: absolute; top: calc(100% + 8px); right: 0; width: 400px; max-width: 80vw;
+  max-height: 62vh; overflow-y: auto; padding: 6px;
+  background: var(--surface-1); border: 1px solid var(--border-2);
+  border-radius: 12px; box-shadow: var(--shadow); z-index: 50;
+}
+.search-results[hidden] { display: none; }
+.sr-empty { padding: 14px 12px; color: var(--muted); font-size: 12.5px; }
+.sr-hint { padding: 6px 10px 8px; color: var(--muted); font-size: 10.5px;
+  border-top: 1px solid var(--border-2); margin-top: 4px; }
+.sr-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px; border-radius: 8px; cursor: pointer;
+}
+.sr-item:hover, .sr-item.active { background: var(--surface-2); }
+.sr-kind {
+  flex: none; font-size: 9px; font-weight: 700; letter-spacing: .04em;
+  text-transform: uppercase; color: var(--muted); white-space: nowrap;
+  border: 1px solid var(--border); border-radius: 5px;
+  padding: 2px 6px; min-width: 62px; text-align: center;
+}
+.sr-main { min-width: 0; flex: 1; }
+.sr-title { font-size: 12.5px; color: var(--ink);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sr-sub { font-size: 11px; color: var(--muted);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sr-item mark { background: rgba(144,133,233,0.38); color: inherit; border-radius: 2px; }
+.topbar .who { display: flex; align-items: center; gap: 9px; }
+.avatar { width: 30px; height: 30px; border-radius: 50%;
+  background: linear-gradient(135deg,#4a3aa7,#9085e9); display: grid;
+  place-items: center; font-size: 12px; font-weight: 700; color: #fff; }
+
+.view { padding: 24px 26px 60px; max-width: 1280px; width: 100%; }
+.view h2.page { font-size: 22px; margin-bottom: 3px; }
+.view .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+
+/* ---- Cards ---- */
+.card {
+  background: var(--surface-1); border: 1px solid var(--border-2);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.card .hd { display: flex; align-items: center; gap: 10px;
+  padding: 15px 18px; border-bottom: 1px solid var(--border-2); }
+.card .hd h3 { font-size: 14px; }
+.card .hd .desc { color: var(--muted); font-size: 12px; }
+.card .bd { padding: 18px; }
+.card .hd .right { margin-left: auto; }
+
+.grid { display: grid; gap: 16px; }
+.g-2 { grid-template-columns: repeat(2, 1fr); }
+.g-3 { grid-template-columns: repeat(3, 1fr); }
+.g-4 { grid-template-columns: repeat(4, 1fr); }
+.g-12-a { grid-template-columns: 2fr 1fr; }
+.g-12-b { grid-template-columns: 1fr 2fr; }
+@media (max-width: 1000px){ .g-3,.g-4,.g-2,.g-12-a,.g-12-b{grid-template-columns:1fr;} }
+
+/* ---- Stat tiles ---- */
+.tile { padding: 16px 18px; }
+.tile .lab { color: var(--muted); font-size: 11.5px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em; }
+.tile .val { font-size: 30px; font-weight: 700; margin-top: 6px; letter-spacing: -0.02em; }
+.tile .val small { font-size: 14px; color: var(--muted); font-weight: 500; }
+.tile .delta { font-size: 12px; margin-top: 4px; display: inline-flex; gap: 5px; align-items: center; }
+.delta.up { color: var(--good-ink); }
+.delta.down { color: var(--critical); }
+.delta.flat { color: var(--muted); }
+
+/* ---- RAG health ---- */
+.rag { display: flex; align-items: center; gap: 14px; }
+.rag .light {
+  width: 46px; height: 46px; border-radius: 12px; flex: none;
+  display: grid; place-items: center; font-size: 20px;
+}
+.rag .light.green  { background: rgba(12,163,12,0.15);  color: var(--good);    box-shadow: inset 0 0 0 1px rgba(12,163,12,0.4); }
+.rag .light.amber  { background: rgba(250,178,25,0.15); color: var(--warning); box-shadow: inset 0 0 0 1px rgba(250,178,25,0.4); }
+.rag .light.red    { background: rgba(208,59,59,0.15);  color: var(--critical);box-shadow: inset 0 0 0 1px rgba(208,59,59,0.4); }
+.rag .txt b { font-size: 15px; }
+.rag .txt span { color: var(--muted); font-size: 12px; display:block; }
+
+/* ---- Pills / chips ---- */
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 3px 9px; border-radius: 999px; font-size: 11.5px; font-weight: 600;
+  border: 1px solid var(--border); background: var(--surface-3); color: var(--ink-2);
+  white-space: nowrap;
+}
+.pill .dot { width: 7px; height: 7px; border-radius: 50%; }
+.pill.green { color:#7ee08a; background:rgba(12,163,12,0.14); border-color:rgba(12,163,12,0.35); }
+.pill.amber { color:#ffd67a; background:rgba(250,178,25,0.13); border-color:rgba(250,178,25,0.35); }
+.pill.red   { color:#ff9a9a; background:rgba(208,59,59,0.14);  border-color:rgba(208,59,59,0.35); }
+.pill.blue  { color:#9cc6f5; background:rgba(57,135,229,0.14); border-color:rgba(57,135,229,0.35); }
+.pill.violet{ color:#c3bcf5; background:rgba(144,133,233,0.14);border-color:rgba(144,133,233,0.35); }
+.pill.grey  { color:var(--muted); }
+
+/* severity + priority chips */
+.sev { font-weight: 800; padding: 2px 7px; border-radius: 6px; font-size: 11px; letter-spacing: .02em; }
+.sev.S0 { background:#4a0f0f; color:#ff8f8f; box-shadow: inset 0 0 0 1px rgba(208,59,59,.6);}
+.sev.S1 { background:#4a2410; color:#ffb387; box-shadow: inset 0 0 0 1px rgba(236,131,90,.5);}
+.sev.S2 { background:#463500; color:#ffd367; box-shadow: inset 0 0 0 1px rgba(250,178,25,.4);}
+.sev.S3 { background:#123a2a; color:#7fe0b6; }
+.sev.S4 { background:#20242c; color:#a9b4c4; }
+.prio { font-weight:700; font-size:11px; color:var(--ink-2); }
+
+/* ---- Tables ---- */
+table.tbl { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+table.tbl th {
+  text-align: left; color: var(--muted); font-weight: 600; font-size: 11px;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 9px 12px; border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; background: var(--surface-1);
+}
+table.tbl td { padding: 10px 12px; border-bottom: 1px solid var(--border-2); vertical-align: middle; }
+table.tbl tr:hover td { background: var(--surface-2); }
+table.tbl td.mono, table.tbl th.mono { font-variant-numeric: tabular-nums; }
+.tid { color: var(--muted); font-family: ui-monospace, monospace; font-size: 11.5px; }
+
+/* ---- Progress bars ---- */
+.bar { height: 8px; border-radius: 999px; background: var(--surface-3); overflow: hidden; }
+.bar > i { display:block; height:100%; border-radius:999px; background: var(--c1); }
+.bar.sm { height: 6px; }
+.barlab { display:flex; justify-content:space-between; font-size:11.5px; color:var(--muted); margin-bottom:5px;}
+
+/* ---- Roadmap / milestones ---- */
+.timeline { display:flex; flex-direction:column; gap:0; position:relative; }
+.ms {
+  display:grid; grid-template-columns: 130px 1fr; gap:18px;
+  padding:16px 0; border-bottom:1px solid var(--border-2); position:relative;
+}
+.ms:last-child { border-bottom:none; }
+.ms .mnode { display:flex; flex-direction:column; gap:6px; }
+.ms .mnode .mcode { font-weight:800; font-size:15px; }
+.ms .mnode .mdate { color:var(--muted); font-size:11.5px; }
+.ms .mbody h4 { font-size:14px; margin-bottom:8px; display:flex; align-items:center; gap:10px;}
+.ms .mbody .crit { color:var(--ink-2); font-size:12.5px; }
+.chips { display:flex; flex-wrap:wrap; gap:6px; }
+
+/* ---- Tree (backlog) ---- */
+.tree { font-size:13px; }
+.node { border-left:2px solid var(--border); margin-left:6px; }
+.node .row {
+  display:flex; align-items:center; gap:10px; padding:8px 10px; cursor:pointer;
+  border-radius:7px;
+}
+.node .row:hover { background: var(--surface-2); }
+.node .row .tw { width:14px; color:var(--muted); font-size:11px; }
+.kind { font-size:10px; font-weight:800; letter-spacing:.05em; padding:2px 6px; border-radius:5px; }
+.kind.EPIC{background:rgba(144,133,233,.18);color:#c3bcf5;}
+.kind.FEATURE{background:rgba(57,135,229,.16);color:#9cc6f5;}
+.kind.STORY{background:rgba(25,158,112,.16);color:#7fe0b6;}
+.kind.TASK{background:rgba(201,133,0,.16);color:#ffd367;}
+.kind.TEST{background:rgba(0,131,0,.18);color:#8fe08f;}
+.kind.BUG{background:rgba(208,59,59,.16);color:#ff9a9a;}
+.node .children { margin-left:18px; }
+.hide { display:none; }
+
+/* ---- Governance org chart ---- */
+.org { display:flex; flex-direction:column; align-items:center; gap:0; }
+.org .lvl { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+.org .conn { width:2px; height:18px; background:var(--baseline); }
+.orgbox {
+  background:var(--surface-2); border:1px solid var(--border); border-radius:9px;
+  padding:9px 14px; text-align:center; min-width:150px;
+}
+.orgbox b{ display:block; font-size:12.5px;}
+.orgbox span{ color:var(--muted); font-size:11px;}
+.orgbox.rock { border-color: rgba(232,185,35,.4); box-shadow: inset 0 0 0 1px rgba(232,185,35,.15);}
+.orgbox.vend { border-color: rgba(57,135,229,.4); }
+
+/* ---- Matrix ---- */
+.matrix td.dep { color:var(--ink-2); }
+.matrix .yes { color: var(--c1); font-weight:700; }
+
+/* ---- Misc ---- */
+.kv { display:grid; grid-template-columns: 130px 1fr; gap:6px 14px; font-size:12.5px; }
+.kv dt { color:var(--muted); }
+.kv dd { margin:0; color:var(--ink); }
+.checklist { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:9px; }
+.checklist li { display:flex; align-items:flex-start; gap:10px; font-size:12.5px; color:var(--ink-2); }
+.checklist .box { width:16px; height:16px; border-radius:5px; flex:none; display:grid; place-items:center; font-size:10px;
+  background:var(--surface-3); border:1px solid var(--border); color:var(--muted);}
+.checklist .box.on { background:rgba(12,163,12,.2); color:#7ee08a; border-color:rgba(12,163,12,.4);}
+.legend { display:flex; gap:16px; flex-wrap:wrap; font-size:11.5px; color:var(--muted); margin-top:10px;}
+.legend i { width:10px;height:10px;border-radius:3px;display:inline-block;margin-right:6px;vertical-align:middle;}
+.note {
+  background: rgba(57,135,229,.07); border:1px solid rgba(57,135,229,.25);
+  border-radius:10px; padding:12px 14px; font-size:12.5px; color:var(--ink-2);
+}
+.note b{ color:var(--ink);}
+.note.gold { background: rgba(232,185,35,.06); border-color: rgba(232,185,35,.3);}
+
+/* bars chart (severity) */
+.hbars { display:flex; flex-direction:column; gap:10px; }
+.hbar { display:grid; grid-template-columns: 40px 1fr 40px; align-items:center; gap:10px; font-size:12px;}
+.hbar .track { height:14px; background:var(--surface-3); border-radius:6px; overflow:hidden;}
+.hbar .track > i { display:block; height:100%; border-radius:6px;}
+.hbar .n { text-align:right; font-variant-numeric:tabular-nums; color:var(--ink-2);}
+
+/* donut via conic */
+.donut { width:150px; height:150px; border-radius:50%; position:relative; margin:4px auto; }
+.donut::after { content:""; position:absolute; inset:26px; border-radius:50%; background:var(--surface-1);}
+.donut .mid { position:absolute; inset:0; display:grid; place-items:center; z-index:2; text-align:center;}
+.donut .mid b{ font-size:22px;} .donut .mid span{ color:var(--muted); font-size:10.5px; display:block;}
+
+.section-title { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+  font-weight:700; margin: 26px 0 12px;}
+
+.zoho-tag { display:inline-flex; align-items:center; gap:6px; font-size:11px; color:var(--muted); }
+.zoho-tag b { color:var(--brand-2); font-weight:700; }
+
+.tabs { display:flex; gap:4px; border-bottom:1px solid var(--border-2); margin-bottom:18px; }
+.tab { padding:9px 14px; color:var(--muted); cursor:pointer; font-size:13px; border-bottom:2px solid transparent;}
+.tab.active { color:var(--ink); border-bottom-color:var(--brand); }
+
+.field { background:var(--surface-3); border:1px solid var(--border); border-radius:7px;
+  padding:8px 11px; font-size:12px; display:flex; align-items:center; gap:8px;}
+.field .ft { color:var(--muted); font-size:10.5px; margin-left:auto; text-transform:uppercase; letter-spacing:.04em;}
+.fieldgrid { display:grid; grid-template-columns:repeat(2,1fr); gap:9px; }
+@media (max-width:800px){ .fieldgrid{grid-template-columns:1fr;} }
+
+.mono-block { font-family: ui-monospace, monospace; font-size:12px; color:var(--ink-2);
+  background:var(--page); border:1px solid var(--border-2); border-radius:8px; padding:14px; white-space:pre; overflow-x:auto;}
+
+/* ---- Hero banner (Vice City synthwave) ---- */
+.hero {
+  position: relative; border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--border); box-shadow: var(--shadow); margin-bottom: 18px;
+  min-height: 190px; display: flex; align-items: flex-end;
+}
+.hero img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.hero .scrim {
+  position:absolute; inset:0;
+  background: linear-gradient(90deg, rgba(13,13,13,0.86) 0%, rgba(13,13,13,0.55) 42%, rgba(13,13,13,0.05) 72%);
+}
+.hero .hero-in { position:relative; padding: 22px 26px; max-width: 640px; }
+.hero .eyebrow {
+  display:inline-flex; align-items:center; gap:8px; font-size:11px; font-weight:700;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--brand-2);
+  background:rgba(0,0,0,0.35); border:1px solid rgba(232,185,35,.35);
+  padding:4px 10px; border-radius:999px; margin-bottom:12px;
+}
+.hero h1 {
+  font-size: 40px; line-height:1; letter-spacing:-0.03em; margin:0 0 8px;
+  color:#fff; text-shadow: 0 2px 18px rgba(0,0,0,.55);
+}
+.hero h1 span { color: var(--brand-2); }
+.hero .tag { color:#f3e8d6; font-size:13.5px; max-width:520px; text-shadow:0 1px 8px rgba(0,0,0,.6); }
+.hero .hero-stats { display:flex; gap:22px; margin-top:14px; }
+.hero .hero-stats div b { display:block; font-size:19px; color:#fff; }
+.hero .hero-stats div span { font-size:11px; color:#e9d9c4; text-transform:uppercase; letter-spacing:.05em; }
+@media (max-width:760px){ .hero h1{font-size:30px;} .hero .scrim{background:linear-gradient(0deg,rgba(13,13,13,0.9),rgba(13,13,13,0.35));} }
+
+/* ---- Sprint board (Kanban) ---- */
+.kanban { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; align-items:start; }
+@media (max-width:1100px){ .kanban{ grid-template-columns:repeat(2,1fr);} }
+@media (max-width:640px){ .kanban{ grid-template-columns:1fr;} }
+.kcol { background:var(--surface-1); border:1px solid var(--border-2); border-radius:var(--radius); }
+.kcol .khd { display:flex; align-items:center; gap:8px; padding:12px 14px; border-bottom:1px solid var(--border-2);
+  font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); }
+.kcol .khd .cnt { margin-left:auto; color:var(--muted); font-weight:700; font-size:11px;
+  background:var(--surface-3); border:1px solid var(--border); border-radius:999px; padding:1px 8px; }
+.kcol .kbody { padding:10px; display:flex; flex-direction:column; gap:9px; min-height:60px; }
+.kcard { background:var(--surface-2); border:1px solid var(--border); border-radius:var(--radius-sm);
+  padding:10px 11px; box-shadow:0 4px 12px rgba(0,0,0,.25); }
+.kcard .ktop { display:flex; align-items:center; gap:8px; margin-bottom:7px; }
+.kcard .ktop .tid { font-size:10.5px; }
+.kcard .ktitle { font-size:12.5px; color:var(--ink); line-height:1.35; }
+.kcard .kfoot { display:flex; align-items:center; gap:8px; margin-top:9px; }
+.kcard .pts { margin-left:auto; font-size:11px; font-weight:700; color:var(--ink-2);
+  background:var(--surface-3); border:1px solid var(--border); border-radius:6px; padding:1px 7px; }
+.kcard .who { width:24px; height:24px; border-radius:50%; display:grid; place-items:center;
+  font-size:9.5px; font-weight:700; color:#fff; }
+.who.AI{ background:linear-gradient(135deg,#4a3aa7,#9085e9);} .who.VEH{ background:linear-gradient(135deg,#8a3b12,#d95926);}
+.who.MIS{ background:linear-gradient(135deg,#0b5c78,#199e70);} .who.QA{ background:linear-gradient(135deg,#0a5a0a,#0ca30c);}
+.kind.AI{background:rgba(144,133,233,.18);color:#c3bcf5;} .kind.Vehicle{background:rgba(217,89,38,.18);color:#f0a988;}
+.kind.Mission{background:rgba(25,158,112,.18);color:#7fe0b6;} .kind.QA{background:rgba(12,163,12,.18);color:#7ee08a;}
+
+/* ---- Performance metric rows ---- */
+.metrics { display:flex; flex-direction:column; gap:14px; }
+.metric .mtop { display:flex; align-items:baseline; gap:8px; font-size:12.5px; margin-bottom:6px; }
+.metric .mtop b { font-weight:600; }
+.metric .mtop .mval { margin-left:auto; font-variant-numeric:tabular-nums; font-weight:700; }
+.metric .mtop .mtgt { color:var(--muted); font-size:11.5px; font-variant-numeric:tabular-nums; }
+.metric .track { height:8px; border-radius:999px; background:var(--surface-3); overflow:hidden; }
+.metric .track > i { display:block; height:100%; border-radius:999px; }
+
+</style>
+</head>
+<body>
+  <div class="app">
+    <aside class="rail">
+      <div class="brand">
+        <div class="mark">G7</div>
+        <div class="txt"><b>GTA-7 Program Control</b><span>Development · Outsourcing</span></div>
+      </div>
+      <nav id="nav"></nav>
+      <div style="margin-top:auto;padding:12px 8px 2px;color:var(--muted);font-size:11px;line-height:1.5">
+        Mock UI · illustrative data<br>
+        On <b style="color:var(--brand-2)">Zoho Projects</b> + Catalyst
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <div class="crumb" id="crumb">Program Control</div>
+        <div class="searchbox">
+          <input id="search" class="search" type="text" autocomplete="off" spellcheck="false"
+                 placeholder="Search tasks, bugs, use cases…  ( / )" aria-label="Search program data">
+          <div class="search-results" id="searchResults" hidden></div>
+        </div>
+        <div class="who">
+          <span class="pill amber"><span class="dot" style="background:currentColor"></span>AMBER</span>
+          <div class="avatar">R★</div>
+        </div>
+      </header>
+      <main class="view" id="view"></main>
+    </div>
+  </div>
+
+  <script>
+/* =========================================================================
+   GTA-7 Program Control — mock data
+   This mirrors the intended Zoho Projects data model:
+   - Default Zoho Projects modules: Projects, Milestones, Task Lists, Tasks,
+     Bugs/Issues, Users, Timesheets.
+   - Custom modules (Zoho Projects custom fields / Catalyst Data Store):
+     Phases, Use Cases, Risks, Dependencies, Vendors, Change Requests,
+     Test Cases, Build Releases, Governance.
+   All values here are illustrative placeholders for the mock.
+   ========================================================================= */
+
+const DATA = {};
+
+/* ---- Program health (Executive dashboard) ---- */
+DATA.health = {
+  overall: { rag: "amber", label: "AMBER", note: "On track with 2 watch items" },
+  dims: [
+    { k: "Schedule",          rag: "amber", note: "M4 tracking 3 wks late" },
+    { k: "Budget",            rag: "green", note: "Within 4% of baseline" },
+    { k: "Scope",             rag: "green", note: "2 CRs in review" },
+    { k: "Quality",           rag: "amber", note: "S2 bug count elevated" },
+    { k: "Performance",       rag: "red",   note: "GPU frame time over budget" },
+    { k: "Stability",         rag: "amber", note: "Crash rate 0.31%" },
+    { k: "Security",          rag: "green", note: "No open criticals" },
+    { k: "Vendor Perf.",      rag: "green", note: "3/4 vendors GREEN" },
+  ],
+};
+
+DATA.kpis = [
+  { lab: "Program Phase",   val: "M4",         sub: "Full Production", delta: "Phase 4 of 10", dir: "flat" },
+  { lab: "Open Bugs",       val: "1,284",      delta: "+62 this week",  dir: "down" },
+  { lab: "S0 / S1 Open",    val: "0 / 7",      delta: "−3 this week",   dir: "up" },
+  { lab: "Avg FPS (1% low)","val": "48",       sub: "target 60",        delta: "−2 vs last build", dir: "down" },
+  { lab: "Crash Rate",      val: "0.31%",      delta: "−0.05%",         dir: "up" },
+  { lab: "Milestone Gate",  val: "62%",        sub: "M4 exit criteria", delta: "+8% this sprint", dir: "up" },
+];
+
+/* ---- Phases / Milestones ---- */
+DATA.milestones = [
+  { code: "M0", name: "Vendor Selection & Kickoff", date: "Complete", status: "green", pct: 100,
+    criteria: "Contract signed · Security controls live · Source access · Build pipeline operational · PM system operational",
+    exit: ["Rockstar can access source", "Build the game", "Run automated tests", "Review commits & builds", "Track bugs"] },
+  { code: "M1", name: "Discovery & Pre-Production", date: "Complete", status: "green", pct: 100,
+    criteria: "GDD · TDD · Architecture approved · Backlog seeded · Production plan",
+    exit: ["GDD signed off", "TDD signed off", "Architecture approved", "Master backlog created"] },
+  { code: "M2", name: "Prototype", date: "Complete", status: "green", pct: 100,
+    criteria: "Player controller · Driving · Shooting · NPC AI · Streaming · Save/Load",
+    exit: ["Technically difficult pieces proven", "Streaming validated", "Network prototype validated"] },
+  { code: "M3", name: "Vertical Slice", date: "Complete", status: "green", pct: 100,
+    criteria: "One district · One full mission · Combat · Driving · AI · Police · Audio · UI at quality bar",
+    exit: ["Visual quality bar met", "Performance targets met", "Stability targets met", "Rockstar acceptance"] },
+  { code: "M4", name: "Full Production", date: "In progress · Q3", status: "amber", pct: 62,
+    criteria: "World · Missions · Characters · Vehicles · AI · Audio · UI",
+    exit: ["World districts 8/14 shipped", "Missions 34/72", "Vehicles 61/140", "Perf profiling continuous"] },
+  { code: "M5", name: "Feature Complete", date: "Planned · Q1+1", status: "grey", pct: 0,
+    criteria: "All major systems implemented",
+    exit: ["No new features accepted after gate", "All systems integrated"] },
+  { code: "M6", name: "Alpha", date: "Planned", status: "grey", pct: 0,
+    criteria: "Entire game playable end-to-end",
+    exit: ["S0: 0", "S1: controlled", "Main story playable", "Save/Load operational"] },
+  { code: "M7", name: "Beta", date: "Planned", status: "grey", pct: 0,
+    criteria: "Content complete · optimization · QA · localization",
+    exit: ["S0: 0", "S1: 0", "S2: very limited", "Content locked"] },
+  { code: "M8", name: "Release Candidate", date: "Planned", status: "grey", pct: 0,
+    criteria: "Certification · Security · Final QA · Performance",
+    exit: ["S0/S1/S2: 0 known", "Certification passed", "Perf & memory targets met"] },
+  { code: "M9", name: "Launch", date: "Planned", status: "grey", pct: 0,
+    criteria: "Production release",
+    exit: ["Final release gate cleared", "Day-0 team staffed"] },
+  { code: "M10", name: "Post-Launch", date: "Planned", status: "grey", pct: 0,
+    criteria: "Hotfix · Patches · DLC · Live operations",
+    exit: ["Day-0/Day-1 teams live", "Live-ops backlog groomed"] },
+];
+
+/* ---- Backlog tree: Epic > Feature > Story > Task/Test/Bug ---- */
+DATA.backlog = [
+  { kind:"EPIC", id:"GTA7-EPIC-01", title:"Police & Wanted System", owner:"Vendor D · Rockstar AI", status:"amber", children:[
+    { kind:"FEATURE", id:"GTA7-FEAT-014", title:"Wanted Level", owner:"AI Team", status:"amber", children:[
+      { kind:"STORY", id:"GTA7-US-231", title:"Player receives wanted level after committing a crime", status:"amber", children:[
+        { kind:"TASK", id:"GTA7-T-1201", title:"Implement crime detection", status:"green" },
+        { kind:"TASK", id:"GTA7-T-1202", title:"Implement witness system", status:"green" },
+        { kind:"TASK", id:"GTA7-T-1203", title:"Implement wanted-level state machine", status:"amber" },
+        { kind:"TASK", id:"GTA7-T-1204", title:"Implement police dispatch", status:"amber" },
+        { kind:"TEST", id:"GTA7-TC-880", title:"Verify wanted level increases", status:"green" },
+        { kind:"TEST", id:"GTA7-TC-881", title:"Verify wanted level decreases", status:"amber" },
+        { kind:"BUG",  id:"GTA7-BUG-000123", title:"Wanted level remains active after player leaves search area", status:"red" },
+      ]},
+    ]},
+    { kind:"FEATURE", id:"GTA7-FEAT-015", title:"Police Pursuit AI", owner:"AI Team", status:"amber", children:[
+      { kind:"STORY", id:"GTA7-US-244", title:"Police pursue and search for a fleeing player", status:"amber", children:[
+        { kind:"TASK", id:"GTA7-T-1240", title:"Pathfinding to last-known position", status:"green" },
+        { kind:"TASK", id:"GTA7-T-1241", title:"Search-state expiry logic", status:"amber" },
+        { kind:"BUG",  id:"GTA7-BUG-000456", title:"Police NPC gets stuck against roadblock geometry", status:"red" },
+      ]},
+    ]},
+  ]},
+  { kind:"EPIC", id:"GTA7-EPIC-02", title:"Mission System", owner:"Vendor A · Rockstar Design", status:"green", children:[
+    { kind:"FEATURE", id:"GTA7-FEAT-030", title:"Mission Lifecycle & Checkpoints", owner:"Gameplay", status:"green", children:[
+      { kind:"STORY", id:"GTA7-US-301", title:"Player can start, fail, restart and abandon a mission", status:"green", children:[
+        { kind:"TASK", id:"GTA7-T-1400", title:"Mission state machine", status:"green" },
+        { kind:"TASK", id:"GTA7-T-1401", title:"Checkpoint save/restore", status:"green" },
+        { kind:"TEST", id:"GTA7-TC-910", title:"Verify checkpoint restores correctly", status:"green" },
+      ]},
+    ]},
+  ]},
+  { kind:"EPIC", id:"GTA7-EPIC-03", title:"World Streaming", owner:"Vendor D · Rockstar Engine", status:"red", children:[
+    { kind:"FEATURE", id:"GTA7-FEAT-041", title:"Asset & World Streaming", owner:"Engine", status:"red", children:[
+      { kind:"STORY", id:"GTA7-US-410", title:"World streams seamlessly at high traversal speed", status:"red", children:[
+        { kind:"TASK", id:"GTA7-T-1600", title:"Aircraft-speed streaming radius", status:"amber" },
+        { kind:"TASK", id:"GTA7-T-1601", title:"Memory-pressure eviction policy", status:"red" },
+        { kind:"BUG",  id:"GTA7-BUG-000781", title:"Texture pop-in under memory pressure in dense zones", status:"red" },
+      ]},
+    ]},
+  ]},
+];
+
+/* ---- Use cases ---- */
+DATA.usecases = [
+  { id:"UC-POLICE-001", title:"Crime Detection", area:"AI / Police", status:"amber", steps:10,
+    fr:"NPC witnesses crime, evaluates visibility, reports to dispatch; wanted level changes; police spawned/redirected; search expires.",
+    perf:"Detection ≤ 200ms of crime event · ≤ 1 dispatch event / witness",
+    edge:["Witness killed mid-report","Crime during cutscene","Multiple simultaneous witnesses"],
+    accept:"Wanted level rises within 1s of a witnessed crime; search state expires after escape window." },
+  { id:"UC-VEH-014", title:"Enter / Exit Vehicle", area:"Gameplay / Vehicles", status:"green", steps:6,
+    fr:"Player enters/exits vehicle; contextual animation; camera & UI transition.",
+    perf:"Entry animation blend ≤ 350ms · no camera clip",
+    edge:["Player enters while NPC is entering","Jump while door opening","Vehicle destroyed mid-entry"],
+    accept:"Entry/exit succeeds from all valid angles without clipping or soft-lock." },
+  { id:"UC-STREAM-007", title:"High-Speed Traversal Streaming", area:"Engine / Streaming", status:"red", steps:8,
+    fr:"World and assets stream ahead of player at maximum traversal speed including aircraft.",
+    perf:"No visible pop-in at ≤ target aircraft speed · streaming budget within VRAM cap",
+    edge:["Aircraft outside streaming radius","Multiple dense zones loaded","Interior/exterior transition mid-stream"],
+    accept:"No blocking hitches > 8ms; no missing collision on landing." },
+  { id:"UC-SAVE-003", title:"Save During Mission Transition", area:"Persistence", status:"amber", steps:5,
+    fr:"Player triggers save during a mission state transition; state serialized safely.",
+    perf:"Save ≤ 2s · no main-thread stall > 4ms",
+    edge:["Save during streaming","Load during streaming","Disconnect during transaction"],
+    accept:"No save corruption; loaded state is consistent with pre-save world." },
+];
+
+/* ---- Bugs ---- */
+DATA.bugs = [
+  { id:"GTA7-BUG-000123", title:"Wanted level remains active after player leaves search area", sev:"S1", prio:"P1", area:"AI", env:"PS5 DevKit", build:"0.42.183", repro:"100%", owner:"AI Team", status:"In Progress", fix:"0.42.191" },
+  { id:"GTA7-BUG-000781", title:"Texture pop-in under memory pressure in dense zones", sev:"S1", prio:"P1", area:"Streaming", env:"Series X", build:"0.42.180", repro:"80%", owner:"Engine", status:"In Progress", fix:"—" },
+  { id:"GTA7-BUG-000456", title:"Police NPC gets stuck against roadblock geometry", sev:"S2", prio:"P1", area:"AI", env:"PC / RTX 4070", build:"0.42.183", repro:"65%", owner:"AI Team", status:"Open", fix:"—" },
+  { id:"GTA7-BUG-000902", title:"Subtitle overflow in DE / RU during chase dialogue", sev:"S3", prio:"P2", area:"Localization", env:"All", build:"0.42.179", repro:"100%", owner:"Loc Team", status:"Open", fix:"—" },
+  { id:"GTA7-BUG-000317", title:"Reflection flicker on wet roads at dusk", sev:"S3", prio:"P3", area:"Rendering", env:"PC", build:"0.42.183", repro:"40%", owner:"Graphics", status:"Triage", fix:"—" },
+  { id:"GTA7-BUG-000988", title:"Radio audio ducking too aggressive during sirens", sev:"S4", prio:"P3", area:"Audio", env:"All", build:"0.42.182", repro:"100%", owner:"Audio", status:"Backlog", fix:"—" },
+  { id:"GTA7-BUG-000640", title:"Two pedestrians contend for same bench interaction", sev:"S2", prio:"P2", area:"AI", env:"PS5", build:"0.42.181", repro:"30%", owner:"AI Team", status:"In Progress", fix:"0.42.190" },
+  { id:"GTA7-BUG-000771", title:"Checkpoint restore drops equipped weapon", sev:"S1", prio:"P1", area:"Persistence", env:"All", build:"0.42.183", repro:"100%", owner:"Gameplay", status:"In Review", fix:"0.42.189" },
+];
+
+DATA.sevDist = [
+  { k:"S0", n:0,   color:"var(--critical)" },
+  { k:"S1", n:7,   color:"var(--serious)" },
+  { k:"S2", n:184, color:"var(--warning)" },
+  { k:"S3", n:612, color:"var(--c3)" },
+  { k:"S4", n:481, color:"var(--muted)" },
+];
+
+DATA.bugGates = [
+  { ms:"Alpha", s0:"0", s1:"Controlled", s2:"Allowed", s34:"Backlog" },
+  { ms:"Beta",  s0:"0", s1:"0", s2:"Very limited", s34:"Controlled" },
+  { ms:"Release Candidate", s0:"0", s1:"0", s2:"0 known", s34:"S3 approved exceptions · S4 backlog" },
+];
+
+/* ---- Risks ---- */
+DATA.risks = [
+  { id:"R-01", risk:"Vendor misses milestone", prob:"Medium", impact:"High", rag:"amber", mit:"Buffer + hard milestone gates + weekly velocity tracking", owner:"Program Director" },
+  { id:"R-02", risk:"Performance below target", prob:"High", impact:"High", rag:"red", mit:"Continuous early profiling; GPU frame-time budget per subsystem", owner:"Technical Director" },
+  { id:"R-03", risk:"Staff turnover / key-person loss", prob:"Medium", impact:"High", rag:"amber", mit:"Key-person protection clauses; knowledge redundancy", owner:"Producer" },
+  { id:"R-04", risk:"Data leak of unreleased assets", prob:"Low", impact:"Critical", rag:"amber", mit:"DLP, MFA, least-privilege access, screenshot controls", owner:"Security Lead" },
+  { id:"R-05", risk:"Scope creep", prob:"High", impact:"High", rag:"red", mit:"Formal change control; CR impact assessment", owner:"Product Owner" },
+  { id:"R-06", risk:"Technical debt accumulation", prob:"Medium", impact:"High", rag:"amber", mit:"Architecture reviews; refactor budget per sprint", owner:"Technical Director" },
+  { id:"R-07", risk:"Certification failure", prob:"Medium", impact:"High", rag:"amber", mit:"Early compliance testing; cert workstream from Beta", owner:"Release Manager" },
+  { id:"R-08", risk:"Asset production delay", prob:"Medium", impact:"High", rag:"green", mit:"Parallel pipelines; multi-vendor content split", owner:"Art Director" },
+];
+
+/* ---- Dependency matrix ---- */
+DATA.dependencies = [
+  { feature:"Police System",  deps:["AI","NPC","Vehicles"] },
+  { feature:"Mission System",  deps:["AI","Animation","Streaming"] },
+  { feature:"Cinematics",      deps:["Animation","Audio"] },
+  { feature:"Interiors",       deps:["Streaming","Lighting"] },
+  { feature:"Multiplayer",     deps:["Networking","Backend","Security"] },
+  { feature:"Save System",     deps:["Gameplay","Persistence"] },
+];
+DATA.depCols = ["AI","NPC","Vehicles","Animation","Streaming","Audio","Lighting","Networking","Backend","Security","Gameplay","Persistence"];
+
+/* ---- Vendors ---- */
+DATA.vendors = [
+  { name:"Vendor A", scope:"World / Content Production", rag:"green", milestone:"M4 · on track", staff:120,
+    scores:{ "AAA Track Record":5,"Open-World":5,"Security Maturity":4,"DevOps":4,"QA":4 } },
+  { name:"Vendor B", scope:"Character / Animation", rag:"green", milestone:"M4 · on track", staff:64,
+    scores:{ "AAA Track Record":5,"Open-World":3,"Security Maturity":4,"DevOps":3,"QA":4 } },
+  { name:"Vendor C", scope:"QA / Automation", rag:"amber", milestone:"Ramping automation", staff:80,
+    scores:{ "AAA Track Record":4,"Open-World":3,"Security Maturity":5,"DevOps":5,"QA":5 } },
+  { name:"Vendor D", scope:"Specialized Engineering", rag:"amber", milestone:"Streaming perf risk", staff:38,
+    scores:{ "AAA Track Record":5,"Open-World":4,"Security Maturity":4,"DevOps":4,"QA":3 } },
+];
+
+/* ---- Governance layers ---- */
+DATA.governance = {
+  rockstarOwns:["Product vision","Creative direction","Architecture approval","IP","Security","Quality bar","Final acceptance","Final integration"],
+};
+
+/* ---- Definition of Done ---- */
+DATA.dod = [
+  "Requirements implemented","Code reviewed","Unit tests complete","Integration testing complete",
+  "QA passed","Performance verified","Memory verified","Localization completed",
+  "Accessibility checked","Documentation updated","No S0/S1 defects","Rockstar acceptance obtained",
+];
+
+/* ---- Zoho module mapping ---- */
+DATA.zohoDefault = [
+  { mod:"Projects", use:"One master program + sub-projects per vendor/subsystem", fields:"Name, Owner, Group, Status" },
+  { mod:"Milestones", use:"M0–M10 hard gates with owners and flag", fields:"Name, Start/End, Flag, Owner" },
+  { mod:"Task Lists", use:"Epics & Features grouped per subsystem", fields:"Name, Milestone, %Complete" },
+  { mod:"Tasks", use:"User Stories & Tasks with dependencies", fields:"Name, Priority, Owner, Duration, Predecessors" },
+  { mod:"Bugs / Issues", use:"Defect tracking with severity/priority", fields:"Severity, Reproducibility, Module, Milestone, Assignee" },
+  { mod:"Timesheets", use:"Vendor billable tracking vs milestone payments", fields:"Task, Hours, Billable" },
+  { mod:"Users & Roles", use:"Least-privilege access per vendor scope", fields:"Role, Profile, Project access" },
+];
+
+DATA.zohoCustom = [
+  { mod:"Phases", why:"12-phase lifecycle wrapper above milestones",
+    fields:[["Phase Code","Pick-list"],["Primary Outcome","Text"],["RAG Health","Pick-list"],["Exit Criteria","Multi-line"],["Gate Approver","Lookup → User"]] },
+  { mod:"Use Cases", why:"Measurable requirement breakdown (UC-POLICE-001…)",
+    fields:[["UC ID","Auto-number"],["Steps","Multi-line"],["Functional Req.","Multi-line"],["Perf Req.","Text"],["Edge Cases","Multi-line"],["Acceptance Criteria","Multi-line"],["Linked Story","Lookup → Task"]] },
+  { mod:"Risk Register", why:"Live risk tracking with mitigation",
+    fields:[["Probability","Pick-list"],["Impact","Pick-list"],["RAG","Formula"],["Mitigation","Multi-line"],["Owner","Lookup → User"]] },
+  { mod:"Dependencies", why:"Feature → subsystem dependency matrix",
+    fields:[["Feature","Lookup"],["Depends On","Multi-select"],["Risk Level","Pick-list"]] },
+  { mod:"Vendors", why:"Scorecard, scope, due-diligence & SLA",
+    fields:[["Scope","Text"],["Scorecard","JSON/Sub-form"],["RAG","Pick-list"],["SLA","Multi-line"],["Access Scope","Multi-select"]] },
+  { mod:"Change Requests", why:"CR intake + impact assessment + Approve/Reject/Defer",
+    fields:[["Impact (Cost/Sched/Eng/Art/QA/Perf/Mem/Loc/Cert)","Sub-form"],["Decision","Pick-list"],["Approver","Lookup → User"]] },
+  { mod:"Test Cases", why:"QA levels 1–5, automation flag, results",
+    fields:[["Level","Pick-list"],["Automated","Checkbox"],["Linked UC","Lookup"],["Last Result","Pick-list"]] },
+  { mod:"Build Releases", why:"Build metadata + gate results",
+    fields:[["Build No.","Text"],["Source Revision","Text"],["Env","Pick-list"],["Test Results","JSON"],["Crash Stats","Number"],["Known Issues","Lookup → Bugs"]] },
+];
+
+/* ---- Sprint board (Kanban) ---- */
+DATA.board = {
+  cols: ["Backlog","To Do","In Progress","In Review","Done"],
+  cards: [
+    { key:"GTA7-T-1114", t:"Implement police dispatch", col:"Backlog", tag:"AI", who:"AI", pts:8 },
+    { key:"GTA7-T-2112", t:"Vehicle damage model integration", col:"To Do", tag:"Vehicle", who:"VEH", pts:13 },
+    { key:"GTA7-T-1112", t:"Witness system", col:"In Progress", tag:"AI", who:"AI", pts:5 },
+    { key:"GTA7-T-1113", t:"Wanted-level state machine", col:"In Progress", tag:"AI", who:"AI", pts:8 },
+    { key:"GTA7-T-3111", t:"Checkpoint save/restore", col:"In Progress", tag:"Mission", who:"MIS", pts:8 },
+    { key:"GTA7-QC-1102", t:"Verify wanted decreases after escape", col:"In Review", tag:"QA", who:"QA", pts:3 },
+    { key:"GTA7-T-2111", t:"Tune suspension physics", col:"In Review", tag:"Vehicle", who:"VEH", pts:5 },
+    { key:"GTA7-T-1111", t:"Crime detection", col:"Done", tag:"AI", who:"AI", pts:5 },
+    { key:"GTA7-QC-2101", t:"Handling regression (12 vehicles)", col:"Done", tag:"QA", who:"QA", pts:5 },
+  ],
+};
+
+/* ---- Performance & Compatibility ---- */
+DATA.perf = {
+  fps: [
+    { k:"Average FPS", tgt:60, act:47, unit:"fps", bad:true },
+    { k:"1% Low",      tgt:45, act:31, unit:"fps", bad:true },
+    { k:"0.1% Low",    tgt:30, act:22, unit:"fps", bad:true },
+  ],
+  budgets: [
+    { k:"Game Thread", tgt:8.0, act:9.6, unit:"ms", bad:true },
+    { k:"Render Thread", tgt:8.0, act:7.4, unit:"ms", bad:false },
+    { k:"AI", tgt:2.0, act:2.1, unit:"ms", bad:true },
+    { k:"Physics", tgt:2.5, act:2.2, unit:"ms", bad:false },
+    { k:"Animation", tgt:2.0, act:1.7, unit:"ms", bad:false },
+    { k:"Streaming", tgt:1.5, act:1.4, unit:"ms", bad:false },
+  ],
+  memory: [
+    { k:"RAM", tgt:12.0, act:11.2, unit:"GB", bad:false },
+    { k:"VRAM", tgt:9.0, act:9.8, unit:"GB", bad:true },
+    { k:"Texture Pool", tgt:4.0, act:3.6, unit:"GB", bad:false },
+    { k:"Streaming Pool", tgt:2.0, act:1.9, unit:"GB", bad:false },
+  ],
+  loading: [
+    { k:"Boot Time", tgt:20, act:24, unit:"s", bad:true },
+    { k:"Save Load", tgt:8, act:7, unit:"s", bad:false },
+    { k:"Fast Travel", tgt:6, act:6, unit:"s", bad:false },
+    { k:"Interior Transition", tgt:1.5, act:1.3, unit:"s", bad:false },
+  ],
+  compat: [
+    { p:"PS5", st:"Pass" }, { p:"PS5 Pro", st:"Pass" }, { p:"Xbox Series X", st:"Pass" },
+    { p:"Xbox Series S", st:"At Risk" }, { p:"PC · High-end", st:"Pass" }, { p:"PC · Mid", st:"At Risk" },
+    { p:"PC · Min-spec", st:"Fail" }, { p:"Steam Deck", st:"Not Run" },
+  ],
+};
+
+</script>
+<script>
+/* =========================================================================
+   GTA-7 Program Control — mock app (view router + renderers)
+   ========================================================================= */
+
+const RAG_ICON = { green:"●", amber:"◐", red:"▲", grey:"○" };
+const el = (tag, cls, html) => { const n=document.createElement(tag); if(cls)n.className=cls; if(html!=null)n.innerHTML=html; return n; };
+const esc = s => String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+const NAV = [
+  { grp:"Program" },
+  { id:"dashboard",   ic:"▣", label:"Executive Dashboard" },
+  { id:"roadmap",     ic:"⛿", label:"Roadmap & Milestones" },
+  { id:"grp:delivery" },
+  { grp:"Delivery" },
+  { id:"backlog",     ic:"⊞", label:"Backlog", badge:"Epic→Bug" },
+  { id:"board",       ic:"▦", label:"Sprint Board" },
+  { id:"usecases",    ic:"◎", label:"Use Cases" },
+  { id:"bugs",        ic:"⦿", label:"Bugs & Issues", badge:"1,284" },
+  { id:"qa",          ic:"✓", label:"QA & Test Strategy" },
+  { id:"perf",        ic:"◔", label:"Performance & Compat" },
+  { grp:"Governance" },
+  { id:"risks",       ic:"⚠", label:"Risk Register" },
+  { id:"deps",        ic:"⇄", label:"Dependencies" },
+  { id:"vendors",     ic:"⌂", label:"Vendors & Governance" },
+  { id:"gates",       ic:"⚑", label:"Gates & Definition of Done" },
+  { grp:"Platform" },
+  { id:"zoho",        ic:"◈", label:"Zoho Data Model" },
+  { id:"architecture",ic:"⚙", label:"Hosting & Integration" },
+];
+
+/* ---------- Sidebar ---------- */
+function buildNav(){
+  const rail = document.getElementById("nav");
+  NAV.forEach(item=>{
+    if(item.grp){ rail.appendChild(el("div","nav-group",item.grp)); return; }
+    if(item.id.startsWith("grp:")) return;
+    const n = el("div","nav-item");
+    n.dataset.view = item.id;
+    n.innerHTML = `<span class="ic">${item.ic}</span><span>${item.label}</span>` +
+      (item.badge?`<span class="pill grey badge">${item.badge}</span>`:"");
+    n.onclick = ()=>route(item.id);
+    rail.appendChild(n);
+  });
+}
+
+const VIEWS = {}; // id -> {title, sub, render}
+
+/* ---------- Global search ---------- */
+/* Builds a flat, searchable index across every DATA collection each query so
+   it always reflects live (Zoho-hydrated) or embedded data. Each entry knows
+   which view to route to when picked. */
+function buildSearchIndex(){
+  const idx = [];
+  const push = (kind, id, title, view, sub, extra) => idx.push({
+    kind, id: id==null?"":String(id), title: title==null?"":String(title), view,
+    sub: sub==null?"":String(sub),
+    hay: (String(id||"")+" "+String(title||"")+" "+String(sub||"")+" "+String(extra||"")).toLowerCase()
+  });
+
+  (DATA.milestones||[]).forEach(m=> push("Milestone", m.code, m.name, "roadmap", m.date, m.criteria));
+  (DATA.bugs||[]).forEach(b=> push("Bug", b.id, b.title, "bugs", (b.sev||"")+" · "+(b.area||"")+" · "+(b.status||""), b.owner));
+  (DATA.usecases||[]).forEach(u=> push("Use Case", u.id, u.title, "usecases", u.area, u.fr));
+  (DATA.risks||[]).forEach(r=> push("Risk", r.id, r.risk, "risks", (r.rag?r.rag.toUpperCase():"")+" · "+(r.owner||""), r.mit));
+  (DATA.vendors||[]).forEach(v=> push("Vendor", v.name, v.scope, "vendors", v.milestone));
+  (DATA.dependencies||[]).forEach(d=> push("Dependency", d.feature, d.feature, "deps", "Depends on: "+((d.deps||[]).join(", "))));
+  (((DATA.board||{}).cards)||[]).forEach(c=> push("Board", c.key, c.t, "board", (c.col||"")+" · "+(c.tag||"")));
+  (DATA.zohoDefault||[]).forEach(z=> push("Zoho Module", z.mod, z.use, "zoho", z.fields));
+  (DATA.zohoCustom||[]).forEach(z=> push("Zoho Custom", z.mod, z.why, "zoho", ""));
+  (function walk(nodes){ (nodes||[]).forEach(n=>{
+    push(n.kind||"Item", n.id, n.title, "backlog", n.owner||"", "");
+    if(n.children) walk(n.children);
+  }); })(DATA.backlog);
+  return idx;
+}
+
+function initSearch(){
+  const input = document.getElementById("search");
+  const panel = document.getElementById("searchResults");
+  if(!input || !panel) return;
+  let results = [], active = -1;
+
+  const markUp = (text, q) => {
+    const s = String(text);
+    const i = q ? s.toLowerCase().indexOf(q) : -1;
+    if(i < 0) return esc(s);
+    return esc(s.slice(0,i)) + "<mark>" + esc(s.slice(i, i+q.length)) + "</mark>" + esc(s.slice(i+q.length));
+  };
+
+  function renderPanel(qRaw){
+    const q = qRaw.toLowerCase();
+    panel.innerHTML = "";
+    if(!results.length){
+      panel.appendChild(el("div","sr-empty",`No matches for “${esc(qRaw)}”`));
+      return;
+    }
+    results.forEach((r,i)=>{
+      const row = el("div","sr-item"+(i===active?" active":""));
+      row.innerHTML =
+        `<span class="sr-kind">${esc(r.kind)}</span>`+
+        `<div class="sr-main"><div class="sr-title">${markUp(r.title,q)}</div>`+
+        `<div class="sr-sub">${markUp(r.id,q)}${r.sub?" · "+esc(r.sub):""}</div></div>`;
+      row.onmousedown = e=>{ e.preventDefault(); choose(i); };
+      panel.appendChild(row);
+    });
+    panel.appendChild(el("div","sr-hint","↑ ↓ to navigate · ↵ to open · esc to close"));
+    const act = panel.querySelector(".sr-item.active");
+    if(act) act.scrollIntoView({ block:"nearest" });
+  }
+
+  const openPanel  = ()=>{ panel.hidden = false; };
+  const closePanel = ()=>{ panel.hidden = true; active = -1; };
+
+  function choose(i){
+    const r = results[i]; if(!r) return;
+    route(r.view);
+    input.value = ""; results = []; closePanel(); input.blur();
+  }
+
+  function runSearch(){
+    const raw = input.value.trim();
+    const q = raw.toLowerCase();
+    if(!q){ results = []; closePanel(); return; }
+    const seen = new Set();
+    results = buildSearchIndex()
+      .filter(r=> r.hay.indexOf(q) !== -1)
+      .filter(r=>{ const k = r.view+"|"+r.kind+"|"+r.id; if(seen.has(k)) return false; seen.add(k); return true; })
+      .slice(0, 12);
+    active = results.length ? 0 : -1;
+    renderPanel(raw);
+    openPanel();
+  }
+
+  input.addEventListener("input", runSearch);
+  input.addEventListener("focus", ()=>{ if(input.value.trim()) runSearch(); });
+  input.addEventListener("keydown", e=>{
+    if(panel.hidden) return;
+    if(e.key==="ArrowDown"){ e.preventDefault(); active = Math.min(active+1, results.length-1); renderPanel(input.value.trim()); }
+    else if(e.key==="ArrowUp"){ e.preventDefault(); active = Math.max(active-1, 0); renderPanel(input.value.trim()); }
+    else if(e.key==="Enter"){ e.preventDefault(); if(active>=0) choose(active); }
+    else if(e.key==="Escape"){ closePanel(); input.blur(); }
+  });
+  document.addEventListener("click", e=>{ if(!e.target.closest(".searchbox")) closePanel(); });
+  // "/" focuses the search box from anywhere (unless already typing in a field)
+  document.addEventListener("keydown", e=>{
+    if(e.key==="/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)){
+      e.preventDefault(); input.focus();
+    }
+  });
+}
+
+function route(id){
+  document.querySelectorAll(".nav-item").forEach(n=>n.classList.toggle("active", n.dataset.view===id));
+  const v = VIEWS[id] || VIEWS.dashboard;
+  document.getElementById("crumb").innerHTML = `Program Control <span>›</span> <b>${v.title}</b>`;
+  const root = document.getElementById("view");
+  root.innerHTML = `<h2 class="page">${v.title}</h2><div class="sub">${v.sub}</div>`;
+  v.render(root);
+  window.scrollTo({ top: 0 });
+  location.hash = id;
+}
+
+/* ---------- Shared components ---------- */
+function card(title, desc, bodyEl, rightHtml){
+  const c = el("div","card");
+  const hd = el("div","hd");
+  hd.appendChild(el("div",null,`<h3>${title}</h3>${desc?`<div class="desc">${desc}</div>`:""}`));
+  if(rightHtml) hd.appendChild(el("div","right",rightHtml));
+  c.appendChild(hd);
+  const bd = el("div","bd"); if(bodyEl) bd.appendChild(bodyEl); c.appendChild(bd);
+  return c;
+}
+function ragPill(rag,label){ return `<span class="pill ${rag}"><span class="dot" style="background:currentColor"></span>${label||rag.toUpperCase()}</span>`; }
+function zohoTag(t){ return `<span class="zoho-tag">◈ <b>Zoho</b> ${t}</span>`; }
+
+/* =========================================================================
+   VIEW: Executive Dashboard
+   ========================================================================= */
+VIEWS.dashboard = { title:"Executive Dashboard", sub:"Program-level health — no ticket noise. Roll-up of schedule, quality, performance, security and vendor performance.",
+  render(root){
+    // hero banner
+    const hero = el("div","hero",
+      `<img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYwMCA0NDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iR1RBLTcgVmljZSBDaXR5IHN0eWxlIHN1bnNldCBiYW5uZXIiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJza3kiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgIHN0b3AtY29sb3I9IiM1YjNhOWUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIzNCUiIHN0b3AtY29sb3I9IiM4YTRmYjAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1OCUiIHN0b3AtY29sb3I9IiNkMTZhYTUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI3OCUiIHN0b3AtY29sb3I9IiNmMzhiNmIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZjMzZiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJzdW4iIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgIHN0b3AtY29sb3I9IiNmZmU5YTgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1NSUiIHN0b3AtY29sb3I9IiNmZjlkNWMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmY1ZjhmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaXR5IiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiICBzdG9wLWNvbG9yPSIjN2I0YWEwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzkzNTg5ZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JvdW5kIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiICBzdG9wLWNvbG9yPSIjYzk4ZmI4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdhNTU5MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icm9hZCIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiAgc3RvcC1jb2xvcj0iIzNhMmI1MiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1YTNmNmUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InBhbG0iIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgIHN0b3AtY29sb3I9IiMzYTFmNGQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNWIyZjYzIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGNsaXBQYXRoIGlkPSJmcmFtZSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iNDQwIiByeD0iMCIvPjwvY2xpcFBhdGg+CiAgICA8c3ltYm9sIGlkPSJ0cmVlIiB2aWV3Qm94PSIwIDAgMjAwIDI2MCI+CiAgICAgIDwhLS0gdHJ1bmsgLS0+CiAgICAgIDxwYXRoIGQ9Ik05NiAyNjAgQzkyIDE5MCA5MCAxNTAgMTAwIDk2IEMxMDQgMTMwIDEwNCAxODAgMTA4IDI2MCBaIiBmaWxsPSJ1cmwoI3BhbG0pIi8+CiAgICAgIDwhLS0gZnJvbmRzIC0tPgogICAgICA8ZyBmaWxsPSJ1cmwoI3BhbG0pIj4KICAgICAgICA8cGF0aCBkPSJNMTAwIDk2IEM2MCA3MCAzMCA2NiA0IDc4IEMzNCA3NCA2NiA4MiAxMDAgMTAwIFoiLz4KICAgICAgICA8cGF0aCBkPSJNMTAwIDk2IEMxNDAgNzAgMTcwIDY2IDE5NiA3OCBDMTY2IDc0IDEzNCA4MiAxMDAgMTAwIFoiLz4KICAgICAgICA8cGF0aCBkPSJNMTAwIDk2IEM3MCA1MiA0NCAzNCAyMCAzMCBDNTIgNDAgNzggNjQgMTAwIDEwMCBaIi8+CiAgICAgICAgPHBhdGggZD0iTTEwMCA5NiBDMTMwIDUyIDE1NiAzNCAxODAgMzAgQzE0OCA0MCAxMjIgNjQgMTAwIDEwMCBaIi8+CiAgICAgICAgPHBhdGggZD0iTTEwMCA5NiBDOTIgNTQgODQgMzAgNjYgOCBDODggMzAgOTggNjIgMTAwIDEwMCBaIi8+CiAgICAgICAgPHBhdGggZD0iTTEwMCA5NiBDMTA4IDU0IDExNiAzMCAxMzQgOCBDMTEyIDMwIDEwMiA2MiAxMDAgMTAwIFoiLz4KICAgICAgPC9nPgogICAgPC9zeW1ib2w+CiAgPC9kZWZzPgoKICA8ZyBjbGlwLXBhdGg9InVybCgjZnJhbWUpIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjQ0MCIgZmlsbD0idXJsKCNza3kpIi8+CgogICAgPCEtLSBzdW4gd2l0aCByZXRybyBiYW5kcyAtLT4KICAgIDxnPgogICAgICA8Y2lyY2xlIGN4PSIxMDQwIiBjeT0iMjUwIiByPSIxNTAiIGZpbGw9InVybCgjc3VuKSIvPgogICAgICA8ZyBmaWxsPSIjNWIzYTllIiBvcGFjaXR5PSIwLjU1Ij4KICAgICAgICA8cmVjdCB4PSI4ODAiIHk9IjMwMCIgd2lkdGg9IjMyMCIgaGVpZ2h0PSI5Ii8+CiAgICAgICAgPHJlY3QgeD0iODgwIiB5PSIzMjIiIHdpZHRoPSIzMjAiIGhlaWdodD0iMTIiLz4KICAgICAgICA8cmVjdCB4PSI4ODAiIHk9IjM1MCIgd2lkdGg9IjMyMCIgaGVpZ2h0PSIxNiIvPgogICAgICAgIDxyZWN0IHg9Ijg4MCIgeT0iMzg0IiB3aWR0aD0iMzIwIiBoZWlnaHQ9IjIyIi8+CiAgICAgIDwvZz4KICAgIDwvZz4KCiAgICA8IS0tIGRpc3RhbnQgc2t5bGluZSAtLT4KICAgIDxnIGZpbGw9InVybCgjY2l0eSkiIG9wYWNpdHk9IjAuOSI+CiAgICAgIDxyZWN0IHg9IjEyMCIgeT0iMjUwIiB3aWR0aD0iNjAiIGhlaWdodD0iMTUwIi8+CiAgICAgIDxyZWN0IHg9IjE5MCIgeT0iMjE1IiB3aWR0aD0iNDYiIGhlaWdodD0iMTg1Ii8+CiAgICAgIDxyZWN0IHg9IjI0NCIgeT0iMjcwIiB3aWR0aD0iNzAiIGhlaWdodD0iMTMwIi8+CiAgICAgIDxyZWN0IHg9IjMyMiIgeT0iMjM1IiB3aWR0aD0iNDAiIGhlaWdodD0iMTY1Ii8+CiAgICAgIDxyZWN0IHg9IjM3MiIgeT0iMjg1IiB3aWR0aD0iOTAiIGhlaWdodD0iMTE1Ii8+CiAgICAgIDxyZWN0IHg9IjQ3MCIgeT0iMjU1IiB3aWR0aD0iNDgiIGhlaWdodD0iMTQ1Ii8+CiAgICAgIDxyZWN0IHg9IjEyMzAiIHk9IjI1NSIgd2lkdGg9IjgwIiBoZWlnaHQ9IjE0NSIvPgogICAgICA8cmVjdCB4PSIxMzE4IiB5PSIyMjAiIHdpZHRoPSI1MiIgaGVpZ2h0PSIxODAiLz4KICAgICAgPHJlY3QgeD0iMTM3OCIgeT0iMjc1IiB3aWR0aD0iOTYiIGhlaWdodD0iMTI1Ii8+CiAgICAgIDxyZWN0IHg9IjE0ODIiIHk9IjI0NSIgd2lkdGg9IjQ2IiBoZWlnaHQ9IjE1NSIvPgogICAgPC9nPgogICAgPCEtLSBsaXQgd2luZG93cyAtLT4KICAgIDxnIGZpbGw9IiNmZmQ5OGEiIG9wYWNpdHk9IjAuNjUiPgogICAgICA8cmVjdCB4PSIyMDUiIHk9IjIzNSIgd2lkdGg9IjYiIGhlaWdodD0iOCIvPjxyZWN0IHg9IjIxOSIgeT0iMjM1IiB3aWR0aD0iNiIgaGVpZ2h0PSI4Ii8+CiAgICAgIDxyZWN0IHg9IjIwNSIgeT0iMjU1IiB3aWR0aD0iNiIgaGVpZ2h0PSI4Ii8+PHJlY3QgeD0iMjE5IiB5PSIyNTgiIHdpZHRoPSI2IiBoZWlnaHQ9IjgiLz4KICAgICAgPHJlY3QgeD0iMTMzNCIgeT0iMjQwIiB3aWR0aD0iNiIgaGVpZ2h0PSI4Ii8+PHJlY3QgeD0iMTM0OCIgeT0iMjQwIiB3aWR0aD0iNiIgaGVpZ2h0PSI4Ii8+CiAgICAgIDxyZWN0IHg9IjEzMzQiIHk9IjI2MiIgd2lkdGg9IjYiIGhlaWdodD0iOCIvPjxyZWN0IHg9IjEzNDgiIHk9IjI2NiIgd2lkdGg9IjYiIGhlaWdodD0iOCIvPgogICAgPC9nPgoKICAgIDwhLS0gZ3JvdW5kIC0tPgogICAgPHJlY3QgeD0iMCIgeT0iMzkyIiB3aWR0aD0iMTYwMCIgaGVpZ2h0PSI0OCIgZmlsbD0idXJsKCNncm91bmQpIi8+CiAgICA8IS0tIHJvYWQgLS0+CiAgICA8cG9seWdvbiBwb2ludHM9Ijc0MCwzOTIgODYwLDM5MiAxMDQwLDQ0MCA1NjAsNDQwIiBmaWxsPSJ1cmwoI3JvYWQpIi8+CiAgICA8ZyBzdHJva2U9IiNmZmU2YTgiIHN0cm9rZS13aWR0aD0iNCIgb3BhY2l0eT0iMC43IiBzdHJva2UtZGFzaGFycmF5PSIxMCAxNCI+CiAgICAgIDxsaW5lIHgxPSI4MDAiIHkxPSIzOTIiIHgyPSI4MDAiIHkyPSI0NDAiLz4KICAgIDwvZz4KCiAgICA8IS0tIHBhbG0gdHJlZXMgLS0+CiAgICA8dXNlIGhyZWY9IiN0cmVlIiB4PSI3MCIgIHk9IjE1MCIgd2lkdGg9IjI0MCIgaGVpZ2h0PSIzMTIiLz4KICAgIDx1c2UgaHJlZj0iI3RyZWUiIHg9IjEzMDAiIHk9IjEyMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzOTAiLz4KICAgIDx1c2UgaHJlZj0iI3RyZWUiIHg9IjExODAiIHk9IjIwMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIyMzQiLz4KICAgIDx1c2UgaHJlZj0iI3RyZWUiIHg9IjI0MCIgeT0iMjEwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE5NSIvPgoKICAgIDwhLS0gc29mdCB2aWduZXR0ZSAtLT4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjQ0MCIgZmlsbD0idXJsKCNza3kpIiBvcGFjaXR5PSIwIi8+CiAgICA8cmVjdCB4PSIwIiB5PSIzMzAiIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjExMCIgZmlsbD0iIzNhMWY0ZCIgb3BhY2l0eT0iMC4xOCIvPgogIDwvZz4KPC9zdmc+Cg==" alt="GTA-7 Vice City style sunset skyline">
+       <div class="scrim"></div>
+       <div class="hero-in">
+         <span class="eyebrow">★ Rockstar · Outsourcing Program</span>
+         <h1><span>GTA-7</span> Program Control</h1>
+         <div class="tag">End-to-end command centre for the GTA-7 AAA build — milestones, backlog, bugs, QA, risk &amp; vendor governance, on Zoho Projects + Catalyst.</div>
+         <div class="hero-stats">
+           <div><b>M4</b><span>Full Production</span></div>
+           <div><b>11</b><span>Milestones</span></div>
+           <div><b>4</b><span>Vendors</span></div>
+           <div><b>AMBER</b><span>Program Health</span></div>
+         </div>
+       </div>`);
+    root.appendChild(hero);
+
+    // top: overall RAG + KPI tiles
+    const top = el("div","grid g-12-a");
+    const hbox = el("div","card"); hbox.appendChild(el("div","hd",`<h3>Overall Program Health</h3><div class="desc">GREEN / AMBER / RED</div>`));
+    const hbd = el("div","bd");
+    const rag = DATA.health.overall;
+    hbd.appendChild(el("div","rag",
+      `<div class="light ${rag.rag}">${RAG_ICON[rag.rag]}</div>
+       <div class="txt"><b style="font-size:20px">${rag.label}</b><span>${rag.note}</span></div>`));
+    const dims = el("div","grid g-4"); dims.style.marginTop="16px";
+    DATA.health.dims.forEach(d=>{
+      dims.appendChild(el("div","field",
+        `<span class="dot" style="width:9px;height:9px;border-radius:50%;background:var(--${d.rag==='green'?'good':d.rag==='amber'?'warning':'critical'})"></span>
+         <div><div style="font-weight:600">${d.k}</div><div style="color:var(--muted);font-size:11px">${d.note}</div></div>`));
+    });
+    hbd.appendChild(dims); hbox.appendChild(hbd);
+    top.appendChild(hbox);
+
+    // milestone gate donut
+    const gate = el("div","card"); gate.appendChild(el("div","hd",`<h3>Current Gate — M4</h3><div class="desc">Full Production exit</div>`));
+    const gbd = el("div","bd");
+    const pct=62;
+    gbd.appendChild(el("div","donut",`<div class="mid"><b>${pct}%</b></div>`)).style.background=
+      `conic-gradient(var(--brand) ${pct*3.6}deg, var(--surface-3) 0)`;
+    gbd.appendChild(el("div",null,`<div style="text-align:center;color:var(--muted);font-size:11px;margin-top:6px">gate criteria met</div>`));
+    gbd.appendChild(el("div",null,`<div style="text-align:center;color:var(--muted);font-size:12px;margin-top:10px">Milestone is complete only when acceptance criteria, quality, performance, security &amp; defect thresholds are all met.</div>`));
+    gate.appendChild(gbd); top.appendChild(gate);
+    root.appendChild(top);
+
+    // KPI row
+    const kpis = el("div","grid g-3"); kpis.style.marginTop="16px";
+    DATA.kpis.forEach(k=>{
+      kpis.appendChild(el("div","card tile",
+        `<div class="lab">${k.lab}</div>
+         <div class="val">${k.val}${k.sub?` <small>/ ${k.sub}</small>`:""}</div>
+         <div class="delta ${k.dir}">${k.dir==='up'?'▲':k.dir==='down'?'▼':'—'} ${k.delta}</div>`));
+    });
+    root.appendChild(kpis);
+
+    // bug severity + milestone status
+    const row = el("div","grid g-12-b"); row.style.marginTop="16px";
+    // severity bars
+    const sev = el("div"); const bars = el("div","hbars");
+    const max = Math.max(...DATA.sevDist.map(s=>s.n));
+    DATA.sevDist.forEach(s=>{
+      const w = s.n===0?2:Math.max(6,(s.n/max)*100);
+      bars.appendChild(el("div","hbar",
+        `<span class="sev ${s.k}">${s.k}</span>
+         <div class="track"><i style="width:${w}%;background:${s.color}"></i></div>
+         <span class="n">${s.n}</span>`));
+    });
+    sev.appendChild(bars);
+    sev.appendChild(el("div","note gold","<b>Bug gate (Alpha):</b> S0 = 0 required · S1 controlled · S2 allowed. S0 currently <b>0</b> ✓, S1 at <b>7</b> — within controlled band."));
+    row.appendChild(card("Open Defects by Severity","Live roll-up across all builds", sev));
+
+    // milestone mini-status
+    const mst = el("div");
+    DATA.milestones.slice(0,8).forEach(m=>{
+      mst.appendChild(el("div",null,
+        `<div class="barlab"><span><b style="color:var(--ink)">${m.code}</b> · ${m.name}</span><span>${m.pct}%</span></div>
+         <div class="bar" style="margin-bottom:12px"><i style="width:${m.pct}%;background:var(--${m.status==='green'?'good':m.status==='amber'?'warning':m.status==='red'?'critical':'baseline'})"></i></div>`));
+    });
+    row.appendChild(card("Milestone Progress","M0 → M7", mst));
+    root.appendChild(row);
+  }
+};
+
+/* =========================================================================
+   VIEW: Roadmap & Milestones
+   ========================================================================= */
+VIEWS.roadmap = { title:"Roadmap & Milestones", sub:"12-phase AAA lifecycle as hard gates, not dates. A milestone is complete only when its exit criteria are met.",
+  render(root){
+    const tl = el("div","timeline");
+    DATA.milestones.forEach(m=>{
+      const ms = el("div","ms");
+      ms.appendChild(el("div","mnode",
+        `<div class="mcode">${m.code}</div><div class="mdate">${m.date}</div>${ragPill(m.status)}`));
+      const body = el("div","mbody");
+      body.innerHTML = `<h4>${m.name}
+        <span class="pill grey">${m.pct}% complete</span></h4>
+        <div class="crit" style="margin-bottom:10px">${m.criteria}</div>`;
+      const chips = el("div","chips");
+      chips.appendChild(el("span","pill grey","Exit criteria:"));
+      m.exit.forEach(x=>chips.appendChild(el("span","pill",esc(x))));
+      body.appendChild(chips);
+      const bar = el("div","bar sm"); bar.style.marginTop="10px";
+      bar.appendChild(el("i",null,"")).style.cssText=`width:${m.pct}%;background:var(--${m.status==='green'?'good':m.status==='amber'?'warning':m.status==='red'?'critical':'baseline'})`;
+      body.appendChild(bar);
+      ms.appendChild(body);
+      tl.appendChild(ms);
+    });
+    root.appendChild(card("GTA-7 Milestone Map (M0 → M10)","Hosted on "+ "Zoho Projects Milestones + custom Phases module", tl,
+      zohoTag("Milestones (default) + Phases (custom)")));
+  }
+};
+
+/* =========================================================================
+   VIEW: Backlog tree
+   ========================================================================= */
+VIEWS.backlog = { title:"Product Backlog", sub:"Epic → Feature → User Story → Task → Test → Bug. This hierarchy is what makes outsourced work measurable.",
+  render(root){
+    const wrap = el("div","tree");
+    DATA.backlog.forEach(n=>wrap.appendChild(renderNode(n)));
+    root.appendChild(card("Backlog Hierarchy","Click a row to expand / collapse", wrap,
+      zohoTag("Task Lists + Tasks (default) · sub-tasks & Bugs")));
+    root.appendChild(el("div","legend",
+      ['EPIC','FEATURE','STORY','TASK','TEST','BUG'].map(k=>`<span><span class="kind ${k}">${k}</span></span>`).join("")));
+  }
+};
+function renderNode(n, depth=0){
+  const node = el("div","node");
+  const row = el("div","row");
+  const hasKids = n.children && n.children.length;
+  row.innerHTML = `<span class="tw">${hasKids?"▸":"·"}</span>
+    <span class="kind ${n.kind}">${n.kind}</span>
+    <span class="tid">${n.id}</span>
+    <span style="flex:1">${esc(n.title)}</span>
+    ${n.owner?`<span class="pill grey">${n.owner}</span>`:""}
+    ${n.status?ragPill(n.status):""}`;
+  node.appendChild(row);
+  if(hasKids){
+    const kids = el("div","children"+(depth>=1?" hide":""));
+    n.children.forEach(c=>kids.appendChild(renderNode(c, depth+1)));
+    node.appendChild(kids);
+    const tw = row.querySelector(".tw");
+    row.onclick = ()=>{ kids.classList.toggle("hide"); tw.textContent = kids.classList.contains("hide")?"▸":"▾"; };
+    if(!kids.classList.contains("hide")) tw.textContent="▾";
+  }
+  return node;
+}
+
+/* =========================================================================
+   VIEW: Use cases
+   ========================================================================= */
+VIEWS.usecases = { title:"Use Cases", sub:"Requirements broken into measurable use cases — never vague statements like “build a realistic police system”.",
+  render(root){
+    const grid = el("div","grid g-2");
+    DATA.usecases.forEach(u=>{
+      const b = el("div");
+      b.innerHTML = `
+        <div style="margin-bottom:10px"><span class="tid">${u.id}</span> · <b>${u.title}</b></div>
+        <dl class="kv">
+          <dt>Area</dt><dd>${u.area}</dd>
+          <dt>Flow</dt><dd>${u.steps} steps · ${esc(u.fr)}</dd>
+          <dt>Performance</dt><dd>${esc(u.perf)}</dd>
+          <dt>Edge cases</dt><dd>${u.edge.map(e=>`<span class="pill grey">${esc(e)}</span>`).join(" ")}</dd>
+          <dt>Acceptance</dt><dd>${esc(u.accept)}</dd>
+        </dl>`;
+      grid.appendChild(card(`${u.area.split(" / ")[0]}`, "", b, ragPill(u.status)));
+    });
+    root.appendChild(grid);
+  }
+};
+
+/* =========================================================================
+   VIEW: Bugs
+   ========================================================================= */
+VIEWS.bugs = { title:"Bugs & Issues", sub:"Every bug carries severity, priority, environment, build, reproduction and fix build. Bug gates enforced per milestone." };
+VIEWS.bugs.render = function(root){
+  const gates = el("table","tbl");
+  gates.innerHTML = `<thead><tr><th>Milestone</th><th>S0 Blocker</th><th>S1 Critical</th><th>S2 Major</th><th>S3 / S4</th></tr></thead>`;
+  const gb = el("tbody");
+  DATA.bugGates.forEach(g=>gb.appendChild(el("tr",null,
+    `<td><b>${g.ms}</b></td><td>${g.s0}</td><td>${g.s1}</td><td>${g.s2}</td><td>${g.s34}</td>`)));
+  gates.appendChild(gb);
+
+  const sevLegend = el("div","legend",
+    [["S0","Blocker — game cannot continue"],["S1","Critical — major functionality broken"],
+     ["S2","Major"],["S3","Minor"],["S4","Cosmetic"]]
+    .map(([k,d])=>`<span><span class="sev ${k}">${k}</span> ${d}</span>`).join(""));
+
+  const gcard = card("Bug Gates & Severity Model","Allowed defects at each milestone — the vendor cannot declare a gate met on % of tasks", gates);
+  gcard.querySelector(".bd").appendChild(sevLegend);
+  root.appendChild(gcard);
+
+  const t = el("table","tbl");
+  t.innerHTML = `<thead><tr>
+    <th>Bug ID</th><th>Title</th><th>Sev</th><th>Prio</th><th>Area</th>
+    <th>Environment</th><th class="mono">Build</th><th class="mono">Repro</th><th>Owner</th><th>Status</th><th class="mono">Fix Build</th>
+    </tr></thead>`;
+  const tb = el("tbody");
+  DATA.bugs.forEach(b=>tb.appendChild(el("tr",null,
+    `<td class="tid">${b.id}</td><td>${esc(b.title)}</td>
+     <td><span class="sev ${b.sev}">${b.sev}</span></td><td class="prio">${b.prio}</td>
+     <td>${b.area}</td><td>${b.env}</td><td class="mono">${b.build}</td><td class="mono">${b.repro}</td>
+     <td>${b.owner}</td>
+     <td><span class="pill ${b.status==='Open'||b.status==='Triage'?'red':(b.status==='In Progress'||b.status==='In Review'?'amber':'green')}">${b.status}</span></td>
+     <td class="mono">${b.fix}</td>`)));
+  t.appendChild(tb);
+  const wrap = el("div"); wrap.style.overflowX="auto"; wrap.appendChild(t);
+  const bcard = card("Defect Queue","Open + in-flight defects", wrap, zohoTag("Bugs / Issues (default) + custom fields"));
+  bcard.style.marginTop="16px";
+  root.appendChild(bcard);
+};
+
+/* =========================================================================
+   VIEW: QA & Test strategy
+   ========================================================================= */
+VIEWS.qa = { title:"QA & Test Strategy", sub:"QA starts at the first prototype, not the final phase. Five test layers + performance, compatibility, soak and automation programs.",
+  render(root){
+    const levels = [
+      ["Level 1","Developer Testing","Code works · feature works · unit tests pass · no obvious regressions","green"],
+      ["Level 2","Feature QA","Functional behavior · requirements · edge cases · error handling","green"],
+      ["Level 3","Integration Testing","Mission + Police + AI + Vehicles + Streaming + Animation + Save/Load","amber"],
+      ["Level 4","System Testing","The complete game end-to-end","amber"],
+      ["Level 5","Regression","Smoke · functional · regression · performance · memory · save/load on every build","green"],
+    ];
+    const g = el("div","grid g-3");
+    levels.forEach(([l,n,d,r])=>{
+      g.appendChild(el("div","card tile",
+        `<div class="lab">${l}</div><div style="font-weight:650;font-size:15px;margin:4px 0">${n}</div>
+         <div style="color:var(--ink-2);font-size:12px">${d}</div><div style="margin-top:10px">${ragPill(r)}</div>`));
+    });
+    // performance program tile
+    g.appendChild(el("div","card tile",
+      `<div class="lab">Performance Program</div><div style="font-weight:650;font-size:15px;margin:4px 0">FPS · CPU · GPU · Memory · Loading</div>
+       <div style="color:var(--ink-2);font-size:12px">Avg / 1% low / 0.1% low FPS · thread budgets · VRAM/texture/streaming memory · boot & fast-travel times</div>
+       <div style="margin-top:10px">${ragPill("red","GPU over budget")}</div>`));
+    root.appendChild(card("Test Layers","QA runs continuously from first prototype", g,
+      zohoTag("Test Cases (custom) linked to Use Cases & Tasks")));
+
+    const row = el("div","grid g-2"); row.style.marginTop="16px";
+    // soak
+    const soak = el("div");
+    soak.innerHTML = `<div class="kv">
+      <dt>4 hours</dt><dd>${ragPill('green','pass')}</dd>
+      <dt>8 hours</dt><dd>${ragPill('green','pass')}</dd>
+      <dt>24 hours</dt><dd>${ragPill('amber','slow memory growth')}</dd>
+      <dt>72 hours</dt><dd>${ragPill('grey','not yet run')}</dd>
+     </div>
+     <div class="note" style="margin-top:12px">Soak looks for memory leaks, save corruption, AI degradation, streaming problems, network &amp; performance degradation, and crashes.</div>`;
+    row.appendChild(card("Soak Testing","Continuous long-duration runs", soak));
+    // automation
+    const auto = el("div"); auto.className="chips";
+    ["Start game","Start mission","Complete mission","Fail mission","Save","Load","Respawn",
+     "Spawn NPC","Spawn vehicle","Enter vehicle","Exit vehicle","Change weapon","Trigger wanted level",
+     "City stress","Traffic stress","NPC stress","Streaming stress","Combat stress"]
+     .forEach(a=>auto.appendChild(el("span","pill blue",a)));
+    row.appendChild(card("Automated Test Suite","Runs on commit + nightly regression", auto,
+      zohoTag("Test Cases · Automated=✓")));
+    root.appendChild(row);
+
+    // compatibility
+    const comp = el("div"); comp.className="chips";
+    ["Console platforms","Console configs","PC hardware classes","CPU configs","GPU configs","RAM configs",
+     "Storage","Resolutions","Display modes","Controllers","Keyboard/mouse","Audio devices"]
+     .forEach(a=>comp.appendChild(el("span","pill grey",a)));
+    const ccard = card("Compatibility Matrix","Cross-platform coverage", comp); ccard.style.marginTop="16px";
+    root.appendChild(ccard);
+  }
+};
+
+/* =========================================================================
+   VIEW: Risk register
+   ========================================================================= */
+VIEWS.risks = { title:"Risk Register", sub:"Live risk register with probability, impact, RAG and mitigation owner. Reviewed weekly at steering committee.",
+  render(root){
+    const t = el("table","tbl");
+    t.innerHTML = `<thead><tr><th>ID</th><th>Risk</th><th>Probability</th><th>Impact</th><th>Status</th><th>Mitigation</th><th>Owner</th></tr></thead>`;
+    const tb = el("tbody");
+    DATA.risks.forEach(r=>tb.appendChild(el("tr",null,
+      `<td class="tid">${r.id}</td><td><b>${esc(r.risk)}</b></td>
+       <td>${r.prob}</td><td>${r.impact}</td><td>${ragPill(r.rag)}</td>
+       <td>${esc(r.mit)}</td><td>${r.owner}</td>`)));
+    t.appendChild(tb);
+    root.appendChild(card("Program Risks","8 active risks", t, zohoTag("Risk Register (custom module)")));
+  }
+};
+
+/* =========================================================================
+   VIEW: Dependencies matrix
+   ========================================================================= */
+VIEWS.deps = { title:"Dependency Matrix", sub:"Feature → subsystem dependencies. Surfaces schedule risk early — no feature should silently depend on an unbuilt subsystem.",
+  render(root){
+    const t = el("table","tbl matrix");
+    t.innerHTML = `<thead><tr><th>Feature</th>${DATA.depCols.map(c=>`<th class="mono" style="text-align:center">${c}</th>`).join("")}</tr></thead>`;
+    const tb = el("tbody");
+    DATA.dependencies.forEach(d=>{
+      tb.appendChild(el("tr",null,
+        `<td class="dep"><b>${d.feature}</b></td>` +
+        DATA.depCols.map(c=>`<td style="text-align:center">${d.deps.includes(c)?'<span class="yes">●</span>':'<span style="color:var(--grid)">·</span>'}</td>`).join("")));
+    });
+    t.appendChild(tb);
+    const wrap = el("div"); wrap.style.overflowX="auto"; wrap.appendChild(t);
+    root.appendChild(card("Feature Dependencies","● = depends on", wrap, zohoTag("Dependencies (custom) + Task predecessors")));
+  }
+};
+
+/* =========================================================================
+   VIEW: Vendors & Governance
+   ========================================================================= */
+VIEWS.vendors = { title:"Vendors & Governance", sub:"Multi-vendor model — no single vendor becomes a single point of failure. Rockstar retains vision, IP, architecture, security and final acceptance.",
+  render(root){
+    const g = el("div","grid g-4");
+    DATA.vendors.forEach(v=>{
+      const scores = Object.entries(v.scores).map(([k,n])=>
+        `<div class="barlab"><span>${k}</span><span>${n}/5</span></div><div class="bar sm" style="margin-bottom:8px"><i style="width:${n*20}%"></i></div>`).join("");
+      g.appendChild(el("div","card tile",
+        `<div style="display:flex;align-items:center;gap:8px;margin-bottom:2px"><b style="font-size:15px">${v.name}</b>${ragPill(v.rag)}</div>
+         <div style="color:var(--muted);font-size:12px;margin-bottom:4px">${v.scope}</div>
+         <div style="color:var(--ink-2);font-size:11.5px;margin-bottom:12px">${v.staff} staff · ${v.milestone}</div>
+         ${scores}`));
+    });
+    root.appendChild(card("Vendor Scorecards","Due-diligence + delivery health", g, zohoTag("Vendors (custom module)")));
+
+    // governance org chart
+    const org = el("div","org");
+    const lvl = (boxes)=>{ const l=el("div","lvl"); boxes.forEach(b=>l.appendChild(b)); return l; };
+    const box=(b,s,cls)=>el("div","orgbox "+(cls||""),`<b>${b}</b><span>${s}</span>`);
+    org.appendChild(lvl([box("Executive Sponsor","Rockstar","rock")])); org.appendChild(el("div","conn"));
+    org.appendChild(lvl([box("Steering Committee","Rockstar","rock")])); org.appendChild(el("div","conn"));
+    org.appendChild(lvl([box("Program Director","Rockstar","rock")])); org.appendChild(el("div","conn"));
+    org.appendChild(lvl([box("Creative Director","Rockstar","rock"),box("Technical Director","Rockstar","rock"),box("Production Director","Rockstar","rock")]));
+    org.appendChild(el("div","conn"));
+    org.appendChild(lvl([box("Vendor PM","Delivery lead","vend")])); org.appendChild(el("div","conn"));
+    org.appendChild(lvl([box("Engineering","Vendor","vend"),box("Art","Vendor","vend"),box("QA","Vendor","vend")]));
+    const oc = card("Outsourcing Governance","Multiple governance layers — never a single PM channel", org); oc.style.marginTop="16px";
+    root.appendChild(oc);
+
+    // rockstar owns
+    const owns = el("div","chips");
+    DATA.governance.rockstarOwns.forEach(o=>owns.appendChild(el("span","pill amber",o)));
+    const rc = card("Rockstar Retains Ownership Of","Even where the vendor supplies implementation resources", owns); rc.style.marginTop="16px";
+    root.appendChild(rc);
+  }
+};
+
+/* =========================================================================
+   VIEW: Gates & Definition of Done
+   ========================================================================= */
+VIEWS.gates = { title:"Gates & Definition of Done", sub:"A feature is Done only when every box is checked. Milestone gates are strict — 95% of tasks is not a completed milestone.",
+  render(root){
+    const row = el("div","grid g-2");
+    const dod = el("ul","checklist");
+    DATA.dod.forEach((d,i)=>dod.appendChild(el("li",null,
+      `<span class="box ${i<9?'on':''}">${i<9?'✓':''}</span><span>${d}</span>`)));
+    row.appendChild(card("Definition of Done","Applied to every feature", dod));
+
+    // release gate
+    const rg = el("div");
+    const sect = (t,items,rag)=>{
+      const s=el("div"); s.innerHTML=`<div class="section-title" style="margin-top:0">${t} ${ragPill(rag)}</div>`;
+      const ul=el("ul","checklist");
+      items.forEach(i=>ul.appendChild(el("li",null,`<span class="box on">✓</span><span>${i}</span>`)));
+      s.appendChild(ul); s.style.marginBottom="14px"; return s;
+    };
+    rg.appendChild(sect("Functional",["Main story complete","Side content complete","Save/load stable","Progression stable"],"amber"));
+    rg.appendChild(sect("Technical",["Performance target","Memory target","Crash rate acceptable","No critical leaks","No blocker defects"],"red"));
+    rg.appendChild(sect("QA",["Regression complete","Compatibility complete","Certification complete","Localization complete"],"amber"));
+    rg.appendChild(sect("Security",["Penetration testing","Vulnerability assessment","Access review","Secrets review","Build integrity verification"],"green"));
+    rg.appendChild(sect("Legal",["IP clearance","Music licensing","Third-party licenses","Voice agreements","Platform agreements"],"amber"));
+    row.appendChild(card("Final Release Gate","All workstreams must clear before Launch", rg));
+    root.appendChild(row);
+
+    // milestone acceptance flow
+    const flow = el("div","mono-block",
+`Vendor Milestone Package
+   ├─ Build + Source revision + Release notes
+   ├─ Completed requirements + Test results
+   ├─ Known issues + Performance report + Crash report
+   ├─ Security report + Documentation + Updated backlog
+        │
+        ▼
+Vendor QA → Rockstar QA → Technical Review → Creative Review → Production Review → ACCEPTANCE`);
+    const fc = card("Milestone Acceptance Process","Submitted by vendor, accepted only after full review chain", flow); fc.style.marginTop="16px";
+    root.appendChild(fc);
+  }
+};
+
+/* =========================================================================
+   VIEW: Zoho data model
+   ========================================================================= */
+VIEWS.zoho = { title:"Zoho Data Model", sub:"Built on Zoho Projects default modules, extended with custom modules / fields for the AAA-specific data that Projects doesn't model natively.",
+  render(root){
+    // default modules
+    const dt = el("table","tbl");
+    dt.innerHTML = `<thead><tr><th>Default Module</th><th>How we use it for GTA-7</th><th>Key fields</th></tr></thead>`;
+    const db = el("tbody");
+    DATA.zohoDefault.forEach(m=>db.appendChild(el("tr",null,
+      `<td><b>${m.mod}</b></td><td>${m.use}</td><td style="color:var(--ink-2)">${m.fields}</td>`)));
+    dt.appendChild(db);
+    root.appendChild(card("Zoho Projects — Default Modules","Used as-is wherever they fit", dt, `<span class="pill grey">7 modules</span>`));
+
+    // custom modules
+    const cwrap = el("div","grid g-2"); cwrap.style.marginTop="16px";
+    DATA.zohoCustom.forEach(c=>{
+      const b = el("div");
+      b.innerHTML = `<div style="color:var(--muted);font-size:12px;margin-bottom:10px">${c.why}</div>`;
+      const fg = el("div","fieldgrid");
+      c.fields.forEach(([name,type])=>fg.appendChild(el("div","field",`<span>${name}</span><span class="ft">${type}</span>`)));
+      b.appendChild(fg);
+      cwrap.appendChild(card(c.mod, "", b, `<span class="pill violet">custom</span>`));
+    });
+    const ct = el("div","section-title","Custom Modules & Field Sets");
+    root.appendChild(ct); root.appendChild(cwrap);
+
+    root.appendChild(el("div","note gold",
+      "<b>Implementation note:</b> once this mock is approved, custom modules and field sets are created via the Zoho MCP server — field definitions above become the create-payload for each custom module.")).style.marginTop="16px";
+  }
+};
+
+/* =========================================================================
+   VIEW: Hosting & Integration architecture
+   ========================================================================= */
+VIEWS.architecture = { title:"Hosting & Integration", sub:"Hosted on Zoho Catalyst Web Client Hosting. Catalyst Functions rotate OAuth tokens server-side so no long-lived secret ever reaches the browser.",
+  render(root){
+    const diag = el("div","mono-block",
+`┌────────────────────────────────────────────────────────────────┐
+│  Browser  ·  Catalyst Web Client Hosting (this SPA)              │
+│  - Renders dashboards / backlog / bugs                          │
+│  - Holds NO client secret, NO refresh token                     │
+└───────────────┬─────────────────────────────────────────────────┘
+                │  fetch (short-lived session)
+                ▼
+┌────────────────────────────────────────────────────────────────┐
+│  Catalyst Functions  (serverless)                               │
+│  - token-rotate()   → refreshes Zoho OAuth access token         │
+│  - proxy-api()      → signs Zoho Projects / custom-module calls │
+│  - Secrets in Catalyst env / secret store (never shipped)       │
+└───────────────┬─────────────────────────────────────────────────┘
+                │  OAuth2 (refresh_token grant)
+                ▼
+┌────────────────────────────────────────────────────────────────┐
+│  Zoho Projects API  +  Custom Modules / Data Store              │
+│  Projects · Milestones · Tasks · Bugs · Phases · Use Cases ...  │
+└────────────────────────────────────────────────────────────────┘`);
+    root.appendChild(card("Reference Architecture","Web client → Catalyst Functions → Zoho Projects", diag));
+
+    const row = el("div","grid g-3"); row.style.marginTop="16px";
+    row.appendChild(el("div","card tile",
+      `<div class="lab">Hosting</div><div style="font-weight:650;margin:4px 0">Catalyst Web Client Hosting</div>
+       <div style="color:var(--ink-2);font-size:12px">Static SPA (this mock) served over HTTPS; no secrets bundled.</div>`));
+    row.appendChild(el("div","card tile",
+      `<div class="lab">Token Rotation</div><div style="font-weight:650;margin:4px 0">Catalyst Functions</div>
+       <div style="color:var(--ink-2);font-size:12px">Scheduled + on-demand <code>token-rotate()</code> refreshes the Zoho OAuth access token and caches it server-side.</div>`));
+    row.appendChild(el("div","card tile",
+      `<div class="lab">Data Access</div><div style="font-weight:650;margin:4px 0">Signed proxy</div>
+       <div style="color:var(--ink-2);font-size:12px">All Projects / custom-module reads &amp; writes go through a signed Catalyst function — least privilege per vendor.</div>`));
+    root.appendChild(row);
+
+    root.appendChild(el("div","note",
+      "<b>Security posture:</b> OAuth refresh tokens and client secrets live only in Catalyst’s secret store. The browser receives a short-lived, scope-limited session — aligning with the program’s least-privilege access principle.")).style.marginTop="16px";
+  }
+};
+
+/* =========================================================================
+   VIEW: Sprint Board (Kanban)
+   ========================================================================= */
+VIEWS.board = { title:"Sprint Board", sub:"Active sprint work in flight across AI, Vehicle, Mission and QA teams — mapped to Zoho Projects Tasks & Task Lists.",
+  render(root){
+    const b = DATA.board;
+    const board = el("div","kanban");
+    b.cols.forEach(col=>{
+      const cards = b.cards.filter(c=>c.col===col);
+      const kc = el("div","kcol");
+      kc.appendChild(el("div","khd",`<span>${col}</span><span class="cnt">${cards.length}</span>`));
+      const body = el("div","kbody");
+      cards.forEach(c=>{
+        body.appendChild(el("div","kcard",
+          `<div class="ktop"><span class="tid">${esc(c.key)}</span><span class="kind ${c.tag}">${esc(c.tag)}</span></div>
+           <div class="ktitle">${esc(c.t)}</div>
+           <div class="kfoot"><span class="who ${c.who}">${esc(c.who)}</span><span class="pts">${c.pts} pts</span></div>`));
+      });
+      kc.appendChild(body);
+      board.appendChild(kc);
+    });
+    root.appendChild(card("Current Sprint · GTA-7 · Sprint 42",
+      "Backlog → To Do → In Progress → In Review → Done", board,
+      zohoTag("Tasks + custom sprint field")));
+    const total = DATA.board.cards.reduce((a,c)=>a+c.pts,0);
+    const done = DATA.board.cards.filter(c=>c.col==="Done").reduce((a,c)=>a+c.pts,0);
+    const row = el("div","grid g-4"); row.style.marginTop="16px";
+    row.appendChild(el("div","card tile",`<div class="lab">Committed</div><div class="val">${total}<small> pts</small></div>`));
+    row.appendChild(el("div","card tile",`<div class="lab">Completed</div><div class="val">${done}<small> pts</small></div>`));
+    row.appendChild(el("div","card tile",`<div class="lab">In Progress</div><div class="val">${DATA.board.cards.filter(c=>c.col==="In Progress").length}<small> cards</small></div>`));
+    row.appendChild(el("div","card tile",`<div class="lab">Sprint Health</div><div class="val" style="font-size:22px">${ragPill("amber","AMBER")}</div>`));
+    root.appendChild(row);
+  }
+};
+
+/* =========================================================================
+   VIEW: Performance & Compatibility
+   ========================================================================= */
+VIEWS.perf = { title:"Performance & Compatibility", sub:"Dedicated performance program — FPS, CPU/GPU budgets, memory and loading tracked target-vs-actual per build. Current build fails the city FPS target.",
+  render(root){
+    const p = DATA.perf;
+    const stColor = st => st==="Pass" ? "green" : st==="At Risk" ? "amber" : st==="Fail" ? "red" : "grey";
+    function metricSection(title, rows){
+      const wrap = el("div","metrics");
+      rows.forEach(m=>{
+        const pct = Math.max(6, Math.min(100, Math.round((m.act/m.tgt)*100)));
+        const fill = m.bad ? "var(--critical)" : "var(--good)";
+        wrap.appendChild(el("div","metric",
+          `<div class="mtop"><b>${esc(m.k)}</b>
+             <span class="mval" style="color:${m.bad?'#ff9a9a':'#7ee08a'}">${m.act}${m.unit}</span>
+             <span class="mtgt">/ tgt ${m.tgt}${m.unit}</span></div>
+           <div class="track"><i style="width:${pct}%;background:${fill}"></i></div>`));
+      });
+      return card(title, null, wrap);
+    }
+    const g1 = el("div","grid g-2");
+    g1.appendChild(metricSection("Frame Rate", p.fps));
+    g1.appendChild(metricSection("CPU Budget (ms / frame)", p.budgets));
+    root.appendChild(g1);
+    const g2 = el("div","grid g-2"); g2.style.marginTop="16px";
+    g2.appendChild(metricSection("Memory", p.memory));
+    g2.appendChild(metricSection("Loading (seconds)", p.loading));
+    root.appendChild(g2);
+
+    const tbl = el("table","tbl");
+    tbl.innerHTML = `<thead><tr><th>Platform / Config</th><th>Certification Status</th></tr></thead>
+      <tbody>${p.compat.map(c=>`<tr><td><b>${esc(c.p)}</b></td><td>${ragPill(stColor(c.st),c.st)}</td></tr>`).join("")}</tbody>`;
+    const compatCard = card("Compatibility Matrix","Target platforms & configurations", tbl, zohoTag("custom Build Releases module"));
+    compatCard.style.marginTop="16px";
+    root.appendChild(compatCard);
+
+    root.appendChild(el("div","note gold",
+      "<b>Perf gate:</b> M4 exit requires 60 FPS avg + 45 FPS 1%-low in the dense city district on target consoles. Current build is <b>RED</b> on Game-Thread and VRAM budgets — flagged in the risk register (R-02)."))
+      .style.marginTop="16px";
+  }
+};
+
+/* ---------- boot ---------- */
+/* Data source: when this SPA is served from Zoho Catalyst, it hydrates DATA
+   from the zoho-proxy Catalyst Function (which reads the live GTA-7 Zoho
+   Projects portal, server-side, using a rotated OAuth token). When the fetch
+   is unavailable (e.g. the static GitHub Pages / file:// copy), it silently
+   falls back to the embedded sample DATA below, so the deck always renders. */
+(function boot(){
+  function start(){
+    buildNav();
+    initSearch();
+    route(location.hash?.slice(1) && VIEWS[location.hash.slice(1)] ? location.hash.slice(1) : "dashboard");
+  }
+  var PROXY = (typeof window!=="undefined" && window.GTA7_PROXY_URL) || "/server/zoho-proxy/data";
+  var ctrl = (typeof AbortController!=="undefined") ? new AbortController() : null;
+  var timer = setTimeout(function(){ if(ctrl) ctrl.abort(); }, 6000);
+  try {
+    fetch(PROXY, ctrl ? { signal: ctrl.signal } : undefined)
+      .then(function(r){ if(!r.ok) throw new Error("proxy HTTP "+r.status); return r.json(); })
+      .then(function(payload){
+        var src = (payload && payload.data) ? payload.data : payload;
+        if (src && typeof src === "object") {
+          Object.keys(src).forEach(function(k){ if (src[k] != null) DATA[k] = src[k]; });
+          DATA.__source = "zoho";
+        }
+      })
+      .catch(function(){ DATA.__source = "embedded"; })
+      .finally(function(){ clearTimeout(timer); start(); });
+  } catch(e) {
+    clearTimeout(timer); DATA.__source = "embedded"; start();
+  }
+})();
+
+</script>
+</body>
+</html>

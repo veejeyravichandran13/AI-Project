@@ -1,0 +1,10 @@
+{
+  "project_name": "Project-GTA-7",
+  "project_id": 86812000000014063,
+  "functions": {
+    "targetdir": "functions"
+  },
+  "client": {
+    "targetdir": "client"
+  }
+}

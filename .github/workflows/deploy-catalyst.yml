@@ -1,0 +1,47 @@
+name: Deploy to Catalyst
+
+# Auto-deploys the GTA-7 Catalyst project (client hosting + functions) on every
+# push to main that touches catalyst/. Also runnable on demand from the Actions tab.
+#
+# Requires one repo secret:
+#   CATALYST_TOKEN  — generate locally with `catalyst token:generate`, then add it
+#                     under Settings ▸ Secrets and variables ▸ Actions.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'catalyst/**'
+      - '.github/workflows/deploy-catalyst.yml'
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Catalyst CLI
+        run: npm install -g zcatalyst-cli
+
+      - name: Install function dependencies
+        working-directory: catalyst
+        run: |
+          for d in functions/*/; do
+            if [ -f "${d}package.json" ]; then
+              echo "Installing prod deps in ${d}"
+              (cd "$d" && npm install --omit=dev)
+            fi
+          done
+
+      - name: Deploy to Catalyst
+        working-directory: catalyst
+        env:
+          CATALYST_TOKEN: ${{ secrets.CATALYST_TOKEN }}
+        run: catalyst deploy --token "$CATALYST_TOKEN"

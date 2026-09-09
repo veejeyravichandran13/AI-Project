@@ -5,3 +5,7 @@ build/
 .env
 .env.*
 .vscode/
+
+# Catalyst build artifacts and local CLI state (regenerated on deploy)
+catalyst/**/*.zip
+.catalyst/
