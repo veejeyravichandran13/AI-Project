@@ -1,0 +1,315 @@
+{
+  "brand": {
+    "name": "Force Motors",
+    "slug": "force",
+    "country": "India",
+    "parent": null,
+    "indiaWebsite": "https://www.forcemotors.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Force_Motors",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "force-gurkha-3-door",
+      "brand": "Force Motors",
+      "model": "Gurkha 3-door",
+      "generation": "2024 onwards (BS6 Phase 2)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 4,
+        "s": "src-3"
+      },
+      "summary": "Short-wheelbase, body-on-ladder diesel off-roader with a 2.6 L engine, manual gearbox and low-range 4x4.",
+      "officialUrl": "https://forcegurkha.co.in/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Force_Gurkha",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3965,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1865,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 2080,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2400,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 233,
+          "s": "src-2"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 63.5,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "Driver and co-passenger airbags",
+          "ABS and EBD",
+          "Rear view camera",
+          "Speed-sensing door locks"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,50,000 km",
+        "s": "src-3"
+      },
+      "price": {
+        "minInr": {
+          "v": 1625013,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-mt-4x4",
+          "label": "2.6 L diesel · 5-speed manual · 4x4",
+          "fuel": "diesel",
+          "engine": "2.6 L 4-cylinder common-rail turbo diesel",
+          "displacementCc": {
+            "v": 2596,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 140,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual with low-range transfer case",
+          "efficiency": {
+            "value": 15,
+            "unit": "km/l",
+            "basis": "ARAI (with AC)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1625013,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Force Gurkha at service station (cropped).jpg",
+          "localPath": "/cars/force-gurkha-3-door-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AForce_Gurkha_at_service_station_(cropped).jpg",
+          "author": "The IT Guy",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "Front view of a current-generation (2024 onwards) Force Gurkha, India; roof rack fitted, door count not visible from this angle",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Force Gurkha – home (prices)",
+          "publisher": "Force Motors",
+          "url": "https://forcegurkha.co.in/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Force Gurkha – technical specifications",
+          "publisher": "Force Motors",
+          "url": "https://forcegurkha.co.in/explore/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Force Gurkha – FAQs",
+          "publisher": "Force Motors",
+          "url": "https://forcegurkha.co.in/faqs/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Single fully loaded variant; one price shown on the official site.",
+        "Official FAQ lists 3-door as 3+driver and 5-door as 6+driver; the Gurkha site's home page text mentions 4 captain seats for the 5-door. Max seating taken from FAQ (3-door: 4 incl. driver; 5-door: 7 incl. driver).",
+        "Kerb weight and boot volume not stated; the specifications page gives gross vehicle weight only.",
+        "No Global/Bharat NCAP rating found; Autocar India says it has not been tested.",
+        "Photo shows the current-generation Gurkha, but the door count is not discernible; the same file is used for both door versions."
+      ]
+    },
+    {
+      "id": "force-gurkha-5-door",
+      "brand": "Force Motors",
+      "model": "Gurkha 5-door",
+      "generation": "2024 onwards (BS6 Phase 2)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-3"
+      },
+      "summary": "Long-wheelbase five-door version of the Gurkha with a 2.6 L diesel, manual gearbox and low-range 4x4.",
+      "officialUrl": "https://forcegurkha.co.in/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Force_Gurkha",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4390,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1865,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 2095,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2825,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 233,
+          "s": "src-2"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 63.5,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "Driver and co-passenger airbags",
+          "ABS and EBD",
+          "Rear view camera",
+          "Speed-sensing door locks"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,50,000 km",
+        "s": "src-3"
+      },
+      "price": {
+        "minInr": {
+          "v": 1758013,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-mt-4x4",
+          "label": "2.6 L diesel · 5-speed manual · 4x4",
+          "fuel": "diesel",
+          "engine": "2.6 L 4-cylinder common-rail turbo diesel",
+          "displacementCc": {
+            "v": 2596,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 140,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual with low-range transfer case",
+          "efficiency": {
+            "value": 15,
+            "unit": "km/l",
+            "basis": "ARAI (with AC)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1758013,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Force Gurkha at service station (cropped).jpg",
+          "localPath": "/cars/force-gurkha-5-door-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AForce_Gurkha_at_service_station_(cropped).jpg",
+          "author": "The IT Guy",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "Front view of a current-generation (2024 onwards) Force Gurkha, India; roof rack fitted, door count not visible from this angle",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Force Gurkha – home (prices)",
+          "publisher": "Force Motors",
+          "url": "https://forcegurkha.co.in/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Force Gurkha – technical specifications",
+          "publisher": "Force Motors",
+          "url": "https://forcegurkha.co.in/explore/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Force Gurkha – FAQs",
+          "publisher": "Force Motors",
+          "url": "https://forcegurkha.co.in/faqs/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Single fully loaded variant; one price shown on the official site.",
+        "Official FAQ lists 3-door as 3+driver and 5-door as 6+driver; the Gurkha site's home page text mentions 4 captain seats for the 5-door. Max seating taken from FAQ (3-door: 4 incl. driver; 5-door: 7 incl. driver).",
+        "Kerb weight and boot volume not stated; the specifications page gives gross vehicle weight only.",
+        "No Global/Bharat NCAP rating found; Autocar India says it has not been tested.",
+        "Photo shows the current-generation Gurkha, but the door count is not discernible; the same file is used for both door versions."
+      ]
+    }
+  ]
+}

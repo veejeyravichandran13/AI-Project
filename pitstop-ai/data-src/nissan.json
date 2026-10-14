@@ -1,0 +1,828 @@
+{
+  "brand": {
+    "name": "Nissan",
+    "slug": "nissan",
+    "country": "Japan",
+    "parent": "Nissan Motor Co., Ltd.",
+    "indiaWebsite": "https://www.nissan.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "nissan-magnite",
+      "brand": "Nissan",
+      "model": "Magnite",
+      "generation": "1st generation (launched 2020; facelift)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Sub-4-metre compact SUV from Nissan India with 1.0 L naturally aspirated and turbo petrol engines.",
+      "officialUrl": "https://www.nissan.in/vehicles/new/nissan-magnite.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Magnite",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3994,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1758,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1572,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2500,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 205,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 336,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 3,
+          "year": 2025,
+          "protocol": "Global NCAP 2.0",
+          "s": "src-2",
+          "note": "July 2025 test of the 6-airbag car per Wikipedia: adult 32.31/34.00 (5 stars), child 33.61/49.00 (3 stars). CarDekho describes the 5-star rating as from a South African market test."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "55+ active and passive safety features (40+ standard)",
+          "360 Around View Monitor (Tekna onwards)"
+        ]
+      },
+      "warranty": {
+        "v": "10 years / 2,00,000 km (as stated by Nissan India)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 569400,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1099000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-na-mt",
+          "label": "1.0 L petrol (72 PS) · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-3"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 19.4,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 569400,
+            "s": "src-1"
+          },
+          "trims": []
+        },
+        {
+          "id": "petrol-na-amt",
+          "label": "1.0 L petrol (72 PS) · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-3"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 19.7,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-turbo-mt",
+          "label": "1.0 L turbo petrol (100 PS) · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 100,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 160,
+            "s": "src-3"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 19.9,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-turbo-cvt",
+          "label": "1.0 L turbo petrol (100 PS) · CVT",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 100,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 160,
+            "s": "src-3"
+          },
+          "transmission": "CVT",
+          "efficiency": {
+            "value": 17.9,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2020 Nissan Magnite front view (India) 01.png",
+          "localPath": "/cars/nissan-magnite-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Nissan_Magnite_front_view_(India)_01.png",
+          "author": "Hindi DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2020 Nissan Magnite front view, India-market launch car (pre-facelift).",
+          "match": "same-model-other-generation"
+        },
+        {
+          "file": "File:Nissan Magnite 01.jpg",
+          "localPath": "/cars/nissan-magnite-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ANissan_Magnite_01.jpg",
+          "author": "Ganesh Mohan T",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Nissan Magnite photographed in Kerala, March 2024 (pre-facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nissan India – Magnite page",
+          "publisher": "Nissan Motor India Pvt Ltd",
+          "url": "https://www.nissan.in/vehicles/new/nissan-magnite.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Nissan Magnite",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Nissan_Magnite",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Magnite",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/nissan/magnite",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Nissan India lists variant starting prices (engine/transmission mapping not stated): Visia 5,69,400; Visia+ 6,26,000; Acenta 6,87,000; N-Connecta 7,50,000; Tekna 8,43,000; Tekna+ 8,76,000. The base price is used for the naturally aspirated manual option only.",
+        "Maximum price (Tekna Plus Turbo CVT, 10.99 lakh), power, torque, mileage, boot and ground clearance are from CarDekho; Nissan India page does not state them.",
+        "CarDekho also lists a CNG option (24 km/kg); Nissan India describes a dealer-fitted retrofit kit, so it is not included as an option.",
+        "The 10 years / 2,00,000 km warranty is quoted as stated on the Nissan India page."
+      ]
+    },
+    {
+      "id": "nissan-gravite",
+      "brand": "Nissan",
+      "model": "Gravite",
+      "generation": "1st generation (launched India 2026)",
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "Compact seven-seat MPV from Nissan India based on the Renault Triber platform with a 1.0 L petrol engine.",
+      "officialUrl": "https://www.nissan.in/vehicles/new/nissan-gravite.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Triber",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3987,
+          "s": "src-3"
+        },
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 625,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "Electronic Stability Control",
+          "Tyre pressure monitoring",
+          "Traction control",
+          "Hill start assist"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 573400,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 938000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.0 L petrol (72 PS) · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 19.3,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 573400,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Visia",
+              "priceInr": {
+                "v": 573000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Acenta",
+              "priceInr": {
+                "v": 668000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "N-Connecta",
+              "priceInr": {
+                "v": 738000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Tekna",
+              "priceInr": {
+                "v": 808000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.0 L petrol (72 PS) · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-2"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 19.6,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nissan India – homepage (Gravite starting price)",
+          "publisher": "Nissan Motor India Pvt Ltd",
+          "url": "https://www.nissan.in/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Gravite",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/nissan/gravite",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Renault Triber (includes Nissan Gravite)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Renault_Triber",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price (INR 5,73,400) is from the Nissan India homepage; the Gravite model page on nissan.in could not be read, so most specs are from CarDekho (third-party).",
+        "Wikipedia lists Gravite length as 3,987 mm in the Renault Triber article, and says it was introduced 17 February 2026.",
+        "CarDekho lists a dealer-fitted CNG option (INR 82,999); not included as a separate option.",
+        "Variant prices from CarDekho are rounded lakh figures (5.73, 6.68, 7.38, 8.08); mapped to the manual petrol option as listed.",
+        "Not rated by Bharat NCAP per CarDekho; no Global NCAP rating found."
+      ]
+    },
+    {
+      "id": "nissan-tekton",
+      "brand": "Nissan",
+      "model": "Tekton",
+      "generation": "1st generation (launched India July 2026)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Mid-size SUV launched by Nissan India in 2026 with 1.0 L and 1.3 L turbo-petrol engines and 6-speed manual or DCT gearboxes.",
+      "officialUrl": "https://www.nissan.in/cf/vehicles/new/tekton",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Tekton",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4348,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1815,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1674,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2657,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 212,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 518,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": "Bharat NCAP (based on Latin NCAP 2016 standards, per Wikipedia)",
+          "s": "src-3",
+          "note": "Adult 30.49/32.00, child 45.00/49.00 per Wikipedia; Nissan India also states 5-star Bharat NCAP."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "40+ standard safety features",
+          "17+ ADAS systems (top variants)",
+          "62% high-strength steel monocoque"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1049000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1859000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-t160-mt",
+          "label": "1.0 L Turbo T160 MPFI · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L turbo petrol (T160 MPFI)",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 100,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 166,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 19.4,
+            "unit": "km/l",
+            "basis": "Claimed by Nissan India (test cycle not stated)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-t280-mt",
+          "label": "1.3 L Turbo T280 GDi · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.3 L turbo petrol (T280 GDi)",
+          "displacementCc": {
+            "v": 1333,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 17.8,
+            "unit": "km/l",
+            "basis": "Claimed by Nissan India (test cycle not stated)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-t280-dct",
+          "label": "1.3 L Turbo T280 GDi · 6-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.3 L turbo petrol (T280 GDi)",
+          "displacementCc": {
+            "v": 1333,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed DCT",
+          "efficiency": {
+            "value": 18.5,
+            "unit": "km/l",
+            "basis": "Claimed by Nissan India (test cycle not stated)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nissan India – Tekton page",
+          "publisher": "Nissan Motor India Pvt Ltd",
+          "url": "https://www.nissan.in/cf/vehicles/new/tekton",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Tekton",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/nissan/tekton",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Nissan Tekton",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Nissan_Tekton",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Nissan India lists trims Visia 10,49,000; Visia+ 11,14,000; Acenta 11,79,000; N-Connecta 13,69,000; Tekna 15,39,000; Tekna+ 16,49,000 (engine mapping not stated). CarDekho lists 12 variants up to 18.59 lakh, which is used as maxInr.",
+        "Wikipedia lists 1.0 L torque as 116 N.m, but Nissan India and CarDekho state 166 Nm (used).",
+        "Boot is 518 L to the parcel shelf (700 L to roof) per CarDekho. Displacement is from CarDekho.",
+        "Photo not found on Wikimedia Commons."
+      ]
+    },
+    {
+      "id": "nissan-x-trail",
+      "brand": "Nissan",
+      "model": "X-Trail",
+      "generation": "4th generation (T33, imported CBU)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "Premium three-row SUV from Nissan imported from Japan, powered by a 1.5 L VC-Turbo petrol engine with CVT.",
+      "officialUrl": "https://www.nissan.in/vehicles/new/x-trail.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_X-Trail",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4681,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1840,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1730,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2706,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 210,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 177,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2021,
+          "protocol": "Euro NCAP",
+          "s": "src-3",
+          "note": "Global/European-market X-Trail (adult 91%, child 90%); not tested on the India-spec car, which per CarDekho lacks ADAS."
+        },
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "7 airbags including front far-side airbag",
+          "360 degree Around View Monitor",
+          "Panoramic electric sunroof"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4820000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 4820000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-vc-turbo-cvt",
+          "label": "1.5 L VC-Turbo petrol · CVT",
+          "fuel": "petrol",
+          "engine": "1.5 L KR15 VC-Turbo 3-cylinder petrol",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 161,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 300,
+            "s": "src-2"
+          },
+          "transmission": "CVT",
+          "efficiency": {
+            "value": 10,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4820000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "STD",
+              "priceInr": {
+                "v": 4820000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024 Nissan X-Trail X e-4ORCE.jpg",
+          "localPath": "/cars/nissan-x-trail-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Nissan_X-Trail_X_e-4ORCE.jpg",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "2024 Nissan X-Trail X e-4ORCE (3-row), same fourth generation, different powertrain and market.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nissan India – X-Trail page",
+          "publisher": "Nissan Motor India Pvt Ltd",
+          "url": "https://www.nissan.in/vehicles/new/x-trail.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – X-Trail",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/nissan/x-trail",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Nissan X-Trail",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Nissan_X-Trail",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The Nissan India X-Trail page states no price or specifications; price, power, torque, mileage, clearance, boot (177 L, third row up) and seating are from CarDekho (third-party).",
+        "Dimensions are Wikipedia figures for the fourth-generation X-Trail and may differ slightly for the India CBU.",
+        "Mileage figure (about 10 km/l) is as listed by CarDekho under ARAI.",
+        "Euro NCAP 2021 rating applies to the European model."
+      ]
+    }
+  ]
+}

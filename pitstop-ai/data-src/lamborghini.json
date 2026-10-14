@@ -1,0 +1,417 @@
+{
+  "brand": {
+    "name": "Lamborghini",
+    "slug": "lamborghini",
+    "country": "Italy",
+    "parent": "Volkswagen Group (Audi AG)",
+    "indiaWebsite": "https://www.lamborghini.com/en-en",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "lamborghini-urus",
+      "brand": "Lamborghini",
+      "model": "Urus SE",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Lamborghini's plug-in hybrid super-SUV, sold in India in a single Urus SE variant with a twin-turbo V8 and electric motor.",
+      "officialUrl": "https://www.lamborghini.com/en-en",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Urus",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": {
+          "v": 1638,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 3003,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 454,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 85,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 2505,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "Electronic stability control",
+          "Adaptive cruise control",
+          "Lane departure warning",
+          "Blind-spot monitoring",
+          "360-degree camera"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 45700000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-phev",
+          "label": "4.0 L twin-turbo V8 plug-in hybrid · 8-speed automatic · AWD",
+          "fuel": "strong-hybrid",
+          "engine": "4.0 L twin-turbo V8 petrol with electric motor (plug-in hybrid)",
+          "displacementCc": {
+            "v": 3996,
+            "s": "src-2"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 811,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 950,
+            "s": "src-1"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 7.75,
+            "unit": "km/l",
+            "basis": "WLTP (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 45700000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Urus SE",
+              "priceInr": {
+                "v": 45700000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lamborghini Urus SE DSC 8521.jpg",
+          "localPath": "/cars/lamborghini-urus-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALamborghini_Urus_SE_DSC_8521.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear three-quarter view of a Lamborghini Urus SE in Germany (2025)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Urus",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lamborghini/urus",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Urus specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lamborghini/urus/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Lamborghini publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is the global Lamborghini site, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "Autocar's two pages disagree on length (5112 vs 5123 mm) and width (2016 vs 2022 mm); both omitted. Electric range 60 km is WLTP per Autocar; 25.9 kWh battery from the specifications page. Combined 800 hp, 950 Nm."
+      ]
+    },
+    {
+      "id": "lamborghini-temerario",
+      "brand": "Lamborghini",
+      "model": "Temerario",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Lamborghini's V8 plug-in hybrid mid-engined supercar that replaces the Huracan, with three electric motors and all-wheel drive.",
+      "officialUrl": "https://www.lamborghini.com/en-en",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Temerario",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4706,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1996,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1201,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2658,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "All-wheel drive with torque vectoring",
+          "8-speed dual-clutch transmission",
+          "800 V hybrid system"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 60000000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-hybrid",
+          "label": "4.0 L twin-turbo V8 hybrid · 8-speed DCT · AWD",
+          "fuel": "strong-hybrid",
+          "engine": "4.0 L twin-turbo V8 with three electric motors",
+          "displacementCc": {
+            "v": 3995,
+            "s": "src-2"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 933,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 800,
+            "s": "src-2"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 8.93,
+            "unit": "km/l",
+            "basis": "as quoted by Autocar India (test cycle not stated)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 60000000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lamborghini Temerario IMG 5364.jpg",
+          "localPath": "/cars/lamborghini-temerario-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALamborghini_Temerario_IMG_5364.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear three-quarter view of a Lamborghini Temerario in Germany (2026)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Temerario",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lamborghini/temerario",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Temerario specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lamborghini/temerario/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Lamborghini publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is the global Lamborghini site, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "920 hp is the combined system output; torque 800 Nm is combined. 3.8 kWh battery per the specifications page."
+      ]
+    },
+    {
+      "id": "lamborghini-revuelto",
+      "brand": "Lamborghini",
+      "model": "Revuelto",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Lamborghini's flagship V12 plug-in hybrid supercar with three electric motors and all-wheel drive.",
+      "officialUrl": "https://www.lamborghini.com/en-en",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Revuelto",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4947,
+          "s": "src-2"
+        },
+        "widthMm": null,
+        "heightMm": {
+          "v": 1160,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2779,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "8.4-inch vertical touchscreen",
+          "12.3-inch digital instrument cluster",
+          "9.1-inch passenger display"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 88900000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v12-hybrid",
+          "label": "6.5 L V12 plug-in hybrid · 8-speed DCT · AWD",
+          "fuel": "strong-hybrid",
+          "engine": "6.5 L naturally aspirated V12 with three electric motors",
+          "displacementCc": {
+            "v": 6499,
+            "s": "src-1"
+          },
+          "cylinders": 12,
+          "powerPs": {
+            "v": 1029,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 807,
+            "s": "src-1"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 8.4,
+            "unit": "km/l",
+            "basis": "WLTP (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 88900000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lamborghini Revuelto DSC 6987.jpg",
+          "localPath": "/cars/lamborghini-revuelto-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALamborghini_Revuelto_DSC_6987.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear view of a Lamborghini Revuelto in Germany (2024)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Revuelto",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lamborghini/revuelto",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Revuelto specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lamborghini/revuelto/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Lamborghini publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is the global Lamborghini site, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "1,015 hp is the combined output (825 hp V12 + 190 hp motors); 807 Nm combined. Width, kerb weight (a dry figure) omitted as ambiguous. Autocar lists an upcoming Revuelto Roadster, not yet on sale."
+      ]
+    }
+  ]
+}

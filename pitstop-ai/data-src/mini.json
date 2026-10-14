@@ -1,0 +1,629 @@
+{
+  "brand": {
+    "name": "MINI",
+    "slug": "mini",
+    "country": "Germany",
+    "parent": "BMW Group",
+    "indiaWebsite": "https://www.mini.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_(marque)",
+    "founded": null
+  },
+  "models": [
+    {
+      "brand": "MINI",
+      "generation": "Current generation (F66)",
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.mini.in/",
+      "id": "mini-3-door",
+      "model": "3 Door (Cooper S)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 4,
+        "s": "s1"
+      },
+      "summary": "Three-door MINI hatchback sold in India with a 2.0 L turbo-petrol Cooper S engine and automatic gearbox.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "9.4-inch OLED touchscreen",
+          "Head-up display",
+          "Panoramic sunroof",
+          "Adaptive cruise control",
+          "Wireless charging",
+          "LED lighting"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4445000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 5565000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s1"
+          },
+          "powerPs": null,
+          "torqueNm": {
+            "v": 300,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 15.6,
+            "unit": "km/l",
+            "basis": "claimed combined (ARAI/WLTP not specified)",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-dct",
+          "label": "2.0 L turbo-petrol (Cooper S) · DCT",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo-petrol",
+          "transmission": "Dual-clutch automatic (source says 8-speed)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mini Hatch (F66) IMG 8765.jpg",
+          "localPath": "/cars/mini-3-door-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMini_Hatch_(F66)_IMG_8765.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "MINI Hatch (F66) Cooper S photographed in Stuttgart, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "Autocar India – MINI 3-Door",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/mini/3-door",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – MINI models list",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/mini",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "mini.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against mini.in. Prices are ex-showroom as listed by the source on the retrieval date.",
+        "Autocar's header range is 44.45-55.65 lakh but its variant list shows 51.79/55.34/64.84 lakh, which appear to be on-road figures, so variant prices are not recorded. Power is stated only as '204 hp' (unit ambiguous), so powerPs is null. The older CarDekho 3 Door page is marked discontinued (Dec 2025) and shows the previous generation; it is not used. A search result says the MINI Cooper 3-door earned 5 stars in Euro NCAP, but no test page was fetched, so ncap is null."
+      ]
+    },
+    {
+      "brand": "MINI",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.mini.in/",
+      "id": "mini-cooper-convertible",
+      "model": "Cooper Convertible (S)",
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "s1"
+      },
+      "summary": "Four-seat soft-top MINI convertible with a 2.0 L turbo-petrol engine and 7-speed dual-clutch gearbox.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 160,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "ABS with EBD",
+          "Dynamic stability control",
+          "Lane departure warning",
+          "Front collision warning",
+          "Driver attentiveness alert"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5900000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 6290000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 204,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 300,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 16.82,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5900000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "Cooper Convertible S",
+              "priceInr": {
+                "v": 5900000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "Cooper Convertible JCW Pack",
+              "priceInr": {
+                "v": 6150000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "Cooper Convertible Stardust Edition",
+              "priceInr": {
+                "v": 6290000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-dct",
+          "label": "2.0 L turbo-petrol (Cooper S) · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo-petrol",
+          "transmission": "7-speed dual-clutch automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mini Cabrio (F67) DSC 7949.jpg",
+          "localPath": "/cars/mini-cooper-convertible-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMini_Cabrio_(F67)_DSC_7949.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "MINI Cabrio (F67) in Esslingen, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – MINI Cooper Convertible",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mini/cooper-convertible",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – MINI Cooper Convertible",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/mini/cooper-convertible",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "mini.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against mini.in. Prices are ex-showroom as listed by the source on the retrieval date.",
+        "Body type recorded as 'coupe' because the schema has no convertible type. Boot is stated as 160-215 L (lower value recorded). CarDekho says 2 airbags and Autocar says 6, so airbags are null. ARAI mileage is 16.82 km/l on CarDekho and 16.39 km/l on Autocar; CarDekho used. Autocar's variant prices are on-road and not used. JCW pack price 61.50 lakh as listed by CarDekho."
+      ]
+    },
+    {
+      "brand": "MINI",
+      "generation": "Current generation (U25)",
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.mini.in/",
+      "id": "mini-countryman",
+      "model": "Countryman (petrol)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "s2"
+      },
+      "summary": "Compact premium SUV from MINI sold in India with a 1.5 L petrol (Countryman C) and a 2.0 L John Cooper Works ALL4.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 149,
+          "s": "s1"
+        },
+        "bootLitres": {
+          "v": 500,
+          "s": "s2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2024,
+          "protocol": null,
+          "s": "s3",
+          "note": "MINI Countryman earned 5 stars in Euro NCAP's December 2024 release; variant tested and percentage scores not stated in the source. European-spec test, not India-spec."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Front and rear parking sensors",
+          "Electronic stability control",
+          "TPMS",
+          "ISOFIX anchors",
+          "Hill hold assist",
+          "360-degree camera",
+          "Level 2 ADAS"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4750000,
+          "s": "s2"
+        },
+        "maxInr": {
+          "v": 6615000,
+          "s": "s2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1499,
+            "s": "s2"
+          },
+          "powerPs": {
+            "v": 158,
+            "s": "s2"
+          },
+          "torqueNm": {
+            "v": 240,
+            "s": "s2"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4750000,
+            "s": "s2"
+          },
+          "trims": [
+            {
+              "name": "Countryman C",
+              "priceInr": {
+                "v": 4750000,
+                "s": "s2"
+              }
+            }
+          ],
+          "id": "petrol-c",
+          "label": "1.5 L petrol (Countryman C) · 7-speed DCT · FWD",
+          "fuel": "petrol",
+          "engine": "1.5 L petrol",
+          "transmission": "7-speed dual-clutch automatic (FWD)"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s2"
+          },
+          "powerPs": {
+            "v": 312,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6615000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "Countryman JCW ALL4",
+              "priceInr": {
+                "v": 6615000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-jcw",
+          "label": "2.0 L turbo-petrol (JCW ALL4) · 7-speed DCT · AWD",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo-petrol",
+          "transmission": "7-speed dual-clutch automatic (ALL4 AWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mini Countryman (U25) 1X7A1818.jpg",
+          "localPath": "/cars/mini-countryman-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMini_Countryman_(U25)_1X7A1818.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "MINI Countryman (U25) rear three-quarter view, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – MINI Countryman",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mini/countryman",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – MINI Countryman",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/mini/countryman",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s3",
+          "type": "ncap",
+          "label": "BMW Group press – Euro NCAP 5 stars for the new MINI Countryman",
+          "publisher": "BMW Group",
+          "url": "https://www.press.bmwgroup.com/global/article/detail/T0446799EN/euro-ncap-test:-top-5-star-rating-for-the-new-mini-countryman",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "mini.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against mini.in. Prices are ex-showroom as listed by the source on the retrieval date.",
+        "Countryman C power converted from 156 bhp (x1.0139 = 158 PS). JCW power: CarDekho says 296 bhp (312 PS claimed), Autocar says 300 bhp; 312 PS used. Autocar quotes 15.4-15.92 km/l (WLTP) as a combined range without a per-variant split, so efficiency is null. The NCAP source is a manufacturer press release, not the Euro NCAP site."
+      ]
+    },
+    {
+      "brand": "MINI",
+      "generation": "Current generation (U25)",
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.mini.in/",
+      "id": "mini-countryman-electric",
+      "model": "Countryman Electric",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "s2"
+      },
+      "summary": "Battery-electric Countryman with a 66 kWh battery and front-wheel drive, sold in India alongside the petrol Countryman.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 460,
+          "s": "s2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2024,
+          "protocol": null,
+          "s": "s3",
+          "note": "Rating is for the MINI Countryman range as announced by BMW Group in Dec 2024 (variant not stated); European-spec test, not India-spec."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Panoramic sunroof",
+          "Rear-view camera",
+          "Electronic stability control",
+          "LED headlamps",
+          "9.4-inch round OLED infotainment",
+          "Heated steering wheel"
+        ]
+      },
+      "warranty": {
+        "v": "2 years / unlimited km",
+        "s": "s2"
+      },
+      "price": {
+        "minInr": {
+          "v": 5490000,
+          "s": "s2"
+        },
+        "maxInr": {
+          "v": 6690000,
+          "s": "s2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 204,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 66.4,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 462,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "22 kW AC: about 3 h 45 min",
+              "s": "s2"
+            },
+            "dcFastChargeNote": {
+              "v": "130 kW DC: 10-80% in about 29 min",
+              "s": "s1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 5490000,
+            "s": "s2"
+          },
+          "trims": [
+            {
+              "name": "Countryman Electric S",
+              "priceInr": {
+                "v": 5565000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "Countryman Electric Favoured Pack",
+              "priceInr": {
+                "v": 6070000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-fwd",
+          "label": "66.4 kWh · single motor · FWD",
+          "fuel": "ev",
+          "engine": "Single electric motor (front axle)",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:MINI U25E Countryman SE ALL4 Favoured Smokey Green (1).jpg",
+          "localPath": "/cars/mini-countryman-electric-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMINI_U25E_Countryman_SE_ALL4_Favoured_Smokey_Green_(1).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "MINI Countryman Electric (U25E) SE ALL4 on display at a MINI event.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – MINI Countryman Electric",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mini/countryman-electric",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – MINI Countryman Electric",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/mini/countryman-electric",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s3",
+          "type": "ncap",
+          "label": "BMW Group press – Euro NCAP 5 stars for the new MINI Countryman",
+          "publisher": "BMW Group",
+          "url": "https://www.press.bmwgroup.com/global/article/detail/T0446799EN/euro-ncap-test:-top-5-star-rating-for-the-new-mini-countryman",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "mini.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against mini.in. Prices are ex-showroom as listed by the source on the retrieval date.",
+        "Range 462 km is a WLTP figure per CarDekho (Autocar: 433-462 km WLTP); the schema's range standard field allows only ARAI MIDC/null, so it is null. Battery 66.4 kWh (CarDekho) vs 66.45 kWh (Autocar). Prices: Autocar lists 54.90-59.95 lakh on the model page but 54.90-66.90 lakh on its brand list (the top figure appears to include an SE ALL4 variant shown at 71.25 lakh on-road); CarDekho shows 55.65 lakh (S) and 60.70 lakh (Favoured Pack) with a 54.90 lakh introductory price. Airbags: CarDekho says 2, Autocar says 6-8, so null. The NCAP source is a manufacturer press release covering the Countryman range."
+      ]
+    }
+  ]
+}

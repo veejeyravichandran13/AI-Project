@@ -1,0 +1,456 @@
+{
+  "brand": {
+    "name": "Lotus",
+    "slug": "lotus",
+    "country": "China",
+    "parent": "Geely Holding Group",
+    "indiaWebsite": "https://www.lotuscars.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Cars",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "lotus-emira",
+      "brand": "Lotus",
+      "model": "Emira",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Lotus's mid-engined two-seat sports coupe, Lotus India's only petrol model, offered with a turbo four or a supercharged V6.",
+      "officialUrl": "https://www.lotuscars.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Emira",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4412,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1895,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1225,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2575,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 140,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 151,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 52.5,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1446,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "10.25-inch touchscreen with Apple CarPlay and Android Auto",
+          "12.3-inch digital driver display",
+          "KEF sound system",
+          "ADAS features"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 32200000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "2.0-turbo-dct",
+          "label": "2.0 L turbo petrol · 8-speed DCT · RWD",
+          "fuel": "petrol",
+          "engine": "2.0 L turbocharged 4-cylinder",
+          "displacementCc": {
+            "v": 1991,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 370,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 430,
+            "s": "src-2"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 32200000,
+            "s": "src-1"
+          },
+          "trims": []
+        },
+        {
+          "id": "3.5-v6",
+          "label": "3.5 L supercharged V6 · 8-speed DCT or 6-speed manual · RWD",
+          "fuel": "petrol",
+          "engine": "3.5 L supercharged V6",
+          "displacementCc": null,
+          "cylinders": 6,
+          "powerPs": {
+            "v": 412,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "8-speed dual-clutch or 6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lotus Emira IMG 8023.jpg",
+          "localPath": "/cars/lotus-emira-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_Emira_IMG_8023.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of a Lotus Emira in Stuttgart, Germany (2023)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Emira",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lotus/emira",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Emira specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lotus/emira/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Lotus publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Autocar lists five trims across the two powertrains but gives no per-trim prices; 3.22 crore is the starting price. The specifications page details only the 2.0 L turbo; whether both engines are sold in India is not confirmed beyond Autocar's description. V6 displacement/torque not stated. Mileage (4-7 km/l real-world only) omitted."
+      ]
+    },
+    {
+      "id": "lotus-emeya",
+      "brand": "Lotus",
+      "model": "Emeya",
+      "generation": null,
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Lotus's all-electric four-door hyper-GT with a 102 kWh battery and dual motors, sold in India in one variant.",
+      "officialUrl": "https://www.lotuscars.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Emeya",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5139,
+          "s": "src-2"
+        },
+        "widthMm": null,
+        "heightMm": {
+          "v": 1459,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3069,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 141,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 509,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 2490,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Adaptive cruise control",
+          "Rear entertainment screens",
+          "Heated front seats"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 29500000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-awd",
+          "label": "102 kWh · dual-motor AWD",
+          "fuel": "ev",
+          "engine": "Dual electric motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 102,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 610,
+              "s": "src-1"
+            },
+            "rangeStandard": "WLTP",
+            "acChargeNote": {
+              "v": "11 kW AC: about 10 h 45 min (0-100%)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "150 kW DC: about 35 min (10-80%)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 29500000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lotus Emeya 002.jpg",
+          "localPath": "/cars/lotus-emeya-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_Emeya_002.jpg",
+          "author": "JustAnotherCarDesigner",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "caption": "Rear three-quarter view of a Lotus Emeya (Chinese-registered car)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Emeya",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lotus/emeya",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Emeya specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lotus/emeya/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Lotus publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Power and torque left null: Autocar's model page gives 918 hp / 985 Nm (Emeya R) while its specifications page gives 603 hp / 710 Nm, and it is unclear which applies to the single India variant. Width omitted (2241 mm, likely incl. mirrors). Autocar also quotes 350 kW DC charging (20 min) as not yet available in India."
+      ]
+    },
+    {
+      "id": "lotus-eletre",
+      "brand": "Lotus",
+      "model": "Eletre",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Lotus's all-electric performance SUV with a 112 kWh battery and all-wheel drive, sold in three variants.",
+      "officialUrl": "https://www.lotuscars.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Eletre",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5103,
+          "s": "src-2"
+        },
+        "widthMm": null,
+        "heightMm": {
+          "v": 1636,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3019,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 194,
+          "s": "src-2"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 2640,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Panoramic sunroof",
+          "Rear entertainment screens",
+          "Adaptive cruise control",
+          "4-zone climate control"
+        ]
+      },
+      "warranty": {
+        "v": "5 years / 1,50,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 25500000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 29900000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-awd",
+          "label": "112 kWh · dual-motor AWD",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 112,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 600,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "22 kW AC: about 5.8 h (0-100%)",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "350 kW DC: about 20 min (10-80%)",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 25500000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lotus Eletre 004.jpg",
+          "localPath": "/cars/lotus-eletre-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_Eletre_004.jpg",
+          "author": "JustAnotherCarDesigner",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Lotus Eletre photographed in 2022 (pre-production/China display car)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Eletre",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lotus/eletre",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Eletre specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/lotus/eletre/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Lotus publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Per-variant ex-showroom prices not given (the EV / EV S / EV R figures on the page are on-road); price range is 2.55-2.99 crore ex-showroom. Power/torque left null: 905 hp / 985 Nm is quoted without saying which variant. Claimed range is 600 km (ARAI) on the model page; the specifications page says 490 km (also '490-600 km depending on variant'). Width omitted (likely incl. mirrors)."
+      ]
+    }
+  ]
+}

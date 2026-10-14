@@ -1,0 +1,940 @@
+{
+  "brand": {
+    "name": "BYD",
+    "slug": "byd",
+    "country": "China",
+    "parent": "BYD Company Ltd",
+    "indiaWebsite": "https://bydautoindia.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/BYD_Auto",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "byd-atto-3",
+      "brand": "BYD",
+      "model": "Atto 3",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat electric SUV sold with 49.92 kWh and 60.48 kWh Blade batteries and a claimed ARAI range of up to 521 km.",
+      "officialUrl": "https://bydautoindia.com/bydatto3",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4455,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1875,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1615,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2720,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 440,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2022,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the European-market Atto 3 (adult occupant 91%, child occupant 89%); not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "7 airbags",
+          "360-degree camera",
+          "ADAS on higher variants"
+        ]
+      },
+      "warranty": {
+        "v": "8 years / 1,60,000 km (as listed by Autocar India; likely applies to the battery)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 2499000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 3449000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-49",
+          "label": "49.92 kWh Blade battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 310,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 49.92,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 468,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "7 kW AC",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "DC fast charge up to 70 kW; ~50 min for 0-80%",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2499000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Dynamic",
+              "priceInr": {
+                "v": 2499000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-60",
+          "label": "60.48 kWh Blade battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 310,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 60.48,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 521,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "7 kW AC",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "DC fast charge up to 80 kW; ~50 min for 0-80%",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "Superior",
+              "priceInr": {
+                "v": 3449000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BYD Atto 3 front-left.jpg",
+          "localPath": "/cars/byd-atto-3-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABYD_Atto_3_front-left.jpg",
+          "author": "Hubert Berberich (HubiB)",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "BYD Atto 3 front-left view, Mannheim, Germany (January 2023); European-market car",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – BYD Atto 3",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/byd/atto-3",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – BYD Atto 3",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/BYD_Atto_3/BYD_Atto_3.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "BYD Auto India – Atto 3 page (JS-rendered; no spec text retrievable)",
+          "publisher": "BYD India Pvt Ltd",
+          "url": "https://bydautoindia.com/bydatto3",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "BYD – Atto 3 scores five-star rating in Euro NCAP safety tests",
+          "publisher": "BYD Europe",
+          "url": "https://www.byd.com/eu/news-list/BYD-ATTO3-Scores-Five-Star-Rating-in-Euro-NCAP-Safety-Tests",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "BYD India's official site is a JavaScript app and returned no spec or price text, so all values come from Autocar India and CarDekho; only values where the two agree (or that one explicitly states and the other does not contradict) are used. Prices were revised several times in 2026 and sources lag, so treat prices as indicative.",
+        "Power: Autocar India states 204 hp; CarDekho states 150 kW (150 kW x 1.3596 = ~204 PS). Premium variant price conflicts (Rs 30.35 lakh vs Rs 32.33 lakh), so it is omitted; Dynamic and Superior prices agree across both sources.",
+        "Ground clearance not stated by either source. 60.48 kWh option has no confirmed lowest price.",
+        "Euro NCAP gives percentage scores, not per-category stars, so adult/child star fields are null."
+      ]
+    },
+    {
+      "id": "byd-seal",
+      "brand": "BYD",
+      "model": "Seal",
+      "generation": null,
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat electric sedan offered in 61.44 kWh and 82.56 kWh battery forms, with a claimed ARAI range of up to 650 km.",
+      "officialUrl": "https://bydautoindia.com/bydseal",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4800,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1875,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1460,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2920,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 145,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 400,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2023,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the European-market Seal (adult occupant 89%, child occupant 87%); not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "9 airbags",
+          "360-degree camera",
+          "Level-2 ADAS",
+          "Heat pump AC"
+        ]
+      },
+      "warranty": {
+        "v": "6 years / 1,50,000 km (as listed by Autocar India)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 4150000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 5365000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "dynamic",
+          "label": "Dynamic · 61.44 kWh · rear motor",
+          "fuel": "ev",
+          "engine": "Single rear permanent magnet synchronous motor (150 kW)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 61.44,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 510,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "7 kW AC (max)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "DC fast charging up to 110 kW (Dynamic) / 150 kW (larger battery)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 4150000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Dynamic",
+              "priceInr": {
+                "v": 4150000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "premium",
+          "label": "Premium · 82.56 kWh · rear motor",
+          "fuel": "ev",
+          "engine": "Single rear permanent magnet synchronous motor (230 kW)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 313,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 82.56,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 650,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "7 kW AC (max)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "DC fast charging up to 110 kW (Dynamic) / 150 kW (larger battery)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "performance",
+          "label": "Performance · 82.56 kWh · dual motor AWD",
+          "fuel": "ev",
+          "engine": "Dual permanent magnet synchronous motors (390 kW)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 530,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 82.56,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 580,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "7 kW AC (max)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "DC fast charging up to 110 kW (Dynamic) / 150 kW (larger battery)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 5365000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Performance",
+              "priceInr": {
+                "v": 5365000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BYD Seal IAA 2023 1X7A0371.jpg",
+          "localPath": "/cars/byd-seal-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABYD_Seal_IAA_2023_1X7A0371.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BYD Seal at IAA Mobility 2023, Munich, Germany; European-market car",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – BYD Seal",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/byd/seal",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – BYD Seal",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/BYD_Seal/BYD_Seal.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "BYD Auto India – Seal page (JS-rendered; no spec text retrievable)",
+          "publisher": "BYD India Pvt Ltd",
+          "url": "https://bydautoindia.com/bydseal",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "BYD – Dolphin and Seal awarded 5 stars in Euro NCAP safety tests",
+          "publisher": "BYD Europe",
+          "url": "https://www.byd.com/eu/blog/BYD-DOLPHIN-and-SEAL-demonstrate-excellent-safety-levels-5-star-Euro-NCAP-rating",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "BYD India's official site is a JavaScript app and returned no spec or price text, so all values come from Autocar India and CarDekho; only values where the two agree (or that one explicitly states and the other does not contradict) are used. Prices were revised several times in 2026 and sources lag, so treat prices as indicative.",
+        "Power in PS is taken from Autocar India (204 / 313 / 530 hp), consistent with CarDekho's kW (150 / 230 / 390 kW x 1.3596). Torque is null because the two sources disagree. Premium price conflicts (Rs 46.20 vs 46.50 lakh) so is omitted.",
+        "Dimensions, ground clearance (145 mm) and 6-year warranty are from Autocar India only; 400 L boot is on both (plus a 50 L frunk).",
+        "Euro NCAP gives percentage scores, not per-category stars, so adult/child star fields are null."
+      ]
+    },
+    {
+      "id": "byd-emax-7",
+      "brand": "BYD",
+      "model": "eMAX 7",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "A six- or seven-seat electric MPV with a 71.8 kWh Blade battery and a claimed 530 km NEDC range.",
+      "officialUrl": "https://bydautoindia.com/bydemax7",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4710,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1810,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1690,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2800,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 580,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Level-2 ADAS (Superior only)"
+        ]
+      },
+      "warranty": {
+        "v": "6 years / 1,50,000 km; Blade Battery 8 years / 1,60,000 km (as listed by Autocar India)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 2790000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 3185000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "comfort",
+          "label": "Comfort · 71.8 kWh · 120 kW motor",
+          "fuel": "ev",
+          "engine": "Front permanent magnet synchronous motor (120 kW)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 310,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 71.8,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 530,
+              "s": "src-1"
+            },
+            "rangeStandard": "NEDC",
+            "acChargeNote": {
+              "v": "7 kW AC",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "Up to 115 kW DC (both sources)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2790000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Comfort 6-seater",
+              "priceInr": {
+                "v": 2790000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Comfort 7-seater",
+              "priceInr": {
+                "v": 3015000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "superior",
+          "label": "Superior · 71.8 kWh · 150 kW motor",
+          "fuel": "ev",
+          "engine": "Front permanent magnet synchronous motor (150 kW)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 310,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 71.8,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 530,
+              "s": "src-1"
+            },
+            "rangeStandard": "NEDC",
+            "acChargeNote": {
+              "v": "7 kW AC",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "Up to 115 kW DC (both sources)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "Superior 6-seater",
+              "priceInr": {
+                "v": 3121000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Superior 7-seater",
+              "priceInr": {
+                "v": 3185000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BYD eMAX 7 Superior Captain Crystal White.jpg",
+          "localPath": "/cars/byd-emax-7-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABYD_eMAX_7_Superior_Captain_Crystal_White.jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BYD eMAX 7 Superior Captain in Crystal White, photographed in the Philippines (August 2025); Philippine-market car",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – BYD eMax 7",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/byd/emax-7",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – BYD eMAX 7",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/BYD_eMAX_7/BYD_eMAX_7.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "BYD Auto India – eMAX 7 page (JS-rendered; no spec text retrievable)",
+          "publisher": "BYD India Pvt Ltd",
+          "url": "https://bydautoindia.com/bydemax7",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "BYD India's official site is a JavaScript app and returned no spec or price text, so all values come from Autocar India and CarDekho; only values where the two agree (or that one explicitly states and the other does not contradict) are used. Prices were revised several times in 2026 and sources lag, so treat prices as indicative.",
+        "Prices follow Autocar India (Rs 27.90-31.85 lakh, Comfort and Superior only). CarDekho lists a Premium trim and lower prices (Rs 26.90-29.90 lakh) that look like launch prices; the discrepancy is unresolved.",
+        "Range is quoted on the NEDC cycle by both sources, not ARAI. A 55.4 kWh / 420 km pack exists in some markets but Autocar India says it is not currently offered in India, so it is excluded.",
+        "Power: Autocar India states 163 hp / 204 hp; CarDekho states 120 kW / 150 kW (x 1.3596 = ~163 / ~204 PS). Ground clearance and NCAP rating not stated; Euro NCAP rating for this model not found."
+      ]
+    },
+    {
+      "id": "byd-sealion-7",
+      "brand": "BYD",
+      "model": "Sealion 7",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat electric SUV with an 82.56 kWh Blade battery in rear-drive and dual-motor all-wheel-drive forms, claimed ARAI range up to 567 km.",
+      "officialUrl": "https://bydautoindia.com/",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4830,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1925,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1620,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2930,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 170,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 500,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2025,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the European-market Sealion 7 (adult occupant 87%, child occupant 93%); not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "ADAS suite",
+          "360-degree camera"
+        ]
+      },
+      "warranty": {
+        "v": "6 years / 1,50,000 km (as listed by Autocar India)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 4190000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 5590000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "premium-rwd",
+          "label": "Premium · 82.56 kWh · rear-wheel drive",
+          "fuel": "ev",
+          "engine": "Single rear permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 312,
+            "s": "src-2"
+          },
+          "torqueNm": null,
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 82.56,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 567,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "performance-awd",
+          "label": "Performance · 82.56 kWh · dual-motor AWD",
+          "fuel": "ev",
+          "engine": "Dual permanent magnet synchronous motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 530,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 690,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 82.56,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 542,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 5590000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Performance",
+              "priceInr": {
+                "v": 5590000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BYD Sealion 07 EV DSC 8264.jpg",
+          "localPath": "/cars/byd-sealion-7-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABYD_Sealion_07_EV_DSC_8264.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BYD Sealion 07 EV photographed in Boeblingen, Germany (March 2025); European-market car",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – BYD Sealion 7",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/byd/sealion-7",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – BYD Sealion 7",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/BYD_Sealion_7/BYD_Sealion_7.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "BYD – Sealion 7 scores maximum five-star Euro NCAP safety rating",
+          "publisher": "BYD Auto",
+          "url": "https://www.byd.com/za/news-list/byd-sealion-7-scores-maximum-five-star-euro-ncap-safety-rating",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "BYD India's official site is a JavaScript app and returned no spec or price text, so all values come from Autocar India and CarDekho; only values where the two agree (or that one explicitly states and the other does not contradict) are used. Prices were revised several times in 2026 and sources lag, so treat prices as indicative.",
+        "The Dynamic variant (Rs 41.90 lakh on both sources) is described inconsistently (CarDekho: 71.8 kWh / 520 km; Autocar India: 82.56 kWh / 567 km), so it is not given an option; it sets the minimum price. Premium price conflicts (Rs 48.90 vs 49.90 lakh) so is omitted.",
+        "Premium power is CarDekho's 308 bhp converted (x1.0139 = ~312 PS); Performance 530 hp (Autocar) / 523 bhp (CarDekho). Premium torque and charging figures conflict or are absent, so are null. Airbag count conflicts (11 vs 8) and is null.",
+        "The BYD India site page for this model could not be verified, so officialUrl is the BYD India homepage."
+      ]
+    }
+  ]
+}

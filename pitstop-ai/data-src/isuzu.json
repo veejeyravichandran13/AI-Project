@@ -1,0 +1,594 @@
+{
+  "brand": {
+    "name": "Isuzu",
+    "slug": "isuzu",
+    "country": "Japan",
+    "parent": "Isuzu Motors Ltd",
+    "indiaWebsite": "https://www.isuzu.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "isuzu-mu-x",
+      "brand": "Isuzu",
+      "model": "MU-X",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Isuzu's body-on-frame seven-seat diesel SUV in India, sold with a 1.9 L turbo diesel and 6-speed automatic in 4x2 and 4x4 forms.",
+      "officialUrl": "https://www.isuzu.in/mux.php",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_MU-X",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4825,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1860,
+          "s": "src-3"
+        },
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2845,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 230,
+          "s": "src-3"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 55,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "Electronic stability control",
+          "Traction control",
+          "Hill descent control",
+          "3 ISOFIX anchorages",
+          "Rear parking camera",
+          "Engine immobilizer"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 3453000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 3771000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-at-4x2",
+          "label": "1.9 L diesel · 6-speed automatic · 4x2",
+          "fuel": "diesel",
+          "engine": "1.9 L RZ4E-TC turbo diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1898,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": {
+            "value": 12.31,
+            "unit": "km/l",
+            "basis": "ARAI (lower end of published 12.3-13 range; not split by drivetrain)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 3453000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "4x2 AT",
+              "priceInr": {
+                "v": 3453000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at-4x4",
+          "label": "1.9 L diesel · 6-speed automatic · 4x4",
+          "fuel": "diesel",
+          "engine": "1.9 L RZ4E-TC turbo diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1898,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": {
+            "value": 12.31,
+            "unit": "km/l",
+            "basis": "ARAI (lower end of published 12.3-13 range; not split by drivetrain)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 3771000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "4x4 AT",
+              "priceInr": {
+                "v": 3771000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Isuzu MU-X RJ 1.9 LS RZ4E 4x2 Mercury Silver.jpg",
+          "localPath": "/cars/isuzu-mu-x-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AIsuzu_MU-X_RJ_1.9_LS_RZ4E_4x2_Mercury_Silver.jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Second-generation Isuzu MU-X 1.9 L 4x2 photographed in 2025 (non-India registration)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Isuzu Motors India – mu-X page",
+          "publisher": "Isuzu Motors India",
+          "url": "https://www.isuzu.in/mux.php",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Isuzu MU-X",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/isuzu/mu-x",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India – Isuzu MU-X specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/isuzu/mu-x/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – Isuzu MU-X",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/isuzu/mu-x",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Isuzu's site shows no prices; prices are third-party ex-showroom (CarDekho and Autocar India agree on 34.53-37.71 lakh).",
+        "Power: Isuzu states 120 kW (163 hp); 120 kW x 1.3596 = 163 PS.",
+        "Boot volume omitted: CarDekho says 878 L, Autocar India says 235 L (seats up) - disagreement. Height omitted: Autocar India lists 1860 mm, identical to width, likely an error.",
+        "No Global/Bharat NCAP rating for the India-spec model was found; ASEAN NCAP/ANCAP ratings exist for other-market versions only, so none recorded.",
+        "Warranty not stated on the Isuzu page fetched."
+      ]
+    },
+    {
+      "id": "isuzu-d-max-v-cross",
+      "brand": "Isuzu",
+      "model": "D-Max V-Cross",
+      "generation": null,
+      "bodyType": "pickup",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Lifestyle double-cab pickup with a 1.9 L turbo diesel, 4WD and a choice of 6-speed manual or automatic.",
+      "officialUrl": "https://www.isuzu.in/vcross.php",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_D-Max",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5295,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1860,
+          "s": "src-1"
+        },
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 3095,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 55,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "ABS with EBD",
+          "Traction control",
+          "Electronic stability control",
+          "Hill descent control",
+          "Hill start assist",
+          "ISOFIX anchorages",
+          "Side anti-intrusion bars"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 2550000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 3000000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-mt-4x4",
+          "label": "1.9 L diesel · 6-speed manual · 4x4",
+          "fuel": "diesel",
+          "engine": "1.9 L RZ4E-TC turbo diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1898,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 12.4,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2550000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Z 4X4 MT",
+              "priceInr": {
+                "v": 2550000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Z Prestige 4X4 MT",
+              "priceInr": {
+                "v": 2850000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at-4x4",
+          "label": "1.9 L diesel · 6-speed automatic · 4x4",
+          "fuel": "diesel",
+          "engine": "1.9 L RZ4E-TC turbo diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1898,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": {
+            "value": 12.4,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 3000000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Z Prestige 4X4 AT",
+              "priceInr": {
+                "v": 3000000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Isuzu D-max V-cross.JPG",
+          "localPath": "/cars/isuzu-d-max-v-cross-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AIsuzu_D-max_V-cross.JPG",
+          "author": "Bcarkhabri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Isuzu D-Max V-Cross at Auto Expo 2016, India (pre-facelift styling)",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Isuzu Motors India – V-Cross page",
+          "publisher": "Isuzu Motors India",
+          "url": "https://www.isuzu.in/vcross.php",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Isuzu D-Max V-Cross",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/isuzu/d-max-v-cross",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Isuzu's site shows no prices; prices are Autocar India ex-showroom (Z 4X4 MT 25.50 lakh, Z Prestige 4X4 MT 28.50 lakh, Z Prestige 4X4 AT 30.00 lakh). CarDekho cites 25.52-30.96 lakh for a similar range.",
+        "Isuzu's page gives six airbags on Prestige variants and dual front on the base model, so a single standard figure is left null.",
+        "Power: Isuzu states 120 kW (163 hp); 120 kW x 1.3596 = 163 PS.",
+        "Photo is the 2016 Auto Expo car, older styling than the current model.",
+        "No NCAP rating for the India-spec model found."
+      ]
+    },
+    {
+      "id": "isuzu-d-max-hi-lander",
+      "brand": "Isuzu",
+      "model": "D-Max Hi-Lander",
+      "generation": null,
+      "bodyType": "pickup",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Two-wheel-drive double-cab lifestyle pickup with the 1.9 L turbo diesel and a choice of 6-speed manual or automatic.",
+      "officialUrl": "https://www.isuzu.in/hilander.php",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_D-Max",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5295,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1860,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1785,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 3095,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 55,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "Electronic stability control",
+          "Traction control",
+          "Hill descent control",
+          "Brake override system",
+          "ISOFIX anchorages",
+          "Rear parking camera and sensors"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 2105000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2360000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-mt-2wd",
+          "label": "1.9 L diesel · 6-speed manual · 2WD",
+          "fuel": "diesel",
+          "engine": "1.9 L RZ4E-TC turbo diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1898,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2105000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "2WD Diesel Turbo Manual",
+              "priceInr": {
+                "v": 2105000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at-2wd",
+          "label": "1.9 L diesel · 6-speed automatic · 2WD",
+          "fuel": "diesel",
+          "engine": "1.9 L RZ4E-TC turbo diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1898,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2360000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "2WD Diesel Turbo Automatic",
+              "priceInr": {
+                "v": 2360000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2017 Isuzu D-Max Hi-Lander 1.9 Ddi Z-Prestige Double-Cab.jpg",
+          "localPath": "/cars/isuzu-d-max-hi-lander-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2017_Isuzu_D-Max_Hi-Lander_1.9_Ddi_Z-Prestige_Double-Cab.jpg",
+          "author": "Chanokchon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2017 Isuzu D-Max Hi-Lander 1.9 Z-Prestige double cab, Thailand (earlier styling)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Isuzu Motors India – Hi-Lander page",
+          "publisher": "Isuzu Motors India",
+          "url": "https://www.isuzu.in/hilander.php",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarTrade – Isuzu Hi-Lander",
+          "publisher": "CarTrade",
+          "url": "https://www.cartrade.com/isuzu-cars/hi-lander/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Isuzu's site shows no prices; prices are CarTrade ex-showroom (relaunched Feb 2026 per search result text). CarDekho lists a 21.50-23.60 lakh range; CarTrade's 21.05 lakh manual figure used.",
+        "Hi-Lander page states dual front airbags, hence 2.",
+        "Power: Isuzu states 120 kW (163 hp); 120 kW x 1.3596 = 163 PS. Ground clearance and mileage not stated on fetched pages.",
+        "No NCAP rating for the India-spec model found. Photo is earlier-styled Thai-market car."
+      ]
+    }
+  ]
+}

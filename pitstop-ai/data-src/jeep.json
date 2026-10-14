@@ -1,0 +1,746 @@
+{
+  "brand": {
+    "name": "Jeep",
+    "slug": "jeep",
+    "country": "Netherlands",
+    "parent": "Stellantis",
+    "indiaWebsite": "https://www.jeep-india.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "jeep-compass",
+      "brand": "Jeep",
+      "model": "Compass",
+      "generation": "2nd generation (MP), India refresh",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A five-seat compact SUV sold in India with a 2.0 L Multijet II diesel, 6-speed manual or 9-speed automatic, and FWD or 4WD.",
+      "officialUrl": "https://www.jeep-india.com/new-compass.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4420,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1820,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1650,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2640,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 178,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 408,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2017,
+          "protocol": null,
+          "s": "src-4",
+          "note": "2017 Euro NCAP result for the European-spec Compass (adult 90%, child 83%); the India model has fewer airbags (6) and no AEB, and has no Bharat or Global NCAP rating."
+        },
+        "airbagsStandard": {
+          "v": 4,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "4 airbags on Sport, 6 from Limited Opt",
+          "360-degree camera (top variants)",
+          "Panoramic sunroof"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1799000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 3095000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-mt",
+          "label": "2.0 L Multijet II diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "2.0 L Multijet II turbo diesel",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 170,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 350,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-at",
+          "label": "2.0 L Multijet II diesel · 9-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L Multijet II turbo diesel",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 170,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 350,
+            "s": "src-2"
+          },
+          "transmission": "9-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Jeep-compass-2018-petrol-at-limited-india-front.jpg",
+          "localPath": "/cars/jeep-compass-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AJeep-compass-2018-petrol-at-limited-india-front.jpg",
+          "author": "Sim tcr",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2018 Jeep Compass Limited (petrol AT) photographed in Thrissur, Kerala, India (May 2023); India-market car from before the current refresh",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Jeep India – Compass page",
+          "publisher": "FCA / Jeep India (Stellantis)",
+          "url": "https://www.jeep-india.com/new-compass.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Compass",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Jeep_Compass/Jeep_Compass.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Jeep Compass",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Jeep_Compass",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Autocar India – 2017 Jeep Compass receives 5-star Euro NCAP safety rating",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news-amp/2017-jeep-compass-receives-5-star-euro-ncap-safety-rating-402724",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2017"
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - Compass",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/jeep/compass",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "CarWale - Compass",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/jeep-cars/compass/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Jeep India's model pages are largely marketing content: they give only the 'starting at' price and a few features. Specs, variant prices and dimensions come from CarDekho (prices rounded to Rs 0.01 lakh) and Wikipedia, and may lag the current list.",
+        "Jeep's page confirms 'starting at Rs 17.99 lakh' and a 2.0 L Multijet II diesel with a 9-speed automatic. Power is CarDekho's 168 bhp converted (x1.0139 = ~170 PS). CarDekho lists 4WD with the automatic only; ARAI mileage 14.9-17.1 km/l across variants (not split by option, so efficiency is null).",
+        "Variant prices are CarDekho's (Sport Rs 17.99 lakh to Track Edition AT 4x4 Rs 30.95 lakh) but transmission per trim is not stated, so trims are omitted; the max price is CarDekho's.",
+        "Dimensions are Wikipedia's figures for the India-market Compass (MP); ground clearance and boot from CarDekho. Warranty not stated (Jeep offers optional extended 'Confidence 7' packages).",
+        "ARAI mileage for diesel MT/AT left null: CarDekho states 17.1 km/l for both, CarWale 15 (MT) and 12 (AT) km/l."
+      ]
+    },
+    {
+      "id": "jeep-meridian",
+      "brand": "Jeep",
+      "model": "Meridian",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "A seven-seat diesel SUV built on the Compass platform, sold with a 2.0 L Multijet II engine and 6-speed manual or 9-speed automatic.",
+      "officialUrl": "https://www.jeep-india.com/new-jeep-meridian.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4769,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1859,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1682,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2794,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 214,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 481,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "ADAS: adaptive cruise with stop and go, collision mitigation braking, blind spot detection, lane keep assist, intelligent speed assist",
+          "360-degree camera (per CarDekho)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 2333000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 3826000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-mt",
+          "label": "2.0 L Multijet II diesel · 6-speed manual (4x2)",
+          "fuel": "diesel",
+          "engine": "2.0 L Multijet II turbo diesel",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 350,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2333000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Longitude 4x2",
+              "priceInr": {
+                "v": 2333000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Longitude Plus 4x2",
+              "priceInr": {
+                "v": 2630000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Trail Edition",
+              "priceInr": {
+                "v": 3039000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Limited Opt 4x2",
+              "priceInr": {
+                "v": 3045000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at",
+          "label": "2.0 L Multijet II diesel · 9-speed automatic (4x2 / 4x4)",
+          "fuel": "diesel",
+          "engine": "2.0 L Multijet II turbo diesel",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 350,
+            "s": "src-2"
+          },
+          "transmission": "9-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2753000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Longitude 4x2",
+              "priceInr": {
+                "v": 2753000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Longitude Plus 4x2",
+              "priceInr": {
+                "v": 2939000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Trail Edition",
+              "priceInr": {
+                "v": 3286000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Limited Opt 4x2",
+              "priceInr": {
+                "v": 3419000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Overland 4x2",
+              "priceInr": {
+                "v": 3605000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Overland 4x4",
+              "priceInr": {
+                "v": 3792000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Track Edition",
+              "priceInr": {
+                "v": 3826000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Jeep Commander Limited (front).jpg",
+          "localPath": "/cars/jeep-meridian-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AJeep_Commander_Limited_(front).jpg",
+          "author": "Mateusmatsuda",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "Jeep Commander Limited, front view (Brazilian-market sibling; the Meridian is the Commander sold in India)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Jeep India – Meridian page",
+          "publisher": "FCA / Jeep India (Stellantis)",
+          "url": "https://www.jeep-india.com/new-jeep-meridian.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Meridian",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Jeep_Meridian/Jeep_Meridian.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Jeep Commander (2022), marketed in India as Meridian",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Jeep_Meridian",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Jeep India's model pages are largely marketing content: they give only the 'starting at' price and a few features. Specs, variant prices and dimensions come from CarDekho (prices rounded to Rs 0.01 lakh) and Wikipedia, and may lag the current list.",
+        "The Jeep page states 'starting at Rs 23.33 lakh', 7 seats and the 2.0 L Multijet II diesel with 9-speed automatic. CarDekho lists 168-172.36 bhp; 170 PS (168 bhp converted) is given for the manual option, and automatic power is left null. ARAI mileage 8.2-14.1 km/l across variants is too wide to assign per option.",
+        "Trim prices are CarDekho's; the Meridian is also sold with 5 seats in some trims per CarDekho, and 'Track Edition' range Rs 36.39-38.26 lakh is shown at its top. Dimensions are Wikipedia's figures for the Commander (same car); Euro/Global NCAP not found for the India model (CarDekho claims a 5-star Global NCAP rating but no official page was found, so NCAP is null). Warranty not stated."
+      ]
+    },
+    {
+      "id": "jeep-wrangler",
+      "brand": "Jeep",
+      "model": "Wrangler",
+      "generation": "JL, 4-door Unlimited",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A body-on-frame 4x4 SUV sold in India as a fully imported 2.0 L turbo-petrol with an 8-speed automatic.",
+      "officialUrl": "https://www.jeep-india.com/wrangler-jl.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4785,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1877,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1801,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 3007,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "First- and second-row side curtain airbags",
+          "Adaptive cruise control",
+          "Forward collision warning",
+          "Advanced brake assist"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6770000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-at-4x4",
+          "label": "2.0 L turbo petrol · 8-speed automatic · 4WD",
+          "fuel": "petrol",
+          "engine": "2.0 L turbocharged petrol",
+          "displacementCc": {
+            "v": 1995,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 270,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-2"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6770000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Jeep Wrangler Rubicon 4-door 2.0L 4WD JL Black (3).jpg",
+          "localPath": "/cars/jeep-wrangler-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AJeep_Wrangler_Rubicon_4-door_2.0L_4WD_JL_Black_(3).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Jeep Wrangler Rubicon 4-door 2.0L 4WD (JL) in black (January 2024); market not stated in the file description",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Jeep India – Wrangler page",
+          "publisher": "FCA / Jeep India (Stellantis)",
+          "url": "https://www.jeep-india.com/wrangler-jl.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Wrangler",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Jeep_Wrangler/Jeep_Wrangler.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Jeep Wrangler (JL)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JL)",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Jeep India's model pages are largely marketing content: they give only the 'starting at' price and a few features. Specs, variant prices and dimensions come from CarDekho (prices rounded to Rs 0.01 lakh) and Wikipedia, and may lag the current list.",
+        "Jeep's page states 'starting at Rs 67.70 lakh', 6 airbags and ADAS; CarDekho shows Rs 66.20-70.80 lakh (Unlimited, Willys 41, Rubicon), which conflicts with Jeep's start price, so the max is omitted. CarDekho gives 268.2 bhp (270 PS); Wikipedia's global figure is 274 PS (270 hp), 400 Nm. Mileage 10.6-11.4 km/l (CarDekho) not assigned.",
+        "Dimensions are Wikipedia's global JL Unlimited 4-door figures. Wikipedia lists a 1-star Euro NCAP (2018) and 3-star ANCAP (2019) result for other-market Wranglers; not applicable to the India model, so NCAP is null. Ground clearance, fuel tank, warranty not stated."
+      ]
+    },
+    {
+      "id": "jeep-grand-cherokee",
+      "brand": "Jeep",
+      "model": "Grand Cherokee",
+      "generation": "WL (5-seat, imported)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A five-seat premium 4x4 SUV sold in India as a fully imported 2.0 L turbo-petrol with an 8-speed automatic.",
+      "officialUrl": "https://www.jeep-india.com/new-grand-cherokee.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4915,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1979,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1816,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2964,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Level-2 ADAS: adaptive cruise, collision warning, blind spot detection",
+          "Advanced brake assist",
+          "Drowsy driver detection",
+          "Advanced dash cam (per Jeep page)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6300000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-at-4x4",
+          "label": "2.0 L turbo petrol · 8-speed automatic · 4WD",
+          "fuel": "petrol",
+          "engine": "2.0 L turbocharged petrol",
+          "displacementCc": {
+            "v": 1995,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 272,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-2"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": {
+            "value": 7.2,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6300000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Limited (O)",
+              "priceInr": {
+                "v": 6300000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Jeep Grand Cherokee (WL) IMG 7791.jpg",
+          "localPath": "/cars/jeep-grand-cherokee-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AJeep_Grand_Cherokee_(WL)_IMG_7791.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Jeep Grand Cherokee (WL) photographed in Stuttgart, Germany (July 2023); European-market car",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Jeep India – Grand Cherokee page",
+          "publisher": "FCA / Jeep India (Stellantis)",
+          "url": "https://www.jeep-india.com/new-grand-cherokee.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Grand Cherokee",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Jeep_Grand_Cherokee/Jeep_Grand_Cherokee.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Jeep Grand Cherokee (WL)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WL)",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Jeep India's model pages are largely marketing content: they give only the 'starting at' price and a few features. Specs, variant prices and dimensions come from CarDekho (prices rounded to Rs 0.01 lakh) and Wikipedia, and may lag the current list.",
+        "Jeep's page confirms 'starting at Rs 63.00 lakh' and a dash cam; engine, airbags (8), ADAS and Rs 63 lakh Limited (O) CBU pricing are from CarDekho (268.27 bhp / 272 PS, 400 Nm, ARAI 7.2 km/l).",
+        "Dimensions are Wikipedia's global WL 5-seat short-wheelbase figures. Euro NCAP rated a PHEV Overland five stars in 2022 but that is a different powertrain and market, so NCAP is null. Ground clearance, boot, fuel tank, warranty not stated."
+      ]
+    }
+  ]
+}

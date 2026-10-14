@@ -1,0 +1,158 @@
+{
+  "brand": {
+    "name": "Bentley",
+    "slug": "bentley",
+    "country": "Germany",
+    "parent": "Volkswagen Group",
+    "indiaWebsite": "https://www.bentleymotors.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "bentley-bentayga",
+      "brand": "Bentley",
+      "model": "Bentayga",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Bentley's luxury SUV, sold in India in a single twin-turbo V8 all-wheel-drive variant.",
+      "officialUrl": "https://www.bentleymotors.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Bentayga",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5305,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 2222,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1739,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3175,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 180,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 380,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 85,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 3250,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Adaptive cruise control",
+          "Lane departure warning",
+          "360-degree camera",
+          "Auto parking assist",
+          "4-zone climate control with seat ventilation and massage"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 42000000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-awd",
+          "label": "4.0 L twin-turbo V8 · 8-speed automatic · AWD",
+          "fuel": "petrol",
+          "engine": "4.0 L twin-turbo V8",
+          "displacementCc": {
+            "v": 3996,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 558,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 770,
+            "s": "src-1"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 7.22,
+            "unit": "km/l",
+            "basis": "WLTP (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 42000000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Bentley Bentayga V8 (FL) IMG 4117.jpg",
+          "localPath": "/cars/bentley-bentayga-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABentley_Bentayga_V8_(FL)_IMG_4117.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear three-quarter view of a Bentley Bentayga V8 (facelift) in Germany",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Bentayga",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/bentley/bentayga",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Bentayga specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/bentley/bentayga/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Bentley publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Autocar India's brand page says the Bentayga is the only Bentley currently sold in India (Continental GT and Flying Spur no longer available). Width 2222 mm is stated 'with mirrors'."
+      ]
+    }
+  ]
+}

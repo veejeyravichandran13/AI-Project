@@ -1,0 +1,543 @@
+{
+  "brand": {
+    "name": "Aston Martin",
+    "slug": "aston-martin",
+    "country": "United Kingdom",
+    "parent": "Aston Martin Lagonda Global Holdings",
+    "indiaWebsite": "https://www.astonmartin.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "aston-martin-vantage",
+      "brand": "Aston Martin",
+      "model": "Vantage",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Aston Martin's two-seat V8 sports coupe with rear-wheel drive, sold in India in a single variant.",
+      "officialUrl": "https://www.astonmartin.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2018)",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 94,
+          "s": "src-1"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 4,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "10.25-inch touchscreen",
+          "Wireless Apple CarPlay and Android Auto",
+          "Dual-zone climate control"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 42500000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-rwd",
+          "label": "4.0 L twin-turbo V8 · 8-speed automatic · RWD",
+          "fuel": "petrol",
+          "engine": "4.0 L twin-turbo V8",
+          "displacementCc": {
+            "v": 3982,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 674,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 800,
+            "s": "src-1"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 8.26,
+            "unit": "km/l",
+            "basis": "WLTP (claimed, per Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 42500000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Aston Martin Vantage (2024) IMG 0003.jpg",
+          "localPath": "/cars/aston-martin-vantage-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_Vantage_(2024)_IMG_0003.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of a 2024 Aston Martin Vantage in Germany",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Vantage",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/vantage",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Vantage specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/vantage/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Aston Martin publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Autocar's two pages disagree on length, width, wheelbase, boot (346 vs 235 L) and fuel tank (73 vs 78 L); these are left null."
+      ]
+    },
+    {
+      "id": "aston-martin-db12",
+      "brand": "Aston Martin",
+      "model": "DB12",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "src-1"
+      },
+      "summary": "Aston Martin's V8 grand tourer coupe, offered in India in a single rear-wheel-drive variant.",
+      "officialUrl": "https://www.astonmartin.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DB12",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4725,
+          "s": "src-2"
+        },
+        "widthMm": null,
+        "heightMm": {
+          "v": 1295,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2805,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 262,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 10,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Adaptive cruise control",
+          "Launch control",
+          "Heated front seats",
+          "10.25-inch touchscreen with wireless Apple CarPlay and Android Auto"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 51500000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-rwd",
+          "label": "4.0 L twin-turbo V8 · 8-speed automatic · RWD",
+          "fuel": "petrol",
+          "engine": "4.0 L twin-turbo V8",
+          "displacementCc": {
+            "v": 3982,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 689,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 800,
+            "s": "src-1"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 8.2,
+            "unit": "km/l",
+            "basis": "ARAI (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 51500000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Aston Martin DB12 1X7A1921.jpg",
+          "localPath": "/cars/aston-martin-db12-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_DB12_1X7A1921.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of an Aston Martin DB12 in Germany (2024)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – DB12",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/db12",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – DB12 specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/db12/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Aston Martin publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Fuel tank left null: 68 L on one Autocar page, 78 L on the other. Autocar lists DB12 S and DB12 Volante as upcoming, not yet on sale."
+      ]
+    },
+    {
+      "id": "aston-martin-dbx",
+      "brand": "Aston Martin",
+      "model": "DBX707",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Aston Martin's high-performance V8 SUV with a 9-speed automatic and all-wheel drive.",
+      "officialUrl": "https://www.astonmartin.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DBX",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5039,
+          "s": "src-2"
+        },
+        "widthMm": null,
+        "heightMm": {
+          "v": 1680,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3060,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 638,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 2245,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Autonomous emergency braking",
+          "Lane assist",
+          "360-degree camera",
+          "12.3-inch driver display",
+          "Bowers & Wilkins audio"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 58900000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-awd",
+          "label": "4.0 L twin-turbo V8 · 9-speed automatic · AWD",
+          "fuel": "petrol",
+          "engine": "4.0 L twin-turbo V8",
+          "displacementCc": {
+            "v": 3982,
+            "s": "src-2"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 717,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 900,
+            "s": "src-1"
+          },
+          "transmission": "9-speed automatic",
+          "efficiency": {
+            "value": 4.5,
+            "unit": "km/l",
+            "basis": "ARAI (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 58900000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Aston Martin DBX707 1X7A0360.jpg",
+          "localPath": "/cars/aston-martin-dbx-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_DBX707_1X7A0360.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of an Aston Martin DBX707 in Germany (UK-registered car)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – DBX",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/dbx",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – DBX specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/dbx/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Aston Martin publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Autocar says the DBX is offered in 707 and S variants on its page; power and torque shown are for the DBX707, and the price (5.89 crore) is the model's listed ex-showroom price. DBX S is listed as upcoming on the brand page. Width and ground clearance (190-235 mm) omitted as inconsistent/range values."
+      ]
+    },
+    {
+      "id": "aston-martin-vanquish",
+      "brand": "Aston Martin",
+      "model": "Vanquish",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Aston Martin's flagship twin-turbo V12 two-seat grand tourer, launched in India in March 2025.",
+      "officialUrl": "https://www.astonmartin.com/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vanquish_(2024)",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4850,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 2044,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1290,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2885,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 248,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 82,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1910,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "15-speaker 1,170 W Bowers & Wilkins audio",
+          "Apple CarPlay and Android Auto",
+          "21-inch wheels"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 88500000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v12-rwd",
+          "label": "5.2 L twin-turbo V12 · 8-speed automatic · RWD",
+          "fuel": "petrol",
+          "engine": "5.2 L twin-turbo V12",
+          "displacementCc": {
+            "v": 5204,
+            "s": "src-2"
+          },
+          "cylinders": 12,
+          "powerPs": {
+            "v": 847,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 1000,
+            "s": "src-1"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": {
+            "value": 7.3,
+            "unit": "km/l",
+            "basis": "WLTP (approximate, per Autocar India; no ARAI figure)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 88500000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Aston Martin Vanquish (2024) DSC 7891.jpg",
+          "localPath": "/cars/aston-martin-vanquish-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_Vanquish_(2024)_DSC_7891.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of an Aston Martin Vanquish (2024) in Germany",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Vanquish",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/vanquish",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Vanquish specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/aston-martin/vanquish/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Aston Martin publishes no India prices on pages fetched); prices are third-party (Autocar India) ex-showroom. officialUrl is the brand's site root, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating found for this model.",
+        "Autocar's specifications page gives 7.09 km/l mileage; the model page's WLTP ~7.3 km/l used."
+      ]
+    }
+  ]
+}

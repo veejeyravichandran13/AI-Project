@@ -1,0 +1,3501 @@
+{
+  "brand": {
+    "name": "Hyundai",
+    "slug": "hyundai",
+    "country": "South Korea",
+    "parent": "Hyundai Motor Company",
+    "indiaWebsite": "https://www.hyundai.com/in/en",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Motor_India",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "hyundai-grand-i10-nios",
+      "brand": "Hyundai",
+      "model": "Grand i10 Nios",
+      "generation": "Grand i10 NIOS (launched 2019, current facelift)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-cd"
+      },
+      "summary": "The Grand i10 Nios is Hyundai's entry hatchback in India, offered with a 1.2 L Kappa petrol (manual or AMT) and a factory Hy-CNG Duo option, with 6 airbags standard.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/grand-i10-nios/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Grand_i10_Nios",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3815,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1680,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1520,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 260,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard across variants",
+          "ABS with EBD",
+          "ESC, VSM and hill-start assist (ESC on AMT and higher trims)",
+          "Rear parking sensors",
+          "ISOFIX child seat anchors (Asta)",
+          "TPMS (Highline)",
+          "3-point seatbelts and seatbelt reminder for all seats",
+          "Front seatbelt pretensioners with load limiters"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 559700,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 809000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 113.8,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 18,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-NaN"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 560000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "Era",
+              "priceInr": {
+                "v": 560000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Magna",
+              "priceInr": {
+                "v": 637000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Corporate",
+              "priceInr": {
+                "v": 660000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Sportz",
+              "priceInr": {
+                "v": 693000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Asta",
+              "priceInr": {
+                "v": 757000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-mt",
+          "label": "1.2 L Kappa petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 113.8,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 16,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-NaN"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 685000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "Magna AMT",
+              "priceInr": {
+                "v": 685000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Corporate AMT",
+              "priceInr": {
+                "v": 721000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Sportz AMT",
+              "priceInr": {
+                "v": 745000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Asta AMT",
+              "priceInr": {
+                "v": 809000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-amt",
+          "label": "1.2 L Kappa petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "5-speed AMT (Smart Auto AMT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 69,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 95.2,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 27,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-NaN"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 733000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "Magna CNG",
+              "priceInr": {
+                "v": 733000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Sportz CNG",
+              "priceInr": {
+                "v": 759000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Sportz Duo CNG",
+              "priceInr": {
+                "v": 783000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "cng-mt",
+          "label": "1.2 L Bi-fuel Kappa petrol + CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Bi-fuel Kappa petrol with CNG (Hy-CNG Duo)",
+          "transmission": "5-speed manual"
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Grand i10 NIOS digital brochure (dated Sep 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/grand-i10-nios.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-09"
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Grand i10 Nios price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/grand-i10-nios",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-NaN",
+          "type": "third-party",
+          "label": "CarDekho – Grand i10 Nios mileage",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/hyundai/grand-i10-nios/mileage",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-NaN",
+          "type": "third-party",
+          "label": "ZigWheels – Grand i10 Nios",
+          "publisher": "ZigWheels",
+          "url": "https://www.zigwheels.com/newcars/Hyundai/Grand-i10-Nios",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage; maximum price and per-trim prices are CarDekho's Delhi ex-showroom list (rounded to the nearest thousand rupees).",
+        "Boot space (260 L) and seating are from CarDekho and likely refer to the petrol model; the CNG model's boot is smaller. Hyundai's own pages do not state them.",
+        "ARAI mileage is left blank: the figures shown by third-party sites could not be confirmed against an official ARAI source.",
+        "No current NCAP rating is recorded; any older Global NCAP results reported in media were not verified against the current 6-airbag specification.",
+        "No suitable free-licence photo of this model was found on Wikimedia Commons.",
+        "Claimed ARAI mileage (petrol MT 18 km/l, AMT 16 km/l, CNG MT 27 km/kg) filled from CarDekho and ZigWheels, which agree (Autocar India also lists 18 and 16). Ground clearance (165 mm) seen on Autocar India only, left null; kerb weight and warranty not stated on fetched pages."
+      ]
+    },
+    {
+      "id": "hyundai-aura",
+      "brand": "Hyundai",
+      "model": "Aura",
+      "generation": "Aura (launched 2020, current facelift)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-cd"
+      },
+      "summary": "The Aura is Hyundai's compact sedan in India, sharing the Grand i10 Nios's 1.2 L Kappa petrol (manual or AMT) and a Hy-CNG option, with 6 airbags standard.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/aura/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Aura",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1680,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1520,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 402,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard across variants",
+          "ABS with EBD",
+          "ESC and hill-start assist (SX and SX(O))",
+          "Rear parking sensors",
+          "ISOFIX child seat anchors (SX(O))",
+          "TPMS (Highline)",
+          "3-point seatbelts and seatbelt reminder for all seats",
+          "Rear camera with static guidelines (SX and above)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 599990,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 867000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 113.8,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 17,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-NaN"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 599990,
+            "s": "src-home"
+          },
+          "trims": [
+            {
+              "name": "E",
+              "priceInr": {
+                "v": 600000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "S",
+              "priceInr": {
+                "v": 698000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "SX",
+              "priceInr": {
+                "v": 777000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "SX(O)",
+              "priceInr": {
+                "v": 823000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-mt",
+          "label": "1.2 L Kappa petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 113.8,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 17,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-NaN"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 739000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "S AMT",
+              "priceInr": {
+                "v": 739000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "SX Plus AMT",
+              "priceInr": {
+                "v": 842000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-amt",
+          "label": "1.2 L Kappa petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "5-speed AMT (smart auto AMT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 69,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 95.2,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 690000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "E CNG",
+              "priceInr": {
+                "v": 690000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "S CNG",
+              "priceInr": {
+                "v": 789000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "SX CNG",
+              "priceInr": {
+                "v": 867000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "cng-mt",
+          "label": "1.2 L Bi-fuel Kappa petrol + CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Bi-fuel Kappa petrol with CNG (Hy-CNG)",
+          "transmission": "5-speed manual"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2020 Hyundai Aura Front.png",
+          "localPath": "/cars/hyundai-aura-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Hyundai_Aura_Front.png",
+          "author": "Auto Zuto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2020 Hyundai Aura (front), launch-year pre-facelift model, India",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Aura digital brochure",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/aura.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Aura price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/aura",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-NaN",
+          "type": "third-party",
+          "label": "CarDekho – Aura mileage",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/hyundai/aura/mileage",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-NaN",
+          "type": "third-party",
+          "label": "Autocar India – Hyundai Aura",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/hyundai/aura",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage; maximum price and other trim prices are CarDekho's Delhi ex-showroom list (rounded to the nearest thousand rupees).",
+        "Boot space (402 L) and seating are from CarDekho; Hyundai's own pages do not state them. CNG fuel tank is 65 L water equivalent per the brochure.",
+        "ARAI mileage is left blank: figures shown by third-party sites could not be confirmed against an official ARAI source.",
+        "No NCAP rating recorded.",
+        "The photo shows the 2020 launch model, before the later facelift.",
+        "Petrol MT and AMT claimed mileage (17 km/l each) filled from CarDekho and Autocar India, which agree. CNG MT left null: CarDekho states 22 km/kg, Autocar India 28.4 km/kg."
+      ]
+    },
+    {
+      "id": "hyundai-i20",
+      "brand": "Hyundai",
+      "model": "i20",
+      "generation": "Third generation i20 (BC3, India launch 2020, facelift 2023)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-cd"
+      },
+      "summary": "The i20 is Hyundai's premium hatchback in India, sold with a single 1.2 L Kappa petrol engine with a 5-speed manual or iVT automatic and 6 airbags standard.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/i20/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_i20",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1775,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1505,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2580,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": {
+          "v": 170,
+          "s": "src-NaN"
+        },
+        "bootLitres": {
+          "v": 311,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "ABS, ESC, VSM and hill-start assist on all variants",
+          "ISOFIX child seat anchors on all variants",
+          "TPMS (Highline)",
+          "Rear parking sensors",
+          "Rear camera with dynamic guidelines (Sportz and above)",
+          "26 standard safety features (Hyundai)",
+          "Strong body structure with AHSS and HSS"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km",
+        "s": "src-bro"
+      },
+      "price": {
+        "minInr": {
+          "v": 599700,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 1068000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 114.7,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 600000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "Era",
+              "priceInr": {
+                "v": 600000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Magna Executive",
+              "priceInr": {
+                "v": 675000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Magna",
+              "priceInr": {
+                "v": 705000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Sportz",
+              "priceInr": {
+                "v": 785000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Asta",
+              "priceInr": {
+                "v": 871000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-mt",
+          "label": "1.2 L Kappa petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 88,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 114.7,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 886000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "Sportz iVT",
+              "priceInr": {
+                "v": 886000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Sportz Opt iVT",
+              "priceInr": {
+                "v": 931000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Asta Opt iVT",
+              "priceInr": {
+                "v": 1044000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-ivt",
+          "label": "1.2 L Kappa petrol · iVT (CVT-type) automatic",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "Intelligent variable transmission (iVT)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2020 Hyundai i20 1.2 MPI (BC3).jpg",
+          "localPath": "/cars/hyundai-i20-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Hyundai_i20_1.2_MPI_(BC3).jpg",
+          "author": "Rutger van der Maar",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "caption": "2020 Hyundai i20 1.2 MPI (BC3) photographed in Leiden, Netherlands (European-market car, same generation)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – i20 digital brochure (dated Sep 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/i20.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-09"
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – i20 price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/i20",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-NaN",
+          "type": "manufacturer",
+          "label": "Hyundai India – i20 specification",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/i20/specification",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage; maximum and per-trim prices are CarDekho's Delhi ex-showroom list (rounded to the nearest thousand rupees).",
+        "Boot space (311 L) and seating are from CarDekho. Hyundai's own pages do not state them.",
+        "ARAI mileage left blank: CarDekho/CarWale figures looked like user-reported or rounded values rather than certified ARAI numbers.",
+        "No current NCAP rating recorded (older Global NCAP results reported in media were not verified for the current 6-airbag specification).",
+        "The photo is a European-market i20 of the same generation, not an India-spec car.",
+        "Ground clearance 170 mm from the manufacturer specification page. Petrol MT/IVT mileage left null: third-party pages only give a 16-20 km/l range across variants, not per transmission."
+      ]
+    },
+    {
+      "id": "hyundai-i20-n-line",
+      "brand": "Hyundai",
+      "model": "i20 N Line",
+      "generation": "Third generation i20 N Line (India launch 2021, facelift 2023)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-cd"
+      },
+      "summary": "The i20 N Line is the sporty version of the i20, powered by a 1.0 L turbo-petrol (120 PS) with a 6-speed manual or 7-speed DCT, with 6 airbags standard.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/i20-n-line/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_i20",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1775,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1505,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2580,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 311,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "ABS with EBD, ESC, VSM and hill-start assist",
+          "Front and rear disc brakes",
+          "ISOFIX child seat anchors",
+          "TPMS (Highline)",
+          "Rear parking sensors",
+          "Rear camera with dynamic guidelines",
+          "Driver rear view monitor"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km",
+        "s": "src-bro"
+      },
+      "price": {
+        "minInr": {
+          "v": 932200,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 1179000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 998,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 932000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "N6 MT",
+              "priceInr": {
+                "v": 932000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "N8 MT",
+              "priceInr": {
+                "v": 1063000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-mt",
+          "label": "1.0 L Turbo GDi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L Turbo GDi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 998,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1023000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "N6 DCT",
+              "priceInr": {
+                "v": 1023000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "N8 DCT",
+              "priceInr": {
+                "v": 1164000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-dct",
+          "label": "1.0 L Turbo GDi petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.0 L Turbo GDi petrol",
+          "transmission": "7-speed dual clutch (DCT)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Hyundai i20 N Line (BI3; India) front view.png",
+          "localPath": "/cars/hyundai-i20-n-line-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Hyundai_i20_N_Line_(BI3%3B_India)_front_view.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Hyundai i20 N Line (India) front view, launch-year model before the 2023 facelift",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – i20 N Line digital brochure (dated Sep 2025)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/i20-n-line.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-09"
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – i20 N Line price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/i20-n-line",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage (Hyundai's own i20 N Line price page text still showed an older figure of Rs 9,27,200; the homepage figure is used). Maximum and trim prices are from CarDekho, rounded to the nearest thousand rupees.",
+        "Boot space (311 L, same as the i20) and seating are from CarDekho.",
+        "ARAI mileage left blank: only rounded third-party figures were available.",
+        "No NCAP rating recorded.",
+        "The brochure used here is dated Sep 2025.",
+        "The photo shows the pre-facelift 2021 car."
+      ]
+    },
+    {
+      "id": "hyundai-verna",
+      "brand": "Hyundai",
+      "model": "Verna",
+      "generation": "Sixth generation Verna (launched in India 2023)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-spec"
+      },
+      "summary": "The Verna is Hyundai's mid-size sedan in India, offered with a 1.5 L naturally aspirated petrol (manual or iVT) and a 1.5 L turbo-petrol (manual or 7-speed DCT).",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/verna/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Accent",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4565,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1765,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1475,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2670,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 528,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2023,
+          "protocol": "Global NCAP 2022 assessment protocols (voluntary test)",
+          "s": "src-ncap",
+          "note": "Tested in its most basic passive-safety specification with 6 airbags and ESC as standard; Global NCAP noted the body structure was rated unstable."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard across all variants",
+          "7 airbags (adds centre side airbag) on top variants",
+          "ESC with VSM and hill-start assist",
+          "ISOFIX child seat anchors",
+          "Electronic parking brake (higher trims)",
+          "Front parking assist",
+          "Dashcam (higher trims)",
+          "Seatbelt reminder for all seats"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1099200,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 1846000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 115,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 143.8,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1099200,
+            "s": "src-home"
+          },
+          "trims": [
+            {
+              "name": "HX 2",
+              "priceInr": {
+                "v": 1099000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 4",
+              "priceInr": {
+                "v": 1231000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 6",
+              "priceInr": {
+                "v": 1325000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 6 Plus",
+              "priceInr": {
+                "v": 1387000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 8",
+              "priceInr": {
+                "v": 1494000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "mpi-mt",
+          "label": "1.5 L MPi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L MPi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 115,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 143.8,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1446000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "HX 6 iVT",
+              "priceInr": {
+                "v": 1446000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 6 Plus iVT",
+              "priceInr": {
+                "v": 1503000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 8 iVT",
+              "priceInr": {
+                "v": 1615000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 10 iVT",
+              "priceInr": {
+                "v": 1721000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "mpi-ivt",
+          "label": "1.5 L MPi petrol · iVT automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L MPi petrol",
+          "transmission": "Intelligent variable transmission (iVT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1634000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "HX 8 Turbo",
+              "priceInr": {
+                "v": 1634000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-mt",
+          "label": "1.5 L Turbo GDi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Turbo GDi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1763000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "HX 8 Turbo DCT",
+              "priceInr": {
+                "v": 1763000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 10 Turbo DCT",
+              "priceInr": {
+                "v": 1831000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-dct",
+          "label": "1.5 L Turbo GDi petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L Turbo GDi petrol",
+          "transmission": "7-speed dual clutch (DCT)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hyundai Verna SX Turbo 01.jpg",
+          "localPath": "/cars/hyundai-verna-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AHyundai_Verna_SX_Turbo_01.jpg",
+          "author": "Siddharth Antre",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "caption": "Hyundai Verna SX Turbo (sixth generation, India-market car), March 2023",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Verna digital brochure (dated Mar 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/verna.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-03"
+        },
+        {
+          "id": "src-spec",
+          "type": "manufacturer",
+          "label": "Hyundai India – Verna specification page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/verna/specification",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Verna price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/verna",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-ncap",
+          "type": "ncap",
+          "label": "Global NCAP – Hyundai Verna joins India's constellation of five star cars",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/hyundai-verna-joins-indias-constellation-of-five-star-cars",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2023-10-03"
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage; maximum and per-trim prices (except the base manual) are CarDekho's Delhi ex-showroom list, rounded to the nearest thousand rupees.",
+        "Boot space (528 L) is from CarDekho; Hyundai's pages do not state it.",
+        "ARAI mileage left blank: not stated on the pages fetched.",
+        "The Global NCAP result is from 2023 under the 2022 protocols and used the base 6-airbag specification.",
+        "Claimed ARAI mileage per transmission left null: only one third-party page (Autocar India) gave per-variant figures; CarDekho, CarWale and ZigWheels showed none or ranges only."
+      ]
+    },
+    {
+      "id": "hyundai-exter",
+      "brand": "Hyundai",
+      "model": "Exter",
+      "generation": "First generation (launched in India 2023)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-spec"
+      },
+      "summary": "The Exter is Hyundai's smallest SUV in India, using a 1.2 L four-cylinder Kappa petrol (manual or AMT) or a factory Hy-CNG Duo setup, with 6 airbags standard.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/exter/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Exter",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3830,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1723,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1643,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": {
+          "v": 185,
+          "s": "src-spec"
+        },
+        "bootLitres": {
+          "v": 391,
+          "s": "src-bro"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard across all variants",
+          "ESC, VSM and hill-start assist on all variants",
+          "ISOFIX child seat anchors",
+          "TPMS (Highline)",
+          "Rear parking sensors",
+          "Rear parking camera (HX 3 and above)",
+          "Dashcam (HX 6 and above)",
+          "3-point seatbelts and seatbelt reminder for all seats"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / unlimited km",
+        "s": "src-bro"
+      },
+      "price": {
+        "minInr": {
+          "v": 580600,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 961000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 113.8,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 580600,
+            "s": "src-home"
+          },
+          "trims": [
+            {
+              "name": "HX 2",
+              "priceInr": {
+                "v": 581000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 3",
+              "priceInr": {
+                "v": 630000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 4",
+              "priceInr": {
+                "v": 728000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 6",
+              "priceInr": {
+                "v": 799000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 6 Knight",
+              "priceInr": {
+                "v": 813000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-mt",
+          "label": "1.2 L Kappa petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 113.8,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 695000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "HX 3 AMT",
+              "priceInr": {
+                "v": 695000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 4+ AMT",
+              "priceInr": {
+                "v": 810000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 8 AMT",
+              "priceInr": {
+                "v": 912000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 10 AMT",
+              "priceInr": {
+                "v": 946000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-amt",
+          "label": "1.2 L Kappa petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa petrol",
+          "transmission": "5-speed AMT (Smart Auto AMT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 69,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 95.2,
+            "s": "src-bro"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 700000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "HX 2 CNG",
+              "priceInr": {
+                "v": 700000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "HX 3 CNG",
+              "priceInr": {
+                "v": 745000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "cng-mt",
+          "label": "1.2 L Bi-fuel Kappa petrol + CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Bi-fuel Kappa petrol with CNG (Hy-CNG Duo)",
+          "transmission": "5-speed manual"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Hyundai Exter.jpg",
+          "localPath": "/cars/hyundai-exter-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Hyundai_Exter.jpg",
+          "author": "Dibyam Das",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "2023 Hyundai Exter photographed in India",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Exter digital brochure (dated Aug 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/exter.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-08"
+        },
+        {
+          "id": "src-spec",
+          "type": "manufacturer",
+          "label": "Hyundai India – Exter specification page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/exter/specification",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Exter price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/exter",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage; maximum and trim prices are CarDekho's Delhi ex-showroom list (rounded to the nearest thousand rupees). The JSON-LD price on Hyundai's specification page is older and was not used.",
+        "Boot is 391 L for petrol and 225 L for CNG per the brochure. Fuel tank is 37 L petrol; CNG is 60 L water equivalent.",
+        "ARAI mileage left blank: only an ambiguous figure appeared on third-party pages.",
+        "No NCAP rating published as far as found.",
+        "Claimed ARAI mileage per transmission left null: only one third-party page (Autocar India) gave per-variant figures; CarDekho, CarWale and ZigWheels showed none or ranges only."
+      ]
+    },
+    {
+      "id": "hyundai-venue",
+      "brand": "Hyundai",
+      "model": "Venue",
+      "generation": "Second generation (launched in India 2025)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-spec"
+      },
+      "summary": "The second-generation Venue is Hyundai's sub-4-metre SUV, offered with a 1.2 L petrol, a 1.0 L turbo-petrol (manual or DCT) and a 1.5 L diesel (manual or automatic).",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/venue/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Venue",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1665,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2520,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 375,
+          "s": "src-bro"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": null,
+          "s": "src-ncap",
+          "note": "Adult occupant 31.15/32 and child occupant 44.46/49 points. Tested variants were the HX 2 diesel manual and HX 10 diesel automatic. Published 30 March 2026; the announcement covers the new Venue and Venue N Line."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "Electronic parking brake with auto hold",
+          "All 4 disc brakes",
+          "TPMS",
+          "ADAS (on higher variants)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 799900,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 1583000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 83,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 114.7,
+            "s": "src-price"
+          },
+          "efficiency": {
+            "value": 18.5,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 799900,
+            "s": "src-home"
+          },
+          "trims": [
+            {
+              "name": "HX 2",
+              "priceInr": {
+                "v": 800000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "petrol-mt",
+          "label": "1.2 L Kappa MPi petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Kappa MPi petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 998,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-price"
+          },
+          "efficiency": {
+            "value": 18.74,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 894000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "HX 2 Turbo",
+              "priceInr": {
+                "v": 894000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-mt",
+          "label": "1.0 L Kappa Turbo GDi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L Kappa Turbo GDi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 998,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-price"
+          },
+          "efficiency": {
+            "value": 20,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-dct",
+          "label": "1.0 L Kappa Turbo GDi petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.0 L Kappa Turbo GDi petrol",
+          "transmission": "7-speed dual clutch (DCT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 116,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-price"
+          },
+          "efficiency": {
+            "value": 20.99,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 995000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "HX 2 Diesel",
+              "priceInr": {
+                "v": 995000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "diesel-mt",
+          "label": "1.5 L U2 CRDi diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L U2 CRDi VGT diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 116,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-price"
+          },
+          "efficiency": {
+            "value": 17.9,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L U2 CRDi diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L U2 CRDi VGT diesel",
+          "transmission": "6-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 07.jpg",
+          "localPath": "/cars/hyundai-venue-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show%2C_Bangalore_(2025)_07.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Second-generation Hyundai Venue at the 4th International Auto Show, Bangalore, November 2025",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Venue digital brochure (dated Apr 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/venue.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-04"
+        },
+        {
+          "id": "src-price",
+          "type": "manufacturer",
+          "label": "Hyundai India – Venue price page (engine and torque text)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/venue/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Venue price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/venue",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-ncap",
+          "type": "third-party",
+          "label": "Rushlane – Hyundai Venue scores 5 star safety rating in Bharat NCAP crash test",
+          "publisher": "Rushlane",
+          "url": "https://www.rushlane.com/hyundai-venue-scores-5-star-safety-rating-bharat-ncap-crash-test-12542893.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-03-30"
+        },
+        {
+          "id": "src-spec",
+          "type": "manufacturer",
+          "label": "Hyundai India – Venue specification page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/venue/specification",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage; maximum and other prices are from CarDekho (rounded). Per-option starting prices are left blank where the source only listed selected variants.",
+        "Mileage values are as shown on CarDekho's page and are not confirmed against Hyundai's own documents.",
+        "Torque figures come from Hyundai's Venue price page (the brochure's torque text was partly unreadable).",
+        "Boot is 375 L per the brochure; the brochure footnote says the 1.2 L HX 2 uses a tyre mobility kit."
+      ]
+    },
+    {
+      "id": "hyundai-venue-n-line",
+      "brand": "Hyundai",
+      "model": "Venue N Line",
+      "generation": "Second generation Venue N Line (launched 2025)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-spec"
+      },
+      "summary": "The Venue N Line is the sporty version of the Venue, powered only by the 1.0 L turbo-petrol (120 PS) with a 6-speed manual or 7-speed DCT.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/venue-n-line/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Venue",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1665,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2520,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 375,
+          "s": "src-bro"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": null,
+          "s": "src-ncap",
+          "note": "Adult occupant 31.15/32 and child occupant 44.46/49 points. Tested variants were the HX 2 diesel manual and HX 10 diesel automatic. Published 30 March 2026; the announcement covers the new Venue and Venue N Line."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "Electronic parking brake with auto hold",
+          "All 4 disc brakes with red calipers",
+          "TPMS"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1066100,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 1567000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 998,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 18.74,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1066100,
+            "s": "src-home"
+          },
+          "trims": [
+            {
+              "name": "N6",
+              "priceInr": {
+                "v": 1066000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-mt",
+          "label": "1.0 L Kappa Turbo GDi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L Kappa Turbo GDi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 998,
+            "s": "src-bro"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 20,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1156000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "N6 DCT",
+              "priceInr": {
+                "v": 1156000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "N10 DCT",
+              "priceInr": {
+                "v": 1549000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-dct",
+          "label": "1.0 L Kappa Turbo GDi petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.0 L Kappa Turbo GDi petrol",
+          "transmission": "7-speed dual clutch (DCT)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 09.jpg",
+          "localPath": "/cars/hyundai-venue-n-line-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show%2C_Bangalore_(2025)_09.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Hyundai Venue N Line at the 4th International Auto Show, Bangalore, November 2025",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Venue N Line digital brochure (dated Mar 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/venue-n-line.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-03"
+        },
+        {
+          "id": "src-price",
+          "type": "manufacturer",
+          "label": "Hyundai India – Venue price page (engine and torque text)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/venue/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Venue N Line price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/venue-n-line",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-ncap",
+          "type": "third-party",
+          "label": "Rushlane – Hyundai Venue scores 5 star safety rating in Bharat NCAP crash test",
+          "publisher": "Rushlane",
+          "url": "https://www.rushlane.com/hyundai-venue-scores-5-star-safety-rating-bharat-ncap-crash-test-12542893.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-03-30"
+        },
+        {
+          "id": "src-spec",
+          "type": "manufacturer",
+          "label": "Hyundai India – Venue N Line specification page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/venue-n-line/specification",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is from Hyundai's homepage; maximum and trim prices are from CarDekho (rounded). CarDekho's trim list showed only N6 and N10 variants.",
+        "Bharat NCAP's 5-star result was reported for the Venue and Venue N Line together (tested cars were Venue diesel variants).",
+        "Mileage is as shown on CarDekho and not confirmed against Hyundai's own documents."
+      ]
+    },
+    {
+      "id": "hyundai-creta",
+      "brand": "Hyundai",
+      "model": "Creta",
+      "generation": "Second generation (SU2i), 2024 facelift",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-spec"
+      },
+      "summary": "The Creta is Hyundai's best-known mid-size SUV in India, offered with a 1.5 L petrol (manual or iVT), a 1.5 L turbo-petrol DCT and a 1.5 L diesel (manual or automatic).",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Creta",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4330,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1790,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1635,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2610,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 433,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "36 standard safety features (Hyundai)",
+          "ESC, VSM and hill-start assist",
+          "All-wheel disc brakes",
+          "Surround view monitor (higher trims)",
+          "Blind view monitor (higher trims)",
+          "ADAS (Hyundai SmartSense, higher trims)",
+          "Electronic parking brake"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1090700,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 2046000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 115,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 143.8,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 17.4,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1090700,
+            "s": "src-home"
+          },
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.5 L MPi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L MPi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 115,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 143.8,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 17.7,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1450000,
+            "s": "src-cd"
+          },
+          "trims": [],
+          "id": "petrol-ivt",
+          "label": "1.5 L MPi petrol · iVT automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L MPi petrol",
+          "transmission": "Intelligent variable transmission (iVT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 18.4,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1991000,
+            "s": "src-cd"
+          },
+          "trims": [],
+          "id": "turbo-dct",
+          "label": "1.5 L Turbo GDi petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L Turbo GDi petrol",
+          "transmission": "7-speed dual clutch (DCT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 116,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 21.8,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1261000,
+            "s": "src-cd"
+          },
+          "trims": [],
+          "id": "diesel-mt",
+          "label": "1.5 L U2 CRDi diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L U2 CRDi diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 116,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 19.1,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1605000,
+            "s": "src-cd"
+          },
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L U2 CRDi diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L U2 CRDi diesel",
+          "transmission": "6-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Hyundai Creta SX(O) CRDi (India) front view.jpg",
+          "localPath": "/cars/hyundai-creta-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Hyundai_Creta_SX(O)_CRDi_(India)_front_view.jpg",
+          "author": "Dairokkan9",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2021 Hyundai Creta SX(O) CRDi, India-market car before the 2024 facelift",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Creta digital brochure (dated Aug 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/creta.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-08"
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Creta price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/creta",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-spec",
+          "type": "manufacturer",
+          "label": "Hyundai India – Creta specification page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/creta/specification",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-wiki",
+          "type": "wikipedia",
+          "label": "Wikipedia – Hyundai Creta (safety ratings section)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyundai_Creta",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "The diesel torque figure of 250 Nm is converted from the brochure's 25.5 kgm (the Nm digits were unreadable in the extracted text); the 253 Nm turbo figure is read from the brochure as 253 Nm (25.8 kgm).",
+        "Starting price is Hyundai's homepage; maximum and per-option prices and mileage are as shown on CarDekho (per-option prices were the 'lowest' variant per powertrain it listed).",
+        "Boot (433 L) is from CarDekho.",
+        "NCAP: an older Global NCAP 2022 result (3 stars, 2 airbags) exists for the previous-spec Creta, per Wikipedia; it is not applicable to the current 6-airbag model so no rating is recorded.",
+        "The photo shows the pre-2024-facelift Creta; no photo of the current India-spec car was found."
+      ]
+    },
+    {
+      "id": "hyundai-creta-n-line",
+      "brand": "Hyundai",
+      "model": "Creta N Line",
+      "generation": "Creta N Line (launched in India 2024)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-cd"
+      },
+      "summary": "The Creta N Line is the sporty Creta, powered only by the 1.5 L turbo-petrol (160 PS) with a 6-speed manual or 7-speed DCT.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/creta-n-line/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Creta",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4330,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1790,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1635,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2610,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 433,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "ESC, VSM and hill-start assist",
+          "All-wheel disc brakes",
+          "Electronic parking brake",
+          "Level 2 ADAS (Hyundai SmartSense)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1903300,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 2010000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 18,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho, rounded)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1903300,
+            "s": "src-home"
+          },
+          "trims": [
+            {
+              "name": "N10",
+              "priceInr": {
+                "v": 1903000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-mt",
+          "label": "1.5 L Turbo GDi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Turbo GDi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 18.2,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1995000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "N10 DCT",
+              "priceInr": {
+                "v": 1995000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "turbo-dct",
+          "label": "1.5 L Turbo GDi petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L Turbo GDi petrol",
+          "transmission": "7-speed dual clutch (DCT)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024 Hyundai Creta N Line 1.5 T-GDi (India) front view.png",
+          "localPath": "/cars/hyundai-creta-n-line-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Hyundai_Creta_N_Line_1.5_T-GDi_(India)_front_view.png",
+          "author": "CARS WORLD Kannada",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2024 Hyundai Creta N Line 1.5 T-GDi, India-market car, front view",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Creta N Line digital brochure (dated Sep 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/creta-n-line.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-09"
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Creta N Line price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/creta-n-line",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Starting price is Hyundai's homepage; maximum price, per-option price and mileage are as shown on CarDekho, which lists only the N10 trim (it notes the N8 DCT was discontinued as of June 2026).",
+        "Boot (433 L, same as the standard Creta) and seating are from CarDekho.",
+        "No NCAP rating recorded for this model."
+      ]
+    },
+    {
+      "id": "hyundai-creta-electric",
+      "brand": "Hyundai",
+      "model": "Creta Electric",
+      "generation": "First generation (launched in India 2025)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-cd"
+      },
+      "summary": "The Creta Electric is the battery-electric Creta, offered with a 42 kWh or a 51.4 kWh battery pack and a front-mounted single motor.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/creta-electric/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Creta",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4340,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1790,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1655,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2610,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 433,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "52 standard safety features (Hyundai)",
+          "ESC, VSM and hill-start assist",
+          "All-wheel disc brakes",
+          "TPMS (Highline)"
+        ]
+      },
+      "warranty": {
+        "v": "Battery: 8 years / 1,60,000 km",
+        "s": "src-bro"
+      },
+      "price": {
+        "minInr": {
+          "v": 1802800,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 2522000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 135,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 200,
+            "s": "src-cd"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 42,
+              "s": "src-bro"
+            },
+            "claimedRangeKm": {
+              "v": 420,
+              "s": "src-bro"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "About 6 hours for 10-100% on a 7.4 kW AC fast charger",
+              "s": "src-bro"
+            },
+            "dcFastChargeNote": {
+              "v": "About 39 minutes for 10-80% on a DC fast charger (100 kW or higher)",
+              "s": "src-bro"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1803000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "Executive",
+              "priceInr": {
+                "v": 1803000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Premium",
+              "priceInr": {
+                "v": 2000000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Excellence",
+              "priceInr": {
+                "v": 2130000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "ev-42",
+          "label": "42 kWh battery · single-speed",
+          "fuel": "ev",
+          "engine": "Permanent-magnet electric motor, front axle",
+          "transmission": "Single-speed reduction gear"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 171,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 200,
+            "s": "src-cd"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 51.4,
+              "s": "src-bro"
+            },
+            "claimedRangeKm": {
+              "v": 510,
+              "s": "src-bro"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "About 7 hours 15 minutes for 10-100% on a 7.4 kW AC fast charger",
+              "s": "src-bro"
+            },
+            "dcFastChargeNote": {
+              "v": "About 39 minutes for 10-80% on a DC fast charger (100 kW or higher)",
+              "s": "src-bro"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2367000,
+            "s": "src-cd"
+          },
+          "trims": [
+            {
+              "name": "Excellence LR",
+              "priceInr": {
+                "v": 2367000,
+                "s": "src-cd"
+              }
+            },
+            {
+              "name": "Excellence LR HC Lounge",
+              "priceInr": {
+                "v": 2507000,
+                "s": "src-cd"
+              }
+            }
+          ],
+          "id": "ev-51",
+          "label": "51.4 kWh Long Range battery · single-speed",
+          "fuel": "ev",
+          "engine": "Permanent-magnet electric motor, front axle",
+          "transmission": "Single-speed reduction gear"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hyundai Creta Electric SU2 EV PE (1).jpg",
+          "localPath": "/cars/hyundai-creta-electric-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AHyundai_Creta_Electric_SU2_EV_PE_(1).jpg",
+          "author": "Avante2025",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "Hyundai Creta Electric (Creta Electric SU2 EV PE), January 2025",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Creta Electric digital brochure (dated Sep 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/creta-ev.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-09"
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Creta Electric price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/creta-electric",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-hl",
+          "type": "manufacturer",
+          "label": "Hyundai India – Creta Electric highlights page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/creta-electric/highlights",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Motor power: brochure states 99 kW (135 PS) for the 42 kWh and 126 kW (171 PS) for the 51.4 kWh pack; PS is as printed by Hyundai.",
+        "Range is the brochure figure per MIDC Part 1 + Part 2 cycle (AIS 040 Rev.1, ARAI-certified for the 51.4 kWh pack); real-world range is lower.",
+        "Torque (200 Nm) and boot (433 L) are from CarDekho; Hyundai pages do not state them. Starting price is Hyundai's homepage; maximum and trim prices are CarDekho's.",
+        "Trim price list from CarDekho shows selected variants only.",
+        "No NCAP rating recorded."
+      ]
+    },
+    {
+      "id": "hyundai-alcazar",
+      "brand": "Hyundai",
+      "model": "Alcazar",
+      "generation": "Alcazar (launched in India 2021, refreshed 2025)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-spec"
+      },
+      "summary": "The Alcazar is Hyundai's three-row SUV in India, available in 6- and 7-seat layouts with a 1.5 L turbo-petrol or a 1.5 L diesel.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/alcazar/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Alcazar",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4560,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1710,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 2760,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": {
+          "v": 200,
+          "s": "src-cd"
+        },
+        "bootLitres": {
+          "v": 180,
+          "s": "src-cd"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-bro"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "40 standard safety features (Hyundai)",
+          "ESC, VSM and hill-start assist",
+          "All-wheel disc brakes",
+          "ISOFIX child seat anchors",
+          "Hyundai SmartSense ADAS (higher trims)"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / unlimited km",
+        "s": "src-bro"
+      },
+      "price": {
+        "minInr": {
+          "v": 1450700,
+          "s": "src-home"
+        },
+        "maxInr": {
+          "v": 2196000,
+          "s": "src-cd"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 17.5,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1450700,
+            "s": "src-home"
+          },
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.5 L Turbo GDi petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Turbo GDi petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 18.1,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1808000,
+            "s": "src-cd"
+          },
+          "trims": [],
+          "id": "petrol-dct",
+          "label": "1.5 L Turbo GDi petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L Turbo GDi petrol",
+          "transmission": "7-speed dual clutch (DCT)"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 116,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 20.4,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1550000,
+            "s": "src-cd"
+          },
+          "trims": [],
+          "id": "diesel-mt",
+          "label": "1.5 L U2 CRDi diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L U2 CRDi diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-bro"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 116,
+            "s": "src-bro"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-bro"
+          },
+          "efficiency": {
+            "value": 18.1,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-cd"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1881000,
+            "s": "src-cd"
+          },
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L U2 CRDi diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L U2 CRDi diesel",
+          "transmission": "6-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Hyundai Alcazar 2.0 Signature (India) front view.png",
+          "localPath": "/cars/hyundai-alcazar-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Hyundai_Alcazar_2.0_Signature_(India)_front_view.png",
+          "author": "Hindi DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Hyundai Alcazar 2.0 Signature, India-market launch model (front view)",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – Alcazar digital brochure",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/alcazar.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-spec",
+          "type": "manufacturer",
+          "label": "Hyundai India – Alcazar specification page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/alcazar/specification",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-cd",
+          "type": "third-party",
+          "label": "CarDekho – Alcazar price, variants and specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/hyundai/alcazar",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power is quoted in PS exactly as stated in the Hyundai brochure (the brochure lists kW with PS in brackets).",
+        "Seats: 7 is the maximum; the model is also sold as a 6-seater with captain seats (and CarDekho also lists a 5-seat configuration).",
+        "Starting price is Hyundai's homepage; maximum price, per-option prices and mileage are as shown on CarDekho; mileage is not confirmed against Hyundai documents.",
+        "Boot of 180 L is with all three rows up (CarDekho); 579 L with the third row folded. Ground clearance 200 mm is also from CarDekho.",
+        "The photo shows the 2021 launch model; the current car has been updated since.",
+        "No NCAP rating recorded."
+      ]
+    },
+    {
+      "id": "hyundai-ioniq-5",
+      "brand": "Hyundai",
+      "model": "Ioniq 5",
+      "generation": "Updated Ioniq 5 with 84 kWh battery (India launch April 2026)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-cw"
+      },
+      "summary": "The Ioniq 5 is Hyundai's flagship electric crossover in India, a single rear-wheel-drive variant with an 84 kWh battery and a claimed range of up to 690 km.",
+      "officialUrl": "https://www.hyundai.com/in/en/find-a-car/ioniq-5/highlights",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Ioniq_5",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4655,
+          "s": "src-bro"
+        },
+        "widthMm": {
+          "v": 1890,
+          "s": "src-bro"
+        },
+        "heightMm": {
+          "v": 1625,
+          "s": "src-bro"
+        },
+        "wheelbaseMm": {
+          "v": 3000,
+          "s": "src-bro"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-bro"
+        },
+        "keyFeatures": [
+          "6 airbags (driver, passenger, side and curtain)",
+          "Hill-start assist",
+          "Hyundai SmartSense ADAS",
+          "Tyre mobility kit"
+        ]
+      },
+      "warranty": {
+        "v": "Battery: 8 years / 1,60,000 km",
+        "s": "src-bro"
+      },
+      "price": {
+        "minInr": {
+          "v": 5570600,
+          "s": "src-home"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 228.5,
+            "s": "src-bro"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 84,
+              "s": "src-bro"
+            },
+            "claimedRangeKm": {
+              "v": 690,
+              "s": "src-price"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "About 7 hours 35 minutes for 10-100% on an 11 kW AC charger",
+              "s": "src-bro"
+            },
+            "dcFastChargeNote": {
+              "v": "About 18 minutes for 10-80% on a 350 kW DC charger",
+              "s": "src-bro"
+            }
+          },
+          "fromPriceInr": {
+            "v": 5570600,
+            "s": "src-home"
+          },
+          "trims": [],
+          "id": "ev-84",
+          "label": "84 kWh battery · rear-wheel drive",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor (PMSM), rear axle",
+          "transmission": "Single-speed reduction gear"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hyundai IONIQ 5 in New Orleans June 2025 - 5.jpg",
+          "localPath": "/cars/hyundai-ioniq-5-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AHyundai_IONIQ_5_in_New_Orleans_June_2025_-_5.jpg",
+          "author": "Infrogmation",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Hyundai Ioniq 5 in New Orleans, USA, June 2025 (US-market car, not the India-spec model)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-home",
+          "type": "manufacturer",
+          "label": "Hyundai India – homepage model lineup with ex-showroom starting prices",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-bro",
+          "type": "brochure",
+          "label": "Hyundai India – IONIQ 5 digital brochure (dated Apr 2026)",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/brochure/ioniq-5.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-04"
+        },
+        {
+          "id": "src-price",
+          "type": "manufacturer",
+          "label": "Hyundai India – IONIQ 5 price page",
+          "publisher": "Hyundai Motor India Ltd",
+          "url": "https://www.hyundai.com/in/en/find-a-car/ioniq-5/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-cw",
+          "type": "third-party",
+          "label": "CarWale – Hyundai Ioniq 5",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/hyundai-cars/ioniq-5/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-rl",
+          "type": "third-party",
+          "label": "Rushlane – 2026 Hyundai Ioniq 5 launched at Rs 55.7 lakh with 84 kWh battery and 690 km range",
+          "publisher": "Rushlane",
+          "url": "https://www.rushlane.com/2026-hyundai-ioniq-5-launch-price-rs-55-7-lakh-84-kwh-battery-690km-range-12545331.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-04-28"
+        }
+      ],
+      "notes": [
+        "Motor power is 168 kW (228.5 PS) per the Hyundai brochure; torque is not stated on Hyundai's pages, so it is left blank.",
+        "The 690 km claimed range is from Hyundai's price page; Hyundai's page does not name the test standard, while Rushlane and CarWale describe it as ARAI.",
+        "Seating of 5 is from CarWale. Boot space is not recorded because third-party figures include the front trunk.",
+        "A single variant is sold, so no maximum price is given.",
+        "No India-spec or Bharat NCAP rating found; a Euro NCAP rating for earlier European cars is not applicable to the India-spec model.",
+        "The photo shows a US-market car."
+      ]
+    }
+  ]
+}

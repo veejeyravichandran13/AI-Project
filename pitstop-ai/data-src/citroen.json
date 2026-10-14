@@ -1,0 +1,890 @@
+{
+  "brand": {
+    "name": "Citroën",
+    "slug": "citroen",
+    "country": "France",
+    "parent": "Stellantis",
+    "indiaWebsite": "https://www.citroen.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro%C3%ABn",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "citroen-c3",
+      "brand": "Citroën",
+      "model": "C3 (C3X)",
+      "generation": "Refreshed C3X range",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A five-seat compact hatchback with naturally aspirated and turbo 1.2 L petrol engines, sold as the C3X after a refresh.",
+      "officialUrl": "https://www.citroen.in/models/c3.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 180,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 315,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "6 airbags on Shine (2 on lower variants)",
+          "ESP and hill hold on turbo / Shine",
+          "360-degree camera on Shine",
+          "ISOFIX on Feel(O) and Shine"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 499000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1021000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-82-mt",
+          "label": "1.2 L PureTech 82 · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 82 naturally aspirated",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 82,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 19.3,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 499000,
+            "s": "src-2"
+          },
+          "trims": []
+        },
+        {
+          "id": "petrol-110-mt",
+          "label": "1.2 L PureTech 110 turbo · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 110 turbo",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 190,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 19.3,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-110-at",
+          "label": "1.2 L PureTech 110 turbo · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 110 turbo",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 205,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": {
+            "value": 18.3,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Citroën India – C3X page",
+          "publisher": "Citroën India (Stellantis)",
+          "url": "https://www.citroen.in/models/c3.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – C3 X",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Citroen_C3/Citroen_C3.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Citroën's India site does not publish prices or dimensions; prices and any non-Citroën values come from CarDekho (rounded to Rs 0.01 lakh) and may lag the current list.",
+        "Citroën lists variants LIVE, LIVE(O), FEEL, FEEL(O), SHINE. Citroën states 19.3 km/l for the manual variants (not split between the 82 PS and 110 PS manuals) and 18.3 km/l for the automatic.",
+        "CarDekho also lists a 1.2 L CNG manual; it is not on the Citroën page and is not included. CarDekho reports the C3 as not crash-tested by Global or Bharat NCAP (a Latin NCAP zero-star result applies to the Brazil model), so NCAP is null. Length/width/height/wheelbase not stated by either source. No suitable Commons photo of the India C3 found."
+      ]
+    },
+    {
+      "id": "citroen-aircross",
+      "brand": "Citroën",
+      "model": "Aircross (AircrossX)",
+      "generation": "Refreshed range, 5- and 7-seat",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "A compact SUV offered in five- and seven-seat forms with 1.2 L petrol engines, now sold as the AircrossX.",
+      "officialUrl": "https://www.citroen.in/models/aircross.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4323,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1796,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1669,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2671,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 200,
+          "s": "src-1"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 4,
+          "year": 2025,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Rating applies to the five-seater version (adult 27.05/32, child 40.49/49 per Evo India); Wikipedia lists child as 5 stars, news report says 4."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "ESP and hill hold",
+          "ISOFIX with top tether",
+          "360-degree camera (Max)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 889000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1472000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-82-mt",
+          "label": "1.2 L PureTech 82 · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 82 naturally aspirated",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 82,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 17.5,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-110-mt",
+          "label": "1.2 L PureTech 110 turbo · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 110 turbo",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 190,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 18.5,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-110-at",
+          "label": "1.2 L PureTech 110 turbo · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 110 turbo",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 205,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": {
+            "value": 17.6,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Citroën India – AircrossX page",
+          "publisher": "Citroën India (Stellantis)",
+          "url": "https://www.citroen.in/models/aircross.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Aircross X",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Citroen_Aircross/Citroen_Aircross.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Citroën C3 Aircross",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3_Aircross",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Evo India – Citroën Aircross scores 5 stars in Bharat NCAP crash test",
+          "publisher": "Evo India",
+          "url": "https://www.evoindia.com/news/car-news/citroen-aircross-scores-5-stars-in-bharat-ncap-crash-test-587172",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-09-30"
+        }
+      ],
+      "notes": [
+        "Citroën's India site does not publish prices or dimensions; prices and any non-Citroën values come from CarDekho (rounded to Rs 0.01 lakh) and may lag the current list.",
+        "Citroën lists variants YOU, PLUS, MAX in 5- and 7-seat forms. Dimensions are Wikipedia's figures for the C3 Aircross (India); the 7-seat version may differ slightly. Boot (CarDekho: 444-511 L) omitted because layout is unspecified. Power per Citroën (82/110 PS); CarDekho quotes 81 / 110.62 PS.",
+        "Warranty not stated. No photo found of the India-market Aircross on Commons (only an interior shot)."
+      ]
+    },
+    {
+      "id": "citroen-basalt",
+      "brand": "Citroën",
+      "model": "Basalt (BasaltX)",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A five-seat SUV-coupe built on the C3 Aircross platform with 1.2 L petrol engines, now sold as the BasaltX.",
+      "officialUrl": "https://www.citroen.in/models/basalt.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 470,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 4,
+          "adultOccupantStars": 4,
+          "childOccupantStars": 4,
+          "year": 2024,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Adult 26.19/32, child 35.90/49; announced by Citroën India in October 2024 for the Basalt."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "ESP and hill hold",
+          "ISOFIX",
+          "Reverse parking sensors",
+          "360-degree camera (Max)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 855000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1411000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-82-mt",
+          "label": "1.2 L PureTech 82 · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 82 naturally aspirated",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 82,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 18,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 855000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "You",
+              "priceInr": {
+                "v": 855000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Plus",
+              "priceInr": {
+                "v": 999000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-110-mt",
+          "label": "1.2 L PureTech 110 turbo · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 110 turbo",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 190,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 19.5,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1157000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Plus Turbo",
+              "priceInr": {
+                "v": 1157000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Max Turbo",
+              "priceInr": {
+                "v": 1262000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-110-at",
+          "label": "1.2 L PureTech 110 turbo · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.2 L PureTech 110 turbo",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 205,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": {
+            "value": 18.7,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1389000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Max Turbo AT",
+              "priceInr": {
+                "v": 1389000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 75.jpg",
+          "localPath": "/cars/citroen-basalt-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show%2C_Bangalore_(2025)_75.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Citroën Basalt at the 4th International Auto Show, Bangalore, India (2025); image not visually inspected beyond its Commons description",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Citroën India – BasaltX page",
+          "publisher": "Citroën India (Stellantis)",
+          "url": "https://www.citroen.in/models/basalt.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Basalt X",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Citroen_Basalt/Citroen_Basalt.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "ncap",
+          "label": "Stellantis Media – Citroën Basalt earns 4-star rating in Bharat NCAP safety tests",
+          "publisher": "Citroën India (Stellantis)",
+          "url": "https://www.media.stellantis.com/in-en/citroen/press/citroen-basalt-earns-4-star-rating-in-bharat-ncap-safety-tests-reiterates-citroen-india-s-commitment-towards-passenger-safety",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Citroën's India site does not publish prices or dimensions; prices and any non-Citroën values come from CarDekho (rounded to Rs 0.01 lakh) and may lag the current list.",
+        "The Bharat NCAP rating (4 stars adult and child, per search-result text of the Citroën press release) was for the original Basalt, before the BasaltX refresh. Per-option fromPrice and trims are CarDekho's; the max price is CarDekho's range top.",
+        "Length/width/height, wheelbase and ground clearance not stated by Citroën or CarDekho. Warranty not stated."
+      ]
+    },
+    {
+      "id": "citroen-e-c3",
+      "brand": "Citroën",
+      "model": "ë-C3 (ë-C3X)",
+      "generation": null,
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat electric hatchback with a 29.2 kWh LFP battery and a claimed 330 km range.",
+      "officialUrl": "https://www.citroen.in/models/new-e-c3.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2540,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 180,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 315,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "2 airbags on Live/Live(O), 6 on Shine",
+          "10.25-inch infotainment with 6 JBL speakers",
+          "Dashcam with predictive safety"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1209000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1336000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev",
+          "label": "29.2 kWh LFP · single motor",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 57,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 143,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 29.2,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 330,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": null,
+            "dcFastChargeNote": {
+              "v": "DC fast charge 10-80% in 57 minutes",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1209000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Live",
+              "priceInr": {
+                "v": 1209000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Live (O)",
+              "priceInr": {
+                "v": 1245000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Shine",
+              "priceInr": {
+                "v": 1336000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Citroën India – ë-C3X page",
+          "publisher": "Citroën India (Stellantis)",
+          "url": "https://www.citroen.in/models/new-e-c3.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – e-C3 X",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Citroen_eC3/Citroen_eC3.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Citroën's India site does not publish prices or dimensions; prices and any non-Citroën values come from CarDekho (rounded to Rs 0.01 lakh) and may lag the current list.",
+        "Citroën states 'ARAI-certified range up to 330 km'; CarDekho labels the same 330 km as MIDC, hence 'ARAI MIDC'. Citroën gives 57 PS; CarDekho gives 42 kW. Battery capacity is not on the Citroën page (CarDekho: 29.2 kWh LFP). Airbag counts: Citroën says 2 (Live) / 6 (Shine); CarDekho says 4-6.",
+        "Warranty, AC charge time and NCAP rating not stated. Length/width/height not stated. No suitable Commons photo of the India model."
+      ]
+    },
+    {
+      "id": "citroen-c5-aircross",
+      "brand": "Citroën",
+      "model": "C5 Aircross",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A five-seat premium SUV sold in India with a 2.0 L diesel and 8-speed automatic in a single Shine trim.",
+      "officialUrl": "https://www.citroen.in/models/c5-aircross.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 580,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 52.5,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Blind spot monitoring",
+          "Front and rear parking sensors",
+          "Reversing camera",
+          "Auto door unlock on crash",
+          "Electric child lock"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 3732000,
+          "s": "src-2"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-at",
+          "label": "2.0 L BlueHDi diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L turbo diesel (DW10 FC)",
+          "displacementCc": {
+            "v": 1997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 177,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-1"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": {
+            "value": 17.5,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Citroën India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 3732000,
+            "s": "src-2"
+          },
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Citroën India – C5 Aircross page",
+          "publisher": "Citroën India (Stellantis)",
+          "url": "https://www.citroen.in/models/c5-aircross.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – C5 Aircross",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Citroen_C5_Aircross/Citroen_C5_Aircross.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Citroën's India site does not publish prices or dimensions; prices and any non-Citroën values come from CarDekho (rounded to Rs 0.01 lakh) and may lag the current list.",
+        "Single Shine variant (CarDekho also lists a Shine Dual Tone at the same price). Power 177 PS per Citroën (CarDekho: 174.33 bhp). Boot 580 L (CarDekho; up to 1,630 L seats folded). Dimensions, ground clearance, warranty and NCAP not stated; a Euro NCAP rating for the European model was not verified.",
+        "No Commons photo chosen: available images are European/Chinese-market cars, and none was verified as the India model."
+      ]
+    }
+  ]
+}

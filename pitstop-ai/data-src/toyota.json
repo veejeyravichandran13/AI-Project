@@ -1,0 +1,2569 @@
+{
+  "brand": {
+    "name": "Toyota",
+    "slug": "toyota",
+    "country": "Japan",
+    "parent": "Toyota Motor Corporation",
+    "indiaWebsite": "https://www.toyotabharat.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Kirloskar_Motor",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "toyota-glanza",
+      "brand": "Toyota",
+      "model": "Glanza",
+      "generation": null,
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Premium hatchback from Toyota in India with a 1.2 L petrol (manual or AMT) and an E-CNG option.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/glanza/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Glanza",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3990,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1745,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1500,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2520,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 318,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "Brake assist",
+          "Vehicle stability control",
+          "Hill hold control",
+          "ISOFIX anchorage",
+          "Seat belt pre-tensioners",
+          "Immobilizer"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 673000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 999000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2025-09-22"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L 4-cylinder petrol (Dual Jet Dual VVT)",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 90,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 22.35,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 673000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "E",
+              "priceInr": {
+                "v": 673000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "S",
+              "priceInr": {
+                "v": 763000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "G",
+              "priceInr": {
+                "v": 865000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "V",
+              "priceInr": {
+                "v": 948000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L 4-cylinder petrol (Dual Jet Dual VVT)",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 90,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 22.94,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 828000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "S AMT",
+              "priceInr": {
+                "v": 828000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "G AMT",
+              "priceInr": {
+                "v": 925000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "V AMT",
+              "priceInr": {
+                "v": 999000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L E-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L 4-cylinder petrol/CNG",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 78,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 98.5,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 30.61,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 849000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "S CNG",
+              "priceInr": {
+                "v": 849000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "G CNG",
+              "priceInr": {
+                "v": 953000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Toyota Glanza (front).jpg",
+          "localPath": "/cars/toyota-glanza-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_Glanza_(front).jpg",
+          "author": "Agratsa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Toyota Glanza photographed in 2019 (first-generation Indian Glanza, pre-2022 facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Glanza page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/glanza/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Glanza",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/glanza",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Prices, boot space (318 L) and trim list are from CarDekho, dated 2025-09-22 (after the GST revision); they are over a year old relative to the retrieval date.",
+        "Toyota's page shows a placeholder-style 'Glanza G (AT)' price of Rs 8,71,000 (Maharashtra) in a comparison widget; not used because it conflicts with the other listing and is not a clear price list.",
+        "Power: Toyota states 66 kW (90 PS) petrol and 57 kW (78 PS) CNG; CarDekho lists 88.5 PS and 76.43 PS. Toyota's figures used. Toyota quotes wheelbase as 2520-2521 mm; 2520 used.",
+        "Toyota states 37 L petrol tank; CNG cylinder is stated as 55 L water equivalent.",
+        "Efficiency figures (22.35 / 22.94 km/l, 30.61 km/kg) are on both Toyota's page and CarDekho; cited to CarDekho's ARAI listing.",
+        "No Global NCAP or Bharat NCAP rating found for the Glanza itself. Warranty not stated on Toyota's page."
+      ]
+    },
+    {
+      "id": "toyota-urban-cruiser-taisor",
+      "brand": "Toyota",
+      "model": "Urban Cruiser Taisor",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Compact SUV-coupe styled crossover with a 1.2 L petrol (manual/AMT), a 1.0 L turbo petrol (manual/automatic) and a CNG option.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/urbancruiser-taisor/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Urban_Cruiser_Taisor",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 190,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 308,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 743000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1294000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2025-09-22"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L K-series petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 88.5,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.7,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 743000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "E",
+              "priceInr": {
+                "v": 743000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "S",
+              "priceInr": {
+                "v": 833000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "S Plus",
+              "priceInr": {
+                "v": 868000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L K-series petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 88.5,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-2"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 22.8,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 894000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "S AMT",
+              "priceInr": {
+                "v": 894000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "S Plus AMT",
+              "priceInr": {
+                "v": 929000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "turbo-mt",
+          "label": "1.0 L turbo petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L K-series turbo petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 98.69,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 147.6,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.5,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1045000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "G Turbo",
+              "priceInr": {
+                "v": 1045000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "V Turbo",
+              "priceInr": {
+                "v": 1136000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "V Turbo Dual Tone",
+              "priceInr": {
+                "v": 1152000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "turbo-at",
+          "label": "1.0 L turbo petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.0 L K-series turbo petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 98.69,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 147.6,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 20,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1186000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "G Turbo AT",
+              "priceInr": {
+                "v": 1186000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "V Turbo AT",
+              "priceInr": {
+                "v": 1278000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "V Turbo AT Dual Tone",
+              "priceInr": {
+                "v": 1294000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L E-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L K-series petrol/CNG",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 76.43,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 98.5,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 28.5,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 845000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "E CNG",
+              "priceInr": {
+                "v": 845000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Front view of Toyota Urban Cruiser Taisor.jpg",
+          "localPath": "/cars/toyota-urban-cruiser-taisor-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AFront_view_of_Toyota_Urban_Cruiser_Taisor.jpg",
+          "author": "Abhiraj Mohan 31",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "Front view of the Toyota Urban Cruiser Taisor, photographed July 2024.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Urban Cruiser Taisor page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/urbancruiser-taisor/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Urban Cruiser Taisor",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/urban-cruiser-taisor",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Toyota's page is thin (it states 22.79 km/l, 147.6 Nm and 0-60 km/h in 5.3 s only); most data is from CarDekho, dated 2025-09-22.",
+        "Toyota's 22.79 km/l is consistent with CarDekho's 22.8 km/l for the 1.2 L AMT.",
+        "Displacement, cylinder count, dimensions, fuel tank and airbag count not stated on fetched pages (CarDekho text on airbags was ambiguous), so left null. Not crash tested by Bharat/Global NCAP per CarDekho.",
+        "This model is the Toyota-badged equivalent of the Maruti Suzuki Fronx; Toyota's own page was used where it had data."
+      ]
+    },
+    {
+      "id": "toyota-rumion",
+      "brand": "Toyota",
+      "model": "Rumion",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Seven-seat MPV with a 1.5 L petrol (manual or 6-speed automatic) and an E-CNG option.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/rumion/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Rumion",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 209,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD and brake assist",
+          "Hill hold assist",
+          "Front seat pretensioner and force limiter",
+          "Tyre pressure monitoring system"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 979000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1421000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-03"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L petrol · manual",
+          "fuel": "petrol",
+          "engine": "1.5 L K-series petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 101.64,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 20.51,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.5 L petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L K-series petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 101.64,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-2"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 20.11,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1235000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "S AT",
+              "priceInr": {
+                "v": 1235000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "G AT",
+              "priceInr": {
+                "v": 1344000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "V AT",
+              "priceInr": {
+                "v": 1421000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.5 L E-CNG · manual",
+          "fuel": "cng",
+          "engine": "1.5 L K-series petrol/CNG",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 86.63,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 121.5,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 26.11,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1169000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "S CNG",
+              "priceInr": {
+                "v": 1169000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Rumion page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/rumion/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Rumion",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/rumion",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "CarDekho's price range (Rs 9.79-14.21 lakh, 'as of March 2026') does not match its own variant list, which shows an E MT at Rs 9.56 lakh; the headline range is used and manual-petrol per-trim prices are omitted.",
+        "Toyota's page does not state power/torque, dimensions, tank size or price; engine outputs, boot (209 L) and tank (45 L petrol) are from CarDekho. The page lists a 5-speed manual per CarDekho; Toyota only says a manual is available for the NeoDrive MT grades.",
+        "Efficiency figures are from Toyota's page. CarDekho's '5-star Global NCAP' claim for the Rumion could not be corroborated; a separate search found no Global/Bharat NCAP rating for the Rumion, so ncap is null.",
+        "No suitable free photo of the Rumion on Wikimedia Commons (only Suzuki Ertiga photos found).",
+        "Toyota-badged equivalent of the Maruti Suzuki Ertiga."
+      ]
+    },
+    {
+      "id": "toyota-urban-cruiser-hyryder",
+      "brand": "Toyota",
+      "model": "Urban Cruiser Hyryder",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Compact SUV sold with a 1.5 L mild-hybrid petrol, a 1.5 L E-CNG and a 1.5 L TNGA strong-hybrid powertrain.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/urbancruiser-hyryder/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Urban_Cruiser_Hyryder",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4365,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1795,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1645,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2600,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (dual front, side, curtain)",
+          "ABS with EBD",
+          "Vehicle stability control",
+          "Hill hold control",
+          "ISOFIX child seat anchors",
+          "TECT body structure"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1131000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2031000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "mild-hybrid-mt",
+          "label": "1.5 L NeoDrive mild-hybrid petrol · 5-speed manual",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K-series petrol with ISG (NeoDrive)",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.06,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 136.8,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.11,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1131000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "E",
+              "priceInr": {
+                "v": 1131000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "S",
+              "priceInr": {
+                "v": 1282000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mild-hybrid-at",
+          "label": "1.5 L NeoDrive mild-hybrid petrol · 6-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K-series petrol with ISG (NeoDrive)",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.06,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 136.8,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": {
+            "value": 20.58,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.5 L E-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.5 L K-series petrol/CNG",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 87.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 121.5,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 26.6,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "strong-hybrid",
+          "label": "1.5 L TNGA strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "1.5 L TNGA Atkinson petrol + electric motor (self-charging hybrid)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 91.18,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 141,
+            "s": "src-2"
+          },
+          "transmission": "e-CVT",
+          "efficiency": {
+            "value": 27.97,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "V Hybrid",
+              "priceInr": {
+                "v": 1999000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Toyota Urban Cruiser Hyryder, Goa, India.jpg",
+          "localPath": "/cars/toyota-urban-cruiser-hyryder-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_Urban_Cruiser_Hyryder%2C_Goa%2C_India.jpg",
+          "author": "Tannerdhi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Silver Toyota Urban Cruiser Hyryder in Goa, India.",
+          "match": "exact"
+        },
+        {
+          "file": "File:Toyota Urban Cruiser Hyryder strong hybrid, Goa, India.jpg",
+          "localPath": "/cars/toyota-urban-cruiser-hyryder-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_Urban_Cruiser_Hyryder_strong_hybrid%2C_Goa%2C_India.jpg",
+          "author": "Tannerdhi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Toyota Urban Cruiser Hyryder strong hybrid in Goa, India.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Urban Cruiser Hyryder page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/urbancruiser-hyryder/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Urban Cruiser Hyryder",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/urban-cruiser-hyryder",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "CarDekho showed the price range (Rs 11.31-20.31 lakh) as 'current listing' without a date. The strong-hybrid option has no confirmed lowest price: only 'V Hybrid' at Rs 19.99 lakh was listed (CarDekho 'popular variants'), so fromPriceInr is null for it.",
+        "Toyota's page gives power/torque for the mild-hybrid (103.06 PS / 136.8 Nm) and CNG (87.8 PS / 121.5 Nm); CarDekho lists 101.64 PS for the mild-hybrid. Toyota's figure used.",
+        "Strong-hybrid power (91.18 PS, engine), torque (141 Nm) and mileage (27.97 km/l) are from CarDekho only; Toyota's page gives no numbers for the hybrid. Mild-hybrid manual efficiency 21.11 km/l (Toyota) vs 21.12 (CarDekho).",
+        "Ground clearance, boot space (CarDekho: 265-373 L depending on variant) and warranty not given clearly, left null. No Global/Bharat NCAP rating found.",
+        "Toyota-badged equivalent of the Maruti Suzuki Grand Vitara."
+      ]
+    },
+    {
+      "id": "toyota-urban-cruiser-ebella",
+      "brand": "Toyota",
+      "model": "Urban Cruiser Ebella",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Battery-electric compact SUV with a 61 kWh LFP battery and a claimed 543 km range.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/urbancruiser-ebella/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Urban_Cruiser_Ebella",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4285,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1640,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2700,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 310,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "7 SRS airbags standard across variants",
+          "ADAS Level 2 on top variant (adaptive cruise control, lane assist, rear cross-traffic alert)"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (battery: 8 years / 2,00,000 km)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 2360000,
+          "s": "src-2"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-05-29"
+      },
+      "options": [
+        {
+          "id": "ev-61kwh",
+          "label": "61 kWh LFP · single front motor",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor (front-wheel drive)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 174,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 193,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 61,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 543,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": null,
+            "dcFastChargeNote": {
+              "v": "10% to 80% in 45 minutes",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2360000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "E3",
+              "priceInr": {
+                "v": 2360000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Urban Cruiser Ebella page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/urbancruiser-ebella/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Urban Cruiser Ebella",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/urban-cruiser-ebella",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Price of Rs 23.60 lakh is for the E3 variant, the only one priced at CarDekho's listing (dated 2026-05-29); E1/E2 pricing was marked pending, so the true minimum may be lower.",
+        "Motor power: Toyota states 128 kW; converted to PS at x1.3596 = 174 PS. Toyota states the range as 'ARAI certified'; CarDekho calls it MIDC.",
+        "CarDekho also mentions a 49 kWh variant (440 km); Toyota's page only describes the 61 kWh pack, so only that is listed.",
+        "Ground clearance not stated. Not independently crash tested (CarDekho notes the Maruti e-Vitara donor car's rating, not used). No free photo found.",
+        "Toyota-badged equivalent of the Maruti Suzuki e Vitara."
+      ]
+    },
+    {
+      "id": "toyota-innova-crysta",
+      "brand": "Toyota",
+      "model": "Innova Crysta",
+      "generation": "Second generation (launched 2016 in India)",
+      "bodyType": "mpv",
+      "seats": {
+        "v": 8,
+        "s": "src-1"
+      },
+      "summary": "Seven or eight seat diesel MPV powered by a 2.4 L turbo-diesel engine.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/innova-crysta/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Innova",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 300,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 55,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 3,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "3 airbags on base variants; 7 on VX and ZX",
+          "ABS",
+          "Vehicle stability control",
+          "Hill-start assist control",
+          "GOA body structure",
+          "Seat belt warnings for all three rows"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1972000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2677000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-06-04"
+      },
+      "options": [
+        {
+          "id": "diesel-mt",
+          "label": "2.4 L turbo-diesel · 5-speed manual",
+          "fuel": "diesel",
+          "engine": "2.4 L 4-cylinder turbo-diesel (GD)",
+          "displacementCc": {
+            "v": 2393,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 150,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 343,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1972000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "GX 7-seater",
+              "priceInr": {
+                "v": 1972000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "GX Plus 7-seater",
+              "priceInr": {
+                "v": 2115000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VX 7-seater",
+              "priceInr": {
+                "v": 2493000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZX 7-seater",
+              "priceInr": {
+                "v": 2663000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Toyota Innova Crysta 2.4 Z front right.jpg",
+          "localPath": "/cars/toyota-innova-crysta-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_Innova_Crysta_2.4_Z_front_right.jpg",
+          "author": "Premnath Kudva",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2016 Toyota Innova Crysta 2.4 Z at its May 2016 Indian launch (pre-facelift styling).",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Innova Crysta page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/innova-crysta/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Innova Crysta",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/innova-crysta",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Toyota's page lists diesel manual grades G, GX, GX+, VX, ZX and also mentions a 6-speed automatic and a petrol engine (122 kW); CarDekho lists a manual-only diesel line-up with variants from GX. Only the diesel manual is listed as an option; the automatic/petrol could not be confirmed as currently sold.",
+        "Toyota states 110 kW (150 PS) directly. CarDekho's 9 kmpl mileage figure looked implausible and was not used; no claimed efficiency recorded.",
+        "Dimensions, ground clearance and warranty not stated. Boot (300 L) and tank (55 L) from CarDekho. Seating is 7 or 8; CarDekho lists 7-seater and 8-seater variant prices (8-seaters a few thousand rupees dearer).",
+        "CarDekho cites a 2016 ASEAN NCAP 5-star result, but that applies to a different market/spec, so ncap is null."
+      ]
+    },
+    {
+      "id": "toyota-innova-hycross",
+      "brand": "Toyota",
+      "model": "Innova Hycross",
+      "generation": "Third generation Innova (launched 2022 in India)",
+      "bodyType": "mpv",
+      "seats": {
+        "v": 8,
+        "s": "src-1"
+      },
+      "summary": "Monocoque seven or eight seat MPV with a 2.0 L TNGA petrol and a 2.0 L self-charging strong-hybrid option.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/innova/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Innova_Hycross",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 179,
+          "s": "src-2"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 52,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Variants tested: 8-seater VX strong hybrid and 7-seater ZX strong hybrid. Adult occupant 30.47/32 points; child occupant 45/49 points. Published 2025-06-30."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 or 9 airbags depending on variant",
+          "ABS with EBD",
+          "Toyota Safety Sense on top variant (pre-collision, dynamic radar cruise control, lane trace assist, blind spot monitor, rear cross-traffic alert, auto high beam)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1870000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 3184000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2025-09-22"
+      },
+      "options": [
+        {
+          "id": "petrol-cvt",
+          "label": "2.0 L petrol · Direct Shift CVT",
+          "fuel": "petrol",
+          "engine": "2.0 L TNGA petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 172.4,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 188,
+            "s": "src-2"
+          },
+          "transmission": "Direct Shift CVT",
+          "efficiency": {
+            "value": 16.13,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1870000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "G (Fleet) 7-seater",
+              "priceInr": {
+                "v": 1870000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "GX 7-seater",
+              "priceInr": {
+                "v": 1953000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "GX(O) 7-seater",
+              "priceInr": {
+                "v": 2097000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "strong-hybrid",
+          "label": "2.0 L strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "2.0 L TNGA petrol + electric motor (self-charging hybrid)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 189,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 209,
+            "s": "src-2"
+          },
+          "transmission": "e-CVT (E-drive)",
+          "efficiency": {
+            "value": 23.24,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2676000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VX 7-seater",
+              "priceInr": {
+                "v": 2676000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VX(O) 7-seater",
+              "priceInr": {
+                "v": 2877000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZX(O)",
+              "priceInr": {
+                "v": 3184000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024 Toyota Zenix 2.0 Q HEV (1).jpg",
+          "localPath": "/cars/toyota-innova-hycross-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Toyota_Zenix_2.0_Q_HEV_(1).jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2024 Toyota Zenix 2.0 Q HEV (the Innova Hycross sold as Zenix in the Philippines), front view.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Innova Hycross page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/innova/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Innova Hycross",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/innova-hycross",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Rushlane - Innova Hycross scores 5 stars in Bharat NCAP",
+          "publisher": "Rushlane",
+          "url": "https://www.rushlane.com/toyota-innova-hycross-scores-5-stars-in-bharat-ncap-crash-test-12525270.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-06-30"
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Prices dated 2025-09-22 by CarDekho; only 6 of 12 variants were listed. The petrol minimum is the G (fleet) trim; the strong-hybrid 'from' price is the cheapest hybrid trim listed (7-seater VX) and 8-seater hybrid prices were not listed.",
+        "Power converted from CarDekho's bhp figures (170 bhp -> 172.4 PS, 186.4 bhp -> 189 PS at x1.0139). The 209 Nm hybrid torque is as listed by CarDekho and may be the engine figure only. Toyota's page gives no outputs.",
+        "Toyota's page says 6 or 9 airbags depending on variant; 6 recorded as standard. Boot space (CarDekho: 289-700 L by seating mode) left null. Bharat NCAP details come from Rushlane's report, not from bncap.in directly.",
+        "Photo is of the Philippine-market Zenix (same vehicle); no free India-market photo of the Hycross found."
+      ]
+    },
+    {
+      "id": "toyota-fortuner",
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "generation": "Second generation (2021 facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Body-on-frame seven-seat SUV sold with a 2.8 L diesel (manual or automatic), a 2.7 L petrol and a 48V mild-hybrid diesel.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/fortuner/index-fortuner.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Fortuner",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4795,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1855,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1835,
+          "s": "src-1"
+        },
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 80,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "7 SRS airbags",
+          "Vehicle stability control with brake assist",
+          "Hill assist control",
+          "Traction control",
+          "ABS with EBD",
+          "Electronic differential lock and downhill assist (4WD diesel)",
+          "Impact-absorbing chassis"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 3476000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 5046000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "2.7 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "2.7 L 4-cylinder petrol",
+          "displacementCc": {
+            "v": 2694,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 166,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 245,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-mt",
+          "label": "2.8 L diesel · 6-speed manual (iMT)",
+          "fuel": "diesel",
+          "engine": "2.8 L 4-cylinder turbo-diesel",
+          "displacementCc": {
+            "v": 2755,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 420,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual with iMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-at",
+          "label": "2.8 L diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.8 L 4-cylinder turbo-diesel",
+          "displacementCc": {
+            "v": 2755,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-mild-hybrid-at",
+          "label": "2.8 L diesel 48V mild-hybrid · 6-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "2.8 L 4-cylinder turbo-diesel with 48V mild-hybrid",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-2"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Toyota Fortuner GR Sport 2.8 4WD.jpg",
+          "localPath": "/cars/toyota-fortuner-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Toyota_Fortuner_GR_Sport_2.8_4WD.jpg",
+          "author": "Chanokchon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2021 Toyota Fortuner GR Sport 2.8 4WD (Thailand-market photo of the facelifted model).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Fortuner page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/fortuner/index-fortuner.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Fortuner",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/fortuner",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Price range (Rs 34.76 lakh 4x2 AT to Rs 50.46 lakh GR-S 4x4 diesel AT) is from CarDekho, October 2026; per-engine prices were not given, so option prices are null. Toyota's page does not state prices.",
+        "Toyota states 150 kW (204 PS) and 420 Nm (MT) / 500 Nm (AT) for the diesel, and 122 kW (166 PS) / 245 Nm for the petrol, directly. The mild-hybrid diesel (204 PS / 500 Nm) is from CarDekho only. CarDekho's list of petrol with automatic could not be matched to Toyota's page, so only the 5-speed manual petrol is listed. Toyota's page also mentions a GR-S variant.",
+        "Toyota gives length/width/height as 479.5 x 185.5 x 183.5 cm (converted to mm). Claimed mileage not stated by Toyota; CarDekho's figures were ranges and were not used. CarDekho's ground clearance value (22 mm) is evidently wrong and was ignored.",
+        "No Bharat NCAP rating found; an ASEAN NCAP 5-star rating exists for the earlier-generation Fortuner but is not recorded as it was not verified for the India-spec facelift."
+      ]
+    },
+    {
+      "id": "toyota-fortuner-legender",
+      "brand": "Toyota",
+      "model": "Fortuner Legender",
+      "generation": "Second generation (2021 facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Premium-styled variant of the Fortuner SUV offered with the 2.8 L diesel in 4x2 automatic, 4x4 manual and mild-hybrid trims.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/fortuner/index-legender.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Fortuner",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4795,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1855,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1835,
+          "s": "src-1"
+        },
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 80,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "7 SRS airbags",
+          "Vehicle stability control",
+          "Hill assist control",
+          "Traction control",
+          "ABS with EBD",
+          "ISOFIX with tether anchor (2nd row)",
+          "Pre-tensioner seat belts"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4292000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 4829000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2025-09-22"
+      },
+      "options": [
+        {
+          "id": "diesel-mt-4x4",
+          "label": "2.8 L diesel · 6-speed manual (iMT) · 4x4",
+          "fuel": "diesel",
+          "engine": "2.8 L 4-cylinder turbo-diesel",
+          "displacementCc": {
+            "v": 2755,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 420,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual with iMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4508000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "4x4 MT",
+              "priceInr": {
+                "v": 4508000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at",
+          "label": "2.8 L diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.8 L 4-cylinder turbo-diesel",
+          "displacementCc": {
+            "v": 2755,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4292000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "4x2 AT",
+              "priceInr": {
+                "v": 4292000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Neo Drive 4x2 AT (48V mild-hybrid)",
+              "priceInr": {
+                "v": 4829000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Toyota Fortuner 4x2 Legender 2023 (8).jpg",
+          "localPath": "/cars/toyota-fortuner-legender-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_Fortuner_4x2_Legender_2023_(8).jpg",
+          "author": "Captainmorlypogi1959",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Toyota Fortuner 4x2 Legender photographed in 2023 in the Philippines.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Fortuner Legender page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/fortuner/index-legender.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Fortuner Legender",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/fortuner-legender",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Prices are CarDekho's, dated 2025-09-22 (after the GST cut); the Fortuner page on CarDekho showed higher figures dated October 2026, so these Legender prices may be stale.",
+        "Toyota states 150 kW (204 PS), 420 Nm (MT) and 500 Nm (AT) directly. CarDekho cites a 10.52 km/l ARAI figure without a variant, so no efficiency is recorded. Ground clearance not stated.",
+        "Toyota's page says '4x4 MT and 4x2/4x4 AT' versions; only the three CarDekho-listed variants carry prices. The Neo Drive trim is the mild-hybrid and is listed as a trim under the automatic option.",
+        "No NCAP rating found for this variant. Photo is of the Philippine-market Legender."
+      ]
+    },
+    {
+      "id": "toyota-hilux",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "generation": null,
+      "bodyType": "pickup",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Double-cab lifestyle pickup with a 2.8 L turbo-diesel and a 6-speed automatic in 4x2 and 4x4 forms.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/hilux/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Hilux",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5320,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1855,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1815,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 3085,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 80,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "7 SRS airbags",
+          "ABS with vehicle stability control and brake assist",
+          "GOA body structure",
+          "ISOFIX child restraint anchors",
+          "Panoramic view monitor and downhill assist control (VX)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 3199000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 3669000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-07-28"
+      },
+      "options": [
+        {
+          "id": "diesel-4x2-at",
+          "label": "2.8 L diesel · 6-speed automatic · 4x2",
+          "fuel": "diesel",
+          "engine": "2.8 L turbo-diesel",
+          "displacementCc": {
+            "v": 2755,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 3199000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "GX 4x2 AT",
+              "priceInr": {
+                "v": 3199000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-4x4-at",
+          "label": "2.8 L diesel · 6-speed automatic · 4x4",
+          "fuel": "diesel",
+          "engine": "2.8 L turbo-diesel",
+          "displacementCc": {
+            "v": 2755,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 3369000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "GX 4x4 AT",
+              "priceInr": {
+                "v": 3369000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VX 4x4 AT",
+              "priceInr": {
+                "v": 3669000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Toyota Hilux Revo GR Sport Double-Cab 2.8 4x4.jpg",
+          "localPath": "/cars/toyota-hilux-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Toyota_Hilux_Revo_GR_Sport_Double-Cab_2.8_4x4.jpg",
+          "author": "Chanokchon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2021 Toyota Hilux Revo GR Sport Double-Cab 2.8 4x4 (Thailand market, previous-generation Hilux).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Hilux page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/hilux/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Hilux",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/hilux",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "CarDekho's price date for the Hilux is shown as 2026-07-28 (labelled launch date). Per-trim prices are from CarDekho.",
+        "Toyota states 150 kW and 500 Nm; power converted at kW x1.3596 = 204 PS (CarDekho also lists 204 PS). Toyota's length is 5320 mm; CarDekho lists 5325 mm. Toyota's figure used.",
+        "Ground clearance, mileage and warranty not stated; no NCAP rating found. Photo is a Thai-market, earlier-generation Hilux; the match is labelled conservatively."
+      ]
+    },
+    {
+      "id": "toyota-camry",
+      "brand": "Toyota",
+      "model": "Camry",
+      "generation": "Ninth generation (XV80)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Executive sedan sold in India only with a 2.5 L fifth-generation strong-hybrid powertrain and e-CVT.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/camry/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Camry",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Pre-collision system with pedestrian detection",
+          "Full-speed range dynamic radar cruise control",
+          "Lane departure alert with steering assist",
+          "Automatic high beam"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4748000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 4869000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2025-09-22"
+      },
+      "options": [
+        {
+          "id": "strong-hybrid",
+          "label": "2.5 L strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "2.5 L petrol + electric motor (5th-gen hybrid)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 230.2,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 221,
+            "s": "src-1"
+          },
+          "transmission": "e-CVT",
+          "efficiency": {
+            "value": 25.49,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4748000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Elegance",
+              "priceInr": {
+                "v": 4869000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:TOYOTA CAMRY (XV80) China (3).jpg",
+          "localPath": "/cars/toyota-camry-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ATOYOTA_CAMRY_(XV80)_China_(3).jpg",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Toyota Camry (XV80) photographed in China, 2024.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Camry page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/camry/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Camry",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/camry",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "CarDekho price range Rs 47.48-48.69 lakh (dated 2025-09-22); only the Elegance trim at Rs 48.69 lakh was explicitly listed (CarDekho also lists a 'Sprint Edition' while Toyota's page names 'Elegance' and 'Sport').",
+        "Power is CarDekho's 227 bhp converted at x1.0139 = 230.2 PS (combined system output). The 221 Nm torque is stated by Toyota (at 3200 rpm, presumably the engine). Displacement is only given as '2.5 L' so cc is left null.",
+        "Boot space (CarDekho: 587 L) looked questionable and is not used. Dimensions, ground clearance, tank and warranty not stated. No NCAP rating found.",
+        "Generation label (XV80) is inferred from the photo set used; it is not stated on Toyota's India page."
+      ]
+    },
+    {
+      "id": "toyota-vellfire",
+      "brand": "Toyota",
+      "model": "Vellfire",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "Luxury hybrid MPV with a 2.5 L Atkinson-cycle petrol-hybrid powertrain and captain seats.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/vellfire/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Vellfire",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Pre-collision safety system",
+          "Adaptive cruise control",
+          "Lane trace assist",
+          "Adaptive high beam LED headlamps",
+          "Rigid and impact-absorbing body structure"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 12000000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 13000000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2025-09-22"
+      },
+      "options": [
+        {
+          "id": "strong-hybrid",
+          "label": "2.5 L strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "2.5 L Atkinson-cycle petrol + electric motor",
+          "displacementCc": {
+            "v": 2487,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 193,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 240,
+            "s": "src-2"
+          },
+          "transmission": "e-CVT",
+          "efficiency": {
+            "value": 16,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 12000000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Hi",
+              "priceInr": {
+                "v": 12000000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VIP Executive Lounge",
+              "priceInr": {
+                "v": 13000000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Vellfire page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/vellfire/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Vellfire",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/vellfire",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Prices (Rs 1.20 crore Hi, Rs 1.30 crore VIP Executive Lounge) are CarDekho's, dated 2025-09-22. Toyota's page states no price, power or torque.",
+        "Power/torque/displacement/mileage are from CarDekho only; Toyota's page lists the safety features and 6 SRS airbags (text partly garbled; CarDekho also says 6). CarDekho also mentions a 4-star Japan NCAP rating, which is not an applicable India/Global NCAP result, so ncap is null.",
+        "Dimensions, ground clearance, tank, warranty not stated. No free photo matching the India-market model was confirmed."
+      ]
+    },
+    {
+      "id": "toyota-land-cruiser-300",
+      "brand": "Toyota",
+      "model": "Land Cruiser 300",
+      "generation": "300 Series (J300)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Full-size body-on-frame luxury SUV with a 3.3 L twin-turbo V6 diesel and a 10-speed automatic.",
+      "officialUrl": "https://www.toyotabharat.com/showroom/lc300/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J300)",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4985,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1980,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1955,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2850,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 230,
+          "s": "src-1"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 80,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 10,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "10 SRS airbags",
+          "Toyota Safety Sense 3.0 (pre-collision, lane tracing assist, dynamic radar cruise control, lane departure alert, adaptive high beam)",
+          "Vehicle stability control",
+          "Blind spot monitor",
+          "360-degree panoramic view monitor"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 21800000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 22500000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2025-09-22"
+      },
+      "options": [
+        {
+          "id": "diesel-at",
+          "label": "3.3 L V6 twin-turbo diesel · 10-speed automatic",
+          "fuel": "diesel",
+          "engine": "3.3 L V6 twin-turbo diesel",
+          "displacementCc": {
+            "v": 3350,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 309,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 700,
+            "s": "src-1"
+          },
+          "transmission": "10-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 21800000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "ZX",
+              "priceInr": {
+                "v": 21800000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "GR Sport",
+              "priceInr": {
+                "v": 22500000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Toyota Land Cruiser J300 3.3 ZX 2022 (1).jpg",
+          "localPath": "/cars/toyota-land-cruiser-300-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_Land_Cruiser_J300_3.3_ZX_2022_(1).jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2022 Toyota Land Cruiser J300 3.3 ZX photographed in the Philippines.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Toyota India - Land Cruiser 300 page",
+          "publisher": "Toyota Kirloskar Motor Pvt Ltd",
+          "url": "https://www.toyotabharat.com/showroom/lc300/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Toyota Land Cruiser 300",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/toyota/land-cruiser-300",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are CarDekho's listing of Toyota ex-showroom (Delhi) prices as retrieved on 2026-10-12; Toyota's own site loads prices via a dynamic price list that could not be read, so these are third-party figures and may lag the official price list.",
+        "Prices are CarDekho's, dated 2025-09-22 (it also mentions a GST-cut price of about Rs 2.16 crore, which conflicts with its own variant list).",
+        "Toyota states 227 kW; converted at x1.3596 = 309 PS. Displacement is given on Toyota's page as 3.3 L (0.00335 m3), recorded as 3350 cc. Dimensions are for the ZX (GR Sport: 4965 mm long, 1990 mm wide); ground clearance is a stated minimum of 23 cm.",
+        "Toyota states an 80 L fuel tank; CarDekho lists 110 L. Toyota's figure used. Mileage and warranty not stated by Toyota; CarDekho's NCAP claim was not verified, so ncap is null."
+      ]
+    }
+  ]
+}

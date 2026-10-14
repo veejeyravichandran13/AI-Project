@@ -1,0 +1,3291 @@
+{
+  "brand": {
+    "name": "BMW",
+    "slug": "bmw",
+    "country": "Germany",
+    "parent": "BMW Group",
+    "indiaWebsite": "https://www.bmw.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW",
+    "founded": null
+  },
+  "models": [
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-2-series-gran-coupe",
+      "model": "2 Series Gran Coupe",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Compact four-door coupe-style luxury sedan offered in India with a single 1.5 L turbo-petrol engine and 7-speed DCT.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 430,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "ABS with EBD",
+          "ISOFIX mounts",
+          "Tyre pressure monitoring",
+          "Electronic stability program",
+          "Traction control",
+          "Front collision avoidance",
+          "Lane departure assist",
+          "Blind spot detection"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4580000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 4890000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 3,
+          "displacementCc": {
+            "v": 1499,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 156,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 230,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 16.35,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4580000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "218 M Sport",
+              "priceInr": {
+                "v": 4580000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "218 M Sport Pro",
+              "priceInr": {
+                "v": 4890000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-dct",
+          "label": "1.5 L turbo-petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L 3-cylinder turbo-petrol",
+          "transmission": "7-speed dual-clutch automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW 2 Series II Gran Coupe 002.jpg",
+          "localPath": "/cars/bmw-2-series-gran-coupe-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_2_Series_II_Gran_Coupe_002.jpg",
+          "author": "JustAnotherCarDesigner",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Current-generation BMW 2 Series Gran Coupe (F74) on display at a Chinese motor show, seen from above.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW 2 Series Gran Coupe",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/2-series-gran-coupe",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Source quotes power as '154-156 PS / 156 PS'; 156 PS used. CarDekho shows a post-GST revised starting price of Rs 45.30 lakh (Sept 2025) alongside the 45.80 lakh variant price; the variant list price is used. Airbag count given only as a '6-7' range, left null. NCAP: no rating found."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-3-series-lwb",
+      "model": "3 Series Gran Limousine (LWB)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Long-wheelbase 3 Series sedan sold in India in 330Li petrol and 320Ld diesel forms.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 480,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Electronic stability control",
+          "Front and rear parking sensors",
+          "Hill hold",
+          "Electronic parking brake"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6060000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 6420000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s1"
+          },
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 15.39,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6060000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "330Li M Sport 50 Jahre Edition",
+              "priceInr": {
+                "v": 6060000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "330Li M Sport",
+              "priceInr": {
+                "v": 6270000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-at",
+          "label": "2.0 L turbo-petrol (330Li) · automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo-petrol",
+          "transmission": "Automatic"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s1"
+          },
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 19.61,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6150000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "320Ld M Sport Pro",
+              "priceInr": {
+                "v": 6150000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "320Ld M Sport",
+              "priceInr": {
+                "v": 6420000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "diesel-at",
+          "label": "2.0 L turbo-diesel (320Ld) · automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L turbo-diesel",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024 BMW 330Li M-Sport front.jpg",
+          "localPath": "/cars/bmw-3-series-lwb-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2024_BMW_330Li_M-Sport_front.jpg",
+          "author": "LuvsMG481",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2024 BMW 330Li M Sport (long-wheelbase G28) in Malaysia.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW 3 Series Long Wheelbase",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/3-series-long-wheelbase",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Source gives one power range (187.74-258 PS/bhp) for both engines without a per-variant mapping, so power and torque are null. Wheelbase is stated only as 110 mm longer than standard. CarDekho's standard 3 Series page says the Gran Limousine diesel was discontinued, while this page still lists 320Ld variants with prices; Autocar India lists only 60.45-61.75 lakh. Diesel availability is therefore uncertain."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-3-series",
+      "model": "3 Series (M340i xDrive)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Standard-wheelbase 3 Series sedan, currently sold in India only as the 3.0 L straight-six M340i xDrive.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 480,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Parking assistant",
+          "Reversing assistant"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 7780000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 2998,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 374,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 13.02,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 7780000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "M340i xDrive",
+              "priceInr": {
+                "v": 7780000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-at",
+          "label": "3.0 L turbo-petrol · 8-speed automatic · xDrive",
+          "fuel": "petrol",
+          "engine": "3.0 L turbo-petrol",
+          "transmission": "8-speed Steptronic automatic (AWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW G20 M340i Alpine White (1).jpg",
+          "localPath": "/cars/bmw-3-series-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_G20_M340i_Alpine_White_(1).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW 3 Series (G20, pre-facelift) M340i xDrive photographed in South Korea.",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW 3 Series",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/3-series",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Power converted from the stated 368.78 bhp (x1.0139 = 374 PS). CarDekho text claims a Global NCAP 5-star rating but gives no year, protocol or link, so ncap is left null. Photo is the pre-facelift G20 M340i; the current car is the facelifted model."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-5-series",
+      "model": "5 Series (530Li LWB)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s2"
+      },
+      "summary": "Long-wheelbase 5 Series executive sedan sold in India as the 530Li M Sport with a 2.0 L turbo-petrol engine.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5175,
+          "s": "s2"
+        },
+        "widthMm": {
+          "v": 1900,
+          "s": "s2"
+        },
+        "heightMm": {
+          "v": 1520,
+          "s": "s2"
+        },
+        "wheelbaseMm": {
+          "v": 3105,
+          "s": "s2"
+        },
+        "groundClearanceMm": {
+          "v": 150,
+          "s": "s2"
+        },
+        "bootLitres": {
+          "v": 500,
+          "s": "s2"
+        },
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "s2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Adaptive LED headlamps",
+          "Parking Assistant Professional with 360-degree view",
+          "Driving Assistant"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 7700000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 258,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 15.7,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 7700000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "530Li M Sport",
+              "priceInr": {
+                "v": 7700000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-at",
+          "label": "2.0 L turbo-petrol (530Li) · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo-petrol",
+          "transmission": "8-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW G60 520i 1X7A2443.jpg",
+          "localPath": "/cars/bmw-5-series-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_G60_520i_1X7A2443.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW 5 Series (G60) 520i in Stuttgart, Germany (standard wheelbase).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW 5 Series",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/5-series",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW 5 Series LWB",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw/5-series-lwb",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Autocar India lists the same car at Rs 76.60 lakh ex-showroom and CarDekho at Rs 77 lakh; CarDekho is used. CarDekho gives wheelbase 2975 mm (standard car) but Autocar gives 3105 mm for the LWB; Autocar used. Power stated as 255/258 PS by CarDekho, 258 hp by Autocar; 258 used. The 5 Series (G60) Euro NCAP result was not found, so ncap is null."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-7-series",
+      "model": "7 Series",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s3"
+      },
+      "summary": "Flagship BMW luxury sedan, sold in India as the 740 with a 3.0 L mild-hybrid straight-six petrol engine.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5395,
+          "s": "s2"
+        },
+        "widthMm": {
+          "v": 1950,
+          "s": "s2"
+        },
+        "heightMm": {
+          "v": 1550,
+          "s": "s2"
+        },
+        "wheelbaseMm": {
+          "v": 3215,
+          "s": "s2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "Electronic stability control",
+          "Tyre pressure monitoring",
+          "Hill hold assist",
+          "360-degree camera with blind spot monitor",
+          "Level 2 ADAS"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 19500000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 6,
+          "displacementCc": {
+            "v": 2998,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 400,
+            "s": "s2"
+          },
+          "torqueNm": {
+            "v": 540,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 7.93,
+            "unit": "km/l",
+            "basis": "WLTP (per Autocar India)",
+            "s": "s2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 19500000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "740 M Sport",
+              "priceInr": {
+                "v": 19500000,
+                "s": "s2"
+              }
+            }
+          ],
+          "id": "petrol-at",
+          "label": "3.0 L mild-hybrid turbo-petrol (740) · 8-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "3.0 L 6-cylinder turbo-petrol with 48 V mild hybrid",
+          "transmission": "8-speed torque-converter automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW G70 740d 1X7A7230.jpg",
+          "localPath": "/cars/bmw-7-series-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_G70_740d_1X7A7230.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW 7 Series (G70) 740d in Stuttgart, Germany (pre-facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW 7 Series",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/7-series",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW 7 Series",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw/7-series",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s3",
+          "type": "third-party",
+          "label": "Smartprix – BMW 7 Series 740i M Sport",
+          "publisher": "Smartprix",
+          "url": "https://www.smartprix.com/cars/bmw-7-series-740i-m-sport-ppd1wjgs3xyj",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Seating (5) comes from a search-result snippet of the Smartprix page, not a full page fetch. CarDekho gives 394 bhp / 540 Nm, Autocar India 400 PS; Autocar used for PS. Efficiency is a WLTP figure from Autocar, not ARAI. Facelift launched Sept 2026 per CarDekho; photo shows the pre-facelift car."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-x1",
+      "model": "X1",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Compact luxury SUV sold in India with 1.5 L petrol and 2.0 L diesel engines, both with a 7-speed DCT.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 500,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2022,
+          "protocol": null,
+          "s": "s3",
+          "note": "Euro NCAP 2022: adult occupant 86%, child occupant 89%. Tested car was a European-spec LHD 2.0 diesel X-Line; rating stated to apply to petrol and electric versions too. Not an India-spec test."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Dual 10.25-inch displays (iDrive 9)",
+          "Panoramic sunroof",
+          "Adaptive LED headlamps",
+          "Reversing assistant",
+          "Cruise control",
+          "Hands-free powered tailgate"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5090000,
+          "s": "s2"
+        },
+        "maxInr": {
+          "v": 5290000,
+          "s": "s2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1499,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 136,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 230,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 16.35,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5290000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "sDrive18i M Sport",
+              "priceInr": {
+                "v": 5290000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-dct",
+          "label": "1.5 L turbo-petrol (sDrive18i) · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L TwinPower Turbo petrol",
+          "transmission": "7-speed Steptronic DCT (FWD)"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 150,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5220000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "sDrive18d M Sport",
+              "priceInr": {
+                "v": 5220000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "diesel-dct",
+          "label": "2.0 L turbo-diesel (sDrive18d) · 7-speed DCT",
+          "fuel": "diesel",
+          "engine": "2.0 L turbo-diesel",
+          "transmission": "7-speed Steptronic DCT (FWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023-02 BMW U11-X1 s18d blue-green.jpg",
+          "localPath": "/cars/bmw-x1-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023-02_BMW_U11-X1_s18d_blue-green.jpg",
+          "author": "Wikisympathisant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW X1 (U11) sDrive18d, rear three-quarter view, Stuttgart dealership.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW X1",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/x1",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW models list (X1 price range)",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s3",
+          "type": "ncap",
+          "label": "Euro NCAP – BMW X1 (2022)",
+          "publisher": "Euro NCAP",
+          "url": "https://www.euroncap.com/assessments/bmw/x1/0997/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Price range 50.90-52.90 lakh is from Autocar India's model list; CarDekho shows 52.90 lakh (Delhi, petrol) and 52.20 lakh (diesel) and mentions a post-GST 'starting' price of 50.60 lakh. Diesel displacement and ARAI mileage not stated."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-x1-lwb",
+      "model": "X1 LWB",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Long-wheelbase X1 compact SUV with a 1.5 L turbo-petrol engine, the entry point to BMW SUVs in India.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 540,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "ISOFIX mounts",
+          "Dynamic stability control",
+          "360-degree camera with parking sensors",
+          "Tyre pressure monitoring",
+          "Level 1 ADAS (lane departure warning, AEB, blind spot alert)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4990000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1499,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 156,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 230,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 15.5,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4990000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "sDrive18Li M Sport",
+              "priceInr": {
+                "v": 4990000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-dct",
+          "label": "1.5 L turbo-petrol (sDrive18Li) · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L turbo-petrol",
+          "transmission": "7-speed DCT (FWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW X1 (U11) China.jpg",
+          "localPath": "/cars/bmw-x1-lwb-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_X1_(U11)_China.jpg",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW X1 (U11) in China, where the long-wheelbase version is built.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW X1 LWB",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/x1-lwb",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Power converted from the stated 154.21 bhp (x1.0139 = 156 PS). Wheelbase is stated only as 108 mm longer than the standard X1. The Euro NCAP X1 rating is for the standard-wheelbase car and is not applied here."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-ix1-lwb",
+      "model": "iX1 LWB",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Electric long-wheelbase compact SUV with a 66.4 kWh battery and front-wheel drive, sold in India as the eDrive20L M Sport.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 490,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Rear parking camera",
+          "Park assist",
+          "Cruise control with brake function",
+          "Front collision warning"
+        ]
+      },
+      "warranty": {
+        "v": "Battery: 8 years / 1,60,000 km",
+        "s": "s1"
+      },
+      "price": {
+        "minInr": {
+          "v": 5240000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 204,
+            "s": "s1"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 66.4,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 531,
+              "s": "s1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "11 kW AC: 0-100% in about 6 h 30 min",
+              "s": "s1"
+            },
+            "dcFastChargeNote": {
+              "v": "130 kW DC: 10-80% in about 30 min",
+              "s": "s1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 5240000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "eDrive20L M Sport",
+              "priceInr": {
+                "v": 5240000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-fwd",
+          "label": "66.4 kWh · eDrive20L · FWD",
+          "fuel": "ev",
+          "engine": "Single electric motor (front axle)",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW iX1 xDrive30 (U11) – f 05052024.jpg",
+          "localPath": "/cars/bmw-ix1-lwb-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_iX1_xDrive30_(U11)_%E2%80%93_f_05052024.jpg",
+          "author": "© M 93",
+          "license": "CC BY-SA 3.0 de",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+          "caption": "BMW iX1 xDrive30 (U11), European short-wheelbase model, front view.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW iX1",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/ix1",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Page labels the range '531 km (MIDC)'. A complimentary 11 kW wallbox is mentioned. No NCAP rating for the India-spec LWB car was found. Photo is the European xDrive30, not the India eDrive20L."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": "G45 (current generation)",
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-x3",
+      "model": "X3",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Mid-size luxury SUV with all-wheel drive, sold in India in 2.0 L petrol (xDrive20, xDrive30) and 2.0 L diesel (xDrive20d) forms.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2025,
+          "protocol": null,
+          "s": "s2",
+          "note": "Euro NCAP 2025: adult occupant 88%, child occupant 84%. Tested car was a European-spec LHD X3 20 xDrive M Sport petrol. Not an India-spec test."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Hill hold and hill descent control",
+          "Electronic stability control",
+          "Autonomous emergency braking",
+          "Level 2 ADAS",
+          "360-degree camera"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6990000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 7820000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s1"
+          },
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 13.38,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6990000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive 20 M Sport",
+              "priceInr": {
+                "v": 6990000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-20",
+          "label": "2.0 L turbo-petrol (xDrive20) · 8-speed automatic · AWD",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo-petrol",
+          "transmission": "8-speed automatic (xDrive)"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1998,
+            "s": "s1"
+          },
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 14.61,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 7690000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive 30 M Sport Pro",
+              "priceInr": {
+                "v": 7690000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-30",
+          "label": "2.0 L turbo-petrol (xDrive30) · 8-speed automatic · AWD",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo-petrol (higher output)",
+          "transmission": "8-speed automatic (xDrive)"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 1995,
+            "s": "s1"
+          },
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 17.86,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 7820000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive 20d M Sport",
+              "priceInr": {
+                "v": 7820000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "diesel-20d",
+          "label": "2.0 L turbo-diesel (xDrive20d) · 8-speed automatic · AWD",
+          "fuel": "diesel",
+          "engine": "2.0 L turbo-diesel",
+          "transmission": "8-speed automatic (xDrive)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW X3 G45 xDrive30e PHEV M Sport Package Dune Grey Metallic 01.jpg",
+          "localPath": "/cars/bmw-x3-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_X3_G45_xDrive30e_PHEV_M_Sport_Package_Dune_Grey_Metallic_01.jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW X3 (G45) xDrive30e M Sport at a BMW event in the Philippines.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW X3",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/x3",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "ncap",
+          "label": "Euro NCAP – BMW X3 (2025)",
+          "publisher": "Euro NCAP",
+          "url": "https://www.euroncap.com/assessments/bmw/x3/1126/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "CarDekho gives only combined ranges for power (187-255 bhp; 188/197/258 PS) and torque (310-400 Nm) with no per-variant mapping, so per-option power/torque are null. xDrive30 price is stated as 76.90 lakh on the page; the variant list shows 76.90, written here as 7690000. Autocar India lists the X3 at 69.90-75.50 lakh, which differs from CarDekho's top price."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-x5",
+      "model": "X5",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Full-size luxury SUV with xDrive all-wheel drive, sold in India with 3.0 L petrol (40i) and diesel (30d) engines.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 645,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Parking Assistant Plus with 360-degree camera",
+          "Driving Assistant Professional"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 9690000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 11300000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 12,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 9690000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive40i xLine",
+              "priceInr": {
+                "v": 9690000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "xDrive40i M Sport",
+              "priceInr": {
+                "v": 11100000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-40i",
+          "label": "3.0 L turbo-petrol (xDrive40i) · automatic · AWD",
+          "fuel": "petrol",
+          "engine": "3.0 L turbo-petrol",
+          "transmission": "Automatic (xDrive)"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 12,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 9890000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive30d xLine",
+              "priceInr": {
+                "v": 9890000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "xDrive30d M Sport",
+              "priceInr": {
+                "v": 11300000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "diesel-30d",
+          "label": "3.0 L turbo-diesel (xDrive30d) · automatic · AWD",
+          "fuel": "diesel",
+          "engine": "3.0 L turbo-diesel",
+          "transmission": "Automatic (xDrive)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW G05 LCI X5 M Sport Manhattan Metallic.jpg",
+          "localPath": "/cars/bmw-x5-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_G05_LCI_X5_M_Sport_Manhattan_Metallic.jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW X5 (G05 LCI) M Sport, front three-quarter view, South Korea.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW X5",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/x5",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Page gives only combined ranges (2993-2998 cc, 281.68-375.48 bhp, 520-650 Nm) with no per-engine mapping, so displacement, power and torque are null. Airbags given as '6+', left null. ARAI mileage stated as 12 km/l for both engines. Autocar India lists the X5 at 95.40 lakh-1.11 crore (differs)."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-x7",
+      "model": "X7",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "s1"
+      },
+      "summary": "Three-row flagship luxury SUV with 3.0 L straight-six petrol (40i) and diesel (40d) engines and 6- or 7-seat layouts.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "Electronic stability control",
+          "360-degree camera",
+          "Front and rear parking sensors",
+          "Autonomous emergency braking",
+          "Lane departure warning",
+          "Lane keep assist",
+          "ISOFIX child seat mounts"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 12600000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 13900000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 6,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 380,
+            "s": "s1"
+          },
+          "torqueNm": null,
+          "efficiency": {
+            "value": 11.29,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 12600000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive40i M Sport Signature",
+              "priceInr": {
+                "v": 12600000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "xDrive40i M Sport",
+              "priceInr": {
+                "v": 13500000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-40i",
+          "label": "3.0 L turbo-petrol (xDrive40i) · 8-speed automatic · AWD",
+          "fuel": "petrol",
+          "engine": "3.0 L inline-6 turbo-petrol",
+          "transmission": "8-speed automatic (xDrive)"
+        },
+        {
+          "cylinders": 6,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 340,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 700,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 14.31,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 13200000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive40d Design Pure Excellence",
+              "priceInr": {
+                "v": 13200000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "xDrive40d M Sport",
+              "priceInr": {
+                "v": 13900000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "diesel-40d",
+          "label": "3.0 L turbo-diesel (xDrive40d) · 8-speed automatic · AWD",
+          "fuel": "diesel",
+          "engine": "3.0 L inline-6 turbo-diesel",
+          "transmission": "8-speed automatic (xDrive)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW X7 (G07) China (3).jpg",
+          "localPath": "/cars/bmw-x7-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_X7_(G07)_China_(3).jpg",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW X7 (G07, pre-facelift) xDrive40i, rear three-quarter view, China.",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW X7",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/x7",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Seats = 7 (maximum); a 6-seat captain's-chair layout is also offered. Petrol torque and displacement (2993-2998 cc range) not mapped per engine, so null. Boot quoted as 750 L with the third row folded, so not recorded as a standard boot figure. Photo is the pre-facelift X7."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-i4",
+      "model": "i4",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Electric four-door Gran Coupe sold in India as the eDrive35 and eDrive40 M Sport.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Dynamic traction control",
+          "Stability control",
+          "ISOFIX anchorages",
+          "Tyre pressure monitoring"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 7250000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 7750000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 70.2,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 483,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 7250000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "eDrive35 M Sport",
+              "priceInr": {
+                "v": 7250000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-edrive35",
+          "label": "70.2 kWh · eDrive35 M Sport",
+          "fuel": "ev",
+          "engine": "Electric motor",
+          "transmission": "Single-speed automatic"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 83.9,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 590,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 7750000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "eDrive40 M Sport",
+              "priceInr": {
+                "v": 7750000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-edrive40",
+          "label": "83.9 kWh · eDrive40 M Sport",
+          "fuel": "ev",
+          "engine": "Electric motor",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW i4 eDrive40 M Sport (G26) front.jpg",
+          "localPath": "/cars/bmw-i4-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_i4_eDrive40_M_Sport_(G26)_front.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW i4 eDrive40 M Sport (G26) photographed in Japan.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW i4",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/i4",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Page states one power (335.25 bhp) and torque (430 Nm) figure for the whole range with no per-variant split, and quotes DC (250 kW, 31 min 10-80%) and AC (11 kW, 8.5 h) times without saying which variant; these are not recorded per option. Range is labelled 'ARAI' on the page but the standard (MIDC/WLTP) is not stated. Autocar India lists the i4 at 72.50 lakh."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-i5",
+      "model": "i5 M60 xDrive",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s2"
+      },
+      "summary": "Electric performance sedan sold in India as a single fully-loaded dual-motor M60 xDrive variant.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5060,
+          "s": "s2"
+        },
+        "widthMm": {
+          "v": 1900,
+          "s": "s2"
+        },
+        "heightMm": {
+          "v": 1505,
+          "s": "s2"
+        },
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Driving Assistant Professional",
+          "Parking Assistant Professional with 360-degree view",
+          "Lane change warning",
+          "Rear cross-traffic alert",
+          "Rear collision prevention"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 12000000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 601,
+            "s": "s2"
+          },
+          "torqueNm": {
+            "v": 820,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 83.9,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 516,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "22 kW AC: 0-100% in about 4 h 15 min",
+              "s": "s1"
+            },
+            "dcFastChargeNote": {
+              "v": "205 kW DC: 10-80% in about 30 min",
+              "s": "s1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 12000000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "i5 M60 xDrive",
+              "priceInr": {
+                "v": 12000000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-m60",
+          "label": "83.9 kWh · M60 xDrive · dual motor AWD",
+          "fuel": "ev",
+          "engine": "Dual electric motors (all-wheel drive)",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW i5 M60 (G60) Washington DC Metro Area, USA.jpg",
+          "localPath": "/cars/bmw-i5-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_i5_M60_(G60)_Washington_DC_Metro_Area%2C_USA.jpg",
+          "author": "OWS Photography",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "BMW i5 M60 (G60) seen from above, United States.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW i5",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/i5",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW i5",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw/i5",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "CarDekho states 592.73 bhp (x1.0139 = 601 PS), matching Autocar's 601 hp. CarDekho gives battery 83.9 kWh and 516 km (labelled ARAI); Autocar gives 81.2 kWh and 516 km on WLTP, so battery capacity and range standard are uncertain. Seat count from Autocar: 'up to five'."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-i5-lwb",
+      "model": "i5 eDrive35L",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s1"
+      },
+      "summary": "Long-wheelbase electric executive sedan with an 81.6 kWh battery and a claimed ARAI range of 669 km.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 490,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Adaptive cruise control",
+          "Lane keep assist",
+          "Lane departure warning",
+          "Rear cross traffic alert",
+          "Autonomous emergency braking"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 7960000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 272,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 410,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 81.6,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 669,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 7960000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "eDrive35L M Sport",
+              "priceInr": {
+                "v": 7960000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "First Edition",
+              "priceInr": {
+                "v": 7960000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-edrive35l",
+          "label": "81.6 kWh · eDrive35L M Sport",
+          "fuel": "ev",
+          "engine": "Single electric motor",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW i5 eDrive40 M Sport (G60) front.jpg",
+          "localPath": "/cars/bmw-i5-lwb-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_i5_eDrive40_M_Sport_(G60)_front.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW i5 eDrive40 M Sport (G60), standard-wheelbase car, shown in Japan.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW i5 LWB",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/i5-lwb",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Power converted from the stated 268 bhp (x1.0139 = 272 PS). Range labelled 'ARAI' but standard not stated. Page says the car is not crash-tested and that the 5 Series has a 5-star Euro NCAP rating; no rating recorded. Autocar India's model list shows the i5 LWB at 79.60 lakh but flags it as upcoming in one listing; the CarDekho page lists it as on sale, so confirm availability on bmw.in."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-i7",
+      "model": "i7",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s4"
+      },
+      "summary": "Electric flagship luxury sedan with a 112.5 kWh battery, sold in India as the i7 50 xDrive and i7 M70 xDrive.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5391,
+          "s": "s2"
+        },
+        "widthMm": {
+          "v": 1950,
+          "s": "s2"
+        },
+        "heightMm": {
+          "v": 1544,
+          "s": "s2"
+        },
+        "wheelbaseMm": {
+          "v": 3215,
+          "s": "s2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 500,
+          "s": "s2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 19500000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 26500000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 455,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 660,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 112.5,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 728,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 19500000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "i7 50 xDrive",
+              "priceInr": {
+                "v": 19500000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-50",
+          "label": "112.5 kWh · i7 50 xDrive",
+          "fuel": "ev",
+          "engine": "Dual electric motors (all-wheel drive)",
+          "transmission": "Single-speed automatic"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 680,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 1015,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 112.5,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 686,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 26500000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "i7 M70 xDrive",
+              "priceInr": {
+                "v": 26500000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-m70",
+          "label": "112.5 kWh · i7 M70 xDrive",
+          "fuel": "ev",
+          "engine": "Dual electric motors (all-wheel drive)",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW i7 xDrive60 1X7A6834.jpg",
+          "localPath": "/cars/bmw-i7-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_i7_xDrive60_1X7A6834.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW i7 xDrive60 (G70, pre-facelift) charging in Stuttgart.",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW i7",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/i7",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW i7",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw/i7",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s4",
+          "type": "third-party",
+          "label": "CarDekho – BMW i7 specs (search snippet)",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/i7/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Power converted from 449 bhp and 671 bhp (x1.0139 = 455 and 680 PS). Autocar India states 445 hp/660 Nm and 630 hp/1,100 Nm for the same variants; CarDekho used. Range labelled 'ARAI' without a test standard. Seat count (5) comes from a search-result snippet of the CarDekho specs page. Facelifted 2026 model per CarDekho; photo shows the pre-facelift car."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-ix",
+      "model": "iX xDrive50",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "s2"
+      },
+      "summary": "Electric luxury SUV imported as a CBU, sold in India as the dual-motor xDrive50.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2021,
+          "protocol": null,
+          "s": "s3",
+          "note": "Euro NCAP 2021: adult occupant 91%, child occupant 87%. Tested car was a European-spec LHD iX xDrive40, not the xDrive50 sold in India."
+        },
+        "airbagsStandard": {
+          "v": 8,
+          "s": "s1"
+        },
+        "keyFeatures": [
+          "Adaptive cruise control",
+          "Lane-keep assist",
+          "Blind spot detection",
+          "Parking Assistant Plus with panorama reversing camera"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 14000000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": null,
+          "powerPs": {
+            "v": 523,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 765,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 111.5,
+              "s": "s1"
+            },
+            "claimedRangeKm": {
+              "v": 575,
+              "s": "s1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "22 kW AC: 0-100% in about 5.5 h",
+              "s": "s1"
+            },
+            "dcFastChargeNote": {
+              "v": "195 kW DC: 10-80% in about 35 min",
+              "s": "s1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 14000000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "xDrive50",
+              "priceInr": {
+                "v": 14000000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "ev-xdrive50",
+          "label": "111.5 kWh · xDrive50",
+          "fuel": "ev",
+          "engine": "Dual electric motors (all-wheel drive)",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW I20 iX xDrive50 Sport Mineral White Metallic (3).jpg",
+          "localPath": "/cars/bmw-ix-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_I20_iX_xDrive50_Sport_Mineral_White_Metallic_(3).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW iX (I20) xDrive50 Sport in South Korea.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW iX",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/ix",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW iX",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw/ix",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s3",
+          "type": "ncap",
+          "label": "Euro NCAP – BMW iX (2021)",
+          "publisher": "Euro NCAP",
+          "url": "https://www.euroncap.com/assessments/bmw/ix/0883/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "CarDekho: 111.5 kWh, 575 km (ARAI) / 635 km WLTP; Autocar India: 105.2 kWh, 575-635 km WLTP. CarDekho used; battery size is therefore uncertain. A facelift is reported as upcoming in Autocar India's list."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-z4",
+      "model": "Z4 M40i",
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "s1"
+      },
+      "summary": "Two-seat soft-top roadster sold in India as the 3.0 L turbo-petrol Z4 M40i with automatic or manual gearbox.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 281,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 4,
+          "s": "s1"
+        },
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 9050000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 9520000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 2998,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 340,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 8.5,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 9050000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "Z4 M40i",
+              "priceInr": {
+                "v": 9050000,
+                "s": "s1"
+              }
+            },
+            {
+              "name": "Z4 M40i Pure Impulse AT",
+              "priceInr": {
+                "v": 9170000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-at",
+          "label": "3.0 L turbo-petrol · 8-speed automatic · RWD",
+          "fuel": "petrol",
+          "engine": "3.0 L turbo-petrol",
+          "transmission": "8-speed Steptronic automatic (RWD)"
+        },
+        {
+          "cylinders": null,
+          "displacementCc": {
+            "v": 2998,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 340,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 8.5,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 9520000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "Z4 M40i Pure Impulse",
+              "priceInr": {
+                "v": 9520000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-mt",
+          "label": "3.0 L turbo-petrol · 6-speed manual · RWD",
+          "fuel": "petrol",
+          "engine": "3.0 L turbo-petrol",
+          "transmission": "6-speed manual (RWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW G29 Z4 M40i (Facelift) 1X7A6946.jpg",
+          "localPath": "/cars/bmw-z4-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_G29_Z4_M40i_(Facelift)_1X7A6946.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW Z4 M40i (G29, facelift) at Automesse Salzburg 2023.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW Z4",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/z4",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Body type recorded as 'coupe' because the schema has no roadster/convertible type; it is an electric fabric soft-top roadster. Power converted from 335 bhp (x1.0139 = 340 PS). The page gives one 8.5 km/l mileage for the model, applied to both gearboxes. Price cut after GST per source."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-m2",
+      "model": "M2",
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "s2"
+      },
+      "summary": "Rear-wheel-drive performance coupe with a 3.0 L straight-six, sold in India with automatic or manual gearbox plus a CS version.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4461,
+          "s": "s2"
+        },
+        "widthMm": {
+          "v": 1854,
+          "s": "s2"
+        },
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2693,
+          "s": "s2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 390,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 10600000,
+          "s": "s1"
+        },
+        "maxInr": {
+          "v": 16600000,
+          "s": "s1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 6,
+          "displacementCc": {
+            "v": 2993,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 460,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 550,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 10.19,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 10600000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "M2 Coupe",
+              "priceInr": {
+                "v": 10600000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-at",
+          "label": "3.0 L turbo-petrol · 8-speed M Steptronic · RWD",
+          "fuel": "petrol",
+          "engine": "3.0 L TwinPower Turbo inline-six",
+          "transmission": "8-speed M Steptronic automatic (RWD)"
+        },
+        {
+          "cylinders": 6,
+          "displacementCc": {
+            "v": 2993,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 460,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 550,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 10.19,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 10600000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "M2 Coupe Manual",
+              "priceInr": {
+                "v": 10600000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-mt",
+          "label": "3.0 L turbo-petrol · 6-speed manual · RWD",
+          "fuel": "petrol",
+          "engine": "3.0 L TwinPower Turbo inline-six",
+          "transmission": "6-speed manual (RWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW G87 M2 1X7A6997.jpg",
+          "localPath": "/cars/bmw-m2-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_G87_M2_1X7A6997.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW M2 (G87) at Automesse Salzburg 2023, rear three-quarter view.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW M2",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/m2",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Smartprix – BMW M2 (search snippet)",
+          "publisher": "Smartprix",
+          "url": "https://smartprix.com/cars/bmw-m2-ppd116hestel",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "The M2 CS (Rs 1.66 crore, 523 PS, 650 Nm) is listed on the same page but its gearbox is not stated, so it is not a separate option; the price range maximum reflects it. Seats (4), length, width and wheelbase come from a search-result snippet of Smartprix, not a full page fetch."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-m5",
+      "model": "M5",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "s2"
+      },
+      "summary": "High-performance plug-in hybrid sedan with a 4.4 L twin-turbo V8 and electric motor, imported as a CBU.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5096,
+          "s": "s2"
+        },
+        "widthMm": {
+          "v": 1970,
+          "s": "s2"
+        },
+        "heightMm": {
+          "v": 1510,
+          "s": "s2"
+        },
+        "wheelbaseMm": {
+          "v": 3006,
+          "s": "s2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 466,
+          "s": "s2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 21200000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 8,
+          "displacementCc": {
+            "v": 4395,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 727,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 1000,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 49.75,
+            "unit": "km/l",
+            "basis": "ARAI (plug-in hybrid)",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 21200000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "M5 xDrive",
+              "priceInr": {
+                "v": 21200000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "phev-xdrive",
+          "label": "4.4 L V8 plug-in hybrid · 8-speed automatic · M xDrive",
+          "fuel": "strong-hybrid",
+          "engine": "4.4 L twin-turbo V8 plug-in hybrid",
+          "transmission": "8-speed automatic (M xDrive AWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW G90 M5 Brooklyn Grey Metallic (1).jpg",
+          "localPath": "/cars/bmw-m5-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_G90_M5_Brooklyn_Grey_Metallic_(1).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW M5 (G90) front view, South Korea.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW M5",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/m5",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW M5",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw/m5",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Power converted from the stated combined 717 bhp (x1.0139 = 727 PS); Autocar India quotes 585 hp and 750 Nm for the V8 alone, so 1,000 Nm is the combined figure from CarDekho. Fuel type is plug-in hybrid (recorded as strong-hybrid); source cites about 67 km electric range. The 49.75 km/l figure is a plug-in-hybrid test-cycle value and is not comparable with petrol cars."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-m4-competition",
+      "model": "M4 Competition",
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "s1"
+      },
+      "summary": "All-wheel-drive performance coupe with a 3.0 L twin-turbo straight-six, imported as the Competition M xDrive.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4794,
+          "s": "s1"
+        },
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 440,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "s1"
+        },
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 16300000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 6,
+          "displacementCc": {
+            "v": 2993,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 510,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 650,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 9.7,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 16300000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "Competition M xDrive",
+              "priceInr": {
+                "v": 16300000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "petrol-xdrive",
+          "label": "3.0 L twin-turbo petrol · 8-speed M Steptronic · M xDrive",
+          "fuel": "petrol",
+          "engine": "3.0 L twin-turbo inline-six",
+          "transmission": "8-speed M Steptronic automatic (M xDrive AWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW M4 (G82) Competition 1X7A0305.jpg",
+          "localPath": "/cars/bmw-m4-competition-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_M4_(G82)_Competition_1X7A0305.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW M4 Competition (G82) in Boblingen, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW M4 Competition",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/m4-competition",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Page states 503 bhp in the specs and 510 PS in the description; 510 PS used. Autocar India does not list the M4 Competition. Its availability as new stock should be confirmed on bmw.in."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-m440i-convertible",
+      "model": "M440i xDrive Convertible",
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "s1"
+      },
+      "summary": "Four-seat soft-top convertible with a 48 V mild-hybrid 3.0 L straight-six and xDrive, imported as a CBU.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 385,
+          "s": "s1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "s1"
+        },
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 11100000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 6,
+          "displacementCc": {
+            "v": 2998,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 374,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "s1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 11100000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "M440i xDrive Convertible",
+              "priceInr": {
+                "v": 11100000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "mhev-xdrive",
+          "label": "3.0 L mild-hybrid turbo-petrol · 8-speed Steptronic Sport · xDrive",
+          "fuel": "mild-hybrid",
+          "engine": "3.0 L TwinPower Turbo inline-six with 48 V mild hybrid",
+          "transmission": "8-speed Steptronic Sport automatic (xDrive AWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW M440i Cabriolet (G23) Washington DC Metro Area, USA.jpg",
+          "localPath": "/cars/bmw-m440i-convertible-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_M440i_Cabriolet_(G23)_Washington_DC_Metro_Area%2C_USA.jpg",
+          "author": "OWS Photography",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "BMW M440i Cabriolet (G23) seen from above, United States.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW M440i",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/m440i",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Body type recorded as 'coupe' because the schema has no convertible type. Autocar India lists a '4 Series Convertible' at about Rs 1.09 crore, probably the same car. ARAI mileage not stated."
+      ]
+    },
+    {
+      "brand": "BMW",
+      "generation": null,
+      "wikipediaUrl": null,
+      "officialUrl": "https://www.bmw.in/",
+      "id": "bmw-xm",
+      "model": "XM",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "s2"
+      },
+      "summary": "High-performance plug-in hybrid luxury SUV with a 4.4 L twin-turbo V8 and electric motor, imported as a CBU.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5110,
+          "s": "s2"
+        },
+        "widthMm": {
+          "v": 2235,
+          "s": "s2"
+        },
+        "heightMm": {
+          "v": 1755,
+          "s": "s2"
+        },
+        "wheelbaseMm": {
+          "v": 3105,
+          "s": "s2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 527,
+          "s": "s2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 25500000,
+          "s": "s1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "cylinders": 8,
+          "displacementCc": {
+            "v": 4395,
+            "s": "s1"
+          },
+          "powerPs": {
+            "v": 653,
+            "s": "s1"
+          },
+          "torqueNm": {
+            "v": 800,
+            "s": "s1"
+          },
+          "efficiency": {
+            "value": 61.9,
+            "unit": "km/l",
+            "basis": "ARAI (plug-in hybrid)",
+            "s": "s1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 25500000,
+            "s": "s1"
+          },
+          "trims": [
+            {
+              "name": "XM xDrive",
+              "priceInr": {
+                "v": 25500000,
+                "s": "s1"
+              }
+            }
+          ],
+          "id": "phev-xdrive",
+          "label": "4.4 L V8 plug-in hybrid · 8-speed automatic · M xDrive",
+          "fuel": "strong-hybrid",
+          "engine": "4.4 L twin-turbo V8 plug-in hybrid",
+          "transmission": "8-speed automatic (M xDrive AWD)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BMW XM (G09) IMG 7778.jpg",
+          "localPath": "/cars/bmw-xm-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW_XM_(G09)_IMG_7778.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "BMW XM (G09) in Stuttgart-Vaihingen, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "type": "third-party",
+          "label": "CarDekho – BMW XM",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/bmw/xm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "s2",
+          "type": "third-party",
+          "label": "Autocar India – BMW XM",
+          "publisher": "Autocar India (Haymarket)",
+          "url": "https://www.autocarindia.com/cars/bmw/xm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "bmw.in could not be fetched (requests timed out), so every fact here comes from the labelled third-party sources and officialUrl points to the brand homepage; verify against bmw.in. Prices are ex-showroom Delhi as listed by the source on the retrieval date.",
+        "Power converted from 643.69 bhp (x1.0139 = 653 PS), consistent with Autocar's 653 hp. Fuel type is plug-in hybrid (recorded as strong-hybrid); source cites about 80 km electric range. The 61.9 km/l figure is a plug-in-hybrid test-cycle value. Boot stated as 390 L by CarDekho and 527 L by Autocar; Autocar used. Autocar's 2,235 mm width is as stated and may include mirrors."
+      ]
+    }
+  ]
+}

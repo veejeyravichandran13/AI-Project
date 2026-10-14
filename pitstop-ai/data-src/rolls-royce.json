@@ -1,0 +1,385 @@
+{
+  "brand": {
+    "name": "Rolls-Royce",
+    "slug": "rolls-royce",
+    "country": "Germany",
+    "parent": "BMW Group",
+    "indiaWebsite": "https://www.rolls-roycemotorcars.com/en_GB/home.html",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "rolls-royce-spectre",
+      "brand": "Rolls-Royce",
+      "model": "Spectre",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "src-2"
+      },
+      "summary": "Rolls-Royce's all-electric two-door coupe with dual motors and all-wheel drive, offered as Spectre and Spectre Black Badge.",
+      "officialUrl": "https://www.rolls-roycemotorcars.com/en_GB/home.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5475,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 2017,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1573,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3210,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 380,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "23-inch wheels",
+          "Starlight headliner",
+          "Rear-wheel steering",
+          "ABS"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 76200000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 95000000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-standard",
+          "label": "102 kWh · dual-motor AWD (Spectre)",
+          "fuel": "ev",
+          "engine": "Dual electric motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 592,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 900,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 102,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 530,
+              "s": "src-1"
+            },
+            "rangeStandard": "WLTP",
+            "acChargeNote": {
+              "v": "11 kW AC: about 9 hours (0-100%)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 76200000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Spectre",
+              "priceInr": {
+                "v": 76200000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-black-badge",
+          "label": "102 kWh · dual-motor AWD (Black Badge)",
+          "fuel": "ev",
+          "engine": "Dual electric motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 668,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 1075,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 102,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 530,
+              "s": "src-1"
+            },
+            "rangeStandard": "WLTP",
+            "acChargeNote": {
+              "v": "11 kW AC: about 9 hours (0-100%)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 95000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Spectre Black Badge",
+              "priceInr": {
+                "v": 95000000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024 Rolls-Royce Spectre in Midnight Sapphire over Silver, front left.jpg",
+          "localPath": "/cars/rolls-royce-spectre-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Rolls-Royce_Spectre_in_Midnight_Sapphire_over_Silver,_front_left.jpg",
+          "author": "Mr.choppers",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "caption": "Front three-quarter view of a 2024 Rolls-Royce Spectre, USA",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Spectre",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/rolls-royce/spectre",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Spectre specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/rolls-royce/spectre/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Rolls-Royce publishes no India prices); prices are third-party (Autocar India) ex-showroom and exclude bespoke options. officialUrl is the global Rolls-Royce site, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "Black Badge price (9.5 crore) is its June 2025 launch price as stated on Autocar's page. The WLTP range of 530 km is stated for the model, not split by trim.",
+        "DC charging figure omitted: Autocar gives 195 kW on one page and 205 kW on the other. Boot volume quoted as 380-490 L across sources; 380 L from the specifications page."
+      ]
+    },
+    {
+      "id": "rolls-royce-ghost",
+      "brand": "Rolls-Royce",
+      "model": "Ghost",
+      "generation": "Series II",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Rolls-Royce's V12 luxury saloon, sold in Series II, Extended and Black Badge forms.",
+      "officialUrl": "https://www.rolls-roycemotorcars.com/en_GB/home.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Ghost_(2020)",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5545,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1998,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1573,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3295,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 464,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 90,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 2505,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Starlight headliner",
+          "18-speaker audio system",
+          "Heated, cooled and massage seats"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 89500000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v12-series-ii",
+          "label": "6.75 L twin-turbo V12 · 8-speed automatic · AWD (Series II)",
+          "fuel": "petrol",
+          "engine": "6.75 L twin-turbo V12",
+          "displacementCc": {
+            "v": 6749,
+            "s": "src-2"
+          },
+          "cylinders": 12,
+          "powerPs": {
+            "v": 571,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 820,
+            "s": "src-1"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": {
+            "value": 6.45,
+            "unit": "km/l",
+            "basis": "WLTP (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 89500000,
+            "s": "src-1"
+          },
+          "trims": []
+        },
+        {
+          "id": "v12-black-badge",
+          "label": "6.75 L twin-turbo V12 · 8-speed automatic · AWD (Black Badge)",
+          "fuel": "petrol",
+          "engine": "6.75 L twin-turbo V12",
+          "displacementCc": {
+            "v": 6749,
+            "s": "src-2"
+          },
+          "cylinders": 12,
+          "powerPs": {
+            "v": 608,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 900,
+            "s": "src-1"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": {
+            "value": 6.36,
+            "unit": "km/l",
+            "basis": "WLTP (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Rolls-Royce Ghost II IAA 2021 1X7A0005.jpg",
+          "localPath": "/cars/rolls-royce-ghost-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ARolls-Royce_Ghost_II_IAA_2021_1X7A0005.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear three-quarter view of a Rolls-Royce Ghost (2021 model, before the Series II update), Germany",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Ghost",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/rolls-royce/ghost",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Ghost specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/rolls-royce/ghost/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Rolls-Royce publishes no India prices); prices are third-party (Autocar India) ex-showroom and exclude bespoke options. officialUrl is the global Rolls-Royce site, not a verified India model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "Only the base Series II ex-showroom price (8.95 crore) is clearly ex-showroom; the other variant prices on the page are on-road. Autocar's brand listing shows a 8.95-10.52 crore range, so maximum is left null.",
+        "Seats: Autocar's page says five-seater, its specifications page says 4; 5 used. Specs page power (600 hp, 900 Nm) matches the Black Badge.",
+        "Photo predates the Series II update."
+      ]
+    }
+  ]
+}

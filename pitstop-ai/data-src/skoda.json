@@ -1,0 +1,1109 @@
+{
+  "brand": {
+    "name": "Škoda",
+    "slug": "skoda",
+    "country": "Czech Republic",
+    "parent": "Volkswagen Group",
+    "indiaWebsite": "https://www.skoda-auto.co.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%A0koda_Auto",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "skoda-kylaq",
+      "brand": "Škoda",
+      "model": "Kylaq",
+      "generation": "1st generation (launched India, 2025)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Sub-4-metre compact SUV from Škoda built on the MQB-A0-IN platform and powered by a 1.0 L turbo-petrol engine.",
+      "officialUrl": "https://www.skoda-auto.co.in/models/kylaq/kylaq",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%A0koda_Kylaq",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1783,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1619,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2566,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 189,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 446,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Based on Latin NCAP 2016 (as stated by Wikipedia)",
+          "s": "src-2",
+          "note": "Wikipedia reports adult 30.88/32.00 and child 45.00/49.00; Škoda India page also states a 5-star BNCAP rating."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Electronic Stability Control",
+          "Hill Hold Control",
+          "Tyre Pressure Monitoring System",
+          "Cruise Control"
+        ]
+      },
+      "warranty": {
+        "v": "4 years / 1,00,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 759000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1309000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.0 L TSI petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 19.68,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 759000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Classic",
+              "priceInr": {
+                "v": 759000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Classic Plus",
+              "priceInr": {
+                "v": 829000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Signature",
+              "priceInr": {
+                "v": 949000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Signature Plus",
+              "priceInr": {
+                "v": 1079000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Sportline",
+              "priceInr": {
+                "v": 1135000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Prestige",
+              "priceInr": {
+                "v": 1185000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Prestige Plus",
+              "priceInr": {
+                "v": 1209000,
+                "s": "src-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.0 L TSI petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-1"
+          },
+          "transmission": "6-speed torque-converter automatic",
+          "efficiency": {
+            "value": 19.05,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 929000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Classic Plus AT",
+              "priceInr": {
+                "v": 929000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Signature AT",
+              "priceInr": {
+                "v": 1049000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Signature Plus AT",
+              "priceInr": {
+                "v": 1179000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Sportline AT",
+              "priceInr": {
+                "v": 1235000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Prestige AT",
+              "priceInr": {
+                "v": 1285000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Prestige Plus AT",
+              "priceInr": {
+                "v": 1309000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 Skoda Kylaq.png",
+          "localPath": "/cars/skoda-kylaq-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Skoda_Kylaq.png",
+          "author": "Faisal Khan",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2025 Škoda Kylaq (India model).",
+          "match": "exact"
+        },
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 81.jpg",
+          "localPath": "/cars/skoda-kylaq-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show%2C_Bangalore_(2025)_81.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Škoda Kylaq at the 4th International Auto Show, Bangalore, 2025.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Škoda India – Kylaq page",
+          "publisher": "Škoda Auto Volkswagen India Pvt Ltd",
+          "url": "https://www.skoda-auto.co.in/models/kylaq/kylaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Škoda Kylaq",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Kylaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kylaq",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/skoda/kylaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Minimum price and engine power/torque from the Škoda India page; maximum price, variant prices, mileage, ground clearance and seating from CarDekho (third-party).",
+        "Škoda India page states 115 PS (85 kW) and 178 Nm; CarDekho lists 114 bhp.",
+        "Per-option fromPrice for automatic is the lowest listed automatic variant on CarDekho."
+      ]
+    },
+    {
+      "id": "skoda-slavia",
+      "brand": "Škoda",
+      "model": "Slavia",
+      "generation": "1st generation (launched India 2022; 2026 facelift)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Compact sedan from Škoda India sold with a 1.0 L or 1.5 L TSI turbo-petrol engine.",
+      "officialUrl": "https://www.skoda-auto.co.in/models/slavia/slavia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%A0koda_Slavia",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4541,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1752,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1487,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2651,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 179,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 521,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2023,
+          "protocol": "Global NCAP 2.0 (based on Latin NCAP 2016)",
+          "s": "src-2",
+          "note": "Rating per Wikipedia (adult 29.71/34.00, child 42.00/49.00); Škoda India page also states a 5-star GNCAP rating. Tested on pre-facelift India-spec car."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Electronic Stability Control",
+          "360 area view camera (selected variants)"
+        ]
+      },
+      "warranty": {
+        "v": "4 years / 1,00,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 999900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1884000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-1.0-mt",
+          "label": "1.0 L TSI petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-3"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-3"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.0-at",
+          "label": "1.0 L TSI petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-3"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-3"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.5-dsg",
+          "label": "1.5 L TSI petrol · 7-speed DSG",
+          "fuel": "petrol",
+          "engine": "1.5 L TSI 4-cylinder turbo petrol with Active Cylinder Technology",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 150,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-3"
+          },
+          "transmission": "7-speed DSG",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "Monte Carlo DSG",
+              "priceInr": {
+                "v": 1884000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Škoda Slavia 1.5 TSI Style (India) front view.png",
+          "localPath": "/cars/skoda-slavia-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_%C5%A0koda_Slavia_1.5_TSI_Style_(India)_front_view.png",
+          "author": "Athira Murali",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Škoda Slavia 1.5 TSI Style, India-market, front view (pre-facelift).",
+          "match": "same-model-other-generation"
+        },
+        {
+          "file": "File:Skoda Slavia Side view.jpg",
+          "localPath": "/cars/skoda-slavia-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ASkoda_Slavia_Side_view.jpg",
+          "author": "Saiphani02",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Škoda Slavia side view, photographed December 2022 (pre-facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Škoda India – Slavia page",
+          "publisher": "Škoda Auto Volkswagen India Pvt Ltd",
+          "url": "https://www.skoda-auto.co.in/models/slavia/slavia",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Škoda Slavia",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Slavia",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Slavia",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/skoda/slavia",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Škoda India page gives engine/transmission combinations and the starting price but not cc, PS or Nm; those come from CarDekho (2026 facelift page).",
+        "Dimensions are from Wikipedia and likely pre-facelift; the 2026 facelift may differ slightly. Wikipedia lists 175 Nm for the 1.0 TSI; CarDekho lists 178 Nm.",
+        "Photos show the pre-facelift (2022) car, not the 2026 facelift.",
+        "Claimed ARAI mileage not found on a fetched page.",
+        "Maximum price is the Monte Carlo DSG as listed by CarDekho."
+      ]
+    },
+    {
+      "id": "skoda-kushaq",
+      "brand": "Škoda",
+      "model": "Kushaq",
+      "generation": "1st generation (launched India 2021; facelift)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Mid-size SUV built on the MQB-A0-IN platform, offered with 1.0 L and 1.5 L TSI turbo-petrol engines.",
+      "officialUrl": "https://www.skoda-auto.co.in/models/kushaq/kushaq",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%A0koda_Kushaq",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4221,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1760,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1612,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2651,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 385,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2022,
+          "protocol": "Global NCAP 2.0 (based on Latin NCAP 2016)",
+          "s": "src-2",
+          "note": "Rating per Wikipedia (adult 29.64/34.00, child 42.00/49.00); Škoda India page also states 5 stars."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard on all variants",
+          "Rear wiper and defogger across all variants"
+        ]
+      },
+      "warranty": {
+        "v": "4 years / 1,00,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 1069000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1919000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-1.0-mt",
+          "label": "1.0 L TSI petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-3"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 19.66,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1069000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Classic Plus",
+              "priceInr": {
+                "v": 1069000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Signature",
+              "priceInr": {
+                "v": 1469000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Sportline",
+              "priceInr": {
+                "v": 1489000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Prestige",
+              "priceInr": {
+                "v": 1694000,
+                "s": "src-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-1.0-at",
+          "label": "1.0 L TSI petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-3"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 19.09,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.5-dsg",
+          "label": "1.5 L TSI petrol · 7-speed DSG",
+          "fuel": "petrol",
+          "engine": "1.5 L TSI 4-cylinder turbo petrol with Active Cylinder Technology",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 150,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-3"
+          },
+          "transmission": "7-speed DSG",
+          "efficiency": {
+            "value": 18.72,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "Monte Carlo",
+              "priceInr": {
+                "v": 1919000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Škoda Kushaq (India) front view.png",
+          "localPath": "/cars/skoda-kushaq-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_%C5%A0koda_Kushaq_(India)_front_view.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Škoda Kushaq India model at launch, front view (pre-facelift).",
+          "match": "same-model-other-generation"
+        },
+        {
+          "file": "File:Skoda Kushaq Front.jpg",
+          "localPath": "/cars/skoda-kushaq-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ASkoda_Kushaq_Front.jpg",
+          "author": "Saiphani02",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Škoda Kushaq front, photographed December 2022 (pre-facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Škoda India – Kushaq page",
+          "publisher": "Škoda Auto Volkswagen India Pvt Ltd",
+          "url": "https://www.skoda-auto.co.in/models/kushaq/kushaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Škoda Kushaq",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Kushaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kushaq",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/skoda/kushaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power in PS from Wikipedia (115 / 150 PS); CarDekho lists 114 bhp and 147.5 bhp. Wikipedia lists 175 Nm for 1.0 TSI; CarDekho lists 178 Nm (used).",
+        "Ground clearance and fuel tank not found; boot is 385 L per CarDekho (491 L measured to roof).",
+        "Variant prices are those shown by CarDekho (only five variants listed); full variant list not available.",
+        "Photos show the pre-facelift car."
+      ]
+    },
+    {
+      "id": "skoda-kodiaq",
+      "brand": "Škoda",
+      "model": "Kodiaq",
+      "generation": "2nd generation (2024 onward, imported CBU)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-3"
+      },
+      "summary": "Premium three-row SUV from Škoda with a 2.0 L TSI petrol engine, 7-speed DSG and 4x4 drive.",
+      "officialUrl": "https://www.skoda-auto.co.in/models/kodiaq/kodiaq",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%A0koda_Kodiaq",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4758,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1864,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1659,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2791,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 281,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2024,
+          "protocol": "Euro NCAP (2024 protocol)",
+          "s": "src-2",
+          "note": "European-market Kodiaq; not tested on the India-spec car. Wikipedia reports adult 89%, child 83%."
+        },
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "ABS, ESC and Multi-Collision Brake",
+          "Hill Descent Control",
+          "Side Assist (blind spot monitoring) on Sportline and Selection L&K",
+          "Front Assist with auto braking on Sportline and Selection L&K",
+          "Exit Warning",
+          "Driver Attention Alert",
+          "Matrix LED headlights",
+          "Intelligent Park Assist"
+        ]
+      },
+      "warranty": {
+        "v": "4 years / 1,00,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 3699000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 4699000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dsg-4x4",
+          "label": "2.0 L TSI petrol · 7-speed DSG · 4x4",
+          "fuel": "petrol",
+          "engine": "2.0 L TSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-3"
+          },
+          "transmission": "7-speed DSG (4x4)",
+          "efficiency": {
+            "value": 14.86,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 3699000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Lounge (5-seater)",
+              "priceInr": {
+                "v": 3699000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Sportline (7-seater)",
+              "priceInr": {
+                "v": 4499000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Selection L&K (7-seater)",
+              "priceInr": {
+                "v": 4699000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Škoda Kodiaq II Sindelfingen 2024 IMG 9188.jpg",
+          "localPath": "/cars/skoda-kodiaq-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A%C5%A0koda_Kodiaq_II_Sindelfingen_2024_IMG_9188.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Škoda Kodiaq II at Autosalon Sindelfingen 2024 (European-market car).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Škoda India – Kodiaq page",
+          "publisher": "Škoda Auto Volkswagen India Pvt Ltd",
+          "url": "https://www.skoda-auto.co.in/models/kodiaq/kodiaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Škoda Kodiaq",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Kodiaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kodiaq",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/skoda/kodiaq",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power: Škoda India states 150 kW; converted to 204 PS (kW × 1.3596). CarDekho lists 201 bhp.",
+        "Seating: Lounge is 5-seater, Sportline and Selection L&K are 7-seater. Boot 281 L is CarDekho figure with all rows up (786 L with third row folded).",
+        "Dimensions from Wikipedia for the second-generation Kodiaq (European spec).",
+        "Mileage 14.86 km/l is CarDekho ARAI figure."
+      ]
+    },
+    {
+      "id": "skoda-octavia-rs",
+      "brand": "Škoda",
+      "model": "Octavia RS",
+      "generation": "4th generation (facelift, imported CBU)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Performance sedan from Škoda with a 2.0 L TSI engine making 265 PS, sold in India as a single variant.",
+      "officialUrl": "https://www.skoda-auto.co.in/models/octavia-rs/octavia-rs",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%A0koda_Octavia",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 600,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 10,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "10 airbags",
+          "Adaptive Cruise Control",
+          "Front Assist",
+          "Lane Assist",
+          "Blind Spot Detection",
+          "Electronic Stability Control",
+          "360 degree Area View Camera",
+          "Intelligent Park Assist"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5669000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 5669000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dsg",
+          "label": "2.0 L TSI petrol · 7-speed DSG",
+          "fuel": "petrol",
+          "engine": "2.0 L TSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 265,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 370,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DSG (front-wheel drive)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5669000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Octavia RS",
+              "priceInr": {
+                "v": 5669000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Škoda Octavia IV Combi RS Facelift Auto Zuerich 2024 DSC 6558.jpg",
+          "localPath": "/cars/skoda-octavia-rs-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A%C5%A0koda_Octavia_IV_Combi_RS_Facelift_Auto_Zuerich_2024_DSC_6558.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Škoda Octavia IV Combi RS facelift at Auto Zürich 2024 (European estate body; India sells the liftback sedan).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Škoda India – Octavia RS page",
+          "publisher": "Škoda Auto Volkswagen India Pvt Ltd",
+          "url": "https://www.skoda-auto.co.in/models/octavia-rs/octavia-rs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Octavia RS",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/skoda/octavia-rs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Škoda India page lists a single variant; cc, boot and seating are from CarDekho.",
+        "Dimensions, mileage, warranty and NCAP rating not found on a fetched page for this India model.",
+        "Photo shows the estate (Combi) body of the same facelift generation, not the India liftback."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1236 @@
+{
+  "brand": {
+    "name": "Land Rover",
+    "slug": "land-rover",
+    "country": "India",
+    "parent": "Tata Motors (via Jaguar Land Rover)",
+    "indiaWebsite": "https://www.landrover.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "land-rover-defender",
+      "brand": "Land Rover",
+      "model": "Defender",
+      "generation": "L663 (launched 2019; 90, 110, 130 and Octa)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 8,
+        "s": "src-1"
+      },
+      "summary": "Body-on-monocoque 4x4 sold in India as the 90, 110, 130 and V8 Octa, with petrol and diesel engines and an 8-speed automatic.",
+      "officialUrl": "https://www.landrover.in/defender/index.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L663)",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": {
+          "v": 2008,
+          "s": "src-4"
+        },
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2020,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the Defender 110 2.0 diesel SE (adult occupant 85%, child occupant 85%); European-market car, not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Full-time all-wheel drive standard",
+          "8-speed automatic on every variant"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 10700000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 26200000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 300,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 10700000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "petrol-2-0",
+          "label": "2.0 L petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo petrol",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 2997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 300,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 650,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 13600000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "diesel-3-0",
+          "label": "3.0 L diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "3.0 L diesel",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 5000,
+            "s": "src-3"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 525,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 625,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 14300000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "petrol-v8",
+          "label": "5.0 L supercharged V8 petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "5.0 L supercharged V8",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 4395,
+            "s": "src-3"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 635,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 750,
+            "s": "src-3"
+          },
+          "efficiency": {
+            "value": 7.3,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by Autocar India)",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 24200000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "octa-v8",
+          "label": "4.4 L twin-turbo V8 petrol (Octa) · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "4.4 L twin-turbo V8",
+          "transmission": "8-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Land Rover Defender 110 L663 Hakuba Silver (2).jpg",
+          "localPath": "/cars/land-rover-defender-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALand_Rover_Defender_110_L663_Hakuba_Silver_(2).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Defender 110 (L663) in silver, photographed in South Korea.",
+          "match": "same-model-other-market"
+        },
+        {
+          "file": "File:2022 Land Rover Defender 90 2.0 Front.jpg",
+          "localPath": "/cars/land-rover-defender-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Land_Rover_Defender_90_2.0_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Defender 90 2.0 (L663), photographed in the UK in 2022.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Land Rover India - Defender page (variant 'price from' and spec headlines)",
+          "publisher": "Jaguar Land Rover India Ltd",
+          "url": "https://www.landrover.in/defender/index.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India - Defender",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/land-rover/defender",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Defender",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Land_Rover_Defender/Land_Rover_Defender.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Land Rover Defender (L663)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L663)",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Official page lists starting prices of Rs 1,07,00,000 (110), Rs 1,42,90,000 (90) and Rs 1,46,00,000 (130); Octa price not shown. Seats 'up to 8' is the 130. Maximum price (Octa Edition One, Rs 2.62 crore) is from Autocar India; CarDekho lists the same.",
+        "Per-option power/torque/displacement and starting prices are from CarDekho. Octa power is the official page's 'up to 467 kW' converted at kW x 1.3596 = 635 PS; CarDekho lists 626 PS, Autocar lists 635 hp.",
+        "Claimed mileage differs between sources (Autocar India 8.3 / 10.8 / 6.9 / 7.3 km/l; CarDekho about 11.5 / 11.4 / 6.8 km/l), so only the Octa figure is shown. Autocar's displacement table is used for 2.0 petrol and 3.0 diesel; CarDekho's for the V8s.",
+        "Width 2,008 mm is the Wikipedia figure for all body styles; length and wheelbase vary by 90/110/130 and are not shown. The official page shows 130 ground clearance of 293 mm but it is variant-specific.",
+        "Euro NCAP rating applies to the European-market Defender 110; CarDekho also claims a 5-star Global NCAP rating but no Global NCAP page was found, so it is not recorded."
+      ]
+    },
+    {
+      "id": "land-rover-discovery",
+      "brand": "Land Rover",
+      "model": "Discovery",
+      "generation": "5th generation (L462)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Seven-seat luxury SUV with a 3.0 L mild-hybrid diesel and all-wheel drive, sold in India in S to Tempest trims.",
+      "officialUrl": "https://www.landrover.in/discovery/discovery/index.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Discovery",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4956,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 2073,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1888,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2923,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 207,
+          "s": "src-2"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 89,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": null,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Euro NCAP result for the European-market Discovery (adult occupant 90%, child occupant 80%); year not stated on the page fetched; not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "All-wheel drive",
+          "Terrain Response 2",
+          "Seven seats"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 12600000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 13900000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 700,
+            "s": "src-2"
+          },
+          "efficiency": {
+            "value": 13.2,
+            "unit": "km/l",
+            "basis": "diesel figure as listed by Autocar India (test cycle not stated)",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 12600000,
+            "s": "src-2"
+          },
+          "trims": [],
+          "id": "diesel-3-0-mhev",
+          "label": "3.0 L mild-hybrid diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "3.0 L diesel (mild hybrid)",
+          "transmission": "8-speed torque-converter automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2018 Land Rover Discovery Luxury HSE TD6 3.0 Front.jpg",
+          "localPath": "/cars/land-rover-discovery-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2018_Land_Rover_Discovery_Luxury_HSE_TD6_3.0_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2018 Land Rover Discovery (L462) HSE Luxury 3.0 diesel, front three-quarter, UK; pre-2021 facelift.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Land Rover India - Discovery page",
+          "publisher": "Jaguar Land Rover India Ltd",
+          "url": "https://www.landrover.in/discovery/discovery/index.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India - Discovery",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/land-rover/discovery",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Land Rover Discovery",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official India page confirms the seven-seat Discovery but shows no price; the Rs 1.26-1.39 crore range is from Autocar India (a search listing showed Rs 1.25-1.39 crore).",
+        "Autocar India lists 350 hp for the diesel but the hp/PS basis is unclear, so power is left null. Autocar also gives 9.17 km/l for petrol and 13.2 km/l for diesel; the petrol Discovery's India availability was not confirmed.",
+        "Width 2,073 mm includes mirrors (Wikipedia gives 2,000 mm body width). Ground clearance 207 mm is the standard figure; up to 286 mm with air suspension per Autocar.",
+        "Euro NCAP rating year was not stated on the fetched Wikipedia page, so year is null."
+      ]
+    },
+    {
+      "id": "land-rover-discovery-sport",
+      "brand": "Land Rover",
+      "model": "Discovery Sport",
+      "generation": "L550 (2019 facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "Compact premium SUV with 2.0 L petrol and diesel engines, all-wheel drive and an optional third row, sold in Dynamic SE trim in India.",
+      "officialUrl": "https://www.landrover.in/discovery/discovery-sport/index.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Discovery_Sport",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4597,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1905,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1727,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2741,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2022,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Euro NCAP result for the European-market Discovery Sport (adult occupant 84%, child occupant 89%); not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "7 airbags",
+          "360-degree camera",
+          "Level 2 ADAS",
+          "All-wheel drive",
+          "Terrain Response 2"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6337000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 250,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 365,
+            "s": "src-2"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-2-0",
+          "label": "2.0 L petrol (hybrid per Autocar) · 9-speed automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo petrol",
+          "transmission": "9-speed torque-converter automatic"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 204,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 430,
+            "s": "src-2"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-2-0",
+          "label": "2.0 L diesel · 9-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L turbo diesel",
+          "transmission": "9-speed torque-converter automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2019 Land Rover Discovery Sport R-Dynamic SE 2.0 Front.jpg",
+          "localPath": "/cars/land-rover-discovery-sport-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Land_Rover_Discovery_Sport_R-Dynamic_SE_2.0_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2019 Land Rover Discovery Sport R-Dynamic SE 2.0 (L550 facelift), front three-quarter, UK.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Land Rover India - Discovery page ('Discovery Sport price from')",
+          "publisher": "Jaguar Land Rover India Ltd",
+          "url": "https://www.landrover.in/discovery/index.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India - Discovery Sport",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/land-rover/discovery-sport",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Land Rover Discovery Sport",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery_Sport",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price Rs 63,37,000 is on the official page; Autocar India shows the same. Maximum price and per-engine prices are not published in the sources fetched.",
+        "Autocar India lists 247 hp / 365 Nm (2.0 petrol-electric hybrid) and 201 hp / 430 Nm (2.0 diesel); converted at hp x 1.0139 to 250 PS and 204 PS (assumes the 'hp' is bhp). Mild-hybrid status was not confirmed, so the petrol is tagged plain petrol.",
+        "Dimensions are Wikipedia's global figures. Mileage, boot, ground clearance and warranty were not stated. The page notes imagery may not match current specifications."
+      ]
+    },
+    {
+      "id": "land-rover-range-rover",
+      "brand": "Land Rover",
+      "model": "Range Rover",
+      "generation": "5th generation (L460, long wheelbase in India)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Flagship luxury SUV sold in India as the long-wheelbase model with 3.0 L diesel and 4.4 L V8 petrol engines.",
+      "officialUrl": "https://www.rangerover.com/en-in/range-rover/index.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_(L460)",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5252,
+          "s": "src-4"
+        },
+        "widthMm": {
+          "v": 2047,
+          "s": "src-4"
+        },
+        "heightMm": {
+          "v": 1870,
+          "s": "src-4"
+        },
+        "wheelbaseMm": {
+          "v": 3197,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 541,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2022,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the European-market Range Rover (adult occupant 84%, child occupant 87%); not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360-degree camera",
+          "Air suspension",
+          "All-wheel drive standard"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 24000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 38300000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2996,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 351,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 550,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 24000000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "diesel-3-0",
+          "label": "3.0 L diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "3.0 L inline-six diesel",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 4395,
+            "s": "src-3"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 614,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 750,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 35000000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "petrol-v8",
+          "label": "4.4 L twin-turbo V8 petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "4.4 L twin-turbo V8",
+          "transmission": "8-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Land Rover Range Rover SE P440e AWD Automatic 3.0 Front.jpg",
+          "localPath": "/cars/land-rover-range-rover-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Land_Rover_Range_Rover_SE_P440e_AWD_Automatic_3.0_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2022 Range Rover (L460) SE, front three-quarter, UK.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Range Rover India - range page ('Range Rover price from')",
+          "publisher": "Jaguar Land Rover India Ltd",
+          "url": "https://www.rangerover.com/en-in/index.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India - Range Rover",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/land-rover/range-rover",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Range Rover",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Land_Rover_Range_Rover/Land_Rover_Range_Rover.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Range Rover (L460)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Range_Rover_(L460)",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price Rs 2.40 crore is on the official range page. Top price Rs 3.83 crore (3.0 diesel LWB SV) is from CarDekho; Autocar India lists Rs 3.50 crore as the top, so treat the maximum as uncertain.",
+        "CarDekho lists 346 bhp / 550 Nm (diesel) and 606 bhp / 750 Nm (V8); converted at bhp x 1.0139 to 351 PS and 614 PS. Per-option starting prices are CarDekho's variant list (LWB HSE diesel; LWB SV V8).",
+        "Only long-wheelbase variants were listed by CarDekho, so LWB dimensions from Wikipedia are shown (SWB 5,052 mm length, 2,997 mm wheelbase). CarDekho mentions 5- and 7-seat layouts; Autocar says 5, so seats = 5.",
+        "A Range Rover Sport Electric appears on the official site without a price and is reported by Autocar India as not yet launched in India, so it is not included."
+      ]
+    },
+    {
+      "id": "land-rover-range-rover-sport",
+      "brand": "Land Rover",
+      "model": "Range Rover Sport",
+      "generation": "3rd generation (L461)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Performance-oriented luxury SUV sold in India with 3.0 L diesel and petrol mild-hybrid engines and 4.4 L V8 petrols up to the SV.",
+      "officialUrl": "https://www.rangerover.com/en-in/index.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_Sport_(L461)",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4946,
+          "s": "src-4"
+        },
+        "widthMm": {
+          "v": 2047,
+          "s": "src-4"
+        },
+        "heightMm": {
+          "v": 1820,
+          "s": "src-4"
+        },
+        "wheelbaseMm": {
+          "v": 2997,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 835,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2022,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the European-market Range Rover Sport (adult occupant 85%, child occupant 85%); not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360-degree camera",
+          "Adaptive cruise control",
+          "Lane keep assist",
+          "ADAS suite"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 14300000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 23500000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 14300000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "diesel-3-0",
+          "label": "3.0 L mild-hybrid diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "3.0 L inline-six diesel (mild hybrid)",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 2996,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-3-0",
+          "label": "3.0 L mild-hybrid petrol · 8-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "3.0 L inline-six petrol (mild hybrid)",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 4395,
+            "s": "src-2"
+          },
+          "cylinders": 8,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 850,
+            "s": "src-2"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 23500000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "petrol-v8",
+          "label": "4.4 L twin-turbo V8 petrol · 8-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "4.4 L twin-turbo V8 (mild hybrid)",
+          "transmission": "8-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Land Rover Range Rover Sport L461 Varesine Blue (6).jpg",
+          "localPath": "/cars/land-rover-range-rover-sport-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALand_Rover_Range_Rover_Sport_L461_Varesine_Blue_(6).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Range Rover Sport (L461), front three-quarter, photographed in South Korea.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Range Rover India - range page ('Range Rover Sport price from')",
+          "publisher": "Jaguar Land Rover India Ltd",
+          "url": "https://www.rangerover.com/en-in/index.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India - Range Rover Sport",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/land-rover/range-rover-sport",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Range Rover Sport",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Land_Rover_Range_Rover_Sport/Land_Rover_Range_Rover_Sport.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Range Rover Sport (L461)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Range_Rover_Sport_(L461)",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price Rs 1.43 crore is on the official page; CarDekho lists the 3.0 diesel Dynamic HSE at Rs 1.43 crore and the V8 SV Carbon at Rs 2.35 crore (also Autocar's top price).",
+        "Autocar India's table lists P400 / D350 / P530 / P635 (SV Edition Two) with power in 'hp' of unclear basis, and torque only for the 635 hp car (850 Nm, also the top of CarDekho's 550-850 Nm range). Power is therefore left null; the 3.0 petrol and V8 are tagged mild-hybrid following Autocar's 'Petrol-Mild Hybrid' label, and which India trims use which engine is not confirmed.",
+        "Claimed mileage is only given as a 10-13 km/l range (Autocar), so it is left null. Dimensions are Wikipedia's global figures.",
+        "Range Rover Sport Electric is shown on the official site without a price and is reported as not yet on sale in India, so it is not included."
+      ]
+    },
+    {
+      "id": "land-rover-range-rover-velar",
+      "brand": "Land Rover",
+      "model": "Range Rover Velar",
+      "generation": "L560 (facelifted)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Mid-size Range Rover SUV sold in India with 2.0 L petrol and diesel engines, all-wheel drive and an 8-speed automatic.",
+      "officialUrl": "https://www.rangerover.com/en-in/range-rover-velar/index.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_Velar",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4803,
+          "s": "src-4"
+        },
+        "widthMm": {
+          "v": 2032,
+          "s": "src-4"
+        },
+        "heightMm": {
+          "v": 1665,
+          "s": "src-4"
+        },
+        "wheelbaseMm": {
+          "v": 2874,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 673,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "ANCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": null,
+          "protocol": null,
+          "s": "src-4",
+          "note": "ANCAP (Australasian) result for the Velar (adult occupant 93%); year not stated on the page fetched; not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360-degree camera",
+          "Level 2 ADAS",
+          "Air suspension (optional)",
+          "All-wheel drive standard"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 8850000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 365,
+            "s": "src-2"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-2-0",
+          "label": "2.0 L petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo petrol",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 1998,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 430,
+            "s": "src-2"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-2-0",
+          "label": "2.0 L mild-hybrid diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L turbo diesel (mild hybrid)",
+          "transmission": "8-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2017 Land Rover Range Rover Velar First Edition D3 3.0 Front.jpg",
+          "localPath": "/cars/land-rover-range-rover-velar-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2017_Land_Rover_Range_Rover_Velar_First_Edition_D3_3.0_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2017 Range Rover Velar First Edition (L560), front three-quarter, UK; pre-facelift.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Range Rover India - range page ('Range Rover Velar price from')",
+          "publisher": "Jaguar Land Rover India Ltd",
+          "url": "https://www.rangerover.com/en-in/index.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India - Range Rover Velar",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/land-rover/range-rover-velar",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Range Rover Velar",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/Land_Rover_Range_Rover_Velar/Land_Rover_Range_Rover_Velar.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Range Rover Velar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Range_Rover_Velar",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price Rs 88,50,000 is on the official page. Third parties disagree (Autocar India Rs 81.00 lakh, CarDekho Rs 87.50 lakh); the official figure is used.",
+        "Autocar India lists petrol 250 hp / 365 Nm and diesel 204 hp / 430 Nm, but the hp basis is unclear, so power is null. Mileage differs by source (Autocar 10.4-17.64 km/l; CarDekho 15.8 km/l), so it is left null.",
+        "Dimensions are Wikipedia's global (launch-spec) figures; boot 673 L is CarDekho's."
+      ]
+    },
+    {
+      "id": "land-rover-range-rover-evoque",
+      "brand": "Land Rover",
+      "model": "Range Rover Evoque",
+      "generation": "2nd generation (L551)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Compact premium Range Rover SUV, the cheapest in the India line-up, sold as an automatic mild-hybrid.",
+      "officialUrl": "https://www.rangerover.com/en-in/range-rover-evoque/index.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_Evoque",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4371,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1904,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1649,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2681,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2019,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Euro NCAP result for the European-market second-generation Evoque (adult occupant 94%, child occupant 89%); not an India (Bharat NCAP) rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6486000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6486000,
+            "s": "src-2"
+          },
+          "trims": [],
+          "id": "mhev-auto",
+          "label": "2.0 L mild-hybrid · automatic (engine details not stated)",
+          "fuel": "mild-hybrid",
+          "engine": "Not stated by sources",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Range Rover Evoque (L551) IMG 3586.jpg",
+          "localPath": "/cars/land-rover-range-rover-evoque-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Range_Rover_Evoque_(L551)_IMG_3586.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2023 Range Rover Evoque (L551), rear three-quarter, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Range Rover India - range page ('Range Rover Evoque price from')",
+          "publisher": "Jaguar Land Rover India Ltd",
+          "url": "https://www.rangerover.com/en-in/index.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India - Range Rover Evoque",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/land-rover/evoque",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Range Rover Evoque",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Range_Rover_Evoque",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price Rs 64,86,000 matches Autocar India. Autocar lists the fuel as 'Hybrid', automatic, 12.8-14.7 km/l, two variants; it gives no displacement, power, torque, dimensions or seating.",
+        "Seating of 5 is the standard Evoque layout but no fetched page states it explicitly; treat as unverified. Engine, power and torque are not stated by sources. Dimensions are Wikipedia's global (standard wheelbase) figures.",
+        "Mileage range of 12.8-14.7 km/l (Autocar India) is not recorded as it is a range across variants."
+      ]
+    }
+  ]
+}

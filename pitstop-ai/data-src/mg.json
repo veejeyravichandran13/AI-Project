@@ -1,0 +1,977 @@
+{
+  "brand": {
+    "name": "MG",
+    "slug": "mg",
+    "country": "China",
+    "parent": "SAIC Motor / JSW Group (JSW MG Motor India)",
+    "indiaWebsite": "https://www.mgmotor.co.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/MG_Motor_India",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "mg-comet-ev",
+      "brand": "MG",
+      "model": "Comet EV",
+      "generation": null,
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 4,
+        "s": "src-1"
+      },
+      "summary": "A compact four-seat city electric hatchback with a 17.4 kWh battery and a claimed 230 km range.",
+      "officialUrl": "https://www.mgmotor.co.in/vehicles/comet-ev-electric-car-in-india",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 2974,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1505,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1640,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2010,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "Electronic stability control",
+          "Hill hold control",
+          "Electronic parking brake",
+          "Reverse parking sensors/camera (variant-dependent)"
+        ]
+      },
+      "warranty": {
+        "v": "Battery: 8 years / 1,20,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 789800,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1016800,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev",
+          "label": "17.4 kWh · single motor",
+          "fuel": "ev",
+          "engine": "Electric motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 42,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 17.4,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 230,
+              "s": "src-1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "3.3 kW: ~7 h (0-100%); 7.4 kW AC: ~3.5 h (0-100%)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "No DC fast charging",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 789800,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:MG Comet EV side view.jpg",
+          "localPath": "/cars/mg-comet-ev-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMG_Comet_EV_side_view.jpg",
+          "author": "Saiphani02",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "MG Comet EV, side view (Exif date November 2023)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "MG Motor India – Comet EV page",
+          "publisher": "JSW MG Motor India Pvt Ltd",
+          "url": "https://www.mgmotor.co.in/vehicles/comet-ev-electric-car-in-india",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Ex-showroom prices are the outright-purchase prices on the MG page; MG also sells it under a Battery-as-a-Service model (Rs 4.99 lakh + Rs 3.20/km per the MG lineup page).",
+        "Variants listed by MG: Executive, Excite, Excite FC, Exclusive, Exclusive FC. Per-variant prices are not on the MG page and third-party sites differ slightly, so trims are omitted.",
+        "MG states the 230 km range as ARAI certified; not mapped to MIDC. Power 42 PS and 110 Nm as stated by MG.",
+        "Ground clearance, boot space and NCAP rating not stated / not found."
+      ]
+    },
+    {
+      "id": "mg-windsor-ev",
+      "brand": "MG",
+      "model": "Windsor EV",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat electric crossover offered with 38 kWh and 52.9 kWh batteries and a claimed range of up to 449 km.",
+      "officialUrl": "https://www.mgmotor.co.in/vehicles/windsor-ev-electric-car-in-india",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4295,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1850,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1677,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2700,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 604,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Electronic stability program",
+          "Electronic parking brake with auto-hold",
+          "360-degree camera",
+          "Level-2 ADAS (Essence Pro only)"
+        ]
+      },
+      "warranty": {
+        "v": "Battery: lifetime warranty (first owner)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 1484800,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-38",
+          "label": "38 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 136,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 200,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 38,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 332,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.4 kW AC: ~6.5 h (0-100%)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "DC fast: 45-50 min (20-80%)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1484800,
+            "s": "src-1"
+          },
+          "trims": []
+        },
+        {
+          "id": "ev-52",
+          "label": "52.9 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 136,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 200,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 52.9,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 449,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.4 kW AC: ~6.5 h (0-100%)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "DC fast: 45-50 min (20-80%)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "MG Motor India – Windsor EV page",
+          "publisher": "JSW MG Motor India Pvt Ltd",
+          "url": "https://www.mgmotor.co.in/vehicles/windsor-ev-electric-car-in-india",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Windsor EV",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/MG_Windsor_EV/MG_Windsor_EV.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "MG states a range of 331-449 km (MIDC) across two batteries; the per-battery split (332 km / 449 km) is from CarDekho, not the MG page. The 52.9 kWh option has no confirmed starting price.",
+        "MG's start price (Rs 14,84,800, Excite) is the outright price; Rs 9.99 lakh + Rs 3.99/km is the Battery-as-a-Service model. A separate MG page for Windsor EV Pro (Rs 12.25 lakh + Rs 4.50/km BaaS) has no spec data.",
+        "MG does not publish which variants take which battery or per-variant prices; CarDekho lists roughly Rs 14.70-19 lakh.",
+        "Power is as stated by MG (136 PS). Ground clearance not on the MG page. No NCAP rating found. No verified Commons photo of the Windsor."
+      ]
+    },
+    {
+      "id": "mg-zs-ev",
+      "brand": "MG",
+      "model": "ZS EV",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat electric SUV with a 50.3 kWh battery and a claimed 461 km range.",
+      "officialUrl": "https://www.mgmotor.co.in/vehicles/mgzsev-electric-car-in-india",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4323,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1809,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1649,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2585,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "Electronic stability control",
+          "Hill descent control",
+          "360-degree camera",
+          "ISOFIX",
+          "Level-2 ADAS with 17 features"
+        ]
+      },
+      "warranty": {
+        "v": "Battery: 8 years / 1,50,000 km (first owner)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 1799000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2074600,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev",
+          "label": "50.3 kWh · single motor",
+          "fuel": "ev",
+          "engine": "Front-mounted electric motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 176.75,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 50.3,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 461,
+              "s": "src-1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "7.4 kW AC: 8.5-9 h (0-100%)",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "50 kW DC: ~60 min (0-80%)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1799000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Executive",
+              "priceInr": {
+                "v": 1799000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Excite Pro",
+              "priceInr": {
+                "v": 1875000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Exclusive Plus",
+              "priceInr": {
+                "v": 1975000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Essence",
+              "priceInr": {
+                "v": 2075000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:MG ZS EV Facelift 1X7A5867.jpg",
+          "localPath": "/cars/mg-zs-ev-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMG_ZS_EV_Facelift_1X7A5867.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "MG ZS EV facelift photographed in Stuttgart, Germany (September 2022); European-market car",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "MG Motor India – ZS EV page",
+          "publisher": "JSW MG Motor India Pvt Ltd",
+          "url": "https://www.mgmotor.co.in/vehicles/mgzsev-electric-car-in-india",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – ZS EV",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/MG_ZS_EV/MG_ZS_EV.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Price range is outright ex-showroom from the MG page; MG also lists Battery-as-a-Service at Rs 13 lakh + Rs 4.50/km.",
+        "MG states 461 km 'single charge' without naming the test standard (CarDekho calls it ARAI-claimed). Trim prices are CarDekho's rounded lakh figures.",
+        "Power as stated by MG (176.75 PS; CarDekho: 174.33 bhp). Ground clearance, boot, kerb weight not stated by MG. No Bharat/Global NCAP rating found for the India model."
+      ]
+    },
+    {
+      "id": "mg-astor",
+      "brand": "MG",
+      "model": "Astor",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat compact SUV with a 1.5 L petrol engine, 5-speed manual or 8-speed CVT, and optional Level-2 ADAS.",
+      "officialUrl": "https://www.mgmotor.co.in/vehicles/mgastor",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4323,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1809,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1650,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2585,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 488,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 48,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "Brake assist",
+          "Hill hold / descent control",
+          "TPMS",
+          "360-degree camera",
+          "Level-2 ADAS (Savvy Pro)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 979000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1530000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L petrol",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 144,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 15.43,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 979000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Sprint",
+              "priceInr": {
+                "v": 979000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Shine",
+              "priceInr": {
+                "v": 1134000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Select",
+              "priceInr": {
+                "v": 1240000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Sharp Pro",
+              "priceInr": {
+                "v": 1337000,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-cvt",
+          "label": "1.5 L petrol · 8-speed CVT",
+          "fuel": "petrol",
+          "engine": "1.5 L petrol",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 144,
+            "s": "src-1"
+          },
+          "transmission": "8-speed CVT",
+          "efficiency": {
+            "value": 14.82,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1356000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Select CVT",
+              "priceInr": {
+                "v": 1356000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Sharp Pro CVT",
+              "priceInr": {
+                "v": 1452000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Savvy Pro CVT",
+              "priceInr": {
+                "v": 1530000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "MG Motor India – Astor page",
+          "publisher": "JSW MG Motor India Pvt Ltd",
+          "url": "https://www.mgmotor.co.in/vehicles/mgastor",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Astor",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/MG_Astor/MG_Astor.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "MG lists Savvy Pro with both 5MT and 8CVT; CarDekho lists only a CVT. Trim prices are CarDekho's rounded lakh figures; MG's page gives the Rs 9.79-15.30 lakh range only.",
+        "CarDekho states the Astor has not been crash-tested by Global or Bharat NCAP; some web snippets claimed a Bharat NCAP result but that was not confirmed on an official page, so NCAP is null.",
+        "Boot (488 L) and ARAI mileage are from CarDekho; ground clearance, kerb weight and warranty not stated. No suitable Commons photo found."
+      ]
+    },
+    {
+      "id": "mg-hector",
+      "brand": "MG",
+      "model": "Hector",
+      "generation": "Refreshed range (5- and 7-seat)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "A midsize SUV in 5- and 7-seat forms with a 1.5 L turbo-petrol engine, 6-speed manual or CVT, and Level-2 ADAS.",
+      "officialUrl": "https://www.mgmotor.co.in/vehicles/mghector",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4699,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1835,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1760,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2750,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "Electronic stability program",
+          "Hill hold control",
+          "ISOFIX anchors",
+          "360-degree HD camera",
+          "Level-2 ADAS"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1214000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2014800,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol",
+          "label": "1.5 L turbo petrol · 6-speed manual / CVT",
+          "fuel": "petrol",
+          "engine": "1.5 L turbocharged petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 143,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual / CVT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1214000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:MG(Morris Garages) Hector SUV in Jamshedpur, Jharkhand, India (Ank Kumar, Infosys Limited)) 02.jpg",
+          "localPath": "/cars/mg-hector-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMG(Morris_Garages)_Hector_SUV_in_Jamshedpur%2C_Jharkhand%2C_India_(Ank_Kumar%2C_Infosys_Limited))_02.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "MG Hector photographed in Jamshedpur, India (February 2023); an earlier design, not necessarily the current refresh",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "MG Motor India – Hector page",
+          "publisher": "JSW MG Motor India Pvt Ltd",
+          "url": "https://www.mgmotor.co.in/vehicles/mghector",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Hector",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/MG_Hector/MG_Hector.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Hector Plus is not a separate model on the MG site: the Hector page lists 7-seater variants (Sharp Pro MT, Savvy Pro), so the 6/7-seat version is folded into this entry.",
+        "MG states length 4,655-4,699 mm depending on variant (4,699 recorded). MG states ARAI mileage 12.40-13.94 km/l across variants (CarDekho: 12.34-13.79); no per-transmission split, so efficiency is null. Displacement, ground clearance, boot, fuel tank, warranty not stated by MG.",
+        "CarDekho lists a Sharp Pro diesel as 'launching 2026'; it is not on the MG page and is not included. No NCAP rating found. CarDekho start price Rs 11.99 lakh differs from MG's Rs 12,14,000; MG used."
+      ]
+    },
+    {
+      "id": "mg-majestor",
+      "brand": "MG",
+      "model": "Majestor",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "A full-size 6/7-seat diesel SUV with a 2.0 L twin-turbo engine, 8-speed automatic and optional 4WD.",
+      "officialUrl": "https://www.mgmotor.co.in/vehicles/mg-majestor-biggest-suv-india",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 5046,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 2016,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1870,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2950,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 219,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 343,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Automatic emergency braking",
+          "Lane keep assist",
+          "Adaptive cruise control",
+          "360-degree HD camera",
+          "Hill hold and hill descent control",
+          "Electronic parking brake"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4349000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-at",
+          "label": "2.0 L twin-turbo diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L twin-turbo diesel",
+          "displacementCc": {
+            "v": 1996,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 215.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 478.5,
+            "s": "src-1"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4349000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "MG Motor India – Majestor page",
+          "publisher": "JSW MG Motor India Pvt Ltd",
+          "url": "https://www.mgmotor.co.in/vehicles/mg-majestor-biggest-suv-india",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Majestor",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/overview/MG_Majestor/MG_Majestor.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Variants on the MG page: Savvy 4x2 6-seater, Savvy 4x2 7-seater, Savvy 4x4 7-seater (RWD for 2WD, 4WD available). Per-variant prices not on the MG page.",
+        "CarDekho shows Rs 42.49-44.99 lakh versus MG's Rs 43.49 lakh start; MG used. Boot (343 L, all rows up, layout unconfirmed) and displacement (1,996 cc) are from CarDekho. Mileage, fuel tank, warranty not stated; no NCAP rating (CarDekho: not crash tested).",
+        "No Commons photo verified as the Majestor."
+      ]
+    }
+  ]
+}

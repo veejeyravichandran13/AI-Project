@@ -1,0 +1,837 @@
+{
+  "brand": {
+    "name": "Ferrari",
+    "slug": "ferrari",
+    "country": "Italy",
+    "parent": "Exor",
+    "indiaWebsite": "https://www.ferrari.com/en-IN",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "ferrari-amalfi",
+      "brand": "Ferrari",
+      "model": "Amalfi",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "src-2"
+      },
+      "summary": "Ferrari's front-engined V8 2+2 grand tourer, successor to the Roma.",
+      "officialUrl": "https://www.ferrari.com/en-IN",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Amalfi",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4660,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1974,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1301,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2670,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 273,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 80,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "10.25-inch touchscreen with wireless Apple CarPlay and Android Auto",
+          "8.8-inch passenger display"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 40800000,
+          "s": "src-3"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-dct",
+          "label": "3.9 L twin-turbo V8 · 8-speed DCT · RWD",
+          "fuel": "petrol",
+          "engine": "3.9 L twin-turbo V8",
+          "displacementCc": {
+            "v": 3855,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 649,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 760,
+            "s": "src-1"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 8.93,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 40800000,
+            "s": "src-3"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Ferrari Amalfi IMG 8179.jpg",
+          "localPath": "/cars/ferrari-amalfi-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_Amalfi_IMG_8179.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear three-quarter view of a Ferrari Amalfi in Germany (2026)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Amalfi",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/amalfi",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Amalfi specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/amalfi/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India – Ferrari models",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Ferrari publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is Ferrari's India site root, not a verified model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "Price conflict: the Autocar India listing gives 4.08 crore ex-showroom (consistent with its 4.75 crore on-road figure), but the Amalfi page text says 5.59 crore ex-showroom; 4.08 crore used.",
+        "Seats: Autocar says '5 seats (2+2)' on one page and 4 on the specifications page; 4 used."
+      ]
+    },
+    {
+      "id": "ferrari-amalfi-spider",
+      "brand": "Ferrari",
+      "model": "Amalfi Spider",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "src-2"
+      },
+      "summary": "Soft-top convertible version of the Ferrari Amalfi with the same twin-turbo V8.",
+      "officialUrl": "https://www.ferrari.com/en-IN",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4660,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1974,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1305,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2670,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 80,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "15.6-inch digital instrument cluster",
+          "10.25-inch touchscreen",
+          "Adaptive cruise control",
+          "Automatic emergency braking",
+          "Electric soft-top (about 13.5 s)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 46000000,
+          "s": "src-3"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-dct",
+          "label": "3.9 L twin-turbo V8 · 8-speed DCT · RWD",
+          "fuel": "petrol",
+          "engine": "3.9 L twin-turbo V8",
+          "displacementCc": {
+            "v": 3855,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 649,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 760,
+            "s": "src-1"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 8.85,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 46000000,
+            "s": "src-3"
+          },
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Amalfi Spider",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/amalfi-spider",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Amalfi Spider specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/amalfi-spider/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India – Ferrari models",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Ferrari publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is Ferrari's India site root, not a verified model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "Price 4.60 crore from the Autocar India listing and model page (on-road 5.36 crore).",
+        "No suitable free photo of the Amalfi Spider was found on Wikimedia Commons."
+      ]
+    },
+    {
+      "id": "ferrari-296-gtb",
+      "brand": "Ferrari",
+      "model": "296 GTB",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Ferrari's mid-engined plug-in hybrid sports car with a 3.0 L twin-turbo V6.",
+      "officialUrl": "https://www.ferrari.com/en-IN",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_296_GTB",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4565,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1958,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1187,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2600,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 200,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 65,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1678,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 4,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Active aerodynamics with adjustable rear spoiler"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 54000000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v6-phev",
+          "label": "3.0 L twin-turbo V6 plug-in hybrid · 8-speed DCT · RWD",
+          "fuel": "strong-hybrid",
+          "engine": "3.0 L twin-turbo V6 with electric motor (plug-in hybrid)",
+          "displacementCc": {
+            "v": 2992,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 842,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 740,
+            "s": "src-1"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 15.15,
+            "unit": "km/l",
+            "basis": "WLTP (as quoted by Autocar India; it also cites 12.05 km/l real-world)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 54000000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Ferrari 296 GTB IMG 8865 (cropped).jpg",
+          "localPath": "/cars/ferrari-296-gtb-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_296_GTB_IMG_8865_(cropped).jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear three-quarter view of a Ferrari 296 GTB in Germany (2024)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – 296 GTB",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/296-gtb",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – 296 GTB specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/296-gtb/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Ferrari publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is Ferrari's India site root, not a verified model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "830 hp is the combined output (663 hp V6 plus electric motor); 7.45 kWh battery and up to 25 km electric range per Autocar India. Autocar's listing shows two variants but its model page shows one (3.0 PHEV Coupe)."
+      ]
+    },
+    {
+      "id": "ferrari-12cilindri",
+      "brand": "Ferrari",
+      "model": "12Cilindri",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Ferrari's front-engined V12 two-seat grand tourer, offered as coupe and Spider.",
+      "officialUrl": "https://www.ferrari.com/en-IN",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_12Cilindri",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4733,
+          "s": "src-2"
+        },
+        "widthMm": null,
+        "heightMm": {
+          "v": 1292,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2700,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 92,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6.5 L naturally aspirated V12",
+          "Rear-wheel drive"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 58900000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v12-dct",
+          "label": "6.5 L V12 · 8-speed DCT · RWD",
+          "fuel": "petrol",
+          "engine": "6.5 L naturally aspirated V12",
+          "displacementCc": {
+            "v": 6496,
+            "s": "src-1"
+          },
+          "cylinders": 12,
+          "powerPs": {
+            "v": 842,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 678,
+            "s": "src-1"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 6.45,
+            "unit": "km/l",
+            "basis": "combined cycle (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 58900000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Coupe (from)",
+              "priceInr": {
+                "v": 58900000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Spider (from)",
+              "priceInr": {
+                "v": 64500000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 Ferrari 12Cilindri in Rosso Imola, front left.jpg",
+          "localPath": "/cars/ferrari-12cilindri-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Ferrari_12Cilindri_in_Rosso_Imola,_front_left.jpg",
+          "author": "Mr.choppers",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of a 2025 Ferrari 12Cilindri coupe",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – 12Cilindri",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/12cilindri",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – 12Cilindri specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/12cilindri/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Ferrari publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is Ferrari's India site root, not a verified model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "Autocar's page lists Coupe 5.89-6.38 crore and Spider 6.45-6.93 crore ex-showroom, while its brand listing shows 5.89-6.38 crore for both; minimum used and maximum left null. Width (2176 mm) and kerb weight (1560 kg, likely dry) omitted as likely not comparable."
+      ]
+    },
+    {
+      "id": "ferrari-purosangue",
+      "brand": "Ferrari",
+      "model": "Purosangue",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 4,
+        "s": "src-2"
+      },
+      "summary": "Ferrari's first four-door, four-seat performance SUV, powered by a naturally aspirated V12 with all-wheel drive.",
+      "officialUrl": "https://www.ferrari.com/en-IN",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Purosangue",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4973,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 2028,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1589,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3018,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 185,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 473,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 100,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 10,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "10.2-inch digital cluster",
+          "Burmester audio system",
+          "Adaptive dampers with ride-height adjustment"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 75900000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v12-awd",
+          "label": "6.5 L V12 · 8-speed DCT · AWD",
+          "fuel": "petrol",
+          "engine": "6.5 L naturally aspirated V12",
+          "displacementCc": {
+            "v": 6496,
+            "s": "src-2"
+          },
+          "cylinders": 12,
+          "powerPs": {
+            "v": 735,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 716,
+            "s": "src-1"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 5.78,
+            "unit": "km/l",
+            "basis": "WLTP (company-claimed per Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 75900000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Ferrari Purosangue DSC 7008.jpg",
+          "localPath": "/cars/ferrari-purosangue-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_Purosangue_DSC_7008.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of a Ferrari Purosangue in Germany (2024)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Purosangue",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/purosangue",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Purosangue specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/purosangue/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Ferrari publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is Ferrari's India site root, not a verified model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "Autocar's listing shows two variants; its model page says a single variant."
+      ]
+    },
+    {
+      "id": "ferrari-849-testarossa",
+      "brand": "Ferrari",
+      "model": "849 Testarossa",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Ferrari's flagship V8 plug-in hybrid mid-engined supercar with three electric motors, successor to the SF90 Stradale.",
+      "officialUrl": "https://www.ferrari.com/en-IN",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_849_Testarossa",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": {
+          "v": 1225,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2650,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 68,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "16-inch digital driver display",
+          "9-inch passenger screen",
+          "Brake-by-wire",
+          "Torque vectoring"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 103700000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v8-phev",
+          "label": "4.0 L twin-turbo V8 plug-in hybrid · 8-speed DCT · AWD",
+          "fuel": "strong-hybrid",
+          "engine": "4.0 L twin-turbo V8 with three electric motors (plug-in hybrid)",
+          "displacementCc": {
+            "v": 3990,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 1065,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 10.75,
+            "unit": "km/l",
+            "basis": "WLTP (as quoted by Autocar India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 103700000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2026 Ferrari 849 Testarossa Assetto Fiorano in Blu Corsa.jpg",
+          "localPath": "/cars/ferrari-849-testarossa-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2026_Ferrari_849_Testarossa_Assetto_Fiorano_in_Blu_Corsa.jpg",
+          "author": "Andrew Bone from Weymouth, England, UK.",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "Front three-quarter view of a 2026 Ferrari 849 Testarossa with the Assetto Fiorano package, UK",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – 849 Testarossa",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/849-testarossa",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – 849 Testarossa specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/ferrari/849-testarossa/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "No manufacturer India price page was fetched (Ferrari publishes no India prices); prices are third-party (Autocar India) ex-showroom. officialUrl is Ferrari's India site root, not a verified model page.",
+        "Power is quoted in 'hp' by Autocar India; treated as bhp and converted (x1.0139) to PS, so figures may differ slightly from the maker's metric figure.",
+        "No NCAP rating exists for this model.",
+        "1,050 hp is the combined output (V8 830 hp plus motors 220 hp). Combined torque not stated. Battery 7.45 kWh and 25 km claimed electric range per Autocar India. Length and width omitted: the specifications page lists implausible values (1718 mm / 2304 mm). Seat count from 'two-seat coupe' on the specs page."
+      ]
+    }
+  ]
+}

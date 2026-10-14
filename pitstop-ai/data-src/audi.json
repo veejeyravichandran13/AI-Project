@@ -1,0 +1,1330 @@
+{
+  "brand": {
+    "name": "Audi",
+    "slug": "audi",
+    "country": "Germany",
+    "parent": "Volkswagen Group",
+    "indiaWebsite": "https://www.audi.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "audi-a4",
+      "brand": "Audi",
+      "model": "A4",
+      "generation": "B9 facelift",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A compact luxury sedan sold in India with a single 2.0 L turbo-petrol and a 7-speed dual-clutch automatic.",
+      "officialUrl": "https://www.audi.in/en/models/a4/a4-sedan/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A4",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4762,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1847,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1433,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2826,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 54,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "8 airbags",
+          "Electronic Stability Control",
+          "Traction control",
+          "ABS",
+          "Electronic parking brake with auto hold"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4688000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 5583000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dct",
+          "label": "2.0 L TFSI petrol · 7-speed S tronic",
+          "fuel": "petrol",
+          "engine": "2.0 L TFSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-2"
+          },
+          "transmission": "7-speed dual-clutch automatic",
+          "efficiency": {
+            "value": 17.4,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4688000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2020 Audi A4 S Line 35 TDi S-A facelift 2.0 Front.jpg",
+          "localPath": "/cars/audi-a4-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Audi_A4_S_Line_35_TDi_S-A_facelift_2.0_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2020 Audi A4 S Line 40 TDI facelift photographed in Solihull, UK (right-hand-drive UK car, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – A4",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/a4",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – A4 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/a4/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Power: Autocar India states 204 hp (treated as PS, matching Audi's usual figure); CarDekho states 207 bhp (about 210 PS). Autocar value used.",
+        "Wheelbase: Autocar India 2,826 mm used; CarDekho lists 2,500 mm, which looks like a template value.",
+        "Mileage: Autocar India 17.4 km/l (ARAI) used; CarDekho's table shows 15 km/l.",
+        "Autocar describes the engine as turbo-petrol with mild hybrid; recorded here as petrol.",
+        "Maximum price (Rs 55.83 lakh) is Autocar India's listed top price, not from Audi."
+      ]
+    },
+    {
+      "id": "audi-a6",
+      "brand": "Audi",
+      "model": "A6",
+      "generation": "C8 (facelift)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A large luxury sedan sold in India with a 2.0 L turbo-petrol (45 TFSI) and a 7-speed dual-clutch automatic.",
+      "officialUrl": "https://www.audi.in/en/models/a6/a6/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A6",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4939,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1886,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1470,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2930,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 165,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 530,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 73,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1740,
+          "s": "src-3"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "Traction control and ESC",
+          "ISOFIX anchors",
+          "360-degree camera"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6481000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 7166000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dct",
+          "label": "2.0 L TFSI (45 TFSI) · 7-speed S tronic quattro",
+          "fuel": "petrol",
+          "engine": "2.0 L TFSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 245,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 370,
+            "s": "src-2"
+          },
+          "transmission": "7-speed dual-clutch automatic",
+          "efficiency": {
+            "value": 14.11,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6481000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2019 Audi A6 55 TFSI Quattro Progressiv Quattro S-Line in Daytona Grey Pearlescent, Front Left, 11-25-2022.jpg",
+          "localPath": "/cars/audi-a6-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Audi_A6_55_TFSI_Quattro_Progressiv_Quattro_S-Line_in_Daytona_Grey_Pearlescent%2C_Front_Left%2C_11-25-2022.jpg",
+          "author": "Elise240SX",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2019 Audi A6 55 TFSI quattro S line photographed in Ontario, Canada (North-American spec, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – A6",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/a6",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – A6 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/a6/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Power: Autocar India 245 hp (CarDekho 241.3 bhp, about 245 PS) - consistent.",
+        "Width: Autocar India 1,886 mm used; CarDekho lists 2,110 mm (likely including mirrors) and 2,500 mm wheelbase, which looks like a template value.",
+        "Autocar India labels the powertrain petrol-electric hybrid; recorded as petrol."
+      ]
+    },
+    {
+      "id": "audi-q3",
+      "brand": "Audi",
+      "model": "Q3",
+      "generation": "Second generation (F3)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A compact luxury SUV sold in India with a 2.0 L turbo-petrol, 7-speed dual-clutch automatic and quattro all-wheel drive.",
+      "officialUrl": "https://www.audi.in/en/models/q3/q3-suv/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q3",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4482,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1849,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1607,
+          "s": "src-3"
+        },
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 62,
+          "s": "src-3"
+        },
+        "kerbWeightKg": {
+          "v": 1700,
+          "s": "src-3"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Park assist with reverse camera",
+          "TPMS",
+          "ESC",
+          "ISOFIX"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4367000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 5300000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dct-quattro",
+          "label": "2.0 L TFSI (40 TFSI) · 7-speed S tronic quattro",
+          "fuel": "petrol",
+          "engine": "2.0 L TFSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 190,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-3"
+          },
+          "transmission": "7-speed dual-clutch automatic (AWD)",
+          "efficiency": {
+            "value": 11.91,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4367000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2019 Audi Q3 S Line 45 TFSi Quattro 2.0 Front.jpg",
+          "localPath": "/cars/audi-q3-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Audi_Q3_S_Line_45_TFSi_Quattro_2.0_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2019 Audi Q3 S line 45 TFSI quattro photographed in Leamington Spa, UK (UK car, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Q3",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/q3",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Q3 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/q3/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Power: 187.74 bhp stated by CarDekho, converted to about 190 PS (x1.0139); Autocar India states 188-190 hp.",
+        "Mileage disagreement: Autocar India 11.91 km/l (ARAI, used); CarDekho 10-10.14 km/l.",
+        "Boot: Autocar India 530 L vs CarDekho 460 L - left blank.",
+        "The audi.in Q3 page currently promotes an all-new Q3 with 'register interest / pre-book' only; the on-sale model with the listed price is the current-generation Q3 shown in the myAudi price list. Specs here are for that listed model.",
+        "Autocar India cites a Euro NCAP 5-star rating from a 2018 test of the previous-generation Q3, so it was not recorded."
+      ]
+    },
+    {
+      "id": "audi-q3-sportback",
+      "brand": "Audi",
+      "model": "Q3 Sportback",
+      "generation": "First generation (F3N)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A coupe-styled compact luxury SUV sold in India in a single 2.0 L turbo-petrol quattro variant.",
+      "officialUrl": "https://myaudi.in/en/vehicleSales/models",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q3",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4518,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1843,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1558,
+          "s": "src-2"
+        },
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 62,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Electronic Stability Control",
+          "Rear parking camera"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5425001,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dct-quattro",
+          "label": "2.0 L TFSI (40 TFSI) · 7-speed S tronic quattro",
+          "fuel": "petrol",
+          "engine": "2.0 L TFSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 190,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-2"
+          },
+          "transmission": "7-speed dual-clutch automatic (AWD)",
+          "efficiency": {
+            "value": 12.08,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5425001,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2019 Audi Q3 Sportback Rear.jpg",
+          "localPath": "/cars/audi-q3-sportback-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Audi_Q3_Sportback_Rear.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2019 Audi Q3 Sportback 45 TFSI quattro, rear three-quarter view, photographed in a UK showroom (UK spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Q3 Sportback",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/q3-sportback",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Q3 Sportback specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/q3-sportback/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "audi.in has no separate Q3 Sportback model page in its 8-model list; the model is listed with a price on Audi India's myAudi booking page, which is cited as the official source and also used as officialUrl.",
+        "Mileage: Autocar India 12.08 km/l (ARAI, used); CarDekho shows 10.14 km/l combined.",
+        "Width: Autocar India 1,843 mm used; CarDekho lists 2,022 mm (likely with mirrors).",
+        "Exact price is printed as Rs 54,25,001 on the myAudi page."
+      ]
+    },
+    {
+      "id": "audi-q5",
+      "brand": "Audi",
+      "model": "Q5",
+      "generation": "Second generation (FY, facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A mid-size luxury SUV sold in India with a 2.0 L turbo-petrol, 7-speed dual-clutch automatic and quattro all-wheel drive.",
+      "officialUrl": "https://www.audi.in/en/models/q5/q5/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q5",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4682,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1893,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1653,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2827,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 520,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 70,
+          "s": "src-3"
+        },
+        "kerbWeightKg": {
+          "v": 1970,
+          "s": "src-3"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "8 airbags",
+          "360-degree camera",
+          "ABS with EBD",
+          "ESC",
+          "TPMS",
+          "ISOFIX",
+          "Hill-hold assist"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 6555000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 7073000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dct-quattro",
+          "label": "2.0 L TFSI (45 TFSI) · 7-speed S tronic quattro",
+          "fuel": "petrol",
+          "engine": "2.0 L TFSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 249,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 370,
+            "s": "src-2"
+          },
+          "transmission": "7-speed dual-clutch automatic (AWD)",
+          "efficiency": {
+            "value": 13.47,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6555000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Audi Q5 quattro Premium Plus 45TFSI in Silver, front right.jpg",
+          "localPath": "/cars/audi-q5-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Audi_Q5_quattro_Premium_Plus_45TFSI_in_Silver%2C_front_right.jpg",
+          "author": "Mr.choppers",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "caption": "2022 Audi Q5 45 TFSI quattro (facelift) photographed in the USA (US spec, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Q5",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/q5",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Q5 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/q5/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Power: Autocar India 249 hp; CarDekho 245.59 bhp (= 249 PS) - consistent.",
+        "Audi's myAudi page lists the Q5 at Rs 65,55,000; the audi.in Q5 page shows a newer-looking Q5 without a spec sheet. Dimensions are from CarDekho and may refer to the previous Q5 body.",
+        "Autocar India cites a 5-star Euro NCAP rating without year or protocol; not recorded."
+      ]
+    },
+    {
+      "id": "audi-q7",
+      "brand": "Audi",
+      "model": "Q7",
+      "generation": "Second generation (4M, 2025 model year)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-3"
+      },
+      "summary": "A seven-seat full-size luxury SUV sold in India with a 3.0 L V6 turbo-petrol, 8-speed automatic and quattro all-wheel drive.",
+      "officialUrl": "https://www.audi.in/en/models/q7/q7-suv2025/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q7",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5072,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1970,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1705,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3000,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 295,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 85,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "8 airbags",
+          "360-degree camera",
+          "Electronic stability program",
+          "Lane departure warning",
+          "ISOFIX anchors"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 8716999,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 9615000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-at-quattro",
+          "label": "3.0 L TFSI V6 (55 TFSI) · 8-speed tiptronic quattro",
+          "fuel": "petrol",
+          "engine": "3.0 L TFSI V6 turbo petrol",
+          "displacementCc": {
+            "v": 2995,
+            "s": "src-2"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 340,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-2"
+          },
+          "transmission": "8-speed automatic (AWD)",
+          "efficiency": {
+            "value": 11.21,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 8716999,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2019 Audi Q7 facelift Front.jpg",
+          "localPath": "/cars/audi-q7-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Audi_Q7_facelift_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2019 Audi Q7 facelift photographed in Birmingham, UK (UK car; same facelift body as the India model).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Q7",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/q7",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Q7 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/q7/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Power: CarDekho 335 bhp converted to about 340 PS (x1.0139); Autocar India states 335 hp.",
+        "Boot 295 L is with the third row up (Autocar India).",
+        "Mileage: Autocar India 11.21 km/l used; CarDekho shows 11 km/l.",
+        "Autocar India cites 5-star Euro NCAP without year; not recorded."
+      ]
+    },
+    {
+      "id": "audi-q8",
+      "brand": "Audi",
+      "model": "Q8",
+      "generation": "First generation (4M, facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "A coupe-styled full-size luxury SUV sold in India with a 3.0 L V6 turbo-petrol and quattro all-wheel drive.",
+      "officialUrl": "https://www.audi.in/en/models/q8/q8-suv/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q8",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4995,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1995,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1705,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2995,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 605,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "8 airbags",
+          "360-degree camera",
+          "Electronic parking brake with auto hold"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 11310000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-at-quattro",
+          "label": "3.0 L TFSI V6 (55 TFSI) · 8-speed tiptronic quattro",
+          "fuel": "petrol",
+          "engine": "3.0 L TFSI V6 turbo petrol",
+          "displacementCc": {
+            "v": 2995,
+            "s": "src-3"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 340,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-3"
+          },
+          "transmission": "8-speed automatic (AWD)",
+          "efficiency": {
+            "value": 10,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 11310000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Audi Q8 55 TFSI quattro (Typ 4M, 2019) (52721103543).jpg",
+          "localPath": "/cars/audi-q8-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAudi_Q8_55_TFSI_quattro_(Typ_4M%2C_2019)_(52721103543).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "caption": "Audi Q8 55 TFSI quattro (Typ 4M) photographed in South Africa (not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Q8",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/q8",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Q8 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/q8/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Price is the 2026-model-year Q8 on the myAudi page (Rs 1,13,10,000); a 2025-model-year 'New Q8' is listed there at Rs 1,09,66,001.",
+        "Power: Autocar India 340 hp; CarDekho 335 bhp (about 340 PS).",
+        "Autocar India's Euro NCAP 2019 mention is for the previous test cycle and was not recorded as an India rating.",
+        "SQ8 and RS Q8 performance are separate entries."
+      ]
+    },
+    {
+      "id": "audi-sq8",
+      "brand": "Audi",
+      "model": "SQ8",
+      "generation": "First generation (4M, facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "A high-performance version of the Q8 sold in India with a 4.0 L twin-turbo V8 petrol and quattro all-wheel drive.",
+      "officialUrl": "https://www.audi.in/en/models/q8/sq8-suv/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q8",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "8 airbags"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 18123000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-v8-at-quattro",
+          "label": "4.0 L TFSI V8 twin-turbo · 8-speed tiptronic quattro",
+          "fuel": "petrol",
+          "engine": "4.0 L TFSI V8 twin-turbo petrol",
+          "displacementCc": {
+            "v": 3996,
+            "s": "src-3"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 507,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 770,
+            "s": "src-3"
+          },
+          "transmission": "8-speed automatic (AWD)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 18123000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Audi SQ8 TFSI (2021) (52456042764).jpg",
+          "localPath": "/cars/audi-sq8-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAudi_SQ8_TFSI_(2021)_(52456042764).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "caption": "Audi SQ8 TFSI (2021) rear three-quarter view photographed in the USA (US spec, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – SQ8 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/sq8/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Power: CarDekho 500 bhp converted to about 507 PS (x1.0139).",
+        "Dimensions left blank: CarDekho's SQ8 figures (e.g. 2,190 mm width) look inconsistent with the Q8's.",
+        "Price from the 2026-model-year SQ8 on the myAudi page; Autocar India lists a different (about Rs 2.07 crore) figure that was not used."
+      ]
+    },
+    {
+      "id": "audi-rs-q8-performance",
+      "brand": "Audi",
+      "model": "RS Q8 performance",
+      "generation": "First generation (4M, facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "The flagship performance Q8 sold in India with a 4.0 L twin-turbo V8 petrol and quattro all-wheel drive.",
+      "officialUrl": "https://www.audi.in/en/models/q8/rs-q8-suv-performance/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q8",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5020,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 2005,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1700,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2995,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "8 airbags"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 23383000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-v8-at-quattro",
+          "label": "4.0 L TFSI V8 twin-turbo · 8-speed tiptronic quattro",
+          "fuel": "petrol",
+          "engine": "4.0 L TFSI V8 twin-turbo petrol",
+          "displacementCc": {
+            "v": 3996,
+            "s": "src-2"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 640,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 850,
+            "s": "src-2"
+          },
+          "transmission": "8-speed automatic (AWD)",
+          "efficiency": {
+            "value": 9,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 23383000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2020 Audi RS Q8 Front.jpg",
+          "localPath": "/cars/audi-rs-q8-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Audi_RS_Q8_Front.jpg",
+          "author": "Vauxford",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2019 Audi RS Q8 photographed in Birmingham, UK (UK car, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "myAudi India – Models and starting prices (Audi India)",
+          "publisher": "Audi India (Skoda Auto Volkswagen India Pvt Ltd)",
+          "url": "https://myaudi.in/en/vehicleSales/models",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Q8 range (RS Q8 Performance)",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/audi/q8",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – RS Q8 specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/audi/rs-q8/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Audi India's own pages (audi.in model pages) carry no specification tables, and audi.in blocks automated fetching; model list and starting price come from the official myAudi India models page, specifications from Autocar India and CarDekho.",
+        "No NCAP rating recorded: no rating that could be tied to this exact India-sold model was verified in this session.",
+        "Warranty period not stated on any fetched source.",
+        "Power: Autocar India states 640 hp (treated as PS; CarDekho's 632 bhp converts to about 641 PS). Displacement: Autocar 3,996 cc (CarDekho 3,998 cc).",
+        "Price from the 2026-model-year RS Q8 listing on the myAudi page (Rs 2,33,83,000). The India model is sold as RS Q8 performance on audi.in."
+      ]
+    }
+  ]
+}

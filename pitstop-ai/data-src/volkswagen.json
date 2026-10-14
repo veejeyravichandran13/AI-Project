@@ -1,0 +1,916 @@
+{
+  "brand": {
+    "name": "Volkswagen",
+    "slug": "volkswagen",
+    "country": "Germany",
+    "parent": "Volkswagen Group",
+    "indiaWebsite": "https://www.volkswagen.co.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "volkswagen-virtus",
+      "brand": "Volkswagen",
+      "model": "Virtus",
+      "generation": "1st generation (launched India 2022)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Compact sedan from Volkswagen India offered with a 1.0 L or 1.5 L TSI turbo-petrol engine.",
+      "officialUrl": "https://www.volkswagen.co.in/en/models/virtus.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Virtus",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4561,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1752,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1507,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2651,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 179,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 521,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2023,
+          "protocol": "Global NCAP (similar to Latin NCAP 2016)",
+          "s": "src-2",
+          "note": "India-spec Virtus; adult 29.71/34.00, child 42.00/49.00 per Wikipedia. VW India page also states a 5-star Global NCAP rating."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "6 airbags as standard (per CarDekho)",
+          "40 safety features (per VW India)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1070900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1920000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-1.0-mt",
+          "label": "1.0 L TSI petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 20.8,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.0-at",
+          "label": "1.0 L TSI petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-2"
+          },
+          "transmission": "6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.5-dsg",
+          "label": "1.5 L TSI EVO petrol · 7-speed DSG",
+          "fuel": "petrol",
+          "engine": "1.5 L TSI EVO 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 150,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-2"
+          },
+          "transmission": "7-speed DSG",
+          "efficiency": {
+            "value": 19.62,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Volkswagen Virtus Topline front 20230520.jpg",
+          "localPath": "/cars/volkswagen-virtus-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Volkswagen_Virtus_Topline_front_20230520.jpg",
+          "author": "Dairokkan9",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2023 Volkswagen Virtus Topline TSI, front view (India).",
+          "match": "exact"
+        },
+        {
+          "file": "File:2022 Volkswagen Virtus 1.5 GT (India) front view 01.png",
+          "localPath": "/cars/volkswagen-virtus-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Volkswagen_Virtus_1.5_GT_(India)_front_view_01.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2022 Volkswagen Virtus 1.5 GT, India-market, front view.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volkswagen India – Virtus page",
+          "publisher": "Volkswagen India Pvt Ltd",
+          "url": "https://www.volkswagen.co.in/en/models/virtus.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volkswagen Virtus",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Volkswagen_Virtus",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Virtus",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/volkswagen/virtus",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Virtus",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/volkswagen/virtus",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarWale - Virtus",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/volkswagen-cars/virtus/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Minimum price is the Virtus Chrome from the VW India models page (the Virtus model page shows INR 10,70,900; the Sport trim starts at INR 14,34,900). Maximum price (GT Plus Sport DSG, about 19.20 lakh) is from CarDekho.",
+        "CarDekho lists ARAI mileage of 20.8 km/l (manual) and 18.12 to 19.62 km/l (automatic) but does not map them to engines, so per-option efficiency is left null.",
+        "CarDekho lists 114 bhp / 148 bhp; Wikipedia lists 115 PS / 150 PS (used).",
+        "Warranty not found on a fetched page.",
+        "Photos show the 2022-23 car; VW India notes a facelift is expected (CarDekho, October 2026).",
+        "ARAI mileage for 1.0 TSI MT (20.8 km/l) and 1.5 TSI DSG (19.62 km/l) is the same on CarDekho and CarWale. The 1.0 TSI automatic is left null because CarDekho states 18.12 km/l and CarWale 18.45 km/l."
+      ]
+    },
+    {
+      "id": "volkswagen-taigun",
+      "brand": "Volkswagen",
+      "model": "Taigun",
+      "generation": "1st generation (launched India 2021; 2026 update)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Compact SUV from Volkswagen India built on the MQB-A0-IN platform with 1.0 L and 1.5 L TSI turbo-petrol engines.",
+      "officialUrl": "https://www.volkswagen.co.in/en/models/taigun.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Taigun",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4221,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1760,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1612,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2651,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 385,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2022,
+          "protocol": "Global NCAP 2.0 (similar to Latin NCAP 2016)",
+          "s": "src-2",
+          "note": "Adult 29.64/34.00, child 42.00/49.00 per Wikipedia (October 2022, pre-2026 update car)."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "6 airbags as standard (per CarDekho)",
+          "Front parking sensors",
+          "Full LED headlamps with all-weather lights"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1099900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1930000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-1.0-mt",
+          "label": "1.0 L TSI petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-3"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 19.98,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.0-at",
+          "label": "1.0 L TSI petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.0 L TSI 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 115,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 178,
+            "s": "src-3"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 19.54,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.5-dsg",
+          "label": "1.5 L TSI EVO petrol · 7-speed DSG",
+          "fuel": "petrol",
+          "engine": "1.5 L TSI EVO 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 150,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-3"
+          },
+          "transmission": "7-speed DSG",
+          "efficiency": {
+            "value": 18.85,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:VW Taigun India 2021 103710.jpg",
+          "localPath": "/cars/volkswagen-taigun-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVW_Taigun_India_2021_103710.jpg",
+          "author": "Premkudva",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Volkswagen Taigun TSI, India, 2021, front left (pre-2026-update).",
+          "match": "same-model-other-generation"
+        },
+        {
+          "file": "File:2021 Volkswagen Taigun 1.5 TSI GT (India) front view 01.png",
+          "localPath": "/cars/volkswagen-taigun-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Volkswagen_Taigun_1.5_TSI_GT_(India)_front_view_01.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Volkswagen Taigun 1.5 TSI GT, India-market, front view.",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volkswagen India – Taigun page",
+          "publisher": "Volkswagen India Pvt Ltd",
+          "url": "https://www.volkswagen.co.in/en/models/taigun.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volkswagen Taigun",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Volkswagen_Taigun",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Taigun",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/volkswagen/taigun",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The VW India page does not state cc, PS or Nm; those come from CarDekho (115 PS / 178 Nm, 150 PS / 250 Nm). Wikipedia lists 175 Nm for the 1.0 TSI.",
+        "Maximum price from CarDekho (GT Plus variants, about 19.30 lakh).",
+        "Ground clearance and fuel tank not found; variant prices from CarDekho are not mapped to engines so trims are omitted.",
+        "Dimensions height and wheelbase from Wikipedia (2021 car).",
+        "Photos show the 2021 launch car, not the 2026 update."
+      ]
+    },
+    {
+      "id": "volkswagen-tayron",
+      "brand": "Volkswagen",
+      "model": "Tayron",
+      "generation": "2nd generation (launched India 2025/26)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Three-row premium SUV from Volkswagen with a 2.0 L TSI EVO petrol engine, 7-speed DSG and 4MOTION all-wheel drive.",
+      "officialUrl": "https://www.volkswagen.co.in/en/models/tayron.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Tayron",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4792,
+          "s": "src-1"
+        },
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 345,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2025,
+          "protocol": "Euro NCAP",
+          "s": "src-2",
+          "note": "European-market Tayron; Wikipedia reports adult 87%, child 85%. Not tested on the India-spec car."
+        },
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "9 airbags",
+          "Level 2 ADAS (per CarDekho)",
+          "Park Assist Plus with Park Distance Control"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4199000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 4774000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dsg-4motion",
+          "label": "2.0 L TSI EVO petrol · 7-speed DSG · 4MOTION",
+          "fuel": "petrol",
+          "engine": "2.0 L TSI EVO 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-3"
+          },
+          "transmission": "7-speed DSG (4MOTION AWD)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4199000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Tayron Life (5-seater)",
+              "priceInr": {
+                "v": 4199000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Tayron R-Line (7-seater)",
+              "priceInr": {
+                "v": 4774000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Volkswagen Tayron II Auto Zuerich 2024 DSC 6221.jpg",
+          "localPath": "/cars/volkswagen-tayron-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolkswagen_Tayron_II_Auto_Zuerich_2024_DSC_6221.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Volkswagen Tayron II at Auto Zürich 2024 (European-market car).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volkswagen India – Tayron page",
+          "publisher": "Volkswagen India Pvt Ltd",
+          "url": "https://www.volkswagen.co.in/en/models/tayron.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volkswagen Tayron",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Volkswagen_Tayron",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Tayron",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/volkswagen/tayron",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "VW India page lists Life as 5-seater and R-Line as 7-seater; max seating 7. Width is 1,853 mm (Life) / 1,866 mm (R-Line) per VW India, so omitted as a single value.",
+        "Power: CarDekho lists 201.2 bhp, converted to about 204 PS (bhp x 1.0139); VW India lists 204 PS for the Tiguan R-Line with the same engine.",
+        "Claimed ARAI mileage not found; CarDekho only gives real-world estimates.",
+        "Wikipedia describes the Tayron as the second generation (Tiguan Allspace successor); its dimensions are for European market and are not used."
+      ]
+    },
+    {
+      "id": "volkswagen-tiguan-r-line",
+      "brand": "Volkswagen",
+      "model": "Tiguan R-Line",
+      "generation": "3rd generation (imported CBU)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Premium five-seat SUV from Volkswagen in R-Line trim with a 2.0 L TSI EVO petrol engine and 4MOTION all-wheel drive.",
+      "officialUrl": "https://www.volkswagen.co.in/en/models/tiguan-r-line.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Tiguan",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 176,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 652,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "9 airbags standard",
+          "21 Level 2 ADAS features including Lane Assist and Front Assist",
+          "Hill Start Assist and Hill Descent Control",
+          "Front and rear disc brakes"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4711013,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 4711013,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dsg-4motion",
+          "label": "2.0 L TSI EVO petrol · 7-speed DSG · 4MOTION",
+          "fuel": "petrol",
+          "engine": "2.0 L TSI EVO 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 320,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DSG (4MOTION AWD)",
+          "efficiency": {
+            "value": 12.58,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4711013,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 Volkswagen Tiguan Highline R-Line 4MOTION in Oryx White Pearl, front left, 2025-05-18.jpg",
+          "localPath": "/cars/volkswagen-tiguan-r-line-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Volkswagen_Tiguan_Highline_R-Line_4MOTION_in_Oryx_White_Pearl%2C_front_left%2C_2025-05-18.jpg",
+          "author": "Elise240SX",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2025 Volkswagen Tiguan Highline R-Line 4MOTION, photographed in Canada (North American market, same generation).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volkswagen India – Tiguan R-Line page",
+          "publisher": "Volkswagen India Pvt Ltd",
+          "url": "https://www.volkswagen.co.in/en/models/tiguan-r-line.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volkswagen Tiguan",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Volkswagen_Tiguan",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Tiguan R-Line",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/volkswagen/tiguan-r-line",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "VW India page states a 5-star Euro NCAP rating but no year or scores; a specific record was not fetched, so the ncap field is left null. Euro NCAP coverage of the third-generation Tiguan was reported in a Volkswagen press release (not fetched in full).",
+        "204 PS is stated by VW India (150 kW); CarDekho lists 201 bhp.",
+        "Wikipedia dimensions are for European/US/China variants and do not match the India CBU R-Line, so dimensions are left null.",
+        "Ground clearance, boot, seating and ARAI mileage from CarDekho."
+      ]
+    },
+    {
+      "id": "volkswagen-golf-gti",
+      "brand": "Volkswagen",
+      "model": "Golf GTI",
+      "generation": "Mk 8.5 (imported CBU)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Performance hatchback from Volkswagen with a 2.0 L TSI engine and 7-speed DSG, imported in limited numbers.",
+      "officialUrl": "https://www.volkswagen.co.in/en/models/golf-gti.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk8",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4289,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1789,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1471,
+          "s": "src-1"
+        },
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 136,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 380,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2019,
+          "protocol": "Euro NCAP",
+          "s": "src-2",
+          "note": "Rating applies to the Mk8 Golf (2019 test), not specifically to the India-spec GTI or Mk 8.5 update. Wikipedia reports adult 95%, child 89%."
+        },
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "7 airbags",
+          "XDS electronic front differential lock",
+          "Adaptive Cruise Control",
+          "Lane Assist",
+          "Front Assist with pedestrian and cyclist monitoring"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5090900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 5090900,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-dsg",
+          "label": "2.0 L TSI petrol · 7-speed DSG",
+          "fuel": "petrol",
+          "engine": "2.0 L TSI 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 265,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 370,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DSG",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5090900,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Volkswagen Golf GTI Mk8 Dolphin Gray Metallic (5).jpg",
+          "localPath": "/cars/volkswagen-golf-gti-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolkswagen_Golf_GTI_Mk8_Dolphin_Gray_Metallic_(5).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Volkswagen Golf GTI Mk8 hatchback (pre-8.5 update, not India-spec).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volkswagen India – Golf GTI page",
+          "publisher": "Volkswagen India Pvt Ltd",
+          "url": "https://www.volkswagen.co.in/en/models/golf-gti.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volkswagen Golf Mk8",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk8",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Golf GTI",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/volkswagen/golf-gti",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "VW India page notes the car is \"sold out\" at the stated price; it is still listed on the official site, so it is included. CarDekho describes it as limited units.",
+        "Wikipedia lists 245 PS for the Mk8 GTI; VW India states 265 PS for the Mk 8.5 (used).",
+        "ARAI mileage, warranty and fuel tank not found."
+      ]
+    }
+  ]
+}

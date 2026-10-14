@@ -1,0 +1,281 @@
+{
+  "aston-martin": {
+    "path": "/brands/aston-martin.svg",
+    "file": "File:Aston Martin wordmark.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_wordmark.svg",
+    "author": "Aston Martin",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": false
+  },
+  "audi": {
+    "path": "/brands/audi.svg",
+    "file": "File:Audi-Logo 2016.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AAudi-Logo_2016.svg",
+    "author": "Strichpunkt / KMS Team",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "bentley": {
+    "path": "/brands/bentley.svg",
+    "file": "File:Bentley.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABentley.svg",
+    "author": "Kai xzzrs",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "trademark": false
+  },
+  "bmw": {
+    "path": "/brands/bmw.svg",
+    "file": "File:BMW.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABMW.svg",
+    "author": "BMW",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "byd": {
+    "path": "/brands/byd.svg",
+    "file": "File:BYD Auto 2022 logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ABYD_Auto_2022_logo.svg",
+    "author": "BYD",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "ferrari": {
+    "path": "/brands/ferrari.svg",
+    "file": "File:Ferrari wordmark.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_wordmark.svg",
+    "author": "Ferrari",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "hyundai": {
+    "path": "/brands/hyundai.svg",
+    "file": "File:Hyundai Motor Company logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AHyundai_Motor_Company_logo.svg",
+    "author": "Hyundai Motor Company",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "isuzu": {
+    "path": "/brands/isuzu.svg",
+    "file": "File:Isuzu.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AIsuzu.svg",
+    "author": "Isuzu",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "jeep": {
+    "path": "/brands/jeep.svg",
+    "file": "File:Jeep logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AJeep_logo.svg",
+    "author": "AxG",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": false
+  },
+  "lamborghini": {
+    "path": "/brands/lamborghini.svg",
+    "file": "File:Lamborghini - logo wordmark (italy, 1963-).svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALamborghini_-_logo_wordmark_(italy%2C_1963-).svg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "lexus": {
+    "path": "/brands/lexus.svg",
+    "file": "File:Lexus.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALexus.svg",
+    "author": "Gaspard",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "maruti-suzuki": {
+    "path": "/brands/maruti-suzuki.svg",
+    "file": "File:Maruti Suzuki logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaruti_Suzuki_logo.svg",
+    "author": "Maruti Suzuki",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "mercedes-benz": {
+    "path": "/brands/mercedes-benz.svg",
+    "file": "File:Mercedes-Benz free logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_free_logo.svg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "mini": {
+    "path": "/brands/mini.svg",
+    "file": "File:MINI logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMINI_logo.svg",
+    "author": "BMW SVG by CMetalCore This W3C-unspecified vector image was created with Inkscape .",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "porsche": {
+    "path": "/brands/porsche.svg",
+    "file": "File:Porsche wordmark.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_wordmark.svg",
+    "author": "Porsche",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": false
+  },
+  "rolls-royce": {
+    "path": "/brands/rolls-royce.svg",
+    "file": "File:Rolls-Royce Motor Cars logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ARolls-Royce_Motor_Cars_logo.svg",
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": false
+  },
+  "skoda": {
+    "path": "/brands/skoda.svg",
+    "file": "File:Škoda Auto.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A%C5%A0koda_Auto.svg",
+    "author": "Skoda Auto",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "tata": {
+    "path": "/brands/tata.svg",
+    "file": "File:Tata Motors Logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ATata_Motors_Logo.svg",
+    "author": "Tata Motors",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "volkswagen": {
+    "path": "/brands/volkswagen.svg",
+    "file": "File:Volkswagen logo 2019.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolkswagen_logo_2019.svg",
+    "author": "Volkswagen",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "citroen": {
+    "path": "/brands/citroen.svg",
+    "file": "File:Citroën Logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ACitro%C3%ABn_Logo.svg",
+    "author": "Unknown authorUnknown author PSA Peugeot Citroën AG",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "force": {
+    "path": "/brands/force.svg",
+    "file": "File:Force Motors Logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AForce_Motors_Logo.svg",
+    "author": "Force Motors",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "kia": {
+    "path": "/brands/kia.svg",
+    "file": "File:KIA logo3.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKIA_logo3.svg",
+    "author": "Kia Corporation",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "land-rover": {
+    "path": "/brands/land-rover.svg",
+    "file": "File:Land Rover 2023.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALand_Rover_2023.svg",
+    "author": "Jaguar Land Rover Automotive PLC",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "mahindra": {
+    "path": "/brands/mahindra.svg",
+    "file": "File:Mahindra logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMahindra_logo.svg",
+    "author": "Mahindra & Mahindra Limited",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "maserati": {
+    "path": "/brands/maserati.svg",
+    "file": "File:Maserati logo 2.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaserati_logo_2.svg",
+    "author": "Maserati",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "mg": {
+    "path": "/brands/mg.svg",
+    "file": "File:MG Motor 2021 logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMG_Motor_2021_logo.svg",
+    "author": "SAIC Motor",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "nissan": {
+    "path": "/brands/nissan.svg",
+    "file": "File:Nissan 2020 logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ANissan_2020_logo.svg",
+    "author": "Nissan Motor Corporation",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "renault": {
+    "path": "/brands/renault.svg",
+    "file": "File:Renault 2021.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_2021.svg",
+    "author": "Renault",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "toyota": {
+    "path": "/brands/toyota.svg",
+    "file": "File:Toyota.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AToyota.svg",
+    "author": "Toyota Motor Corporation",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "volvo": {
+    "path": "/brands/volvo.svg",
+    "file": "File:Volvo logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolvo_logo.svg",
+    "author": "Designed by Karl-Erik Forsberg in the 1950s.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  },
+  "honda": {
+    "path": "/brands/honda.svg",
+    "file": "File:Honda logo.svg",
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AHonda_logo.svg",
+    "author": "TTTNIS",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "trademark": true
+  }
+}

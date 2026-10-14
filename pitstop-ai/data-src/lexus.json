@@ -1,0 +1,980 @@
+{
+  "brand": {
+    "name": "Lexus",
+    "slug": "lexus",
+    "country": "Japan",
+    "parent": "Toyota Motor Corporation",
+    "indiaWebsite": "https://www.lexusindia.co.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "lexus-nx",
+      "brand": "Lexus",
+      "model": "NX",
+      "generation": "Second generation (2022-)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "A five-seat compact luxury SUV sold in India as the NX 350h with a 2.5 L self-charging hybrid and E-Four all-wheel drive.",
+      "officialUrl": "https://www.lexusindia.co.in/models/nx-350h/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_NX",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4660,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1865,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1670,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2690,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 520,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 55,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1790,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2022,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP 2022 result for the European NX (adult 91%, child 87%); not an India-spec test."
+        },
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Lexus Safety System+ 3 (radar cruise control, lane tracing assist, pre-collision system)",
+          "Blind spot monitor with safe exit assist",
+          "8 SRS airbags",
+          "Panoramic roof",
+          "14-inch touchscreen"
+        ]
+      },
+      "warranty": {
+        "v": "8 years / 2,00,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 6793000,
+          "s": "src-3"
+        },
+        "maxInr": {
+          "v": 7488000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "350h-awd",
+          "label": "2.5 L hybrid · E-Four AWD · CVT",
+          "fuel": "strong-hybrid",
+          "engine": "2.5 L 4-cylinder petrol (A25B-FXS) + electric motors",
+          "displacementCc": {
+            "v": 2487,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 239,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "e-CVT (E-Four AWD)",
+          "efficiency": {
+            "value": 20.26,
+            "unit": "km/l",
+            "basis": "Lexus India brochure (test basis not stated)",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6793000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Exquisite",
+              "priceInr": {
+                "v": 6793000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Overtrail",
+              "priceInr": {
+                "v": 7179000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Luxury",
+              "priceInr": {
+                "v": 7270000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "F SPORT",
+              "priceInr": {
+                "v": 7488000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lexus NX 350h AWD \"version L\" (6AA-AAZH25-AWXLB(L)) front 01.jpg",
+          "localPath": "/cars/lexus-nx-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALexus_NX_350h_AWD_%22version_L%22_(6AA-AAZH25-AWXLB(L))_front_01.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Second-generation Lexus NX 350h AWD photographed in Japan (Japan-market car, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Lexus India – NX 350h page",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/models/nx-350h/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Lexus India – NX 350h brochure (PDF)",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/wp-content/uploads/2026/09/NX-350h-Brochure_2026_LR.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Lexus India – Price list",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/price-and-model-tools/price-list/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Lexus NX",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lexus_NX",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are Lexus India's published ex-showroom prices from its price-list page.",
+        "Power for hybrids is the manufacturer's 'total system output' in kW converted to PS (x1.3596). Hybrid torque is not published as a system figure, so torque is left blank (engine-only torque is given in notes where stated).",
+        "Fuel efficiency is not published on Lexus India's pages except where noted; ground clearance is not stated.",
+        "Specification values come from Lexus India's model page and brochure PDF (text extracted from the PDF).",
+        "Power: total system output 176 kW (Lexus India page) = about 239 PS. Engine alone: 137 kW, 238 Nm.",
+        "Kerb weight is stated as 1,790-1,870 kg depending on grade; the lower figure is recorded.",
+        "Fuel economy 20.26 km/l is printed in the brochure without naming the test cycle."
+      ]
+    },
+    {
+      "id": "lexus-rx",
+      "brand": "Lexus",
+      "model": "RX",
+      "generation": "Fifth generation (2022-)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-4"
+      },
+      "summary": "A five-seat mid-size luxury SUV sold in India as the RX 350h hybrid and the RX 500h F SPORT+ turbo-hybrid.",
+      "officialUrl": "https://www.lexusindia.co.in/models/rx-350h/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_RX",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4890,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1920,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1695,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2850,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 505,
+          "s": "src-4"
+        },
+        "fuelTankLitres": {
+          "v": 65,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-5"
+        },
+        "keyFeatures": [
+          "Lexus Safety System+ 3",
+          "Blind spot monitor with safe exit assist",
+          "8 SRS airbags",
+          "Panoramic roof with power sunshade",
+          "14-inch touch display"
+        ]
+      },
+      "warranty": {
+        "v": "8 years / 2,00,000 km",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 9044000,
+          "s": "src-3"
+        },
+        "maxInr": {
+          "v": 11055000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "350h-awd",
+          "label": "RX 350h · 2.5 L hybrid · E-Four AWD",
+          "fuel": "strong-hybrid",
+          "engine": "2.5 L 4-cylinder petrol (A25A-FXS/A25B-FXS) + electric motors",
+          "displacementCc": {
+            "v": 2487,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 246,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "Automatic (hybrid, type not stated on page)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 9044000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "RX 350h Exquisite (Lexus audio)",
+              "priceInr": {
+                "v": 9044000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "RX 350h Exquisite (Mark Levinson audio)",
+              "priceInr": {
+                "v": 9387000,
+                "s": "src-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "500h-awd",
+          "label": "RX 500h F SPORT+ · 2.4 L turbo hybrid · DIRECT4 AWD",
+          "fuel": "strong-hybrid",
+          "engine": "2.4 L turbo 4-cylinder petrol (T24A-FTS) + electric motors",
+          "displacementCc": {
+            "v": 2393,
+            "s": "src-5"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 371,
+            "s": "src-5"
+          },
+          "torqueNm": null,
+          "transmission": "6-speed automatic (DIRECT4 AWD)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 11055000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "F SPORT+",
+              "priceInr": {
+                "v": 11055000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lexus RX 500h F Sport Performance (TALH17) 1X7A7073.jpg",
+          "localPath": "/cars/lexus-rx-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALexus_RX_500h_F_Sport_Performance_(TALH17)_1X7A7073.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Lexus RX 500h F Sport Performance (fifth generation) rear three-quarter view photographed in Germany (European spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Lexus India – RX 350h page",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/models/rx-350h/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Lexus India – RX brochure (PDF)",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/wp-content/uploads/2026/09/RX-Brochure-2026_LR.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Lexus India – Price list",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/price-and-model-tools/price-list/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – Lexus RX specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/lexus/rx/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Lexus India – RX 500h page",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/models/rx-500h/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are Lexus India's published ex-showroom prices from its price-list page.",
+        "Power for hybrids is the manufacturer's 'total system output' in kW converted to PS (x1.3596). Hybrid torque is not published as a system figure, so torque is left blank (engine-only torque is given in notes where stated).",
+        "Fuel efficiency is not published on Lexus India's pages except where noted; ground clearance is not stated.",
+        "Specification values come from Lexus India's model page and brochure PDF (text extracted from the PDF).",
+        "RX 350h: system output 181 kW = about 246 PS (Lexus India's FAQ quotes 247 horsepower). Engine 137 kW, 238 Nm.",
+        "RX 500h: system output 273 kW = about 371 PS (FAQ quotes 366 horsepower). Engine 200 kW, 460 Nm.",
+        "Seats and boot (505 L) come from CarDekho; Lexus India's RX pages do not state them.",
+        "Airbags: Lexus India page says 8; CarDekho lists 10. Lexus India value used.",
+        "Kerb weight: 1,965-2,025 kg (RX 350h) and 2,100-2,140 kg (RX 500h) per brochure; left blank as it differs by option.",
+        "The RX 350h price shown (Rs 90.44 lakh) is for the Lexus-audio variant; the Mark Levinson variant is Rs 93.87 lakh."
+      ]
+    },
+    {
+      "id": "lexus-lx",
+      "brand": "Lexus",
+      "model": "LX",
+      "generation": "Fourth generation (J310, 2021-)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A full-size luxury SUV sold in India as the LX 500d with a 3.3 L twin-turbo V6 diesel and a 10-speed automatic.",
+      "officialUrl": "https://www.lexusindia.co.in/models/lx-500d/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_LX",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5100,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1990,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1895,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2850,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 80,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Lexus Safety System+ 3",
+          "Active Height Control suspension",
+          "Fingerprint authentication start",
+          "Seven drive modes",
+          "25-speaker Mark Levinson audio"
+        ]
+      },
+      "warranty": {
+        "v": "8 years / 2,00,000 km",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 29125000,
+          "s": "src-3"
+        },
+        "maxInr": {
+          "v": 30291000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "500d-diesel",
+          "label": "3.3 L V6 twin-turbo diesel · 10-speed automatic",
+          "fuel": "diesel",
+          "engine": "3.3 L V6 twin-turbo diesel",
+          "displacementCc": {
+            "v": 3346,
+            "s": "src-2"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 309,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 700,
+            "s": "src-2"
+          },
+          "transmission": "10-speed automatic (Direct Shift-10AT)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 29125000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Urban",
+              "priceInr": {
+                "v": 29125000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Overtrail",
+              "priceInr": {
+                "v": 30291000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lexus LX 600 \"EXECUTIVE\" (3BA-VJA310W-GKULZ) front.jpg",
+          "localPath": "/cars/lexus-lx-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALexus_LX_600_%22EXECUTIVE%22_(3BA-VJA310W-GKULZ)_front.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Lexus LX 600 (fourth generation, same body as the India LX 500d) photographed in Japan (Japan-market petrol model).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Lexus India – LX 500d page",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/models/lx-500d/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Lexus India – LX 500d brochure (PDF)",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/wp-content/uploads/2026/09/LX-500d-Brochure.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Lexus India – Price list",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/price-and-model-tools/price-list/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are Lexus India's published ex-showroom prices from its price-list page.",
+        "Power for hybrids is the manufacturer's 'total system output' in kW converted to PS (x1.3596). Hybrid torque is not published as a system figure, so torque is left blank (engine-only torque is given in notes where stated).",
+        "Fuel efficiency is not published on Lexus India's pages except where noted; ground clearance is not stated.",
+        "Specification values come from Lexus India's model page and brochure PDF (text extracted from the PDF).",
+        "Power: 227 kW at 4,000 rpm (brochure) = about 309 PS.",
+        "Airbags: Lexus India's page says 8 SRS airbags while the brochure's key-spec sheet lists 10, so the count is left blank.",
+        "Seating: brochure key-spec sheet states 5 seats.",
+        "No NCAP rating found on the fetched Wikipedia LX page."
+      ]
+    },
+    {
+      "id": "lexus-es",
+      "brand": "Lexus",
+      "model": "ES",
+      "generation": "Eighth generation (2026-)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-4"
+      },
+      "summary": "A luxury executive sedan sold in India as the ES 350h strong hybrid and the all-electric ES 500e.",
+      "officialUrl": "https://www.lexusindia.co.in/models/es-350h/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_ES",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5145,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1920,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1575,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2950,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Lexus Safety System+ 4.0 (pre-collision, radar cruise control, lane tracing assist, driver monitor)",
+          "8 SRS airbags",
+          "Increased ground clearance developed for India",
+          "17-speaker Mark Levinson audio"
+        ]
+      },
+      "warranty": {
+        "v": "8 years / 2,00,000 km",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 6610000,
+          "s": "src-3"
+        },
+        "maxInr": {
+          "v": 9120000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "350h-hybrid",
+          "label": "ES 350h · 2.5 L hybrid · FWD",
+          "fuel": "strong-hybrid",
+          "engine": "2.5 L 4-cylinder naturally aspirated petrol + electric motor",
+          "displacementCc": {
+            "v": 2487,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "E-CVT (front-wheel drive)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6610000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Exquisite",
+              "priceInr": {
+                "v": 6610000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Luxury",
+              "priceInr": {
+                "v": 7180000,
+                "s": "src-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "500e-ev",
+          "label": "ES 500e · battery electric · AWD",
+          "fuel": "ev",
+          "engine": "Front and rear permanent-magnet synchronous motors (DIRECT4 AWD)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "Single-speed automatic (AWD)",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 74.68,
+              "s": "src-4"
+            },
+            "claimedRangeKm": {
+              "v": 580,
+              "s": "src-5"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "Full charge in about 7 hours on an 11 kW home charger",
+              "s": "src-5"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in about 28 minutes on a 150 kW DC charger (battery at 25 deg C)",
+              "s": "src-5"
+            }
+          },
+          "fromPriceInr": {
+            "v": 9120000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Luxury",
+              "priceInr": {
+                "v": 9120000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lexus-ES-2026.jpg",
+          "localPath": "/cars/lexus-es-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALexus-ES-2026.jpg",
+          "author": "Ohcock",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Eighth-generation Lexus ES (battery-electric version) photographed at a show in Japan (Japan-market display car, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Lexus India – ES 350h page",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/models/es-350h/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Lexus India – ES 350h brochure (PDF)",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/wp-content/uploads/2026/08/ES-350h-Brochure-Aug-26.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Lexus India – Price list",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/price-and-model-tools/price-list/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "brochure",
+          "label": "Lexus India – ES 500e brochure (PDF)",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/wp-content/uploads/2026/04/Brochure_02_Low_res.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Lexus India – ES 500e page",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/models/es-500e/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are Lexus India's published ex-showroom prices from its price-list page.",
+        "Power for hybrids is the manufacturer's 'total system output' in kW converted to PS (x1.3596). Hybrid torque is not published as a system figure, so torque is left blank (engine-only torque is given in notes where stated).",
+        "Fuel efficiency is not published on Lexus India's pages except where noted; ground clearance is not stated.",
+        "Specification values come from Lexus India's model page and brochure PDF (text extracted from the PDF).",
+        "ES 350h system output is not published; engine output is 139 kW with 237 Nm, plus a 119.1 kW motor. ES 500e: front motor 167 kW / 268.6 Nm and rear motor 88.3 kW / 169.8 Nm are listed, but no combined figure, so power is left blank.",
+        "ES 500e range 580 km is described as an estimate and the test standard is not named (rangeStandard blank).",
+        "Length 5,145 mm is marked 'laden condition' in the brochure.",
+        "Seating (5) is from the ES 500e brochure; the ES 350h pages do not state it.",
+        "No NCAP rating found for the eighth-generation ES."
+      ]
+    },
+    {
+      "id": "lexus-lm",
+      "brand": "Lexus",
+      "model": "LM",
+      "generation": "Second generation (2023-)",
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "A luxury MPV sold in India as the LM 350h hybrid with E-Four all-wheel drive, offered as a 7-seat VIP or 4-seat ultra-luxury layout.",
+      "officialUrl": "https://www.lexusindia.co.in/models/lm-350h/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_LM",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5125,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1890,
+          "s": "src-4"
+        },
+        "heightMm": {
+          "v": 1940,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3000,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Mark Levinson 3D surround sound (21 or 23 speakers)",
+          "Integrated partition and refrigerator (4-seater)",
+          "E-Four electric AWD"
+        ]
+      },
+      "warranty": {
+        "v": "8 years / 2,00,000 km",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 22738000,
+          "s": "src-3"
+        },
+        "maxInr": {
+          "v": 28424000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "350h-awd",
+          "label": "2.5 L hybrid · E-Four AWD · CVT",
+          "fuel": "strong-hybrid",
+          "engine": "2.5 L 4-cylinder petrol + electric motors",
+          "displacementCc": {
+            "v": 2487,
+            "s": "src-4"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 247,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "CVT (E-Four AWD)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 22738000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "7-Seater VIP",
+              "priceInr": {
+                "v": 22738000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "4-Seater Ultra Luxury",
+              "priceInr": {
+                "v": 28424000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lexus LM 350h AWD AAWH10 Sonic Titanium - front.jpg",
+          "localPath": "/cars/lexus-lm-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ALexus_LM_350h_AWD_AAWH10_Sonic_Titanium_-_front.jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Lexus LM 350h AWD (second generation) photographed in the Philippines (not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Lexus India – LM 350h page",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/models/lm-350h/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Lexus India – LM 350h brochure (PDF)",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/wp-content/uploads/2026/09/Lexus-LM-350h-brochure.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Lexus India – Price list",
+          "publisher": "Toyota Kirloskar Motor (Lexus India)",
+          "url": "https://www.lexusindia.co.in/price-and-model-tools/price-list/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – Lexus LM specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/lexus/lm/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices are Lexus India's published ex-showroom prices from its price-list page.",
+        "Power for hybrids is the manufacturer's 'total system output' in kW converted to PS (x1.3596). Hybrid torque is not published as a system figure, so torque is left blank (engine-only torque is given in notes where stated).",
+        "Fuel efficiency is not published on Lexus India's pages except where noted; ground clearance is not stated.",
+        "Specification values come from Lexus India's model page and brochure PDF (text extracted from the PDF).",
+        "Power: 182 kW total system output = about 247 PS.",
+        "Length and height come from the brochure (512.5 cm, 194 cm); width (1,890 mm), wheelbase (3,000 mm) and displacement (2,487 cc) are from CarDekho.",
+        "Airbag count is not stated on Lexus India's LM page and CarDekho's figure (14) was not used.",
+        "No NCAP rating found for the LM."
+      ]
+    }
+  ]
+}

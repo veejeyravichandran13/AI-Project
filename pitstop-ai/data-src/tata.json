@@ -1,0 +1,5441 @@
+{
+  "brand": {
+    "name": "Tata Motors",
+    "slug": "tata",
+    "country": "India",
+    "parent": "Tata Group",
+    "indiaWebsite": "https://tata.cars/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Motors",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "tata-tiago",
+      "brand": "Tata Motors",
+      "model": "Tiago",
+      "generation": "2026 facelift of the Tiago hatchback (launched 2016)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Tiago is Tata's entry hatchback, sold with a 1.2 L three-cylinder petrol engine in petrol and factory CNG form with manual or AMT gearboxes.",
+      "officialUrl": "https://tata.cars/tiago/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Tiago",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3813,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1684,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1535,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2400,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 170,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 242,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 35,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ABS with EBD",
+          "ISOFIX child seat anchors",
+          "Reverse parking sensors (CarDekho)",
+          "Electronic stability programme on higher variants (CarDekho)"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (standard, whichever comes first)",
+        "s": "src-3"
+      },
+      "price": {
+        "minInr": {
+          "v": 469000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 861990,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 86,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 469000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 469000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Pure",
+              "priceInr": {
+                "v": 556990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+",
+              "priceInr": {
+                "v": 609990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ A",
+              "priceInr": {
+                "v": 655990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative",
+              "priceInr": {
+                "v": 705990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative+",
+              "priceInr": {
+                "v": 735990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 86,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 609990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure AMT",
+              "priceInr": {
+                "v": 609990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ AMT",
+              "priceInr": {
+                "v": 664990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ A AMT",
+              "priceInr": {
+                "v": 710990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative AMT",
+              "priceInr": {
+                "v": 760990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative+ AMT",
+              "priceInr": {
+                "v": 790990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L iCNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Revotron 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 75.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 96.5,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 586990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart CNG",
+              "priceInr": {
+                "v": 586990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure CNG",
+              "priceInr": {
+                "v": 657990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ CNG",
+              "priceInr": {
+                "v": 709990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ A CNG",
+              "priceInr": {
+                "v": 756990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative CNG",
+              "priceInr": {
+                "v": 806990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-amt",
+          "label": "1.2 L iCNG · 5-speed AMT",
+          "fuel": "cng",
+          "engine": "1.2 L Revotron 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 75.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 96.5,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 712990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure CNG AMT",
+              "priceInr": {
+                "v": 712990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ CNG AMT",
+              "priceInr": {
+                "v": 764990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ A CNG AMT",
+              "priceInr": {
+                "v": 811990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative CNG AMT",
+              "priceInr": {
+                "v": 861990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Tata Tiago XZA+ front 20230512.jpg",
+          "localPath": "/cars/tata-tiago-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Tata_Tiago_XZA%2B_front_20230512.jpg",
+          "author": "Dairokkan9",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2022 Tata Tiago facelift XZA+ in Bengaluru; earlier styling than the 2026 update",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Tiago specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/tiago/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Tiago price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/tiago/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Tiago page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/tiago",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Tata Tiago",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tata_Tiago",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power and torque are as printed by Tata (PS, Nm); CNG-mode figures are 75.5 PS / 96.5 Nm versus 86 PS / 113 Nm on petrol.",
+        "No ARAI mileage figure is published by Tata or listed by CarDekho for the current Tiago, so efficiency is null.",
+        "Starting price (INR 4.69 lakh) is the headline figure on Tata's price page; its own variant list on the specifications page is about INR 6,000-8,000 higher for comparable trims, and CarDekho lists INR 4.77 lakh for the base Smart. Trim prices come from the specifications page; the Smart price is the price-page headline.",
+        "The current Tiago has no NCAP result. The previous two-airbag Tiago/Tigor scored 4 stars adult (12.52/17) and 3 stars child (34.15/49) at Global NCAP in 2020 (Wikipedia); this does not apply to the 6-airbag 2026 car so it is not recorded.",
+        "Option prices are the lowest price listed for that engine and gearbox.",
+        "Gap-fill 2026-10-12: ARAI efficiency and kerb weight not stated by CarDekho, CarWale, ZigWheels or Autocar India (Autocar lists NA); left null."
+      ]
+    },
+    {
+      "id": "tata-tiago-ev",
+      "brand": "Tata Motors",
+      "model": "Tiago EV",
+      "generation": "2026 facelift of the Tiago.ev (launched 2022)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Tiago EV is Tata's smallest electric car, offered with a 19.2 kWh or 24 kWh battery pack.",
+      "officialUrl": "https://ev.tata.cars/tiago/ev.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Tiago",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3825,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1684,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1562,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2400,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 165,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 240,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-5"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ABS with EBD",
+          "ISOFIX child seat anchors",
+          "Hill hold control (price page)"
+        ]
+      },
+      "warranty": {
+        "v": "24 kWh battery: lifetime warranty for the first owner (reverts to 8 years / 1,60,000 km on resale)",
+        "s": "src-3"
+      },
+      "price": {
+        "minInr": {
+          "v": 699000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1009000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-19",
+          "label": "19.2 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 61,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 110,
+            "s": "src-1"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 19.2,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 226,
+              "s": "src-3"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 2 h 36 min (CarWale)",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "30 kW DC: 10-80% in about 35 min (CarWale)",
+              "s": "src-4"
+            }
+          },
+          "fromPriceInr": {
+            "v": 699000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart 19",
+              "priceInr": {
+                "v": 699000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Pure+ 19",
+              "priceInr": {
+                "v": 864000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-24",
+          "label": "24 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 75,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 114,
+            "s": "src-1"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 24,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 285,
+              "s": "src-5"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 3 h 30 min (CarWale)",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "30 kW DC: 10-80% in about 35 min (CarWale)",
+              "s": "src-4"
+            }
+          },
+          "fromPriceInr": {
+            "v": 964000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure+ 24",
+              "priceInr": {
+                "v": 964000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative+ 24",
+              "priceInr": {
+                "v": 1009000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Tata Tiago EV IB XZ+ Tech LR front view.png",
+          "localPath": "/cars/tata-tiago-ev-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Tata_Tiago_EV_IB_XZ%2B_Tech_LR_front_view.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2022 Tata Tiago EV XZ+ Tech LR front view; earlier styling than the 2026 update",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata.ev – Tiago EV specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/tiago/ev/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata.ev – Tiago EV price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/tiago/ev/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Tiago EV page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/tiago-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarWale – Tiago EV page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/tiago-ev/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Tata.ev – Tiago EV overview",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/tiago/ev.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Motor power converted from the kW figure on Tata's specifications page (kW x 1.3596 = PS): 45 kW = 61 PS, 55 kW = 75 PS.",
+        "The 285 km figure for the 24 kWh pack is Tata's 'ARAI certified full charge range'; the 226 km figure for the 19.2 kWh pack is from CarDekho and its test standard is not stated.",
+        "Option prices are the lowest price listed for the battery size on Tata's specifications page (a few legacy 'IB' variants with older dimensions were ignored); the headline price is from the price page.",
+        "No NCAP result exists for the current Tiago EV; the 2020 Global NCAP result for the older two-airbag petrol Tiago does not apply."
+      ]
+    },
+    {
+      "id": "tata-aeris",
+      "brand": "Tata Motors",
+      "model": "Aeris",
+      "generation": "New sub-4-metre sedan (2026), replaces the Tigor",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Aeris is Tata's sub-4-metre sedan that replaced the Tigor, offered with a 1.2 L petrol or CNG engine and manual or AMT gearbox.",
+      "officialUrl": "https://tata.cars/aeris/ice.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1677,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1532,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 170,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 419,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 35,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ABS with EBD",
+          "Electronic stability programme (CarDekho)",
+          "Tyre pressure monitoring (CarDekho)",
+          "ISOFIX child seat anchors (CarDekho)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 529000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 974990,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 86,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 19,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale lists 19 to 19.2 km/l across petrol variants; lowest shown)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 529000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 529000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Pure",
+              "priceInr": {
+                "v": 614990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+",
+              "priceInr": {
+                "v": 674990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative",
+              "priceInr": {
+                "v": 749990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished",
+              "priceInr": {
+                "v": 819990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 86,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 19,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale lists 19 to 19.2 km/l across petrol variants; lowest shown)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 669990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure AMT",
+              "priceInr": {
+                "v": 669990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ AMT",
+              "priceInr": {
+                "v": 729990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative AMT",
+              "priceInr": {
+                "v": 804990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished AMT",
+              "priceInr": {
+                "v": 874990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L iCNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Revotron 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-4"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 75.5,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 96.5,
+            "s": "src-4"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 26.49,
+            "unit": "km/kg",
+            "basis": "ARAI (CarWale lists 26.49 to 28.06 km/kg across CNG variants; lowest shown)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 629990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart CNG",
+              "priceInr": {
+                "v": 629990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure CNG",
+              "priceInr": {
+                "v": 714990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ CNG",
+              "priceInr": {
+                "v": 774990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative CNG",
+              "priceInr": {
+                "v": 849990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished CNG",
+              "priceInr": {
+                "v": 919990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-amt",
+          "label": "1.2 L iCNG · 5-speed AMT",
+          "fuel": "cng",
+          "engine": "1.2 L Revotron 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-4"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 75.5,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 96.5,
+            "s": "src-4"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 26.49,
+            "unit": "km/kg",
+            "basis": "ARAI (CarWale lists 26.49 to 28.06 km/kg across CNG variants; lowest shown)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 769990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure CNG AMT",
+              "priceInr": {
+                "v": 769990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ CNG AMT",
+              "priceInr": {
+                "v": 829990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative CNG AMT",
+              "priceInr": {
+                "v": 904990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished CNG AMT",
+              "priceInr": {
+                "v": 974990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Aeris specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/aeris/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Aeris price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/aeris/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Aeris page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/aeris",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarWale – Aeris page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/aeris/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "CNG-mode power (75.5 PS) and torque (96.5 Nm) are CarWale's 74.5 bhp / 96.5 Nm converted to PS (x 1.0139); Tata's specifications page repeats the petrol figure (86 PS) for CNG rows, so it was not used for CNG options.",
+        "Boot is 419 L on petrol; CarDekho reports 219 L for CNG variants (twin cylinders in the boot).",
+        "The Aeris has not been crash tested by any NCAP body; the Tigor's older 4-star Global NCAP result does not apply.",
+        "No Commons photo of the Aeris was found.",
+        "Smart prices are the 'starts at' prices on Tata's price page (INR 5.29 lakh; CNG 6.29 lakh); other trim prices come from the specifications page."
+      ]
+    },
+    {
+      "id": "tata-punch",
+      "brand": "Tata Motors",
+      "model": "Punch",
+      "generation": "2026 facelift of the first-generation Punch (launched 2021)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Punch is Tata's micro-SUV, now offered with a 1.2 L petrol, a 1.2 L iCNG and a new 1.2 L turbo-petrol engine.",
+      "officialUrl": "https://tata.cars/punch/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Punch",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3876,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1742,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1615,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2445,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 193,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 366,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Tested as the 2026 facelift: 30.58/32 adult and 45/49 child occupant points (ETV Bharat, 21 Jan 2026)."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ABS with EBD",
+          "ESC with traction control (CarDekho)",
+          "ISOFIX child seat anchors (CarDekho)",
+          "Tyre pressure monitoring (CarDekho)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 574000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1076990,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 87.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 574000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 574000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Pure",
+              "priceInr": {
+                "v": 664990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+",
+              "priceInr": {
+                "v": 716990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ S",
+              "priceInr": {
+                "v": 751990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure",
+              "priceInr": {
+                "v": 776990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure S",
+              "priceInr": {
+                "v": 811990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished",
+              "priceInr": {
+                "v": 846990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished+ S",
+              "priceInr": {
+                "v": 916990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 87.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 774990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure+ AMT",
+              "priceInr": {
+                "v": 774990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ S AMT",
+              "priceInr": {
+                "v": 809990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure AMT",
+              "priceInr": {
+                "v": 834990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished AMT",
+              "priceInr": {
+                "v": 904990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished+ S AMT",
+              "priceInr": {
+                "v": 974990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "turbo-mt",
+          "label": "1.2 L turbo-petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L turbocharged Revotron 3-cylinder",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 846990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Adventure TC",
+              "priceInr": {
+                "v": 846990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished+ S TC",
+              "priceInr": {
+                "v": 996990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L iCNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Revotron 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 73.4,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 103,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 684990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart CNG",
+              "priceInr": {
+                "v": 684990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure CNG",
+              "priceInr": {
+                "v": 767990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ CNG",
+              "priceInr": {
+                "v": 819990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ S CNG",
+              "priceInr": {
+                "v": 854990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure CNG",
+              "priceInr": {
+                "v": 879990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure S CNG",
+              "priceInr": {
+                "v": 914990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished CNG",
+              "priceInr": {
+                "v": 949990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-amt",
+          "label": "1.2 L iCNG · 5-speed AMT",
+          "fuel": "cng",
+          "engine": "1.2 L Revotron 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 73.4,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 103,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 876990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure+ CNG AMT",
+              "priceInr": {
+                "v": 876990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure CNG AMT",
+              "priceInr": {
+                "v": 936990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure S CNG AMT",
+              "priceInr": {
+                "v": 971990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished+ S CNG AMT",
+              "priceInr": {
+                "v": 1076990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2021 Tata Punch Creative (India) front view 01.png",
+          "localPath": "/cars/tata-punch-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Tata_Punch_Creative_(India)_front_view_01.png",
+          "author": "Athira Murali",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Tata Punch Creative (India) front view; pre-2026-facelift styling",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Punch specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/punch/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Punch price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/punch/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Punch page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/punch",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "ETV Bharat – Tata Punch facelift scores 5-star at Bharat NCAP",
+          "publisher": "ETV Bharat",
+          "url": "https://www.etvbharat.com/en/technology/tata-punch-facelift-scores-5-star-safety-rating-at-bharat-ncap-crash-test-enn26012106562",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-01-21"
+        }
+      ],
+      "notes": [
+        "No ARAI mileage is published (CarDekho: 'mileage details are not available'), so efficiency is null.",
+        "Boot is 366 L on petrol variants and 210 L on CNG variants (CarWale/CarDekho).",
+        "Tata's price page shows INR 5.69 lakh in its title and INR 5.74 lakh in its FAQ for the Smart petrol; the FAQ value is used.",
+        "Power is Tata's PS figure (87.8 petrol, 73.4 CNG, 120 turbo). Variant prices are from the specifications page; the turbo-petrol is sold only with the 6-speed manual.",
+        "Photo shows the 2021 launch model, not the 2026 facelift.",
+        "Gap-fill: only Autocar India states ARAI (petrol MT 18.93 km/l, CNG AMT 26.99 km/kg); no second source, left null. Warranty and kerb weight not stated."
+      ]
+    },
+    {
+      "id": "tata-punch-ev",
+      "brand": "Tata Motors",
+      "model": "Punch EV",
+      "generation": "2026 facelift of the Punch.ev (launched 2024)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Punch EV is Tata's compact electric SUV, offered with 30 kWh and 40 kWh battery packs.",
+      "officialUrl": "https://ev.tata.cars/punch/ev.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Punch",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3880,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1742,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1622,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2445,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 195,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 366,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Bharat NCAP's site lists the 2026 Punch.ev at 31.09/32 adult and 45/49 child occupant points; the 5-star rating is as reported by CarDekho. The 2024 pre-facelift Punch.ev scored 31.46/32 and 45/49."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-5"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ABS with EBD",
+          "ESC",
+          "ISOFIX child seat anchors (CarDekho)",
+          "360-degree camera on higher variants (CarWale)"
+        ]
+      },
+      "warranty": {
+        "v": "40 kWh battery: lifetime warranty for the first owner (15 years from registration)",
+        "s": "src-3"
+      },
+      "price": {
+        "minInr": {
+          "v": 969000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1259000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-30",
+          "label": "30 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 88,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 154,
+            "s": "src-1"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 30,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 365,
+              "s": "src-5"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 4 h 30 min (CarWale)",
+              "s": "src-6"
+            },
+            "dcFastChargeNote": {
+              "v": "65 kW DC: 10-80% in about 30 min (CarWale)",
+              "s": "src-6"
+            }
+          },
+          "fromPriceInr": {
+            "v": 969000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart+ 30",
+              "priceInr": {
+                "v": 1039000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-40",
+          "label": "40 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 129,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 154,
+            "s": "src-1"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 40,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 468,
+              "s": "src-5"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 5 h 18 min (CarWale)",
+              "s": "src-6"
+            },
+            "dcFastChargeNote": {
+              "v": "65 kW DC: 10-80% in about 26 min (CarWale)",
+              "s": "src-6"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1119000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart+ 40",
+              "priceInr": {
+                "v": 1119000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure 40",
+              "priceInr": {
+                "v": 1194000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered 40",
+              "priceInr": {
+                "v": 1269000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered+ S 40",
+              "priceInr": {
+                "v": 1299000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 107.jpg",
+          "localPath": "/cars/tata-punch-ev-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show,_Bangalore_(2025)_107.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Tata Punch EV at the 4th International Auto Show, Bangalore (Nov 2025); pre-2026-facelift model",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata.ev – Punch EV specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/punch/ev/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata.ev – Punch EV price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/punch/ev/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Punch EV page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/punch-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Bharat NCAP – safety ratings home page",
+          "publisher": "Bharat NCAP (MoRTH)",
+          "url": "https://bncap.in/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Tata.ev – Punch EV overview",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/punch/ev.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "CarWale – Punch EV page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/punch-ev/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Range: Tata states ARAI-certified full-charge range of 468 km (40 kWh) and 365-375 km (30 kWh); the lower figure is recorded. CarWale lists 355 km for the 40 kWh pack, which is Tata's real-world 'C75' figure and not used.",
+        "Motor power converted from kW on Tata's specifications page (x 1.3596): 65 kW = 88 PS, 95 kW = 129 PS.",
+        "The headline price range (INR 9.69-12.59 lakh) is from Tata's price page; the specifications page lists the Empowered+ S 40 at INR 12.99 lakh, so the two Tata pages differ. Trim prices come from the specifications page.",
+        "Charging notes (AC/DC times) are from CarWale (src-6)."
+      ]
+    },
+    {
+      "id": "tata-altroz",
+      "brand": "Tata Motors",
+      "model": "Altroz",
+      "generation": "2025 facelift of the Altroz (launched 2020)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Altroz is Tata's premium hatchback, offered with 1.2 L petrol, 1.2 L iCNG and 1.5 L diesel engines and manual, AMT or dual-clutch gearboxes.",
+      "officialUrl": "https://tata.cars/altroz/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Altroz",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3990,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1755,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1523,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2501,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 165,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 345,
+          "s": "src-3"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ESP with rollover mitigation",
+          "Tyre pressure monitoring system",
+          "ABS with EBD (CarDekho)",
+          "ISOFIX child seat anchors (CarDekho)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 599000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1074000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 88,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 599000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 599000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Pure",
+              "priceInr": {
+                "v": 714990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure S",
+              "priceInr": {
+                "v": 744990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative",
+              "priceInr": {
+                "v": 809990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative S",
+              "priceInr": {
+                "v": 844990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished S",
+              "priceInr": {
+                "v": 929990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 88,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 771990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure AMT",
+              "priceInr": {
+                "v": 771990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure S AMT",
+              "priceInr": {
+                "v": 801990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative AMT",
+              "priceInr": {
+                "v": 866990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative S AMT",
+              "priceInr": {
+                "v": 901990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-dca",
+          "label": "1.2 L petrol · 6-speed dual-clutch",
+          "fuel": "petrol",
+          "engine": "1.2 L Revotron 3-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 88,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "transmission": "6-speed DCA (dual-clutch)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 964990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Creative S DCA",
+              "priceInr": {
+                "v": 964990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished S DCA",
+              "priceInr": {
+                "v": 1049990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished+ S DCA",
+              "priceInr": {
+                "v": 1074990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-mt",
+          "label": "1.5 L diesel · 5-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L Revotorq turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 90,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 200,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 829990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure Diesel",
+              "priceInr": {
+                "v": 829990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative S Diesel",
+              "priceInr": {
+                "v": 959990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished S Diesel",
+              "priceInr": {
+                "v": 1044990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L iCNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L iCNG 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 73.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 103,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 729990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart CNG",
+              "priceInr": {
+                "v": 729990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure CNG",
+              "priceInr": {
+                "v": 819990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure S CNG",
+              "priceInr": {
+                "v": 849990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative CNG",
+              "priceInr": {
+                "v": 914990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative S CNG",
+              "priceInr": {
+                "v": 949990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished S CNG",
+              "priceInr": {
+                "v": 1034990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-amt",
+          "label": "1.2 L iCNG · 5-speed AMT",
+          "fuel": "cng",
+          "engine": "1.2 L iCNG 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 73.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 103,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 874990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure CNG AMT",
+              "priceInr": {
+                "v": 874990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure S CNG AMT",
+              "priceInr": {
+                "v": 904990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative CNG AMT",
+              "priceInr": {
+                "v": 969990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative S CNG AMT",
+              "priceInr": {
+                "v": 999990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Tata Altroz front 20230617.jpg",
+          "localPath": "/cars/tata-altroz-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ATata_Altroz_front_20230617.jpg",
+          "author": "Dairokkan9",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2021 Tata Altroz XM+ 1.2 Turbo front view, Bengaluru; pre-facelift model",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Altroz specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/altroz/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Altroz price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/altroz/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Altroz page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/altroz",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Tata Altroz",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tata_Altroz",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "ncap",
+          "label": "Global NCAP – Tata Altroz (January 2020)",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/tatas-second-five-star-car-altroz-delivers-a-strong-result-for-adult-occupant-protection",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2020-01-15"
+        }
+      ],
+      "notes": [
+        "No ARAI mileage is published for the current Altroz, so efficiency is null.",
+        "Boot is 345 L per CarDekho (petrol/diesel); CNG variants have a smaller boot (CarDekho spec page lists 210 L).",
+        "NCAP: the pre-facelift two-airbag Altroz scored 5 stars adult and 3 stars child at Global NCAP in January 2020 (src-5). CarWale and CarDekho say the facelift has not been tested, so no rating is recorded.",
+        "Starting price (INR 5.99 lakh, Smart petrol) and top price (INR 10.74 lakh) are from the FAQ on Tata's price page; its variant list goes up to INR 10.90 lakh (CNG AMT Accomplished S).",
+        "The Smart trim's price is the headline price; Smart trim engine/gearbox is the 1.2 L petrol manual per the FAQ. Photo shows the 2021 pre-facelift model.",
+        "Gap-fill: only Autocar India states CNG MT 27.8 km/kg (highest of range, unclear variant); other efficiencies, warranty and kerb weight not stated; left null."
+      ]
+    },
+    {
+      "id": "tata-nexon",
+      "brand": "Tata Motors",
+      "model": "Nexon",
+      "generation": "Facelift (launched Sept 2023)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Nexon is Tata's sub-4-metre SUV, sold with turbo-petrol, turbo-diesel and iCNG powertrains and manual, AMT or dual-clutch gearboxes.",
+      "officialUrl": "https://tata.cars/nexon/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Nexon",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1804,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1620,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2498,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 208,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 382,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 44,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2024,
+          "protocol": "Bharat NCAP (based on Latin NCAP 2016)",
+          "s": "src-4",
+          "note": "Scores 29.41/32 adult and 43.83/49 child. The Nexon also scored 5 stars at Global NCAP in 2024 (Wikipedia). Tested on the ICE Nexon."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "3-point ELR belts for all occupants",
+          "Electronic stability programme",
+          "ABS with EBD",
+          "360-degree camera on higher variants (CarDekho)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 739000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1550000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L turbo-petrol · manual",
+          "fuel": "petrol",
+          "engine": "1.2 L turbocharged Revotron 3-cylinder",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "transmission": "5-speed / 6-speed manual",
+          "efficiency": {
+            "value": 17.44,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 739000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 739000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Smart+",
+              "priceInr": {
+                "v": 821990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+",
+              "priceInr": {
+                "v": 906990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative",
+              "priceInr": {
+                "v": 1016990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L turbo-petrol · 6-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L turbocharged Revotron 3-cylinder",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "transmission": "6-speed AMT",
+          "efficiency": {
+            "value": 17.18,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 891990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart+ AMT",
+              "priceInr": {
+                "v": 891990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ AMT",
+              "priceInr": {
+                "v": 971990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative AMT",
+              "priceInr": {
+                "v": 1086990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-dca",
+          "label": "1.2 L turbo-petrol · 7-speed dual-clutch",
+          "fuel": "petrol",
+          "engine": "1.2 L turbocharged Revotron 3-cylinder",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DCA (dual-clutch)",
+          "efficiency": {
+            "value": 17.01,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1141990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Creative DCA",
+              "priceInr": {
+                "v": 1141990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative+ PS DCA",
+              "priceInr": {
+                "v": 1266990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-mt",
+          "label": "1.5 L turbo-diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L turbocharged Revotorq 4-cylinder",
+          "displacementCc": {
+            "v": 1496,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 116,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 260,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 23.23,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 926990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart+",
+              "priceInr": {
+                "v": 926990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+",
+              "priceInr": {
+                "v": 999990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative",
+              "priceInr": {
+                "v": 1136990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-amt",
+          "label": "1.5 L turbo-diesel · 6-speed AMT",
+          "fuel": "diesel",
+          "engine": "1.5 L turbocharged Revotorq 4-cylinder",
+          "displacementCc": {
+            "v": 1496,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 116,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 260,
+            "s": "src-1"
+          },
+          "transmission": "6-speed AMT",
+          "efficiency": {
+            "value": 24.08,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1086990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure+ AMT",
+              "priceInr": {
+                "v": 1086990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative AMT",
+              "priceInr": {
+                "v": 1196990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L turbo iCNG · 6-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L turbocharged Revotron 3-cylinder bi-fuel (CNG mode figures)",
+          "displacementCc": {
+            "v": 1200,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 100,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 24,
+            "unit": "km/kg",
+            "basis": "ARAI-claimed, approximate ('~24 km/kg' per Autocar India)",
+            "s": "src-5"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 834990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart CNG",
+              "priceInr": {
+                "v": 834990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Smart+ CNG",
+              "priceInr": {
+                "v": 926990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ CNG",
+              "priceInr": {
+                "v": 999990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative CNG",
+              "priceInr": {
+                "v": 1121990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Tata Nexon XZA+ front view.jpg",
+          "localPath": "/cars/tata-nexon-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Tata_Nexon_XZA%2B_front_view.jpg",
+          "author": "Dairokkan9",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2023 Tata Nexon XZA+ front view (photo dated May 2023, i.e. the pre-September-2023 facelift)",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Nexon specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/nexon/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Nexon price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/nexon/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Nexon page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/nexon",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Tata Nexon",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tata_Nexon",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "Autocar India – Tata Nexon",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/tata/nexon",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Efficiency figures for petrol and diesel are the ARAI numbers CarDekho lists per variant. CarDekho also lists 17.44 km/kg for CNG, which looks like a copy of the petrol figure; Autocar India's '~24 km/kg ARAI-claimed' is used instead and is approximate.",
+        "Diesel power is 116 PS on Tata's specification table (Tata's model page marketing text says 115 PS); CNG-mode power is 100 PS.",
+        "Boot is 382 L; 321 L on CNG variants (Tata). Fuel tank is 44 L petrol (plus 60 L water-equivalent CNG).",
+        "Starting price (INR 7.39 lakh, Smart 1.2 petrol) and top price (INR 15.50 lakh) are from Tata's price-page FAQ; third-party sites list INR 7.40-14.52 lakh. Trim prices come from Tata's specification list (Smart+ onwards).",
+        "Photo is of the pre-facelift model (taken May 2023).",
+        "Gap-fill: Autocar India says 3-year/1 lakh km warranty but no second source; left null."
+      ]
+    },
+    {
+      "id": "tata-nexon-ev",
+      "brand": "Tata Motors",
+      "model": "Nexon EV",
+      "generation": "Nexon.ev facelift (2023), current 30 kWh and 45 kWh line-up",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Nexon EV is Tata's electric compact SUV, sold with a 30 kWh (Medium Range) or 45 kWh battery pack.",
+      "officialUrl": "https://ev.tata.cars/nexon/ev.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Nexon",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1802,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1625,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2498,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 190,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 350,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2024,
+          "protocol": "Bharat NCAP (based on Latin NCAP 2016)",
+          "s": "src-4",
+          "note": "Scores 29.86/32 adult and 44.95/49 child, per Wikipedia."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-5"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ESP",
+          "ABS with EBD",
+          "ISOFIX child seat anchors (CarDekho)",
+          "Level-1 ADAS on top trim (CarDekho)"
+        ]
+      },
+      "warranty": {
+        "v": "30 kWh pack: 8 years / 1,60,000 km battery warranty; 45 kWh pack: lifetime battery warranty for the first owner",
+        "s": "src-3"
+      },
+      "price": {
+        "minInr": {
+          "v": 1249000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1789000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-30",
+          "label": "30 kWh battery (Medium Range)",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 129,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 215,
+            "s": "src-1"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 30,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 275,
+              "s": "src-3"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 4 h 18 min (CarWale)",
+              "s": "src-6"
+            },
+            "dcFastChargeNote": {
+              "v": "50 kW DC: 10-80% in about 56 min (CarWale)",
+              "s": "src-6"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1249000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Creative+ MR",
+              "priceInr": {
+                "v": 1249000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Fearless MR",
+              "priceInr": {
+                "v": 1329000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-45",
+          "label": "45 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 144,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 215,
+            "s": "src-1"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 45,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 489,
+              "s": "src-5"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 6 h 36 min (CarWale)",
+              "s": "src-6"
+            },
+            "dcFastChargeNote": {
+              "v": "60 kW DC: 10-80% in about 40 min (CarWale)",
+              "s": "src-6"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1434000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Creative 45",
+              "priceInr": {
+                "v": 1434000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Fearless 45",
+              "priceInr": {
+                "v": 1534000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered 45",
+              "priceInr": {
+                "v": 1634000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered+ A 45",
+              "priceInr": {
+                "v": 1769000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2020 Tata Nexon EV (India) front view.png",
+          "localPath": "/cars/tata-nexon-ev-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Tata_Nexon_EV_(India)_front_view.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2020 Tata Nexon EV (India) front view; first-generation Nexon EV styling",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata.ev – Nexon EV specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/nexon/ev/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata.ev – Nexon EV price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/nexon/ev/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Nexon EV page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/nexon-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Tata Nexon (NCAP results)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tata_Nexon",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Tata.ev – Nexon EV overview",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/nexon/ev.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "CarWale – Nexon EV page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/nexon-ev/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Motor power converted from kW on Tata's specifications page (x 1.3596): 95 kW = 129 PS, 106 kW = 144 PS. Torque is 215 Nm on both.",
+        "The 45 kWh range (489 km) is Tata's 'ARAI certified, MIDC Part 1 + 2' figure. The 30 kWh range (275 km MIDC) is from CarDekho; CarWale shows 325 km for the same pack, which is not used.",
+        "Ground clearance is 205 mm on the 30 kWh car and 190 mm on the 45 kWh car (Tata); 190 mm is recorded.",
+        "AC/DC charging times are from CarWale (src-6, listed below) for the 7.2 kW AC unit and DC fast chargers.",
+        "Photo shows the first-generation Nexon EV, not the current facelift."
+      ]
+    },
+    {
+      "id": "tata-curvv",
+      "brand": "Tata Motors",
+      "model": "Curvv",
+      "generation": "Curvv Series X (launched 2024)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Curvv is Tata's coupe-styled mid-size SUV, offered with 1.2 L turbo-petrol (two states of tune) and 1.5 L diesel engines.",
+      "officialUrl": "https://tata.cars/curvv/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Curvv",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4308,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1810,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1630,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2560,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 208,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 500,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 44,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2024,
+          "protocol": "Bharat NCAP (based on Latin NCAP 2016)",
+          "s": "src-4",
+          "note": "Scores 29.50/32 adult and 43.66/49 child, in the most basic specification per Wikipedia."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ABS with EBD (CarDekho)",
+          "ESC with hill hold (CarDekho)",
+          "ISOFIX child seat anchors (CarDekho)",
+          "Level-2 ADAS on higher variants (CarWale)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1000000,
+          "s": "src-3"
+        },
+        "maxInr": {
+          "v": 1899990,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L turbo-petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L turbocharged Revotron 3-cylinder (petrol/ethanol blend)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1000000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Smart X",
+              "priceInr": {
+                "v": 1000000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Pure X",
+              "priceInr": {
+                "v": 1099990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure X+",
+              "priceInr": {
+                "v": 1179990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative X+",
+              "priceInr": {
+                "v": 1290990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished X",
+              "priceInr": {
+                "v": 1399990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-dca",
+          "label": "1.2 L turbo-petrol · 7-speed dual-clutch",
+          "fuel": "petrol",
+          "engine": "1.2 L turbocharged Revotron 3-cylinder (petrol/ethanol blend)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DCA (dual-clutch)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1229990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure X DCA",
+              "priceInr": {
+                "v": 1229990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure X+ DCA",
+              "priceInr": {
+                "v": 1309990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative X+ DCA",
+              "priceInr": {
+                "v": 1420990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished X DCA",
+              "priceInr": {
+                "v": 1529990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-hyperion",
+          "label": "1.2 L Hyperion GDI turbo-petrol · 7-speed dual-clutch",
+          "fuel": "petrol",
+          "engine": "1.2 L Hyperion turbo GDI 3-cylinder (petrol/ethanol blend)",
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 125,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 225,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DCA (dual-clutch)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1849990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Accomplished X+ DCA GDI",
+              "priceInr": {
+                "v": 1849990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-mt",
+          "label": "1.5 L turbo-diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L Kryojet turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 118,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 260,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1229990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure X",
+              "priceInr": {
+                "v": 1229990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure X+",
+              "priceInr": {
+                "v": 1309990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Creative X+",
+              "priceInr": {
+                "v": 1420990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished X",
+              "priceInr": {
+                "v": 1529990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-dca",
+          "label": "1.5 L turbo-diesel · 7-speed dual-clutch",
+          "fuel": "diesel",
+          "engine": "1.5 L Kryojet turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 118,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 260,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DCA (dual-clutch)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1874990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Accomplished X+ DCA",
+              "priceInr": {
+                "v": 1874990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 Tata Curvv Creative+ S Petrol (India) front view.png",
+          "localPath": "/cars/tata-curvv-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Tata_Curvv_Creative%2B_S_Petrol_(India)_front_view.png",
+          "author": "Manish Bhardwaj",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2025 Tata Curvv Creative+ S petrol (India), front view",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Curvv specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/curvv/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Curvv price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/curvv/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarWale – Curvv page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/curvv/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Tata Curvv",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tata_Curvv",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Tata's specification page prints power in kW; converted to PS (kW x 1.3596): 88.2 kW = 120 PS, 91.9 kW = 125 PS, 86.7 kW = 118 PS.",
+        "Starting price (INR 10.00 lakh, 'Smart X') is from CarWale; Tata's own variant list starts at Pure X (INR 10.99 lakh) and does not include Smart X. The Smart X is recorded against the 1.2 L manual petrol option. Top price (INR 18.99 lakh) is from Tata's variant list.",
+        "No ARAI mileage is published for the Curvv by Tata or listed by CarWale/CarDekho, so efficiency is null.",
+        "Ground clearance 208 mm per Tata's specification page.",
+        "Curvv.ev is a separate model entry.",
+        "Gap-fill: Autocar India states diesel 22.40 km/l and 3 yr/1,00,000 km warranty, but CarWale, CarDekho and ZigWheels do not state them (ZigWheels petrol 13-14 kmpl conflicts with Autocar 12 kpl); left null."
+      ]
+    },
+    {
+      "id": "tata-curvv-ev",
+      "brand": "Tata Motors",
+      "model": "Curvv EV",
+      "generation": "Curvv.ev Series X (2026 update, single 55 kWh pack)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Curvv EV is the electric version of Tata's coupe-styled SUV, now sold with a single 55 kWh battery pack.",
+      "officialUrl": "https://ev.tata.cars/curvv/ev.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Curvv",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4310,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1810,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1637,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2560,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 186,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 500,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2024,
+          "protocol": "Bharat NCAP (based on Latin NCAP 2016)",
+          "s": "src-4",
+          "note": "Scores 30.81/32 adult and 44.83/49 child (Carlelo, 18 Oct 2024). The Curvv EV was tested alongside the petrol/diesel Curvv."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-5"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "ABS with EBD",
+          "ESP with i-VBAC",
+          "Reverse parking sensors",
+          "Level-2 ADAS on higher variants (CarDekho)"
+        ]
+      },
+      "warranty": {
+        "v": "15-year high-voltage battery warranty from first registration (as of July 2025)",
+        "s": "src-3"
+      },
+      "price": {
+        "minInr": {
+          "v": 1699000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1949000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-55",
+          "label": "55 kWh battery",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 167,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 215,
+            "s": "src-1"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 55,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 502,
+              "s": "src-5"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 7 h 54 min (CarDekho)",
+              "s": "src-3"
+            },
+            "dcFastChargeNote": {
+              "v": "70 kW DC: 10-80% in about 40 min (CarDekho)",
+              "s": "src-3"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1699000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Accomplished X 55",
+              "priceInr": {
+                "v": 1699000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Empowered X 55",
+              "priceInr": {
+                "v": 1939000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered X Dark 55",
+              "priceInr": {
+                "v": 1969000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Tata Curvv.EV.jpg",
+          "localPath": "/cars/tata-curvv-ev-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ATata_Curvv.EV.jpg",
+          "author": "VideshiBhaktNRI",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Tata Curvv.EV, India (September 2024)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata.ev – Curvv EV specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/curvv/ev/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata.ev – Curvv EV price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/curvv/ev/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Curvv EV page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/curvv-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "Carlelo – Tata SUVs BNCAP crash tests analysed",
+          "publisher": "Carlelo",
+          "url": "https://www.carlelo.com/news/tata-suvs-bncap-crash-tests-analysed",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2024-10-18"
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Tata.ev – Curvv EV overview",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/curvv/ev.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Motor power converted from 123 kW on Tata's specifications page (x 1.3596 = 167 PS). Torque is 215 Nm.",
+        "Range 502 km is Tata's 'ARAI certified, MIDC Part 1 + 2' figure for the 55 kWh pack (Tata's page). CarWale lists 585 km for the same pack, which is not used.",
+        "Trim prices are from Tata's specifications page (Accomplished X, the base, is shown on the price page only); the headline range INR 16.99-19.49 lakh is from the price page, so figures from the two pages differ slightly.",
+        "Charging times are from CarDekho."
+      ]
+    },
+    {
+      "id": "tata-harrier",
+      "brand": "Tata Motors",
+      "model": "Harrier",
+      "generation": "Facelift (2023), now with a 1.5 L turbo-petrol option",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Harrier is Tata's five-seat flagship SUV, sold with a 2.0 L turbo-diesel and a 1.5 L turbo-petrol engine, both with manual or automatic gearboxes.",
+      "officialUrl": "https://tata.cars/harrier/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Harrier",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4605,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1922,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1718,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2741,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 445,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2023,
+          "protocol": "Global NCAP 2.0 (similar to Latin NCAP 2016)",
+          "s": "src-4",
+          "note": "Harrier and Safari were rated together: adult 33.05/34, child 45/49 points. Bharat NCAP also awarded 5 stars (30.08/32 adult, 44.52/49 child, 2023). Per Wikipedia."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags standard (7 with driver knee airbag on higher variants)",
+          "ESP with traction control",
+          "ABS with EBD",
+          "ISOFIX child seat anchors",
+          "Level-2 ADAS on higher variants"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1299000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2610990,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L turbo-petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Hyperion turbo GDI 4-cylinder",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1299000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 1299000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Pure X",
+              "priceInr": {
+                "v": 1639990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X",
+              "priceInr": {
+                "v": 1724990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+",
+              "priceInr": {
+                "v": 1759990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Fearless X",
+              "priceInr": {
+                "v": 2024990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.5 L turbo-petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L Hyperion turbo GDI 4-cylinder",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1789990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure X AT",
+              "priceInr": {
+                "v": 1789990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X AT",
+              "priceInr": {
+                "v": 1884990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+ AT",
+              "priceInr": {
+                "v": 1919990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Fearless X AT",
+              "priceInr": {
+                "v": 2199990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-mt",
+          "label": "2.0 L turbo-diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "2.0 L Kryotec turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 350,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 16.8,
+            "unit": "km/l",
+            "basis": "ARAI (CarDekho FAQ, manual diesel and automatic)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1399990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 1399990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure X",
+              "priceInr": {
+                "v": 1749990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X",
+              "priceInr": {
+                "v": 1849990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+",
+              "priceInr": {
+                "v": 1889990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Fearless X",
+              "priceInr": {
+                "v": 2144990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at",
+          "label": "2.0 L turbo-diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L Kryotec turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 350,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 16.8,
+            "unit": "km/l",
+            "basis": "ARAI (CarDekho FAQ, manual diesel and automatic)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1899990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure X AT",
+              "priceInr": {
+                "v": 1899990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X AT",
+              "priceInr": {
+                "v": 1999990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+ AT",
+              "priceInr": {
+                "v": 2044990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Fearless X AT",
+              "priceInr": {
+                "v": 2299990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Harrier specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/harrier/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Harrier price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/harrier/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Harrier page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/harrier",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Tata Harrier",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tata_Harrier",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Ground clearance is not published on Tata's specification page, so it is null.",
+        "Petrol efficiency is not published (null). The 16.8 km/l diesel ARAI figure is from a CarDekho FAQ answer.",
+        "Starting price (INR 12.99 lakh) is from the title of Tata's price page and is assumed to be the Smart petrol manual (Tata's variant list shows Smart diesel at INR 13.99 lakh); CarWale lists INR 13.00 lakh.",
+        "Tata's specification page gives 170 PS for both engines (petrol 280 Nm, diesel 350 Nm).",
+        "Harrier EV is a separate entry. No suitable Commons photo of the current ICE Harrier was found.",
+        "Gap-fill: petrol ARAI figures not yet published per Autocar India; ground clearance, warranty, kerb weight not stated; left null."
+      ]
+    },
+    {
+      "id": "tata-harrier-ev",
+      "brand": "Tata Motors",
+      "model": "Harrier EV",
+      "generation": "Harrier.ev (launched 2025)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Harrier EV is Tata's electric flagship SUV, offered with 65 kWh and 75 kWh packs and an optional dual-motor all-wheel-drive version.",
+      "officialUrl": "https://ev.tata.cars/harrier/ev/overview.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Harrier",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4607,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 2132,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1740,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2741,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 502,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": null,
+          "s": "src-4",
+          "note": "32/32 adult and 45/49 child occupant points (Autocar India, 24 Jun 2025). Top-spec Empowered 75 and Empowered 75 AWD were tested; the rating applies to the whole range."
+        },
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-5"
+        },
+        "keyFeatures": [
+          "7 airbags (incl. driver knee airbag)",
+          "Electronic parking brake with auto hold",
+          "TPMS",
+          "ESP with i-VBAC and traction control",
+          "Hill descent control"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 2169000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2899000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-65",
+          "label": "65 kWh battery · rear-wheel drive",
+          "fuel": "ev",
+          "engine": "Single permanent magnet synchronous motor (rear)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 238,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 315,
+            "s": "src-3"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 65,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 538,
+              "s": "src-3"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 9 h 18 min (CarWale)",
+              "s": "src-6"
+            },
+            "dcFastChargeNote": {
+              "v": "100 kW DC: 20-80% in about 25 min (CarWale)",
+              "s": "src-6"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2169000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Adventure S 65",
+              "priceInr": {
+                "v": 2229000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Fearless+ 65",
+              "priceInr": {
+                "v": 2429000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-75",
+          "label": "75 kWh battery · rear-wheel drive",
+          "fuel": "ev",
+          "engine": "Single permanent magnet synchronous motor (rear)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 238,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 75,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 627,
+              "s": "src-3"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 10 h 42 min (CarWale)",
+              "s": "src-6"
+            },
+            "dcFastChargeNote": {
+              "v": "120 kW DC: 20-80% in about 25 min (CarWale)",
+              "s": "src-6"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2529000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Fearless+ 75",
+              "priceInr": {
+                "v": 2529000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered 75",
+              "priceInr": {
+                "v": 2779000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered ST 75",
+              "priceInr": {
+                "v": 2854000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-75-awd",
+          "label": "75 kWh battery · dual-motor all-wheel drive (QWD)",
+          "fuel": "ev",
+          "engine": "Dual motor: front induction + rear permanent magnet synchronous",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 395,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 504,
+            "s": "src-3"
+          },
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 75,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 622,
+              "s": "src-3"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 10 h 42 min (CarWale)",
+              "s": "src-6"
+            },
+            "dcFastChargeNote": {
+              "v": "120 kW DC: 20-80% in about 25 min (CarWale)",
+              "s": "src-6"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2679000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Fearless+ AWD 75",
+              "priceInr": {
+                "v": 2679000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered AWD 75",
+              "priceInr": {
+                "v": 2929000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered AWD ST 75",
+              "priceInr": {
+                "v": 3004000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 110.jpg",
+          "localPath": "/cars/tata-harrier-ev-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show,_Bangalore_(2025)_110.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Tata Harrier EV at the 4th International Auto Show, Bangalore (Nov 2025)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata.ev – Harrier EV specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/harrier/ev/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata.ev – Harrier EV price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/harrier/ev/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Harrier EV page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/harrier-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "Autocar India – Tata Harrier EV scores 5-star BNCAP safety rating",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news/tata-harrier-ev-scores-5-star-bncap-safety-rating-435840",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-06-24"
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Tata.ev – Harrier EV overview",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/harrier/ev/overview.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "CarWale – Harrier EV page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/harrier-ev/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Rear-wheel-drive power (238 PS) is Tata's figure. The AWD power (390 bhp, converted to 395 PS) and torque (504 Nm) are from CarDekho's specification page; Tata's page does not list them. The 65 kWh torque (315 Nm) is also CarDekho's.",
+        "Ranges (538 / 627 / 622 km, MIDC) are from CarDekho; Tata's page does not render them in static text.",
+        "Tata lists width as 2132 mm, which probably includes mirrors; CarDekho lists 1922 mm. Tata's figure is recorded as published.",
+        "Headline price range (INR 21.69-28.99 lakh) is from Tata's price page title; CarDekho/CarWale list INR 21.79-30.54 lakh (the latter includes the Stealth edition). Trim prices are from the specifications page.",
+        "Charging times are from CarWale (src-6, listed below)."
+      ]
+    },
+    {
+      "id": "tata-safari",
+      "brand": "Tata Motors",
+      "model": "Safari",
+      "generation": "Facelift (2023), now with a 1.5 L turbo-petrol option",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-5"
+      },
+      "summary": "The Safari is Tata's three-row SUV, sharing the Harrier's platform and offered with 2.0 L diesel and 1.5 L turbo-petrol engines in six- and seven-seat layouts.",
+      "officialUrl": "https://tata.cars/safari/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Safari",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4668,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1922,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1795,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2741,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 420,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2023,
+          "protocol": "Global NCAP 2.0 (similar to Latin NCAP 2016)",
+          "s": "src-4",
+          "note": "Safari and Harrier were rated together: adult 33.05/34, child 45/49 points. Bharat NCAP also awarded 5 stars (30.08/32 adult, 44.52/49 child, 2023). Per Wikipedia."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard; 7 airbags incl. driver knee airbag on higher variants (Tata)",
+          "ESP, hill hold and traction control (CarDekho)",
+          "All-wheel disc brakes (CarWale)",
+          "ISOFIX child seat anchors (CarDekho)",
+          "Level-2 ADAS on higher variants (CarDekho)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1339000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2690990,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L turbo-petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Hyperion turbo GDI 4-cylinder",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1339000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 1339000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Pure X",
+              "priceInr": {
+                "v": 1684990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+",
+              "priceInr": {
+                "v": 1814990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished X",
+              "priceInr": {
+                "v": 2129990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.5 L turbo-petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L Hyperion turbo GDI 4-cylinder",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1834990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure X AT",
+              "priceInr": {
+                "v": 1834990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+ AT",
+              "priceInr": {
+                "v": 1979990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished X AT",
+              "priceInr": {
+                "v": 2289990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-mt",
+          "label": "2.0 L turbo-diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "2.0 L Kryotec turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 350,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 14.5,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale lists 14.5 to 16.3 km/l across diesel variants; lowest shown)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1484990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart",
+              "priceInr": {
+                "v": 1484990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure X",
+              "priceInr": {
+                "v": 1794990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+",
+              "priceInr": {
+                "v": 1939990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished X",
+              "priceInr": {
+                "v": 2234990,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at",
+          "label": "2.0 L turbo-diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L Kryotec turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1956,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 170,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 350,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 14.5,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale lists 14.5 to 16.3 km/l across diesel variants; lowest shown)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1944990,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure X AT",
+              "priceInr": {
+                "v": 1944990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure X+ AT",
+              "priceInr": {
+                "v": 2104990,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished X AT",
+              "priceInr": {
+                "v": 2399990,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Safari specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/safari/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Safari price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/safari/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarWale – Safari page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/safari/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Tata Safari",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Tata_Safari",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Tata Motors – Safari model page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/safari/ice.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Seating is 7 (a 6-seat captain-seat layout is also offered, per CarWale). Boot figure (420 L) is as listed on Tata's specification page, with the third row in use.",
+        "Ground clearance is not published on Tata's specification page, so it is null.",
+        "Petrol efficiency is not published (null). The diesel ARAI range of 14.5-16.3 km/l (CarWale) is not split by gearbox, so the lowest value is shown against both diesel options.",
+        "Starting price (INR 13.39 lakh) is from the title of Tata's price page and is assumed to be the Smart petrol manual; CarWale lists INR 13.40 lakh. Diesel Smart is INR 14.85 lakh on Tata's variant list.",
+        "No suitable Commons photo of the current Safari was found.",
+        "Gap-fill: petrol ARAI figures not stated; ground clearance, warranty, kerb weight not stated; left null."
+      ]
+    },
+    {
+      "id": "tata-sierra",
+      "brand": "Tata Motors",
+      "model": "Sierra",
+      "generation": "All-new Sierra (relaunched 2025)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The new Sierra revives the Sierra name as a five-seat mid-size SUV with a naturally aspirated petrol, a turbo-petrol and a diesel engine.",
+      "officialUrl": "https://tata.cars/sierra/ice.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Sierra",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4340,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1841,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1715,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2730,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 205,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 622,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": "Bharat NCAP (based on Latin NCAP 2016)",
+          "s": "src-4",
+          "note": "Bharat NCAP's site lists the Sierra at 31.14/32 adult and 44.73/49 child points; the 5-star rating is as reported by CarWale."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags (driver, co-driver, curtain and side) as standard",
+          "ESC (CarWale)",
+          "Level-2 ADAS on higher variants",
+          "360-degree camera on higher variants (CarWale)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1149000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2159000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-na-mt",
+          "label": "1.5 L petrol (naturally aspirated) · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Revotron 4-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 106,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 145,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 17.4,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale/CarDekho, manual petrol)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1149000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Smart+",
+              "priceInr": {
+                "v": 1149000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "Smart+ L",
+              "priceInr": {
+                "v": 1199000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure",
+              "priceInr": {
+                "v": 1314000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure L",
+              "priceInr": {
+                "v": 1379000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ L",
+              "priceInr": {
+                "v": 1499000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure+",
+              "priceInr": {
+                "v": 1614000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-na-dca",
+          "label": "1.5 L petrol (naturally aspirated) · 7-speed dual-clutch",
+          "fuel": "petrol",
+          "engine": "1.5 L Revotron 4-cylinder naturally aspirated",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 106,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 145,
+            "s": "src-1"
+          },
+          "transmission": "7-speed DCA (dual-clutch)",
+          "efficiency": {
+            "value": 16.9,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale and Autocar India agree)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1449000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure DCA",
+              "priceInr": {
+                "v": 1449000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure L DCA",
+              "priceInr": {
+                "v": 1499000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ L DCA",
+              "priceInr": {
+                "v": 1629000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure+ DCA",
+              "priceInr": {
+                "v": 1744000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-turbo-at",
+          "label": "1.5 L Hyperion turbo-petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L Hyperion turbo GDI 4-cylinder",
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 160,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 255,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 15.3,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarWale)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1814000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Adventure+ AT GDI",
+              "priceInr": {
+                "v": 1814000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished AT GDI",
+              "priceInr": {
+                "v": 1999000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished+ AT GDI",
+              "priceInr": {
+                "v": 2099000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-mt",
+          "label": "1.5 L turbo-diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L Kryojet turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 118,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 260,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 21.26,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale/CarDekho, manual diesel)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1299000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Smart+",
+              "priceInr": {
+                "v": 1299000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Smart+ L",
+              "priceInr": {
+                "v": 1349000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure",
+              "priceInr": {
+                "v": 1459000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure L",
+              "priceInr": {
+                "v": 1524000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ L",
+              "priceInr": {
+                "v": 1644000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "diesel-at",
+          "label": "1.5 L turbo-diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L Kryojet turbo-diesel 4-cylinder",
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 118,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 19.22,
+            "unit": "km/l",
+            "basis": "ARAI (CarWale and Autocar India agree)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1599000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pure AT",
+              "priceInr": {
+                "v": 1599000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure L(O) AT",
+              "priceInr": {
+                "v": 1699000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Pure+ L AT",
+              "priceInr": {
+                "v": 1774000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure+ AT",
+              "priceInr": {
+                "v": 1864000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Accomplished AT",
+              "priceInr": {
+                "v": 1999000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata Motors – Sierra specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/sierra/ice/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata Motors – Sierra price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://tata.cars/sierra/ice/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarWale – Sierra page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/sierra/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Bharat NCAP – safety ratings home page",
+          "publisher": "Bharat NCAP (MoRTH)",
+          "url": "https://bncap.in/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "Autocar India – Tata Sierra",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/tata/sierra",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Tata's specification page prints power in PS: 106 (NA petrol), 160 (turbo-petrol), 118 (diesel); diesel torque is 260 Nm with the manual and 280 Nm with the automatic.",
+        "CarWale lists ARAI 16.9-17.4 km/l for the NA petrol, 15.3 km/l for the turbo-petrol and 19.22-21.26 km/l for the diesel; the manual petrol (17.4) and manual diesel (21.26) figures are as stated in a CarDekho description, and the remaining gearbox-specific figures are left null.",
+        "Top price shown (INR 21.59 lakh) is the highest variant on Tata's specification page; the FAQ on Tata's price page says INR 21.29 lakh for the Accomplished+ AT diesel.",
+        "The Sierra EV is a separate entry. The only Commons photos found were of the 1990s original Sierra, so no image is provided.",
+        "Sierra NA petrol DCA (16.9 km/l) and diesel AT (19.22 km/l) ARAI figures stated identically by CarWale (src-3) and Autocar India (src-5).",
+        "Kerb weight and warranty not stated on any fetched page; left null."
+      ]
+    },
+    {
+      "id": "tata-sierra-ev",
+      "brand": "Tata Motors",
+      "model": "Sierra EV",
+      "generation": "Sierra.ev (launched 2026)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Sierra EV is the electric version of the new Sierra, offered with 63 kWh and 75 kWh batteries and an optional dual-motor all-wheel-drive version.",
+      "officialUrl": "https://ev.tata.cars/sierra/ev.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tata_Sierra",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4340,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1841,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1750,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2730,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 205,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 622,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (driver, co-driver, curtain and side) as standard",
+          "ESC (CarWale)",
+          "Level-2 ADAS (CarDekho)"
+        ]
+      },
+      "warranty": {
+        "v": "Lifetime (15-year) battery warranty on both the 63 kWh and 75 kWh packs",
+        "s": "src-4"
+      },
+      "price": {
+        "minInr": {
+          "v": 1879000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 2648000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-63",
+          "label": "63 kWh battery · rear-wheel drive",
+          "fuel": "ev",
+          "engine": "Single permanent magnet synchronous motor (rear)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 63,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 535,
+              "s": "src-4"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 8 h 54 min (CarWale)",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "110 kW DC: 20-80% in about 25 min (CarWale)",
+              "s": "src-4"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1879000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Pure S 63",
+              "priceInr": {
+                "v": 1999000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Adventure 63",
+              "priceInr": {
+                "v": 2099000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered 63",
+              "priceInr": {
+                "v": 2279000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-75",
+          "label": "75 kWh battery · rear-wheel drive",
+          "fuel": "ev",
+          "engine": "Single permanent magnet synchronous motor (rear)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 75,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 665,
+              "s": "src-3"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 10 h 30 min (CarWale)",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "120 kW DC: 20-80% in about 26 min (CarWale)",
+              "s": "src-4"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2219000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Adventure 75",
+              "priceInr": {
+                "v": 2219000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered 75",
+              "priceInr": {
+                "v": 2379000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Empowered A 75",
+              "priceInr": {
+                "v": 2479000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-75-awd",
+          "label": "75 kWh battery · dual-motor all-wheel drive (QWD)",
+          "fuel": "ev",
+          "engine": "Dual motor: front induction + rear permanent magnet synchronous",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 75,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 624,
+              "s": "src-3"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "7.2 kW AC: 10-100% in about 10 h 30 min (CarWale)",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "120 kW DC: 20-80% in about 26 min (CarWale)",
+              "s": "src-4"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2599000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Empowered AWD A 75",
+              "priceInr": {
+                "v": 2599000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Tata.ev – Sierra EV specifications",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/sierra/ev/specifications.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Tata.ev – Sierra EV price page",
+          "publisher": "Tata Motors Passenger Vehicles",
+          "url": "https://ev.tata.cars/sierra/ev/price.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Sierra EV page",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/tata/sierra-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarWale – Sierra EV page",
+          "publisher": "CarWale (Automotive Exchange)",
+          "url": "https://www.carwale.com/tata-cars/sierra-ev/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Motor power and torque are not recorded: Tata's specification page lists 238 PS (63 kWh), 209 PS (75 kWh) and 140 + 209 PS (AWD), while CarDekho lists 253 bhp / 315 Nm for the 63 kWh version; the sources conflict, so null is used.",
+        "Range: 535 km (63 kWh, MIDC) is from CarWale; 665 km (75 kWh) is from CarDekho's variant summary and 624 km for the AWD is from CarDekho's specification page; test standards for the two 75 kWh figures are not stated.",
+        "Headline price (INR 18.79 lakh) is from Tata's price page title; trim prices are from Tata's specification page (the base Pure 63 is listed there only in its fast-charger form at INR 19.28 lakh). A battery-as-a-service plan lowers the entry price (CarDekho) but is not recorded.",
+        "The Sierra EV has no NCAP result of its own (CarWale: 'yet to receive a crash safety rating'); the petrol/diesel Sierra's rating is recorded under that model only. No photo of the Sierra EV was found on Commons."
+      ]
+    }
+  ]
+}

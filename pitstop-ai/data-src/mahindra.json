@@ -1,0 +1,2736 @@
+{
+  "brand": {
+    "name": "Mahindra",
+    "slug": "mahindra",
+    "country": "India",
+    "parent": "Mahindra & Mahindra Ltd (Mahindra Group)",
+    "indiaWebsite": "https://auto.mahindra.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahindra_%26_Mahindra",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "mahindra-thar",
+      "brand": "Mahindra",
+      "model": "Thar",
+      "generation": "2nd generation (W501, launched 2020; marketed as Thar OG, 3-door)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 4,
+        "s": "src-2"
+      },
+      "summary": "The three-door, body-on-frame Thar is Mahindra's lifestyle off-roader, offered with diesel and petrol engines in rear-wheel-drive and 4WD forms.",
+      "officialUrl": "https://auto.mahindra.com/suv/thar/THRN.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahindra_Thar",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1870,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1855,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 232,
+          "s": "src-2"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 55,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 4,
+          "adultOccupantStars": 4,
+          "childOccupantStars": 4,
+          "year": 2020,
+          "protocol": "Global NCAP 1.0 (Latin NCAP 2013-equivalent)",
+          "s": "src-3",
+          "note": "Rating is for the 2020 launch model tested with 2 airbags; the current Thar OG has been updated since and has not been re-rated by Global NCAP in the sources fetched."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags (front, side and curtain/pelvis as stated in brochure)",
+          "ESP with roll-over mitigation",
+          "Hill Hold and Hill Descent Control",
+          "ABS with EBD and Brake Assist",
+          "Rear view camera",
+          "ISOFIX child seat mounts on rear seats",
+          "Seat belt reminder"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1032000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1899000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-1.5-rwd-mt",
+          "label": "1.5 L mHawk D117 diesel · 6-speed manual · RWD",
+          "fuel": "diesel",
+          "engine": "1.5 L D117 CRDe mHawk diesel",
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 118.6,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 300,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-rwd-at",
+          "label": "2.2 L mHawk diesel · 6-speed automatic · RWD",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": {
+            "v": 2184,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 152.1,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 330,
+            "s": "src-2"
+          },
+          "transmission": "6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-4wd",
+          "label": "2.2 L mHawk diesel · 6-speed manual or automatic · 4WD",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": {
+            "v": 2184,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 152.1,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 330,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual / 6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-2.0-rwd-at",
+          "label": "2.0 L mStallion turbo-petrol · 6-speed automatic · RWD",
+          "fuel": "petrol",
+          "engine": "2.0 L mStallion TGDi turbo-petrol",
+          "displacementCc": {
+            "v": 1997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 161.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 330,
+            "s": "src-2"
+          },
+          "transmission": "6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-2.0-4wd",
+          "label": "2.0 L mStallion turbo-petrol · 6-speed manual or automatic · 4WD",
+          "fuel": "petrol",
+          "engine": "2.0 L mStallion TGDi turbo-petrol",
+          "displacementCc": {
+            "v": 1997,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 161.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 330,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual / 6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mahindra Thar SUV in \"Red Rage\" color at Ashiana Brahmanda, East Singbhum India (Ank Kumar, Infosys limited) 02.jpg",
+          "localPath": "/cars/mahindra-thar-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMahindra_Thar_SUV_in_%22Red_Rage%22_color_at_Ashiana_Brahmanda%2C_East_Singbhum_India_(Ank_Kumar%2C_Infosys_limited)_02.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Second-generation Mahindra Thar in Jharkhand, India, photographed in 2023 (pre-2025 update)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - Thar OG page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/thar/THRN.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra Thar OG brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw6aedc9ad/brochure/THE-THAR-OG-Brochure.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Mahindra Thar (Safety section)",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Thar",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Brochure lists seating as 4-seater (2 front, 2 rear, front-facing); the Thar OG price listing on the official site does not repeat this.",
+        "Engine/transmission/drive combinations follow the brochure engine and variant matrices; 1.5 L diesel is RWD manual only, 2.2 L diesel RWD is automatic, 4WD offered with manual or automatic. Which exact trims carry each option was not verified.",
+        "Power converted from kW (x1.3596) to PS: 87.2 kW = 118.6 PS, 111.9 kW = 152.1 PS, 119 kW = 161.8 PS.",
+        "Fuel tank: 55 L (diesel engines), 50 L (2.0 L petrol); 55 L shown.",
+        "Claimed fuel efficiency not stated in the sources fetched.",
+        "Price range is the official site's listed range (low/high); per-option prices not published on fetched pages.",
+        "Global NCAP result dates from 2020 for the launch model and may not reflect the current build.",
+        "ARAI efficiency, boot, kerb weight and warranty left null: third-party pages did not state them consistently (ZigWheels gives only real-world ranges)."
+      ]
+    },
+    {
+      "id": "mahindra-thar-roxx",
+      "brand": "Mahindra",
+      "model": "Thar Roxx",
+      "generation": "5-door Thar (W502, 2024)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "The five-door Thar Roxx is a longer-wheelbase Thar offering turbo-petrol and diesel engines, with 4x4 available on selected trims.",
+      "officialUrl": "https://auto.mahindra.com/suv/thar-roxx/TH5D.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahindra_Thar",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4428,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1870,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1923,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2850,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 57,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Scores 31.09/32 adult and 45/49 child as reported by Carlelo; test year as stated there."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Electronic Stability Control (ESC)",
+          "Tyre pressure monitoring",
+          "Rear disc brakes",
+          "Hill Hold and Hill Descent Control",
+          "ISOFIX / i-Size compatibility",
+          "E-call and SOS",
+          "Seat belt reminder for all seats"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1252000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2352000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-2.0-mt",
+          "label": "2.0 L mStallion turbo-petrol · 6-speed manual · RWD",
+          "fuel": "petrol",
+          "engine": "2.0 L mStallion TGDi turbo-petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 161.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 330,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-2.0-at",
+          "label": "2.0 L mStallion turbo-petrol · 6-speed automatic · RWD",
+          "fuel": "petrol",
+          "engine": "2.0 L mStallion TGDi turbo-petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 176.7,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-2"
+          },
+          "transmission": "6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-mt",
+          "label": "2.2 L mHawk diesel · 6-speed manual · RWD or 4x4",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 152.1,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 330,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-rwd-at",
+          "label": "2.2 L mHawk diesel · 6-speed automatic · RWD",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 152.1,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 330,
+            "s": "src-2"
+          },
+          "transmission": "6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-4x4-at",
+          "label": "2.2 L mHawk diesel · 6-speed automatic · 4x4",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 174.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-2"
+          },
+          "transmission": "6-speed torque-converter automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2167000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "AX5L D AT 4WD",
+              "priceInr": {
+                "v": 2167000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "AX7L D AT 4WD",
+              "priceInr": {
+                "v": 2352500,
+                "s": "src-4"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mahindra Thar ROXX on dirt.jpg",
+          "localPath": "/cars/mahindra-thar-roxx-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMahindra_Thar_ROXX_on_dirt.jpg",
+          "author": "The Drivers Hub",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "White Mahindra Thar ROXX on dirt (2026 photo)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - Thar Roxx page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/thar-roxx/TH5D.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra Thar ROXX brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw0bb6a77e/thar-roxx/THAR-ROXX-Brochure-3rd.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Carlelo - Mahindra SUVs BNCAP crash tests analysed",
+          "publisher": "Carlelo",
+          "url": "https://carlelo.com/news/mahindra-suvs-bncap-crash-tests-analysed",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "manufacturer",
+          "label": "Mahindra Own Online - Thar Roxx variant selection",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/own-online/variant-selection?pid=TH5D",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Brochure engine table has five columns (petrol MT, petrol AT, diesel MT, diesel AT, diesel 4x4 AT); the power/torque-to-option mapping above follows the column order and the transmission rows, and was not independently cross-checked.",
+        "Brochure variant matrix: diesel 4x4 is offered with both MT (MX5, AX7L) and AT (AX5L, AX7L); the 4x4 manual shares the 111.9 kW / 330 Nm diesel rating per column order.",
+        "Power converted from kW (x1.3596): 119 kW = 161.8 PS, 130 kW = 176.8 PS, 111.9 kW = 152.1 PS, 128.6 kW = 174.8 PS.",
+        "The only per-variant prices found were the two 4x4 diesel AT variants on the official variant selector; other variants displayed codes without prices.",
+        "Brochure gives displacement as 2.0 L / 2.2 L; cc values shown are rounded from those.",
+        "Ground clearance, boot volume and claimed mileage were not stated in the sources fetched.",
+        "Displacement is stated only as 2.0 L / 2.2 L in the brochure, so displacementCc is left null; cylinder counts are not stated in the sources and are null throughout (except Scorpio Classic, which states 4 cylinders).",
+        "ARAI efficiency left null: CarDekho, CarWale and Autocar India pages gave inconsistent or non-engine-specific figures (Autocar India said the claimed figure is not yet revealed)."
+      ]
+    },
+    {
+      "id": "mahindra-scorpio-n",
+      "brand": "Mahindra",
+      "model": "Scorpio N",
+      "generation": "Z101 (launched 2022)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The Scorpio N is a body-on-frame three-row SUV with 2.0 L turbo-petrol and 2.2 L diesel engines, available in 2WD and 4WD and in 6- or 7-seat layouts.",
+      "officialUrl": "https://auto.mahindra.com/suv/scorpio-n/SCN.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahindra_Scorpio-N",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4662,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1917,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1857,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2750,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 786,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 57,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 3,
+          "year": 2022,
+          "protocol": "Global NCAP 1.0 (Latin NCAP 2013-equivalent)",
+          "s": "src-3",
+          "note": "Adult 29.25 points, child 28.93/49 as reported by Wikipedia."
+        },
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "ESC",
+          "ABS with EBD",
+          "Hill Hold and Hill Descent Control",
+          "Ventilated disc brakes front and rear",
+          "TPMS",
+          "ISOFIX / i-Size compatibility",
+          "Electronic Parking Brake",
+          "Front + side + curtain airbags on higher variants"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1369000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2549000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-2.0-mt",
+          "label": "2.0 L mStallion turbo-petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "2.0 L mStallion TGDi turbo-petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 202.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 370,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-2.0-at",
+          "label": "2.0 L mStallion turbo-petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L mStallion TGDi turbo-petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 202.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-2"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-97kw-2wd-mt",
+          "label": "2.2 L mHawk diesel (97 kW) · 6-speed manual · 2WD",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 131.9,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 300,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-mt",
+          "label": "2.2 L mHawk diesel (128.6 kW) · 6-speed manual · 2WD/4WD",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 174.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 370,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-at",
+          "label": "2.2 L mHawk diesel (128.6 kW) · 6-speed automatic · 2WD/4WD",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk diesel",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 174.8,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-2"
+          },
+          "transmission": "6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024 Mahindra Scorpio Z8L front.jpg",
+          "localPath": "/cars/mahindra-scorpio-n-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Mahindra_Scorpio_Z8L_front.jpg",
+          "author": "LuvsMG481",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2024 Mahindra Scorpio (Scorpio-N) Z8L in Western Australia",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - Scorpio-N page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/scorpio-n/SCN.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra Scorpio-N brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw6e995936/brochures/SCN/SCN_brochure.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Mahindra Scorpio-N",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Scorpio-N",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Brochure lists 2.0 L petrol at 149.14 kW (= 202.8 PS) with 370 Nm (MT) / 380 Nm (AT); 2.2 L diesel at 128.6 kW (= 174.8 PS) with 370 Nm (MT) / 400 Nm (AT), plus a 97 kW (= 131.9 PS), 300 Nm diesel on Z2 and Z4 2WD manual only. Displacement from brochure (2 L / 2.2 L), rounded.",
+        "Air bags: base Z2/Z4/Z6 list front airbags only; Z8 and above list front, side and curtain.",
+        "Boot figure of 786 L is stated for the third row folded.",
+        "Brochure dimension 4662 x 1917 x 1857 mm excludes ski rack and antenna.",
+        "Global NCAP rating dates from 2022 and applies to the tested India-spec variant; Wikipedia also records a 0-star ANCAP result (2023) for the Australian market.",
+        "Ground clearance, claimed mileage and per-option prices not stated in sources fetched."
+      ]
+    },
+    {
+      "id": "mahindra-scorpio-classic",
+      "brand": "Mahindra",
+      "model": "Scorpio Classic",
+      "generation": "Updated Scorpio (S / S11 trims)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 9,
+        "s": "src-2"
+      },
+      "summary": "The Scorpio Classic is the continuing earlier-generation Scorpio with a single 2.2 L mHawk diesel and six-speed manual, offered in 7- and 9-seat layouts.",
+      "officialUrl": "https://auto.mahindra.com/suv/scorpio-classic/SCRC.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahindra_Scorpio",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4456,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1820,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1995,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2680,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 460,
+          "s": "src-4"
+        },
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Dual airbags (driver and passenger)",
+          "ABS",
+          "Electronic Stability Control (ESC)",
+          "Rear parking sensors",
+          "Cruise control",
+          "Seat belt reminder lamp (driver and co-driver)",
+          "Panic brake indication"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1343000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1748000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-2.2-mt",
+          "label": "2.2 L mHawk diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk 4-cylinder diesel",
+          "displacementCc": {
+            "v": 2184,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 131.9,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 300,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual (cable shift)",
+          "efficiency": {
+            "value": 14.44,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - Scorpio Classic page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/scorpio-classic/SCRC.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra Scorpio Classic brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dwe52246f8/SCRC/Scorpio-Classic-Brochure_SV.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Mahindra Scorpio",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Scorpio",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – Scorpio (Classic) specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mahindra/scorpio/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "ZigWheels – Scorpio Classic specifications",
+          "publisher": "ZigWheels",
+          "url": "https://www.zigwheels.com/newcars/Mahindra/Scorpio-Classic/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "Autocar India – Scorpio Classic specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mahindra/scorpio-classic",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power 97 kW converted to PS (x1.3596) = 131.9 PS.",
+        "Seats: brochure lists 7 (captain chair / side-facing) and 9 (side-facing) seat options; max 9 shown.",
+        "No NCAP rating recorded: Wikipedia lists a 2016 Global NCAP result (0-star adult, 2-star child) only for the earlier-generation Scorpio in a no-airbag configuration, which is not necessarily representative of the current Classic.",
+        "No free photo of the current Scorpio Classic found on Wikimedia Commons.",
+        "Ground clearance, boot, claimed mileage and per-trim prices not stated in sources fetched.",
+        "Efficiency 14.44 km/l (diesel MT) and boot 460 L filled from third-party pages: CarDekho, ZigWheels and Autocar India agree on 14.44 km/l; CarDekho and ZigWheels agree on 460 L."
+      ]
+    },
+    {
+      "id": "mahindra-bolero",
+      "brand": "Mahindra",
+      "model": "Bolero",
+      "generation": "Long-running model (October 2025 facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The Bolero is Mahindra's long-running body-on-frame utility SUV powered by a 1.5 L mHawk75 diesel with a manual gearbox.",
+      "officialUrl": "https://auto.mahindra.com/suv/bolero/BOL.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahindra_Bolero",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1745,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1880,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2680,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Dual airbags (driver and co-driver)",
+          "ABS with EBD",
+          "Seat belt reminders",
+          "Engine immobiliser"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 857000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 999000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-1.5-mt",
+          "label": "1.5 L mHawk75 diesel · manual",
+          "fuel": "diesel",
+          "engine": "1.5 L mHawk75 diesel",
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 76,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 210,
+            "s": "src-2"
+          },
+          "transmission": "Manual (gear count not stated in brochure; Wikipedia states 5-speed)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mahindra Bolero ZLX.jpg",
+          "localPath": "/cars/mahindra-bolero-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMahindra_Bolero_ZLX.jpg",
+          "author": "RaNK001",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "caption": "Mahindra Bolero ZLX photographed in 2012 (earlier design, before the 2025 facelift)",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - Bolero page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/bolero/BOL.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra Bolero brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dwd7498646/Bolero/BoleroBrochure_220926.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Mahindra Bolero",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Bolero",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Brochure states 55.9 kW @ 3600 rpm (= 76.0 PS, x1.3596); Wikipedia describes the facelift engine as 75 PS. Brochure value used.",
+        "Seating is 7 (5+2 configuration).",
+        "No NCAP rating found for the current Bolero.",
+        "Claimed mileage, boot and ground clearance not stated in sources fetched; photo shows an older-design Bolero.",
+        "ARAI efficiency left null: CarDekho and ZigWheels state 16 km/l but Autocar India states 16.5 km/l; no manufacturer figure retrievable."
+      ]
+    },
+    {
+      "id": "mahindra-bolero-neo",
+      "brand": "Mahindra",
+      "model": "Bolero Neo",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The Bolero Neo is a compact body-on-frame SUV with a 1.5 L mHawk100 diesel and a manual gearbox, seating up to seven.",
+      "officialUrl": "https://auto.mahindra.com/suv/bolero-neo/NEO.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahindra_Bolero",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1795,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1817,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2680,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 180,
+          "s": "src-4"
+        },
+        "bootLitres": {
+          "v": 384,
+          "s": "src-4"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 1,
+          "adultOccupantStars": 1,
+          "childOccupantStars": 1,
+          "year": 2024,
+          "protocol": "Global NCAP latest protocols",
+          "s": "src-3",
+          "note": "Publication dated 23 April 2024; tested variant not specified in the report; 2 airbags standard."
+        },
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Dual airbags (driver and co-driver)",
+          "ABS with EBD",
+          "Engine immobiliser",
+          "Multi-Terrain Technology (MTT)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 906000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1085000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-1.5-mt",
+          "label": "1.5 L mHawk100 diesel · manual",
+          "fuel": "diesel",
+          "engine": "1.5 L mHawk100 diesel",
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 99.9,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 260,
+            "s": "src-2"
+          },
+          "transmission": "Manual (gear count not stated in brochure)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - Bolero Neo page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/bolero-neo/NEO.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra Bolero Neo brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw27dcbbbe/NEO/BoleroNeo-Brochure-19-Dec.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "ncap",
+          "label": "Global NCAP - Mixed results in latest crash test ratings",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/mixed-results-in-global-ncaps-latest-crash-test-ratings",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2024-04-23"
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – Bolero Neo specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mahindra/bolero-neo/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "ZigWheels – Bolero Neo specifications",
+          "publisher": "ZigWheels",
+          "url": "https://www.zigwheels.com/newcars/Mahindra/Bolero-Neo/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power 73.5 kW converted to PS (x1.3596) = 99.9 PS.",
+        "Cylinder count not stated in the brochure; left null.",
+        "Seating 7 (5+2).",
+        "No suitable free photo of the Bolero Neo found on Wikimedia Commons (search returned only the TUV300).",
+        "Claimed mileage, boot and ground clearance not stated in sources fetched.",
+        "Boot 384 L (CarDekho, ZigWheels, Autocar India agree) and unladen ground clearance 180 mm (CarDekho, ZigWheels agree) are from third-party pages. ARAI efficiency left null: CarDekho/ZigWheels state 17.29 km/l but Autocar India states 18.04 km/l."
+      ]
+    },
+    {
+      "id": "mahindra-bolero-neo-plus",
+      "brand": "Mahindra",
+      "model": "Bolero Neo Plus",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 9,
+        "s": "src-1"
+      },
+      "summary": "The Bolero Neo Plus is a nine-seat Bolero variant with the mHAWK120 diesel engine and a six-speed manual gearbox.",
+      "officialUrl": "https://auto.mahindra.com/suv/bolero-neo-plus/NEOP.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2680,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "2 airbags (per structured data on the official page)",
+          "Does not feature ADAS (per official page)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1146000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1356000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "diesel-2.2-mt",
+          "label": "mHAWK120 diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "mHAWK120 diesel",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - Bolero Neo Plus page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/bolero-neo-plus/NEOP.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Bolero Neo Plus specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mahindra/bolero-neo-plus/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "ZigWheels – Bolero Neo Plus specifications",
+          "publisher": "ZigWheels",
+          "url": "https://www.zigwheels.com/newcars/Mahindra/Bolero-Neo-Plus/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "All figures come from the machine-readable data embedded in the official page (the visible page and a brochure were not detailed): 88.26 kW (= 120.0 PS at x1.3596), 280 Nm, 9 seats, 2680 mm wheelbase, 2 airbags.",
+        "Displacement and cylinder count not stated on the official page; a third-party site lists 2184 cc.",
+        "No NCAP rating, photo, mileage or other dimensions found.",
+        "Fuel tank 60 L from third-party pages (CarDekho and ZigWheels agree). Ground clearance 180 mm appeared only on CarDekho, so left null."
+      ]
+    },
+    {
+      "id": "mahindra-xuv-3xo",
+      "brand": "Mahindra",
+      "model": "XUV 3XO",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The XUV 3XO is Mahindra's sub-four-metre compact SUV with two 1.2 L turbo-petrol engines and a 1.5 L diesel.",
+      "officialUrl": "https://auto.mahindra.com/suv/xuv3xo/X3XO.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3990,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1821,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1647,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2600,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 201,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 364,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 42,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Scores 29.36/32 adult and 43/49 child as reported by Carlelo; Mahindra brochure also states a BNCAP 5-star rating."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags (listed on base MX1)",
+          "Electronic Stability Control (ESC)",
+          "Tyre pressure monitoring",
+          "All four disc brakes",
+          "ISOFIX",
+          "Level 2 ADAS on select variants",
+          "360-degree surround view on select variants"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / unlimited km",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 779000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1504000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-1.2-tcmpfi",
+          "label": "1.2 L mStallion TCMPFi turbo-petrol · 6-speed manual or automatic",
+          "fuel": "petrol",
+          "engine": "1.2 L mStallion TCMPFi turbo-petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 111.5,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 200,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual / 6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.2-tgdi",
+          "label": "1.2 L mStallion TGDi turbo-petrol · 6-speed manual or automatic",
+          "fuel": "petrol",
+          "engine": "1.2 L mStallion TGDi turbo-petrol",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 130.5,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 230,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual / 6-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-1.5",
+          "label": "1.5 L CRDe turbo-diesel · 6-speed manual or AutoSHIFT+ AMT",
+          "fuel": "diesel",
+          "engine": "1.5 L turbo-diesel CRDe",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 116.7,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 300,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual / 6-speed AutoSHIFT+ (AMT)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mahindra XUV 3XO 2025.jpg",
+          "localPath": "/cars/mahindra-xuv-3xo-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMahindra_XUV_3XO_2025.jpg",
+          "author": "Sreedit",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "White Mahindra XUV 3XO photographed in India in 2025",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - XUV 3XO page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/xuv3xo/X3XO.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra XUV 3XO brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dwff04acc4/X3XO/XUV-3XO-Brochure.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Carlelo - Mahindra SUVs BNCAP crash tests analysed",
+          "publisher": "Carlelo",
+          "url": "https://carlelo.com/news/mahindra-suvs-bncap-crash-tests-analysed",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Cylinder counts are not stated in the brochure and are left null.",
+        "Power converted from kW (x1.3596): 82 kW = 111.5 PS, 96 kW = 130.5 PS, 85.8 kW = 116.7 PS.",
+        "Brochure transmission rows read \"6 MT / 6 AT\" for the petrols and \"6 MT / 6 AutoSHIFT+\" for the diesel; the variant walk lists diesel MT/AMT and petrol MT/AT.",
+        "Dimension height 1647 mm is with roof rails; ground clearance 201 mm is marked with an asterisk in the brochure.",
+        "Claimed mileage and per-option prices not stated in sources fetched. Brochure states a 3-year standard warranty; km limit shown on brochure as unlimited."
+      ]
+    },
+    {
+      "id": "mahindra-xuv-3xo-ev",
+      "brand": "Mahindra",
+      "model": "XUV 3XO EV",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "The XUV 3XO EV is the electric version of the XUV 3XO with a 39.4 kWh battery and a front-mounted 110 kW motor.",
+      "officialUrl": "https://auto.mahindra.com/suv/xuv3xo-ev.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3990,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1821,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1653,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2600,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 190,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 364,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Level 2 ADAS (per official page structured data)"
+        ]
+      },
+      "warranty": {
+        "v": "Vehicle 3 years / unlimited km; battery pack and motor 8 years / 1,60,000 km (whichever is earlier)",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 1389000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1496000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-39.4",
+          "label": "39.4 kWh battery · 110 kW / 150 PS front motor",
+          "fuel": "ev",
+          "engine": "Front-mounted electric motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 150,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 310,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 39.4,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 351,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "0-100% in 6.5 h with a 7.2 kW charger; portable 3.0 kW (13A) charger supplied",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "0-80% in 50 min with a 50 kW DC charger (CCS Type II)",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1389000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - XUV 3XO EV page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/xuv3xo-ev.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra XUV 3XO EV brochure (PDF)",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw485a2dcf/X3XO/29-06-MM-3XO-EV-BROCHURE_R3.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Brochure range: 351 km MIDC (P1 + P2) and 456 km MIDC (P1 only); the more conservative P1 + P2 figure is used. The brochure also quotes \"up to 285 km real world range\".",
+        "Variants: AX5 and AX7L; per-variant prices not captured. Price range is from the official site listing (13.89-14.96 lakh).",
+        "Power 110 kW = 150 PS as stated in the brochure.",
+        "No NCAP rating recorded for this EV variant. No photo of the XUV 3XO EV found on Wikimedia Commons."
+      ]
+    },
+    {
+      "id": "mahindra-xuv-7xo",
+      "brand": "Mahindra",
+      "model": "XUV 7XO",
+      "generation": "Updated XUV700, sold as XUV 7XO",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "The XUV 7XO is Mahindra's flagship three-row SUV, offered with a 2.0 L turbo-petrol and a 2.2 L turbo-diesel, with manual and automatic gearboxes.",
+      "officialUrl": "https://auto.mahindra.com/suv/xuv-7xo.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4695,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1890,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1755,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2750,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 240,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Adult 30.76/32, child 44.97/49. Tested AX7 7-seat diesel automatic in FWD and AWD; Mahindra says the rating applies across the range. Report dated 15 Sep 2026."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Level 2 ADAS (per official page)",
+          "540-degree camera system (per official page)",
+          "6 airbags (per official page structured data)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1399000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2594000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-2.0",
+          "label": "2.0 L mStallion TGDi turbo-petrol · manual or automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L mStallion turbo-petrol (TGDi)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 202.9,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual / 6-speed automatic (not individually confirmed)",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-mt",
+          "label": "2.2 L mHawk CRDe turbo-diesel · manual",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk turbo-diesel (CRDe)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 186.3,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 420,
+            "s": "src-1"
+          },
+          "transmission": "Manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "diesel-2.2-at",
+          "label": "2.2 L mHawk CRDe turbo-diesel · automatic (FWD or AWD)",
+          "fuel": "diesel",
+          "engine": "2.2 L mHawk turbo-diesel (CRDe)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 186.3,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 450,
+            "s": "src-1"
+          },
+          "transmission": "Automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:A black Mahindra XUV700 SUV in Ashiana Brahmananda, Jamshedpur, India (Ank Kumar, Infosys Limited) 02.jpg",
+          "localPath": "/cars/mahindra-xuv-7xo-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AA_black_Mahindra_XUV700_SUV_in_Ashiana_Brahmananda%2C_Jamshedpur%2C_India_(Ank_Kumar%2C_Infosys_Limited)_02.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Mahindra XUV700 (pre-facelift predecessor of the XUV 7XO) in Jamshedpur, India, 2023",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - XUV 7XO page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/xuv-7xo.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho - Mahindra XUV 7XO specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mahindra/xuv-7xo/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India - XUV 7XO scores 5-star Bharat NCAP",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news/mahindra-xuv-7xo-scores-5-star-bharat-ncap-safety-rating-440751",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-09-15"
+        }
+      ],
+      "notes": [
+        "Power/torque come from the official page text: petrol 149.2 kW (= 202.9 PS at x1.3596) and 380 Nm; diesel 137 kW (= 186.3 PS) with 420 Nm (manual) and 450 Nm (automatic).",
+        "Length, width, height, boot and tank are from CarDekho (third-party); wheelbase 2750 mm matches the official page. CarDekho lists 7 airbags while the official page data lists 6; the official figure is used.",
+        "The brochure PDF is image-only so engine/trim tables could not be read; transmission details are not individually confirmed per engine.",
+        "Photo is of the XUV700, the pre-update model. Claimed mileage, ground clearance, warranty and per-option prices not stated in sources fetched.",
+        "ARAI efficiency, ground clearance, kerb weight and warranty left null: Autocar India says ARAI figures are unpublished and no two sources agreed on the rest."
+      ]
+    },
+    {
+      "id": "mahindra-xuv400",
+      "brand": "Mahindra",
+      "model": "XUV400",
+      "generation": "Launched 2023 (EV)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The XUV400 is Mahindra's compact electric SUV with a 39.4 kWh battery and a 110 kW front motor.",
+      "officialUrl": "https://auto.mahindra.com/suv/xuv400/X400.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2600,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 368,
+          "s": "src-4"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": null,
+          "year": 2025,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Adult 30.38/32, child 43/49 as reported by Carlelo; Carlelo states all Mahindra SUVs listed scored 5 stars."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (per official page data)",
+          "Does not feature ADAS (per official page)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1749000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-39.4",
+          "label": "39.4 kWh battery · 110 kW front motor",
+          "fuel": "ev",
+          "engine": "Front-mounted electric motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 149.6,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 310,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 39.4,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 456,
+              "s": "src-1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 1749000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Mahindra XUV 400 EL EV , Ashiana Brahmananda, Jamshedpur, Jharkhand, India ( Ank Kumar, Infosys Limited ) 03.jpg",
+          "localPath": "/cars/mahindra-xuv400-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Mahindra_XUV_400_EL_EV_%2C_Ashiana_Brahmananda%2C_Jamshedpur%2C_Jharkhand%2C_India_(_Ank_Kumar%2C_Infosys_Limited_)_03.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2023 Mahindra XUV 400 EL in Jamshedpur, India",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra India - XUV400 page",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/suv/xuv400/X400.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Carlelo - Mahindra SUVs BNCAP crash tests analysed",
+          "publisher": "Carlelo",
+          "url": "https://carlelo.com/news/mahindra-suvs-bncap-crash-tests-analysed",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – XUV400 EV specifications",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mahindra/xuv400-ev/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "ZigWheels – XUV400 EV specifications",
+          "publisher": "ZigWheels",
+          "url": "https://www.zigwheels.com/newcars/Mahindra/XUV400-EV/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Official site lists a single price (17.49 lakh); a maximum was not shown.",
+        "Range: \"up to 456 km\" with an asterisk on the official page; the test standard is not stated there (the XUV 3XO EV brochure, which shares the 39.4 kWh pack, quotes 456 km as MIDC P1), so rangeStandard is left null.",
+        "Power 110 kW = 149.6 PS (x1.3596).",
+        "Length, width, height, boot, ground clearance, charging times and warranty not stated in sources read (the brochure PDF is image-only).",
+        "Boot 368 L from third-party pages (CarDekho and ZigWheels agree). Only a battery warranty (8 years / 160,000 km) was stated by them, so vehicle warranty left null."
+      ]
+    },
+    {
+      "id": "mahindra-xev-9e",
+      "brand": "Mahindra",
+      "model": "XEV 9e",
+      "generation": "INGLO platform",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The XEV 9e is Mahindra's electric coupe-style SUV on the INGLO platform with a rear motor and 59 kWh or 79 kWh battery.",
+      "officialUrl": "https://www.mahindraelectricsuv.com/esuv/xev-9e/MXV9.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4789,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1907,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1694,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2775,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 207,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 663,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Adult 32/32, child 45/49 (press release dated 16 Jan 2025); variant tested not specified."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags (front, side, curtain); 7 with driver knee airbag on higher packs",
+          "ESP",
+          "ISOFIX on rear seats",
+          "Level 2 ADAS on higher packs",
+          "TPMS"
+        ]
+      },
+      "warranty": {
+        "v": "HV battery: lifetime warranty for first registered private owner (10 years / 2,00,000 km on change of ownership)",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 2190000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 3050000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-59",
+          "label": "59 kWh battery · 170 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 231.1,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 59,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 522,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "0-100% in 6 h (11.2 kW) / 8.7 h (7.2 kW) wall charger",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "20-80% in 20 min with 140 kW 400A charger input",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2190000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pack One",
+              "priceInr": {
+                "v": 2190000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-79",
+          "label": "79 kWh battery · 210 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 285.5,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 79,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 656,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": null,
+            "dcFastChargeNote": {
+              "v": "20-80% in 20 min with 180 kW 400A charger input (Pack Three)",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mahindra XEV 9E.jpg",
+          "localPath": "/cars/mahindra-xev-9e-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMahindra_XEV_9E.jpg",
+          "author": "Cppfront",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Mahindra XEV 9e on a road in Bangalore, India (2025)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra Electric SUV - XEV 9e page",
+          "publisher": "Mahindra Electric Automobile Ltd",
+          "url": "https://www.mahindraelectricsuv.com/esuv/xev-9e/MXV9.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra XEV 9e brochure (PDF, April 2026)",
+          "publisher": "Mahindra Electric Automobile Ltd",
+          "url": "https://www.mahindraelectricsuv.com/on/demandware.static/-/Library-Sites-eSUVSharedLibrary/default/dweb0d1969/MXV9/XEV9e_BROCHURE_R1_20260428.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Mahindra press release - BE 6 and XEV 9e Bharat NCAP 5 stars",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/press-release/xev-nine-e-and-be-six-create-history.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-01-16"
+        }
+      ],
+      "notes": [
+        "Official page FAQ prices: Pack One 21.90 lakh, Pack Two 24.90 lakh, Pack Three Select 27.90 lakh, Pack Three 30.50 lakh (ex-showroom). The page structured data shows a high price of 30.90 lakh; the FAQ figure 30.50 lakh is used. Battery pack by pack mapping: Pack One 59 kWh; Pack Two 59 or 79 kWh; Pack Three Select 59 kWh; Pack Three 79 kWh (brochure).",
+        "Power 170 kW = 231.1 PS and 210 kW = 285.5 PS (x1.3596). Brochure power/torque: 380 Nm for all packs.",
+        "Range figures are MIDC P1 + P2 (ARAI certification) per brochure; Mahindra also quotes 500+ km real-world for the 79 kWh pack.",
+        "Boot 663 L plus a 150 L frunk. Airbag count: brochure shows 6 on lower packs and 7 on Pack Three/Select.",
+        "Battery-as-a-Service pricing exists (starting 13.90 lakh) but is excluded here."
+      ]
+    },
+    {
+      "id": "mahindra-xev-9s",
+      "brand": "Mahindra",
+      "model": "XEV 9S",
+      "generation": "Unveiled 27 Nov 2025 (INGLO platform)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The XEV 9S is Mahindra's three-row electric SUV on the INGLO platform with a rear motor and 59, 70 or 79 kWh batteries.",
+      "officialUrl": "https://www.mahindraelectricsuv.com/esuv/xev-9s/XEV9.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4737,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1900,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1747,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2762,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 205,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 527,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags (front, side, curtain) on lower packs; 7 with knee airbag on higher packs",
+          "ESP",
+          "ISOFIX on rear seats"
+        ]
+      },
+      "warranty": {
+        "v": "HV battery: lifetime warranty for first registered private owner (10 years / 2,00,000 km on change of ownership)",
+        "s": "src-2"
+      },
+      "price": {
+        "minInr": {
+          "v": 2140000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-59",
+          "label": "59 kWh battery · 170 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 231.1,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 59,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 521,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "0-100% in 6 h (11.2 kW) / 8.7 h (7.2 kW) charger",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "20-80% in 20 min with 140 kW / 400A charger input",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 2140000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Pack One Above",
+              "priceInr": {
+                "v": 2140000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-70",
+          "label": "70 kWh battery · 180 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 244.7,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 70,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 600,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "0-100% in 7 h (11.2 kW) / 10.2 h (7.2 kW) charger",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "20-80% in 20 min with 160 kW / 400A charger input",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "ev-79",
+          "label": "79 kWh battery · 210 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 285.5,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 79,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 679,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "0-100% in 8 h (11.2 kW) / 11.7 h (7.2 kW) charger",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "20-80% in 20 min with 180 kW / 400A charger input",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra Electric SUV - XEV 9S page",
+          "publisher": "Mahindra Electric Automobile Ltd",
+          "url": "https://www.mahindraelectricsuv.com/esuv/xev-9s/XEV9.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "brochure",
+          "label": "Mahindra XEV 9S brochure (PDF)",
+          "publisher": "Mahindra Electric Automobile Ltd",
+          "url": "https://www.mahindraelectricsuv.com/on/demandware.static/-/Library-Sites-eSUVSharedLibrary/default/dwe3169eaa/XEV-9s/PDFs/XEV9S_BROCHURE.pdf",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price 21.40 lakh is from the official page FAQ (Pack One Above 59 kWh). The page structured data lists a low of 19.95 lakh and a high of 30.20 lakh, which conflict with the FAQ; maximum price is therefore left null.",
+        "Brochure range (MIDC P1 + P2): 521 km / 679 km (Pack One Above 59/79 kWh), 600 km / 679 km (Pack Two Above 70/79 kWh), 679 km (Pack Three and Pack Three Above). Range and charge times are mapped to the battery size from the brochure row text.",
+        "Seats: 7-seater, or 6-seater with second-row captain seats on selected packs. Boot 527 L is with the third row folded; 150 L frunk.",
+        "Power 170 kW = 231.1 PS, 180 kW = 244.7 PS, 210 kW = 285.5 PS (x1.3596).",
+        "No NCAP rating recorded: one aggregator article claimed a Bharat NCAP score for the XEV 9S but looked unreliable (no date, inconsistent prices), so it was not used. No Commons photo found."
+      ]
+    },
+    {
+      "id": "mahindra-be-6",
+      "brand": "Mahindra",
+      "model": "BE 6",
+      "generation": "INGLO platform (marketed as BE 6 SPORTEQ)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The BE 6 is Mahindra's sporty coupe-style electric SUV on the INGLO platform with a rear motor and 59, 70 or 79 kWh batteries.",
+      "officialUrl": "https://www.mahindraelectricsuv.com/esuv/be6sporteq.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4371,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1907,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1627,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2775,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 207,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 455,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Adult 31.97/32, child 45/49 (press release dated 16 Jan 2025); variant tested not specified."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (7 on FOUR / Launch Edition / FE FOUR with knee airbag)",
+          "ABS with EBD",
+          "Electronic Stability Control",
+          "Hill Hold Assist"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1945000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2695000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-59",
+          "label": "59 kWh battery · 170 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 231.1,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 59,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 573,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "Portable 13A charger up to 3.2 kW; wall charger 7.2 kW or 11.2 kW",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "20 min to 80% SOC with a 140 kW DC charger",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1945000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "ONE",
+              "priceInr": {
+                "v": 1945000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-70",
+          "label": "70 kWh battery · 180 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 244.7,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 70,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 651,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "Portable 13A charger up to 3.2 kW; wall charger 7.2 kW or 11.2 kW",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "20 min with a 160 kW DC charger",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "ev-79",
+          "label": "79 kWh battery · 210 kW rear motor",
+          "fuel": "ev",
+          "engine": "Rear-mounted permanent magnet synchronous motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 285.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 380,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 79,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 708,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "Portable 13A charger up to 3.2 kW; wall charger 7.2 kW or 11.2 kW",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "20 min with a 180 kW DC charger",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mahindra BE6 pic 2.jpg",
+          "localPath": "/cars/mahindra-be-6-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMahindra_BE6_pic_2.jpg",
+          "author": "Cppfront",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Mahindra BE 6 photographed in 2025",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Mahindra Electric SUV - BE 6 SPORTEQ page",
+          "publisher": "Mahindra Electric Automobile Ltd",
+          "url": "https://www.mahindraelectricsuv.com/esuv/be6sporteq.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Mahindra press release - BE 6 and XEV 9e Bharat NCAP 5 stars",
+          "publisher": "Mahindra & Mahindra Ltd",
+          "url": "https://auto.mahindra.com/press-release/xev-nine-e-and-be-six-create-history.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-01-16"
+        }
+      ],
+      "notes": [
+        "All specification values come from the machine-readable data embedded in the official BE 6 SPORTEQ page (the brochure PDF is image-only). Price range 19.45 lakh (ONE, 59 kWh) to 26.95 lakh (FOUR and LAUNCH EDITION, 79 kWh) from the page FAQ.",
+        "Ranges are MIDC P1 + P2 as stated on the page: 573 km (59 kWh), 651 km (70 kWh), 708 km (79 kWh); these exceed the earlier 556/682 km figures quoted at launch by third parties.",
+        "Power 170 kW = 231.1 PS, 180 kW = 244.7 PS, 210 kW = 285.5 PS (x1.3596). Frunk 45 L; boot 455 L.",
+        "The official page lists additional variants (TWO, THREE, THREE+, FOUR, LAUNCH EDITION, FE, FE FOUR) without individual prices.",
+        "Battery-as-a-Service pricing (from 11.45 lakh) exists but is excluded.",
+        "Warranty not captured from the sources read."
+      ]
+    }
+  ]
+}

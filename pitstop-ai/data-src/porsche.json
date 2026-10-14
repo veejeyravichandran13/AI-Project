@@ -1,0 +1,1213 @@
+{
+  "brand": {
+    "name": "Porsche",
+    "slug": "porsche",
+    "country": "Germany",
+    "parent": "Volkswagen Group",
+    "indiaWebsite": "https://www.porsche.com/india/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "porsche-911",
+      "brand": "Porsche",
+      "model": "911",
+      "generation": "992 (992.2 facelift engines)",
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "src-1"
+      },
+      "summary": "Rear-engined sports coupe sold in India as the Carrera, GTS, GT3 and Turbo S with PDK automatic gearboxes.",
+      "officialUrl": "https://www.porsche.com/india/models/911/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_911_(992)",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 135,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Rear-axle steering",
+          "Ceramic composite brakes (as listed)",
+          "Adaptive dampers"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 21100000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 38000000,
+          "s": "src-5"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2981,
+            "s": "src-4"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 394,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 450,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "carrera",
+          "label": "3.0 L twin-turbo flat-six · PDK",
+          "fuel": "petrol",
+          "engine": "3.0 L twin-turbo flat-six",
+          "transmission": "PDK dual-clutch automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 3591,
+            "s": "src-3"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 541,
+            "s": "src-4"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "gts-hybrid",
+          "label": "3.6 L T-Hybrid flat-six (Carrera 4 GTS) · PDK",
+          "fuel": "strong-hybrid",
+          "engine": "3.6 L turbocharged flat-six with electric motor",
+          "transmission": "PDK dual-clutch automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 3996,
+            "s": "src-4"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 510,
+            "s": "src-4"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "gt3",
+          "label": "4.0 L naturally aspirated flat-six (GT3)",
+          "fuel": "petrol",
+          "engine": "4.0 L naturally aspirated flat-six",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 3591,
+            "s": "src-4"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 711,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 800,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-s",
+          "label": "3.6 L T-Hybrid twin-turbo flat-six (Turbo S) · PDK",
+          "fuel": "strong-hybrid",
+          "engine": "3.6 L twin-turbo flat-six with electric motor",
+          "transmission": "PDK dual-clutch automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Porsche 992 Carrera S coupe IMG 5832.jpg",
+          "localPath": "/cars/porsche-911-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_992_Carrera_S_coupe_IMG_5832.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Porsche 911 (992) Carrera S coupe, front three-quarter, Germany, 2021; pre-2024 facelift.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Porsche India - home page model line-up (body styles and seating)",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "url": "https://www.porsche.com/india/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarWale - Porsche cars price list",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/porsche-cars/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India - 911",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/porsche/911",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Porsche 911 (992)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porsche_911_(992)",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - Porsche cars price list",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/cars/Porsche",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Porsche India's page lists the 911 as '2+2 seats' and shows no prices. Starting price Rs 2.11 crore is CarWale's 'onwards' figure; CarDekho lists Rs 2.00-3.80 crore (the Rs 3.80 crore top is used). Prices differ across third parties, so treat as indicative.",
+        "Power and torque are Wikipedia's 992.2 figures (Carrera 394 PS / 450 Nm; GTS 541 PS; GT3 510 PS; Turbo S 711 PS / 800 Nm). Autocar India lists the same engines/outputs (hp) but gives GT3 torque 450 Nm and GTS torque 610 Nm versus Wikipedia's 470 / 569 Nm, so those torques are left null.",
+        "Which variants are actually on sale in India comes from Autocar India's variant table (Carrera, Carrera 4 GTS, GT3, Turbo S); per-variant prices are not published. Autocar quotes 8.4-9.62 km/l across the range (not recorded).",
+        "The GTS and Turbo S are T-Hybrid models per Wikipedia; fuel is tagged strong-hybrid on that basis. 135 L is the front boot as stated by Autocar."
+      ]
+    },
+    {
+      "id": "porsche-panamera",
+      "brand": "Porsche",
+      "model": "Panamera",
+      "generation": "3rd generation (976)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Four-door luxury sports saloon sold in India with a 2.9 L V6 and a 4.0 L V8 (GTS), both with an 8-speed PDK.",
+      "officialUrl": "https://www.porsche.com/india/models/panamera/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Panamera",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5052,
+          "s": "src-4"
+        },
+        "widthMm": {
+          "v": 1937,
+          "s": "src-4"
+        },
+        "heightMm": {
+          "v": 1423,
+          "s": "src-4"
+        },
+        "wheelbaseMm": {
+          "v": 2950,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360-degree camera",
+          "ADAS Level 2 (as listed)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 17900000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 23500000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2894,
+            "s": "src-4"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 353,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "v6",
+          "label": "2.9 L twin-turbo V6 · 8-speed PDK",
+          "fuel": "petrol",
+          "engine": "2.9 L twin-turbo V6",
+          "transmission": "8-speed PDK dual-clutch"
+        },
+        {
+          "displacementCc": {
+            "v": 3996,
+            "s": "src-4"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 500,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 660,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "gts-v8",
+          "label": "4.0 L twin-turbo V8 (GTS) · 8-speed PDK",
+          "fuel": "petrol",
+          "engine": "4.0 L twin-turbo V8",
+          "transmission": "8-speed PDK dual-clutch"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Porsche Panamera 4 (2024) (53622872537).jpg",
+          "localPath": "/cars/porsche-panamera-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_Panamera_4_(2024)_(53622872537).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "caption": "Third-generation Porsche Panamera 4 (2024) on show in the USA.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Porsche India - home page model line-up (body styles and seating)",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "url": "https://www.porsche.com/india/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarWale - Porsche cars price list",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/porsche-cars/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India - Panamera",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/porsche/panamera",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Porsche Panamera",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porsche_Panamera",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - Porsche cars price list",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/cars/Porsche",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Porsche India lists '4/5 seats'; max 5 used (Autocar lists a 4-seater). No official price is shown; Rs 1.79 crore is CarWale's and Autocar's 'onwards' figure, Rs 2.35 crore is Autocar's top. CarDekho lists Rs 1.71-2.33 crore, so third parties differ.",
+        "Power/torque are Wikipedia's third-generation figures (353 PS / 500 Nm V6; 500 PS / 660 Nm GTS V8), consistent with Autocar India's table. Per-variant ex-showroom prices are not published (Autocar shows on-road prices only), so option prices are null.",
+        "Autocar quotes about 9.2 km/l (ARAI) for the model without splitting engines, so efficiency is not recorded. Dimensions are Wikipedia's global figures."
+      ]
+    },
+    {
+      "id": "porsche-taycan",
+      "brand": "Porsche",
+      "model": "Taycan",
+      "generation": "2025 facelift",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Electric four-door sports saloon offered in India as the Taycan, 4S and Turbo with 89 kWh or 105 kWh batteries.",
+      "officialUrl": "https://www.porsche.com/india/models/taycan/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4963,
+          "s": "src-4"
+        },
+        "widthMm": {
+          "v": 1966,
+          "s": "src-4"
+        },
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2900,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 407,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2019,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the Taycan 4S Performance Battery (left-hand drive, European market): adult occupant 85%, child occupant 83%; not an India rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 20100000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 27400000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": null,
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 20100000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "rwd",
+          "label": "Taycan (rear-wheel drive)",
+          "fuel": "ev",
+          "engine": "Electric motor (details not stated)",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": null,
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 20900000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "4s",
+          "label": "Taycan 4S (all-wheel drive)",
+          "fuel": "ev",
+          "engine": "Electric motors (details not stated)",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 884,
+            "s": "src-4"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": null,
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 27400000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "turbo",
+          "label": "Taycan Turbo (all-wheel drive)",
+          "fuel": "ev",
+          "engine": "Dual permanent magnet synchronous motors",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Porsche Taycan 4S EV - 93kWh (571PS) Electric - Blue - 02-2025, Front.jpg",
+          "localPath": "/cars/porsche-taycan-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Porsche_Taycan_4S_EV_-_93kWh_(571PS)_Electric_-_Blue_-_02-2025%2C_Front.jpg",
+          "author": "Harvey Bold",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "2022 Porsche Taycan 4S, front three-quarter, UK; pre-2024 facelift.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Porsche India - home page model line-up (body styles and seating)",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "url": "https://www.porsche.com/india/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarWale - Porsche cars price list",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/porsche-cars/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India - Taycan",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/porsche/taycan",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Porsche Taycan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - Porsche cars price list",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/cars/Porsche",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Prices (Rs 2.01 / 2.09 / 2.74 crore for Taycan / 4S / Turbo) and the '89 kWh and 105 kWh' battery options are from Autocar India; CarWale also starts at Rs 2.01 crore, CarDekho lists Rs 1.70-2.70 crore.",
+        "Claimed range differs: Autocar India says 630-668 km (WLTP), Wikipedia says 592-634 km (WLTP) for the 2025 cars. Battery and range are not given per variant, so they are left null.",
+        "Turbo power: Wikipedia states 650 kW, converted at kW x 1.3596 = 884 PS (matches Autocar's 884 hp). Turbo torque is 940 Nm (Wikipedia) vs 890 Nm (Autocar), so it is left null. Wikipedia's wheelbase is 2,900 mm; Autocar lists 2,651 mm, which is likely the pre-facelift figure; Wikipedia used. Boot 407 L is rear boot per Autocar (plus 81 L frunk).",
+        "Porsche India lists '4/5 seats'; max 5 used."
+      ]
+    },
+    {
+      "id": "porsche-cayenne",
+      "brand": "Porsche",
+      "model": "Cayenne",
+      "generation": "3rd generation (E3, 2023 facelift; also sold as Cayenne Coupe)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Mid-size luxury SUV sold in India with a 3.0 L V6 and a 4.0 L V8 (GTS) and an 8-speed automatic.",
+      "officialUrl": "https://www.porsche.com/india/models/cayenne/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2895,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": null,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result for the European-market third-generation Cayenne (adult occupant 91%, child occupant 89%); year not stated on the page fetched; not an India rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360-degree camera",
+          "Adaptive cruise control"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 15100000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 21100000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2995,
+            "s": "src-4"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 353,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "v6",
+          "label": "3.0 L turbo V6 · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "3.0 L turbo V6",
+          "transmission": "8-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 3996,
+            "s": "src-4"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 500,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 660,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "gts-v8",
+          "label": "4.0 L twin-turbo V8 (GTS) · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "4.0 L twin-turbo V8",
+          "transmission": "8-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Porsche Cayenne (III, Facelift) – f 01012025.jpg",
+          "localPath": "/cars/porsche-cayenne-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_Cayenne_(III%2C_Facelift)_%E2%80%93_f_01012025.jpg",
+          "author": "© M 93",
+          "license": "CC BY-SA 3.0 de",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+          "caption": "Third-generation Porsche Cayenne (post-2023 facelift), front three-quarter, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Porsche India - home page model line-up (body styles and seating)",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "url": "https://www.porsche.com/india/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarWale - Porsche cars price list",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/porsche-cars/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India - Cayenne",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/porsche/cayenne",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Porsche Cayenne",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - Porsche cars price list",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/cars/Porsche",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Porsche India: 'up to 5 seats', no price. Rs 1.51 crore is CarWale's and Autocar's 'onwards' price, Rs 2.11 crore is Autocar's top; CarDekho lists Rs 1.39-1.94 crore for the Cayenne and Rs 1.44-1.95 crore for the Cayenne Coupe (CarWale: Coupe from Rs 1.57 crore). Third parties differ.",
+        "Cayenne Coupe is a body-style variant and is not a separate entry. Power/torque are Wikipedia's 353 PS / 500 Nm (V6) and 500 PS / 660 Nm (GTS), matching Autocar's table (which gives 3,993 cc for the V8; Wikipedia's 3,996 cc used).",
+        "Autocar India quotes 7.72-8.73 km/l (WLTP), not split by engine, so not recorded. Euro NCAP year was not stated on the Wikipedia page fetched."
+      ]
+    },
+    {
+      "id": "porsche-macan",
+      "brand": "Porsche",
+      "model": "Macan",
+      "generation": "1st generation (95B, 2024 update), petrol",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Compact luxury SUV with a 2.0 L turbo petrol, PDK gearbox and all-wheel drive, sold alongside the electric Macan.",
+      "officialUrl": "https://www.porsche.com/india/models/macan/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Macan",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4726,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1922,
+          "s": "src-3"
+        },
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2807,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 187,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 488,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2014,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Euro NCAP result from 2014 for the first-generation Macan (adult occupant 88%, child occupant 87%); European-market, not an India rating."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360-degree camera",
+          "Ventilated front seats"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 8965000,
+          "s": "src-2"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1984,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 400,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 8965000,
+            "s": "src-2"
+          },
+          "trims": [],
+          "id": "petrol-2-0",
+          "label": "2.0 L turbo petrol · 7-speed PDK",
+          "fuel": "petrol",
+          "engine": "2.0 L turbo 4-cylinder",
+          "transmission": "7-speed PDK dual-clutch"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Porsche Macan T (95B) front.jpg",
+          "localPath": "/cars/porsche-macan-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_Macan_T_(95B)_front.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Porsche Macan T (95B, 2024 model year), front three-quarter, Japan.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Porsche India - home page model line-up (body styles and seating)",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "url": "https://www.porsche.com/india/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarWale - Porsche cars price list",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/porsche-cars/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India - Macan",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/porsche/macan",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Porsche Macan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - Porsche cars price list",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/cars/Porsche",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price Rs 89.65 lakh is shown by both CarWale and CarDekho (Autocar India lists Rs 91.09 lakh). Porsche India shows no price. Autocar's page says the petrol Macan was to be discontinued by mid-2026; CarWale and CarDekho still list it on sale as of retrieval, so it is included.",
+        "Autocar India lists 265 hp / 400 Nm; Wikipedia's older base car is 252 PS / 370 Nm. Because of the hp/PS ambiguity and generation mix, power is left null; torque and dimensions are Autocar's India-page figures (Wikipedia gives width 1,923 mm).",
+        "Autocar quotes 7-12 km/l without a test basis, so efficiency is not recorded. Euro NCAP result (2014) is for the first-generation Macan."
+      ]
+    },
+    {
+      "id": "porsche-macan-electric",
+      "brand": "Porsche",
+      "model": "Macan Electric",
+      "generation": "2nd generation (electric)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Electric compact luxury SUV on Porsche's 800-volt platform, sold in India in three variants.",
+      "officialUrl": "https://www.porsche.com/india/models/macan/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Macan",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 12200000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 17500000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 95,
+              "s": "src-4"
+            },
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "11 kW AC (global specification)",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "Up to 270 kW DC (global specification)",
+              "s": "src-4"
+            }
+          },
+          "fromPriceInr": {
+            "v": 12200000,
+            "s": "src-2"
+          },
+          "trims": [],
+          "id": "ev",
+          "label": "Macan Electric (3 variants)",
+          "fuel": "ev",
+          "engine": "Electric motors (details not stated)",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Porsche XAB Macan Turbo Electric Provance (1).jpg",
+          "localPath": "/cars/porsche-macan-electric-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_XAB_Macan_Turbo_Electric_Provance_(1).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Electric Porsche Macan (XAB) on display, front view, South Korea.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Porsche India - home page model line-up (body styles and seating)",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "url": "https://www.porsche.com/india/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarWale - Porsche cars price list",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/porsche-cars/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India - Macan Electric",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/porsche/macan-electric",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia - Porsche Macan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - Porsche cars price list",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/cars/Porsche",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "CarWale, CarDekho and Autocar all start at Rs 1.22 crore; the top price Rs 1.75 crore is Autocar's (CarDekho: Rs 1.73 crore). Autocar says there are 3 variants but does not name them.",
+        "Claimed range is 591-641 km per Autocar India (591-613 km WLTP per Wikipedia), which is not split by variant, so it is left null. Wikipedia's variant specs (Macan Electric 250 kW / 563 Nm; 4: 300 kW; 4S: 330 kW; Turbo: 470 kW) are global and which are sold in India is unconfirmed, so power/torque are null.",
+        "Battery 95 kWh is Wikipedia's global figure (not stated as gross or net on the page fetched)."
+      ]
+    },
+    {
+      "id": "porsche-cayenne-electric",
+      "brand": "Porsche",
+      "model": "Cayenne Electric",
+      "generation": "4th generation (electric, 2026)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Electric version of the Cayenne with a 113 kWh, 800-volt battery and up to 400 kW DC charging.",
+      "officialUrl": "https://www.porsche.com/india/models/cayenne/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4985,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1980,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1674,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 3024,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 17700000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 22800000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 113,
+              "s": "src-3"
+            },
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": {
+              "v": "Up to 400 kW DC; 10-80% in as little as 16 minutes (global specification)",
+              "s": "src-3"
+            }
+          },
+          "fromPriceInr": {
+            "v": 17700000,
+            "s": "src-2"
+          },
+          "trims": [],
+          "id": "ev",
+          "label": "Cayenne Electric (113 kWh)",
+          "fuel": "ev",
+          "engine": "Electric motors (details not stated)",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Porsche Cayenne Electric IMG 6129.jpg",
+          "localPath": "/cars/porsche-cayenne-electric-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_Cayenne_Electric_IMG_6129.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Porsche Cayenne Electric, front three-quarter, Germany, 2026.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Porsche India - home page model line-up (body styles and seating)",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "url": "https://www.porsche.com/india/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarWale - Porsche cars price list",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/porsche-cars/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia - Porsche Cayenne",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Porsche cars price list",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/cars/Porsche",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price Rs 1.77 crore is shown by CarWale and CarDekho; the top price Rs 2.28 crore is CarDekho's (an earlier search snippet showed Rs 2.26 crore). Porsche India shows no price.",
+        "Wikipedia lists global variants: base 325 kW, S 490 kW, Turbo 850 kW; which are sold in India is unconfirmed, so power/torque are null. WLTP range was not stated on the page fetched. Motor layout and gearbox are not stated by the sources."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "brand": {
+    "name": "Maserati",
+    "slug": "maserati",
+    "country": "Italy",
+    "parent": "Stellantis",
+    "indiaWebsite": "https://www.maserati.com/in/en",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "maserati-grecale",
+      "brand": "Maserati",
+      "model": "Grecale",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Maserati's mid-size luxury SUV, sold in India with a 2.0 L turbo petrol (GT, Modena) and a 3.0 L twin-turbo V6 (Trofeo).",
+      "officialUrl": "https://www.maserati.com/in/en",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Grecale",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2901,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 64,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Auto 3-zone climate control",
+          "Front ventilated seats",
+          "Panoramic sunroof"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 13100000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-2.0-at",
+          "label": "2.0 L turbo petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L 4-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 1995,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 300,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 10.87,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-3.0-v6-at",
+          "label": "3.0 L twin-turbo V6 petrol · 8-speed automatic",
+          "fuel": "petrol",
+          "engine": "3.0 L Nettuno twin-turbo V6",
+          "displacementCc": {
+            "v": 3000,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 530,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 620,
+            "s": "src-1"
+          },
+          "transmission": "8-speed torque-converter automatic",
+          "efficiency": {
+            "value": 8.85,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maserati Grecale GT 1X7A6371.jpg",
+          "localPath": "/cars/maserati-grecale-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaserati_Grecale_GT_1X7A6371.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Maserati Grecale GT photographed in Böblingen, Germany (2023)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Grecale",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/grecale",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Grecale specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/grecale/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Maserati's India site could not be fetched (HTTP 403), so all facts come from third-party/Wikipedia pages; officialUrl is the brand's India site root, not a verified model page.",
+        "Third-party price sites disagree on Maserati prices (CarWale, CarTrade, Autocar India differ by several lakh); Autocar India figures used.",
+        "Autocar India's headline range is 1.31-2.00 crore, but its variant list shows GT 1.53, Modena 1.64, Trofeo 2.33 crore, and CarWale shows up to 2.05 crore; the lowest stated price is used as minimum, maximum and per-option prices left null.",
+        "Torque stated only for the V6. Length/width/boot/kerb weight left null because Autocar India and Wikipedia disagree (e.g. boot 570 L vs 535 L).",
+        "No NCAP rating found."
+      ]
+    },
+    {
+      "id": "maserati-grecale-folgore",
+      "brand": "Maserati",
+      "model": "Grecale Folgore",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "All-electric version of the Grecale with dual motors and all-wheel drive, sold in India as a single variant.",
+      "officialUrl": "https://www.maserati.com/in/en",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Grecale",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 2903,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "Panoramic sunroof (optional)",
+          "Front and rear parking sensors",
+          "12.3-inch driver and infotainment displays"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 18900000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-awd",
+          "label": "105 kWh battery · dual motor AWD",
+          "fuel": "ev",
+          "engine": "Dual permanent magnet synchronous motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 558,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 820,
+            "s": "src-1"
+          },
+          "transmission": "Single-speed automatic",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 105,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 501,
+              "s": "src-1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "Up to 22 kW AC",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "Up to 150 kW DC",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 18900000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maserati Grecale Folgore (2024) (54093864426).jpg",
+          "localPath": "/cars/maserati-grecale-folgore-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaserati_Grecale_Folgore_(2024)_(54093864426).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "caption": "Rear three-quarter view of a 2024 Maserati Grecale Folgore, USA",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – Grecale Folgore",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/grecale-folgore",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Grecale Folgore specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/grecale-folgore/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India – Grecale specifications (seats, airbags)",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/grecale/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Maserati's India site could not be fetched (HTTP 403), so all facts come from third-party/Wikipedia pages; officialUrl is the brand's India site root, not a verified model page.",
+        "Third-party price sites disagree on Maserati prices (CarWale, CarTrade, Autocar India differ by several lakh); Autocar India figures used.",
+        "Power quoted as 550 hp by Autocar India; treated as bhp and converted (x1.0139) to 558 PS, so it may overstate by a few PS if the maker's figure is metric.",
+        "Range 501 km is stated by Autocar as 'the carmaker's internal tests', not a named standard. 105 kWh is gross; Autocar says 97 kWh usable.",
+        "Seats and airbags are taken from Autocar's page for the petrol Grecale (same body); the Folgore page does not state them.",
+        "No NCAP rating found."
+      ]
+    },
+    {
+      "id": "maserati-granturismo",
+      "brand": "Maserati",
+      "model": "GranTurismo",
+      "generation": "2nd generation (2023 onwards)",
+      "bodyType": "coupe",
+      "seats": {
+        "v": 4,
+        "s": "src-2"
+      },
+      "summary": "Maserati's front-engined 2+2 grand tourer, sold in India with a 3.0 L twin-turbo V6 and all-wheel drive in Modena and Trofeo trims.",
+      "officialUrl": "https://www.maserati.com/in/en",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4959,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1957,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1353,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2929,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 172,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 70,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1895,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "Electronic stability control",
+          "Adaptive cruise control",
+          "Lane-keeping assist",
+          "Blind-spot monitoring",
+          "360-degree camera"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 25400000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "modena",
+          "label": "3.0 L twin-turbo V6 · 8-speed automatic · AWD (Modena)",
+          "fuel": "petrol",
+          "engine": "3.0 L Nettuno twin-turbo V6",
+          "displacementCc": {
+            "v": 2992,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 490,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 600,
+            "s": "src-3"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 25400000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Modena",
+              "priceInr": {
+                "v": 25400000,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "trofeo",
+          "label": "3.0 L twin-turbo V6 · 8-speed automatic · AWD (Trofeo)",
+          "fuel": "petrol",
+          "engine": "3.0 L Nettuno twin-turbo V6",
+          "displacementCc": {
+            "v": 2992,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 550,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 650,
+            "s": "src-3"
+          },
+          "transmission": "8-speed automatic",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maserati GranTurismo Modena 2023 Front View.jpg",
+          "localPath": "/cars/maserati-granturismo-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaserati_GranTurismo_Modena_2023_Front_View.jpg",
+          "author": "Stefan Oberreuter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Front three-quarter view of a 2023 Maserati GranTurismo Modena, Germany",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – GranTurismo",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/granturismo",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – GranTurismo specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/granturismo/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – GranTurismo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Maserati's India site could not be fetched (HTTP 403), so all facts come from third-party/Wikipedia pages; officialUrl is the brand's India site root, not a verified model page.",
+        "Third-party price sites disagree on Maserati prices (CarWale, CarTrade, Autocar India differ by several lakh); Autocar India figures used.",
+        "Only the base price (2.54 crore) is clearly labelled ex-showroom on Autocar India; its other figures are on-road. Other sources: CarTrade 2.57 (Modena) / 2.74 (Trofeo) crore; launch articles 2.72 / 2.90 crore. Whether 2.54 crore is the Modena is not stated, so it is attached to Modena as the lowest price only.",
+        "Seat count: Autocar India says 4; CarTrade says 5. 2+2 coupe, 4 used.",
+        "Power/torque (PS) from Wikipedia. Mileage quoted by Autocar as 9.57-9.85 km/l is not split by trim and is omitted.",
+        "No NCAP rating found. A GranCabrio and Folgore exist but were not confirmed as sold in India on the pages fetched."
+      ]
+    },
+    {
+      "id": "maserati-mcpura",
+      "brand": "Maserati",
+      "model": "MCPura",
+      "generation": null,
+      "bodyType": "coupe",
+      "seats": {
+        "v": 2,
+        "s": "src-2"
+      },
+      "summary": "Maserati's mid-engined V6 supercar (the renamed MC20), available in India as a coupe and as the Cielo convertible.",
+      "officialUrl": "https://www.maserati.com/in/en",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_MC20",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4667,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1965,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1214,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2700,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 150,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 60,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1560,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "ABS with EBD and brake assist",
+          "Double-wishbone front, multi-link rear suspension"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 41200000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 51200000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "v6-dct",
+          "label": "3.0 L twin-turbo V6 · 8-speed DCT · RWD",
+          "fuel": "petrol",
+          "engine": "3.0 L Nettuno twin-turbo V6 (mid-mounted)",
+          "displacementCc": {
+            "v": 3000,
+            "s": "src-2"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 639,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 720,
+            "s": "src-1"
+          },
+          "transmission": "8-speed dual-clutch",
+          "efficiency": {
+            "value": 8.55,
+            "unit": "km/l",
+            "basis": "ARAI (as quoted by Autocar India; lower end of 8.55-8.70)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 41200000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Coupe",
+              "priceInr": {
+                "v": 41200000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Cielo (convertible)",
+              "priceInr": {
+                "v": 51200000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maserati MCPura Cielo Auto Zuerich 2025 DSC 3594.jpg",
+          "localPath": "/cars/maserati-mcpura-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaserati_MCPura_Cielo_Auto_Zuerich_2025_DSC_3594.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear three-quarter view of a Maserati MCPura Cielo at Auto Zürich 2025",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "Autocar India – MCPura",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/mcpura",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – MCPura specifications",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/maserati/mcpura/specifications",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Maserati's India site could not be fetched (HTTP 403), so all facts come from third-party/Wikipedia pages; officialUrl is the brand's India site root, not a verified model page.",
+        "Third-party price sites disagree on Maserati prices (CarWale, CarTrade, Autocar India differ by several lakh); Autocar India figures used.",
+        "Power quoted as 630 hp by Autocar India; treated as bhp and converted (x1.0139) to 639 PS. The drivetrain (rear-wheel drive) is not stated on the pages fetched; label is based on general knowledge of the MC20 and should be treated as unverified.",
+        "No NCAP rating found."
+      ]
+    }
+  ]
+}

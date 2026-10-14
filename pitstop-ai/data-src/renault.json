@@ -1,0 +1,1038 @@
+{
+  "brand": {
+    "name": "Renault",
+    "slug": "renault",
+    "country": "France",
+    "parent": "Renault Group",
+    "indiaWebsite": "https://www.renault.co.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "renault-kwid",
+      "brand": "Renault",
+      "model": "Kwid",
+      "generation": "1st generation (2019 facelift, India)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Entry-level five-seat hatchback from Renault India with a 1.0 L three-cylinder petrol engine, manual or AMT, and a CNG option.",
+      "officialUrl": "https://www.renault.co.in/cars/renault-kwid.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Kwid",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": {
+          "v": 1579,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1478,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2422,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 184,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 279,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "ABS",
+          "Traction control system",
+          "Rear-view camera with guidelines",
+          "Hill start assist (Evolution)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 452900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 585000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.0 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-3"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 69,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 92.5,
+            "s": "src-3"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.46,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 452900,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Evolution",
+              "priceInr": {
+                "v": 452900,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Climber",
+              "priceInr": {
+                "v": 514900,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.0 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-3"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 69,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 92.5,
+            "s": "src-3"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 22.3,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 490000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Evolution AMT",
+              "priceInr": {
+                "v": 490000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Climber AMT",
+              "priceInr": {
+                "v": 561000,
+                "s": "src-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.0 L petrol-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.0 L 3-cylinder petrol with CNG kit",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-3"
+          },
+          "cylinders": 3,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 523000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Evolution CNG",
+              "priceInr": {
+                "v": 523000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Climber CNG",
+              "priceInr": {
+                "v": 585000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2019 Renault Kwid RXT Facelift.png",
+          "localPath": "/cars/renault-kwid-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Renault_Kwid_RXT_Facelift.png",
+          "author": "The Drivers Hub",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2019 Renault Kwid RXT facelift (India model).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Renault India – Kwid page",
+          "publisher": "Renault India Pvt Ltd",
+          "url": "https://www.renault.co.in/cars/renault-kwid.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Renault Kwid",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Renault_Kwid",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kwid",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/renault/kwid",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Renault India lists Evolution (INR 4,52,900) and Climber (INR 5,14,900); other prices (AMT, CNG, maximum) are from CarDekho.",
+        "Power: CarDekho lists 68 bhp, converted to about 69 PS (bhp x 1.0139); Wikipedia lists 67 hp (50 kW) and 91 Nm. CarDekho torque 92.5 Nm used.",
+        "CarDekho says 2 to 6 airbags depending on variant, so standard airbag count is left null. Renault India states 17 standard safety features.",
+        "Only older Global NCAP results (2016, pre-facelift: 0 to 1 star adult) exist for earlier Kwid versions per Wikipedia; no rating for the current India model was found, so ncap is null.",
+        "Dimensions width, height and wheelbase are from Wikipedia (India 2015/facelift share the same dimensions); length varies 3,679 to 3,740 mm so is omitted."
+      ]
+    },
+    {
+      "id": "renault-triber",
+      "brand": "Renault",
+      "model": "Triber",
+      "generation": "1st generation (launched 2019; facelift)",
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-3"
+      },
+      "summary": "Compact seven-seat MPV from Renault India with a 1.0 L petrol engine in naturally aspirated and turbo forms.",
+      "officialUrl": "https://www.renault.co.in/cars/renault-triber.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Triber",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3990,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1739,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1643,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2636,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 182,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 625,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 947,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 4,
+          "adultOccupantStars": 4,
+          "childOccupantStars": 3,
+          "year": 2021,
+          "protocol": "Global NCAP 1.0 (similar to Latin NCAP 2013)",
+          "s": "src-2",
+          "note": "2021 India test: adult 11.62/17.00, child 27.00/49.00 per Wikipedia, on an earlier car with fewer airbags than today's 6-airbag standard."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Front and rear parking sensors",
+          "Tyre pressure monitoring",
+          "Speed alert warning",
+          "21 standard safety features (per Renault India)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 580875,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 921000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-na-mt",
+          "label": "1.0 L petrol (72 PS) · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 580875,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Authentic",
+              "priceInr": {
+                "v": 580875,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Evolution",
+              "priceInr": {
+                "v": 673605,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Techno",
+              "priceInr": {
+                "v": 744120,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Emotion",
+              "priceInr": {
+                "v": 805350,
+                "s": "src-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-na-amt",
+          "label": "1.0 L petrol (72 PS) · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 17,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "Emotion AMT",
+              "priceInr": {
+                "v": 853000,
+                "s": "src-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-turbo-mt",
+          "label": "1.0 L turbo petrol (100 PS) · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder turbo petrol (TCe 100)",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 100,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 180,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21,
+            "unit": "km/l",
+            "basis": "Claimed by Renault India (basis not stated on page)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 785000,
+            "s": "src-3"
+          },
+          "trims": [
+            {
+              "name": "Evolution Turbo",
+              "priceInr": {
+                "v": 785000,
+                "s": "src-3"
+              }
+            },
+            {
+              "name": "Techno Turbo",
+              "priceInr": {
+                "v": 854000,
+                "s": "src-3"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 26.jpg",
+          "localPath": "/cars/renault-triber-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show%2C_Bangalore_(2025)_26.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Renault Triber at the 4th International Auto Show, Bangalore, 2025.",
+          "match": "exact"
+        },
+        {
+          "file": "File:Renault Triber (front view).png",
+          "localPath": "/cars/renault-triber-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_Triber_(front_view).png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "Renault Triber front view (2019 launch car, pre-facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Renault India – Triber page",
+          "publisher": "Renault India Pvt Ltd",
+          "url": "https://www.renault.co.in/cars/renault-triber.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Renault Triber",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Renault_Triber",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Triber",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/renault/triber",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Triber",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/renault/triber",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarWale - Triber",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/renault-cars/triber/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Renault India states 100 PS / 180 Nm for the turbo and 72 PS / 96 Nm for the naturally aspirated engine; Wikipedia lists 101 PS for the turbo. The page footnotes the 21 km/l figure with an asterisk; the test basis is not stated.",
+        "Boot 625 L is the five-seat figure per Renault India (84 L with all seven seats up per CarDekho).",
+        "The turbo and automatic variant prices and maximum price come from CarDekho; Triber turbo availability with an AMT was not seen.",
+        "NCAP rating is from the earlier 2021 test; Wikipedia also reports a 2024 South Africa test (2 stars) that is a different market.",
+        "ARAI mileage for 1.0 L petrol MT left null: CarDekho states 20 km/l and CarWale 21 km/l."
+      ]
+    },
+    {
+      "id": "renault-kiger",
+      "brand": "Renault",
+      "model": "Kiger",
+      "generation": "1st generation (launched 2021; facelift)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Sub-4-metre compact SUV from Renault India with 1.0 L naturally aspirated or turbo petrol engines.",
+      "officialUrl": "https://www.renault.co.in/cars/renault-kiger.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Kiger",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3991,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1750,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1600,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2500,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 205,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 405,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 1012,
+          "s": "src-3"
+        }
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 4,
+          "adultOccupantStars": 4,
+          "childOccupantStars": 2,
+          "year": 2022,
+          "protocol": "GNCAP 1.0 (similar to Latin NCAP 2013)",
+          "s": "src-3",
+          "note": "India-spec test with 2 frontal airbags: adult 12.34/17.00, child 21.05/49.00. Current Kiger has 6 airbags, which were not part of that test."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Electronic stability program",
+          "Traction control",
+          "Hill start assist",
+          "Tyre pressure monitoring system",
+          "21 standard safety features (per Renault India)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 581000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1040000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-na-mt",
+          "label": "1.0 L petrol (72 PS) · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 19.71,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 581000,
+            "s": "src-1"
+          },
+          "trims": []
+        },
+        {
+          "id": "petrol-na-amt",
+          "label": "1.0 L petrol (72 PS) · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder naturally aspirated petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 72,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 96,
+            "s": "src-2"
+          },
+          "transmission": "5-speed AMT",
+          "efficiency": {
+            "value": 19.83,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-turbo-mt",
+          "label": "1.0 L turbo petrol (100 PS) · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 100,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 160,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 20.38,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 793000,
+            "s": "src-4"
+          },
+          "trims": []
+        },
+        {
+          "id": "petrol-turbo-cvt",
+          "label": "1.0 L turbo petrol (100 PS) · CVT",
+          "fuel": "petrol",
+          "engine": "1.0 L 3-cylinder turbo petrol",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 100,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 160,
+            "s": "src-2"
+          },
+          "transmission": "CVT",
+          "efficiency": {
+            "value": 17.63,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:4th International Auto Show, Bangalore (2025) 28.jpg",
+          "localPath": "/cars/renault-kiger-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A4th_International_Auto_Show%2C_Bangalore_(2025)_28.jpg",
+          "author": "Gpkp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Renault Kiger at the 4th International Auto Show, Bangalore, 2025.",
+          "match": "exact"
+        },
+        {
+          "file": "File:2021 Renault Kiger RXZ (India) front view.png",
+          "localPath": "/cars/renault-kiger-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Renault_Kiger_RXZ_(India)_front_view.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Renault Kiger RXZ, India-market, front view (pre-facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Renault India – Kiger page",
+          "publisher": "Renault India Pvt Ltd",
+          "url": "https://www.renault.co.in/cars/renault-kiger.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Kiger",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/renault/kiger",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Renault Kiger",
+          "publisher": "Wikimedia Foundation",
+          "url": "https://en.wikipedia.org/wiki/Renault_Kiger",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "manufacturer",
+          "label": "Renault India – homepage (Kiger turbo starting price)",
+          "publisher": "Renault India Pvt Ltd",
+          "url": "https://www.renault.co.in/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Renault India page lists 5 versions from INR 5,81,000 to INR 8,50,000, while CarDekho lists a top price of 10.40 lakh (turbo CVT). The higher CarDekho figure is used for maxInr because the official range appears to omit the CVT variants.",
+        "Renault India states 72 PS and 100 PS; CarDekho lists 71 bhp and 100 bhp. Turbo torque is 160 Nm per CarDekho; Wikipedia gives 152 to 160 Nm.",
+        "Turbo starting price of INR 7.93 lakh is from the Renault India homepage.",
+        "Dimensions and kerb weight from Wikipedia (CarDekho lists length 3,990 mm).",
+        "NCAP rating predates the current 6-airbag fitment."
+      ]
+    },
+    {
+      "id": "renault-duster",
+      "brand": "Renault",
+      "model": "Duster",
+      "generation": "3rd generation (India relaunch, 2026)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Mid-size SUV returning to India in 2026 with 1.0 L and 1.3 L turbo-petrol engines and a strong-hybrid version announced for later.",
+      "officialUrl": "https://www.renault.co.in/cars/renault-duster.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Duster",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 212,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 518,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": "Bharat NCAP",
+          "s": "src-3",
+          "note": "Adult 30.49/32.00 and child 45.00/49.00 per Autocar India; reported to apply to all variants."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "6 airbags standard (per CarDekho)",
+          "17 ADAS features including adaptive cruise control, lane keep assist and active emergency braking (top variants)",
+          "360 degree camera on higher variants",
+          "ABS with EBD, ESC and ISOFIX (per CarDekho)"
+        ]
+      },
+      "warranty": {
+        "v": "Up to 7 years / 1,50,000 km (maximum, under Renault Forever Program)",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 1049000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1719000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-tce100-mt",
+          "label": "1.0 L TCe 100 turbo petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L turbo petrol (TCe 100)",
+          "displacementCc": {
+            "v": 999,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 100,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 166,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 19.41,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1049000,
+            "s": "src-1"
+          },
+          "trims": []
+        },
+        {
+          "id": "petrol-tce160-mt",
+          "label": "1.3 L TCe 160 turbo petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.3 L turbo petrol (TCe 160)",
+          "displacementCc": {
+            "v": 1333,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 17.75,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-tce160-dct",
+          "label": "1.3 L TCe 160 turbo petrol · 6-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.3 L turbo petrol (TCe 160)",
+          "displacementCc": {
+            "v": 1333,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 280,
+            "s": "src-1"
+          },
+          "transmission": "6-speed DCT",
+          "efficiency": {
+            "value": 18.45,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2026 Renault Duster 1.3 Turbo (India).png",
+          "localPath": "/cars/renault-duster-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2026_Renault_Duster_1.3_Turbo_(India).png",
+          "author": "The Drivers Hub",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "2026 Renault Duster 1.3 Turbo for the Indian market, front view.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Renault India – Duster page",
+          "publisher": "Renault India Pvt Ltd",
+          "url": "https://www.renault.co.in/cars/renault-duster.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Duster",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/renault/duster",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India – Renault Duster 5-star BNCAP",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news-amp/renault-duster-scores-5-star-safety-rating-in-bncap-crash-tests-439512",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Renault India lists the range as INR 10,49,000 to INR 17,19,000 (6 variants); CarDekho lists up to 18.69 lakh (22 variants, which may include the hybrid). The official figure is used.",
+        "A strong hybrid (E-Tech 160) is announced by Renault India for Diwali 2026 and is not included because it is not yet on sale.",
+        "Renault India lists the TCe 100 torque as 166 Nm and TCe 160 as 163 PS / 280 Nm; cc and mileage are from CarDekho.",
+        "BNCAP details are from a search result summary of the Autocar India report; the full article was not fetched."
+      ]
+    }
+  ]
+}

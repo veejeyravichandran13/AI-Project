@@ -1,0 +1,4937 @@
+{
+  "brand": {
+    "name": "Maruti Suzuki",
+    "slug": "maruti-suzuki",
+    "country": "Japan",
+    "parent": "Suzuki Motor Corporation",
+    "indiaWebsite": "https://www.marutisuzuki.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruti_Suzuki",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "maruti-suzuki-swift",
+      "brand": "Maruti Suzuki",
+      "model": "Swift",
+      "generation": "Current model with 1.2 L Z-Series engine",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Compact hatchback sold in petrol and S-CNG form with a 1.2 L 3-cylinder engine, 5-speed manual or AGS/AMT, and six airbags standard.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/swift",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3860,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1735,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1520,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 163,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 265,
+          "s": "src-3"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "ABS with EBD",
+          "Electronic Stability Program",
+          "Hill Hold Assist",
+          "Reverse camera",
+          "ISOFIX child-seat anchorages"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 583900,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 888900,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Z-Series Dual Jet, Dual VVT 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 81,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 24.8,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 583900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi",
+              "priceInr": {
+                "v": 583900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 667900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi (O)",
+              "priceInr": {
+                "v": 693900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 761900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 843900,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Z-Series Dual Jet, Dual VVT 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 81,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "5-speed AMT (Auto Gear Shift)",
+          "efficiency": {
+            "value": 25.75,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 712900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 712900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi (O)",
+              "priceInr": {
+                "v": 738900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 806900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 888900,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Z-Series S-CNG 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual (AGS also offered on VXi/VXi (O)/ZXi)",
+          "efficiency": {
+            "value": 32.85,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 757400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 757400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi (O)",
+              "priceInr": {
+                "v": 783400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 851400,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Suzuki SWIFT XG 2WD (5BA-ZCDDS-VBGE) front.jpg",
+          "localPath": "/cars/maruti-suzuki-swift-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ASuzuki_SWIFT_XG_2WD_(5BA-ZCDDS-VBGE)_front.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Japan-market Suzuki Swift XG 2WD (Jan 2024), front view; same car family as the India model but not the India-spec trim",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Swift page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/swift",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Swift variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/swift/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Swift specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/swift/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power 81 PS is the figure shown on the official page rendering (60 kW @ 5700 rpm in the page markup); torque is not stated on the official pages. CarDekho lists 112.4 Nm @ 4500 rpm but the same figure appears for other models, so torque is left null.",
+        "Ground clearance (163 mm unladen) and boot (265 L) are from CarDekho only; the official pages do not state them.",
+        "Global NCAP/Bharat NCAP: no India-spec rating for this generation was found in the sources fetched (a CarDekho page shows an older Global NCAP 1-star entry that applies to a previous generation), so ncap is null.",
+        "CNG and AGS prices: S-CNG AGS variants (VXi 7,92,400; VXi (O) 8,18,400; ZXi 8,86,400) exist but are not broken out as a separate option."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-dzire",
+      "brand": "Maruti Suzuki",
+      "model": "Dzire",
+      "generation": "New-generation Dzire (launched 2024)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Compact sedan on the Swift's 1.2 L Z-Series platform, offered in petrol and S-CNG with manual or AGS gearbox and the first Maruti to earn five stars from Global NCAP.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/dzire",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruti_Suzuki_Dzire",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1735,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1525,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2450,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 163,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 382,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 4,
+          "year": 2024,
+          "protocol": "Global NCAP voluntary test (2024)",
+          "s": "src-4",
+          "note": "India-spec new-generation Dzire with six airbags and ESC; Global NCAP release dated 8 Nov 2024 (adult 31.24/34 and child 39.20/49 points per search-result summaries)."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "ABS with EBD",
+          "ESP with Hill Hold Assist",
+          "Tyre pressure monitoring system",
+          "ISOFIX anchorages"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 630600,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 953700,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Z-Series 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 81.58,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 111.7,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 24.79,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 630600,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi",
+              "priceInr": {
+                "v": 630600,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 727100,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 827700,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 896300,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Z-Series 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 81.58,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 111.7,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AMT (Auto Gear Shift)",
+          "efficiency": {
+            "value": 25.71,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 772100,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 772100,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 872700,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 941300,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Z-Series S-CNG 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": 3,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual (AGS also offered)",
+          "efficiency": {
+            "value": 33.73,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 818100,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 818100,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 918700,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Suzuki Dzire 2024 ZXI+.jpg",
+          "localPath": "/cars/maruti-suzuki-dzire-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ASuzuki_Dzire_2024_ZXI%2B.jpg",
+          "author": "Sant1207ug",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "New-generation Maruti Dzire ZXi+ (photo uploaded Feb 2025, 'new version 2024')",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Dzire page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/dzire",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Dzire variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/dzire/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Dzire specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/dzire/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Global NCAP - New Dzire achieves five star rating",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/new-dzire-from-maruti-suzuki-achieves-five-star-rating-in-global-ncap-voluntary-test",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2024-11-08"
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Torque 111.7 Nm is the petrol figure on the official page; the official variants page lists 101.8 Nm @ 2900 rpm (likely CNG mode), so CNG power/torque are left null.",
+        "CarDekho shows CNG mileage 36.47 km/kg; the manufacturer's 33.73 km/kg is used.",
+        "Ground clearance (163 mm) and seating (5) are from CarDekho only.",
+        "CNG AGS variants (VXi 8,53,100; ZXi 9,53,700) exist and are not broken out separately.",
+        "Bharat NCAP also rated the Dzire 5 stars (per search results); only the Global NCAP page was fetched."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-alto-k10",
+      "brand": "Maruti Suzuki",
+      "model": "Alto K10",
+      "generation": null,
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Entry-level hatchback with a 1.0 L K10C petrol engine, 5-speed manual or AGS and an S-CNG option, with six airbags listed as standard.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/alto-k10",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3530,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1490,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1520,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2380,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 214,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 27,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 2,
+          "adultOccupantStars": 2,
+          "childOccupantStars": 0,
+          "year": 2023,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Global NCAP release of 4 Apr 2023 (Alto K10 and WagonR); the page fetched does not state the tested variant or airbag count, so it may not reflect the current six-airbag specification."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "ESP",
+          "HEARTECT platform",
+          "ABS with EBD",
+          "Rear parking sensors",
+          "3-point ELR seatbelts"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 369900,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 544900,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.0 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 68.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 89,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 24.39,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 369900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Std (O)",
+              "priceInr": {
+                "v": 369900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "LXi (O)",
+              "priceInr": {
+                "v": 399900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi (O)",
+              "priceInr": {
+                "v": 452400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi+ (O)",
+              "priceInr": {
+                "v": 499900,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-agt",
+          "label": "1.0 L petrol · 5-speed AGS",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 68.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 89,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AGS (Auto Gear Shift)",
+          "efficiency": {
+            "value": 24.9,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 497400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi (O)",
+              "priceInr": {
+                "v": 497400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi+ (O)",
+              "priceInr": {
+                "v": 544900,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.0 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.0 L K10C S-CNG 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 82.1,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 33.4,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 484400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi (O) CNG",
+              "priceInr": {
+                "v": 484400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi (O) CNG",
+              "priceInr": {
+                "v": 534400,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maruti Suzuki Alto K10 - front.jpg",
+          "localPath": "/cars/maruti-suzuki-alto-k10-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaruti_Suzuki_Alto_K10_-_front.jpg",
+          "author": "Vis M",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Maruti Suzuki Alto K10 (second-generation, 2022 onwards), front view; photo dated Dec 2023",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Alto K10 page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/alto-k10",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Alto K10 variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/alto-k10/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Alto K10 specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/alto-k10/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Global NCAP - WagonR and Alto K10 results (2023)",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/vw-skoda-shine-again-with-five-star-performance-but-maruti-suzuki-continues-to-disappoint-with-one-and-two-star-ratings",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2023-04-04"
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power 68.5 PS is converted from the official 50.4 kW (x1.3596). Torque 89 Nm is from the official page FAQ; the official variants page shows 91.1 Nm for petrol, which conflicts and is not used (CarDekho also says 89 Nm).",
+        "CNG-mode torque 82.1 Nm is from the official variants page; CNG power is not stated.",
+        "Ground clearance, kerb weight: not stated on the pages fetched. Seating (5) from CarDekho."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-s-presso",
+      "brand": "Maruti Suzuki",
+      "model": "S-Presso",
+      "generation": null,
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Micro-SUV styled hatchback with a 1.0 L K10C petrol engine, manual or AGS gearbox and an S-CNG option; the official page lists dual airbags.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/s-presso",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruti_Suzuki_S-Presso",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3565,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1520,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1567,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2380,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 180,
+          "s": "src-5"
+        },
+        "bootLitres": {
+          "v": 240,
+          "s": "src-3"
+        },
+        "fuelTankLitres": {
+          "v": 27,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 0,
+          "adultOccupantStars": 0,
+          "childOccupantStars": 2,
+          "year": 2020,
+          "protocol": "Global NCAP #SaferCarsForIndia (frontal impact only)",
+          "s": "src-4",
+          "note": "Tested in 2020 with only a driver airbag as standard; current variants list dual airbags."
+        },
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Dual airbags",
+          "ABS with EBD",
+          "Rear parking sensors",
+          "ESP",
+          "Hill Hold Assist",
+          "HEARTECT platform"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 349900,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 527400,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.0 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 66.6,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 89,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 24.12,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 349900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "Std (O)",
+              "priceInr": {
+                "v": 349900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "LXi (O)",
+              "priceInr": {
+                "v": 382400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi (O)",
+              "priceInr": {
+                "v": 432400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi+ (O)",
+              "priceInr": {
+                "v": 482400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-agt",
+          "label": "1.0 L petrol · 5-speed AGS",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 66.6,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 89,
+            "s": "src-1"
+          },
+          "transmission": "5-speed AGS (Auto Gear Shift)",
+          "efficiency": {
+            "value": 25.3,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 477400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi (O)",
+              "priceInr": {
+                "v": 477400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi+ (O)",
+              "priceInr": {
+                "v": 527400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.0 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.0 L K10C S-CNG 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 32.73,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 464400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi (O) CNG",
+              "priceInr": {
+                "v": 464400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi (O) CNG",
+              "priceInr": {
+                "v": 514400,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maruti s presso.jpg",
+          "localPath": "/cars/maruti-suzuki-s-presso-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaruti_s_presso.jpg",
+          "author": "Kasyap",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Maruti S-Presso photographed in India (upload dated Dec 2020)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - S-Presso page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/s-presso",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - S-Presso variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/s-presso/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - S-Presso specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/s-presso/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Global NCAP - Maruti Suzuki S-Presso crash test result",
+          "publisher": "Global NCAP",
+          "url": "https://globalncap.org/news/s-presso-gck5a",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2020-11-20"
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarDekho - S-Presso",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/maruti/s-presso",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "CarWale - S-Presso",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/maruti-suzuki-cars/s-presso/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power 66.6 PS is converted from the official 49 kW (x1.3596); torque 89 Nm is stated on the official page.",
+        "The official variants page lists CNG efficiency as 24.76 km/l, which appears to be a mislabelled petrol-CNG row; the main page figure (32.73 km/kg) is used. Manual petrol efficiency 24.12 km/l is from CarDekho.",
+        "Boot 240 L is from CarDekho (official page shows 239-240 L). Kerb weight is published only as a 736-775 kg range, so it is left null.",
+        "Ground clearance of 180 mm is not on the official pages fetched; CarDekho and CarWale both state it."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-celerio",
+      "brand": "Maruti Suzuki",
+      "model": "Celerio",
+      "generation": "Second generation (launched 2021)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Small hatchback with a 1.0 L K10C petrol engine, manual or AGS gearbox and a factory S-CNG option, with six airbags listed as standard.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/celerio",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruti_Suzuki_Celerio",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3695,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1655,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1555,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2435,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 170,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 292,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 32,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 3,
+          "adultOccupantStars": 3,
+          "childOccupantStars": null,
+          "year": 2025,
+          "protocol": "Global NCAP",
+          "s": "src-4",
+          "note": "Six-airbag Celerio, Global NCAP release of 22 Dec 2025; the page fetched gives the adult star rating but does not state the child star rating for this version."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "ABS with EBD",
+          "Hill Hold Assist",
+          "Rear parking sensors",
+          "3-point rear middle seatbelt",
+          "HEARTECT platform"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 469900,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 675400,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.0 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 68.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 91.1,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 24.97,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 469900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi",
+              "priceInr": {
+                "v": 469900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 518400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 573400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 630400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.0 L petrol · 5-speed AGS",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 68.5,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 91.1,
+            "s": "src-2"
+          },
+          "transmission": "5-speed AGS (Auto Gear Shift)",
+          "efficiency": {
+            "value": 26,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 563400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 563400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 618400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 675400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.0 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.0 L K10C S-CNG 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 34.43,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 597900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi CNG",
+              "priceInr": {
+                "v": 597900,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maruti Suzuki Celerio.jpg",
+          "localPath": "/cars/maruti-suzuki-celerio-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaruti_Suzuki_Celerio.jpg",
+          "author": "Vis M",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Maruti Suzuki Celerio (second generation), photo dated Dec 2023",
+          "match": "exact"
+        },
+        {
+          "file": "File:2021 Maruti Suzuki Celerio ZXi (India) front view 01.png",
+          "localPath": "/cars/maruti-suzuki-celerio-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2021_Maruti_Suzuki_Celerio_ZXi_(India)_front_view_01.png",
+          "author": "Exhibit Magazine",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2021 Maruti Suzuki Celerio ZXi (India), front view",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Celerio page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/celerio",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Celerio variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/celerio/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Celerio specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/celerio/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Global NCAP - Mixed results for Maruti Suzuki (Celerio, Ciaz, Dzire, Victoris)",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/mixed-results-for-maruti-suzuki",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-12-22"
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power 68.5 PS is stated on the official page (50.4 kW). Manual-petrol mileage is 24.97 km/l for VXi/ZXi/ZXi+ and 25.24 km/l for the LXi per the official variants page; the main page headline of 26.00 km/l corresponds to the AGS.",
+        "Ground clearance (170 mm) and seating (5) are from CarDekho only. Kerb weight is published only as a 820-830 kg range, so it is left null."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-wagon-r",
+      "brand": "Maruti Suzuki",
+      "model": "Wagon R",
+      "generation": "Third generation (launched 2019)",
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Tall-boy hatchback with a choice of 1.0 L and 1.2 L petrol engines, manual or AGS gearbox, and an S-CNG option.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/wagon-r",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3655,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1620,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1675,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2435,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 165,
+          "s": "src-1"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 32,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 1,
+          "adultOccupantStars": 1,
+          "childOccupantStars": 0,
+          "year": 2023,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Global NCAP release of 4 Apr 2023; the page fetched does not state the tested variant or airbag count, so it may not reflect the current six-airbag specification."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ABS with EBD",
+          "Electronic Stability Program",
+          "Hill Hold Assist",
+          "HEARTECT platform"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 498900,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 697400,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-1.0-mt",
+          "label": "1.0 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 24.35,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 498900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi",
+              "priceInr": {
+                "v": 498900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 554400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-1.0-amt",
+          "label": "1.0 L petrol · 5-speed AGS",
+          "fuel": "petrol",
+          "engine": "1.0 L K10C 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed AGS (Auto Gear Shift)",
+          "efficiency": {
+            "value": 25.19,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 599400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 599400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-1.2-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L K12N 4-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 90.9,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113.7,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 23.56,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 598400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 598400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 652400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-1.2-amt",
+          "label": "1.2 L petrol · 5-speed AGS",
+          "fuel": "petrol",
+          "engine": "1.2 L K12N 4-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 90.9,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 113.7,
+            "s": "src-2"
+          },
+          "transmission": "5-speed AGS (Auto Gear Shift)",
+          "efficiency": {
+            "value": 24.43,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 643400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 643400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 697400,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.0 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.0 L K10C S-CNG 3-cylinder",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 33.47,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 593900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi CNG",
+              "priceInr": {
+                "v": 593900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi CNG",
+              "priceInr": {
+                "v": 649400,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2020 Maruti Suzuki Wagon R VXi (O) (India) front view.png",
+          "localPath": "/cars/maruti-suzuki-wagon-r-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Maruti_Suzuki_Wagon_R_VXi_(O)_(India)_front_view.png",
+          "author": "Riding Hub",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2020 Maruti Suzuki Wagon R VXi (O) (India), front view",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - WagonR page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/wagon-r",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - WagonR variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/wagon-r/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "ncap",
+          "label": "Global NCAP - WagonR and Alto K10 results (2023)",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/vw-skoda-shine-again-with-five-star-performance-but-maruti-suzuki-continues-to-disappoint-with-one-and-two-star-ratings",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2023-04-04"
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - WagonR",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/maruti/wagon-r",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "CarWale - WagonR",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/maruti-suzuki-cars/wagon-r/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "1.0 L power, torque and mileage are not stated on the pages fetched. The 1.2 L figure of 90.9 PS is as printed on the official page; torque 113.7 Nm is from the official variants page.",
+        "Boot is given as 341-355 L on the main page and 335 L on the variants page, so it is left null. Kerb weight (850 kg on the variants page) is not tied to a variant and is left null.",
+        "The top price of 6,97,400 is the ZXi+ AGS; the variants page also lists a flex-fuel 'Bioflex' ZXi+ MT FFV at 7,23,900, which is not counted as a separate option here.",
+        "1.0 L ARAI mileage (24.35 km/l MT, 25.19 km/l AMT) is not on the official pages fetched; CarDekho and CarWale both state these same figures, so they are used with CarDekho as the cited source."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-baleno",
+      "brand": "Maruti Suzuki",
+      "model": "Baleno",
+      "generation": null,
+      "bodyType": "hatchback",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Premium hatchback sold through Nexa with a 1.2 L petrol engine in manual and AMT form plus an S-CNG option, with six airbags standard.",
+      "officialUrl": "https://www.nexaexperience.com/baleno",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruti_Suzuki_Baleno",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3990,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1745,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1530,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2520,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 318,
+          "s": "src-3"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Electronic Stability Program with Hill Hold Assist",
+          "ADAS Level 2 (AEB, lane keep assist, adaptive cruise, high-beam assist) on the official page"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 599000,
+          "s": "src-4"
+        },
+        "maxInr": {
+          "v": 999000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Z12E 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-3"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 83.1,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 112.4,
+            "s": "src-3"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 23.8,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 599000,
+            "s": "src-4"
+          },
+          "trims": []
+        },
+        {
+          "id": "petrol-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L Z12E 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-3"
+          },
+          "cylinders": 3,
+          "powerPs": {
+            "v": 83.1,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 112.4,
+            "s": "src-3"
+          },
+          "transmission": "5-speed AMT (Auto Gear Shift)",
+          "efficiency": {
+            "value": 24.77,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L Z12E S-CNG 3-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-4"
+          },
+          "cylinders": 3,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "5-speed manual (AGS also offered)",
+          "efficiency": {
+            "value": 33.61,
+            "unit": "km/kg",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Maruti Suzuki Baleno Alpha (India) front view.jpg",
+          "localPath": "/cars/maruti-suzuki-baleno-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Maruti_Suzuki_Baleno_Alpha_(India)_front_view.jpg",
+          "author": "Milind Kwatra",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2022 Maruti Suzuki Baleno Alpha (India), front view; 2022 launch-spec car",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nexa - Baleno page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/baleno",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Baleno specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/baleno/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Baleno price, variants and mileage",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/baleno",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The Nexa Baleno page does not state price, engine figures, dimensions or mileage, and its variant price table is JavaScript-rendered, so these come from CarDekho (third-party). CarDekho quotes prices only to the nearest 0.01 lakh, so INR values are approximate.",
+        "Power 83.1 PS is converted from CarDekho's 82 bhp (x1.0139); CarDekho's model page also shows a '69-82 PS' range, so treat power as approximate. CNG power/torque are not recorded because the two CarDekho pages are not consistent.",
+        "CarDekho's specs page lists kerb weight as 1410 kg, which is implausible for this car, so kerb weight is left null. Ground clearance is not stated.",
+        "No Global NCAP or Bharat NCAP rating was found in the pages fetched; ncap is null.",
+        "Variant names (Sigma, Delta, Zeta, Alpha, Alpha (O); Delta/Zeta CNG) are from the Nexa page; per-variant prices are not recorded because CarDekho's table shows suspiciously round figures."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-fronx",
+      "brand": "Maruti Suzuki",
+      "model": "Fronx",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Baleno-based compact crossover from Nexa offered with a 1.2 L petrol, a 1.0 L Boosterjet turbo-petrol and an S-CNG option, with six airbags standard.",
+      "officialUrl": "https://www.nexaexperience.com/fronx",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruti_Suzuki_Fronx",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1765,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1550,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2520,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 190,
+          "s": "src-4"
+        },
+        "bootLitres": {
+          "v": 308,
+          "s": "src-3"
+        },
+        "fuelTankLitres": {
+          "v": 37,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (front, side, curtain)",
+          "HEARTECT platform",
+          "ABS, EBD, ESP",
+          "Hill-Hold Assist",
+          "360-degree view camera"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 690000,
+          "s": "src-4"
+        },
+        "maxInr": {
+          "v": 1203000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-1.2-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L K-Series Dual Jet, Dual VVT",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 90,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-4"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.79,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 690000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Sigma",
+              "priceInr": {
+                "v": 690000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Delta",
+              "priceInr": {
+                "v": 775000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Delta+",
+              "priceInr": {
+                "v": 814000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-1.2-amt",
+          "label": "1.2 L petrol · 5-speed AMT",
+          "fuel": "petrol",
+          "engine": "1.2 L K-Series Dual Jet, Dual VVT",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 90,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 113,
+            "s": "src-4"
+          },
+          "transmission": "5-speed AMT (Auto Gear Shift)",
+          "efficiency": {
+            "value": 22.89,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 864000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Delta+ AMT",
+              "priceInr": {
+                "v": 864000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "turbo-mt",
+          "label": "1.0 L turbo-petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L K-Series Turbo Boosterjet",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 100,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 148,
+            "s": "src-4"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.5,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 976000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta Turbo",
+              "priceInr": {
+                "v": 976000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "turbo-at",
+          "label": "1.0 L turbo-petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.0 L K-Series Turbo Boosterjet",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 100,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 148,
+            "s": "src-4"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 20.01,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1189000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Alpha Turbo AT",
+              "priceInr": {
+                "v": 1189000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.2 L K-Series S-CNG",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 77.5,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 98.5,
+            "s": "src-4"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 28.51,
+            "unit": "km/kg",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Suzuki Fronx 1.2 Delta+ (India) front view.png",
+          "localPath": "/cars/maruti-suzuki-fronx-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Suzuki_Fronx_1.2_Delta%2B_(India)_front_view.png",
+          "author": "HARSHIT 0008",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2023 Maruti Suzuki Fronx 1.2 Delta+ (India), front view",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nexa - Fronx page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/fronx",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Fronx specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/fronx/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Fronx price, variants and mileage",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/fronx",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The Nexa Fronx page gives engine names and features but no prices or technical numbers (its own meta text says 'From Rs 6.85 lakh', which differs slightly from CarDekho's 6.90 lakh start; CarDekho is used throughout for consistency). Prices are quoted by CarDekho to the nearest 0.01 lakh.",
+        "The official page states the 1.2 L engine makes '88 hp and 113 Nm'; CarDekho's 90 PS is used.",
+        "CarDekho's specs page gives 98.69 bhp / 147.6 Nm for the turbo, consistent with the 100 PS / 148 Nm on its model page. Kerb weight is published as a 1055-1060 kg range and left null.",
+        "No Global NCAP or Bharat NCAP rating was found for the India-spec Fronx; ncap is null."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-brezza",
+      "brand": "Maruti Suzuki",
+      "model": "Brezza",
+      "generation": "Second generation, facelift launched 24 Jul 2026",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-6"
+      },
+      "summary": "Compact SUV facelifted in July 2026 with a new 1.0 L Boosterjet turbo-petrol, the 1.5 L petrol with 6-speed manual or automatic, and an underbody-tank S-CNG version.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/brezza",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-4"
+        },
+        "widthMm": {
+          "v": 1790,
+          "s": "src-4"
+        },
+        "heightMm": {
+          "v": 1685,
+          "s": "src-4"
+        },
+        "wheelbaseMm": {
+          "v": 2500,
+          "s": "src-4"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 328,
+          "s": "src-7"
+        },
+        "fuelTankLitres": {
+          "v": 48,
+          "s": "src-6"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": "Bharat NCAP (adult 30.41/32, child 43/49)",
+          "s": "src-5",
+          "note": "Tested variant ZXi+ 1.5 L 6-speed automatic; Autocar India reports the rating applies to all facelift variants. Result published 23 Jul 2026."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "ESP and Hill Hold Assist",
+          "Blind View Monitoring",
+          "Rear cross-traffic alert",
+          "Exit warning support",
+          "360 view camera",
+          "TPMS",
+          "Front and rear parking sensors"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 749900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1370500,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "turbo-mt",
+          "label": "1.0 L Boosterjet turbo-petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L Boosterjet direct-injection turbo-petrol",
+          "displacementCc": {
+            "v": 998,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 110.12,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 170,
+            "s": "src-2"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 20.47,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 749900,
+            "s": "src-2"
+          },
+          "trims": []
+        },
+        {
+          "id": "petrol-1.5-mt",
+          "label": "1.5 L K15C petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L K15C",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-6"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-3"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 21.09,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by carhp.in)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        },
+        {
+          "id": "petrol-1.5-at",
+          "label": "1.5 L K15C petrol · 6-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L K15C",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-3"
+          },
+          "transmission": "6-speed automatic (torque converter)",
+          "efficiency": {
+            "value": 20.17,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by carhp.in)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1060900,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXI AT",
+              "priceInr": {
+                "v": 1060900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXI AT",
+              "priceInr": {
+                "v": 1200500,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXI+ AT",
+              "priceInr": {
+                "v": 1370500,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.5 L S-CNG · 6-speed manual",
+          "fuel": "cng",
+          "engine": "1.5 L K15C S-CNG (underbody tank)",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-6"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 88,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 121.5,
+            "s": "src-3"
+          },
+          "transmission": "6-speed manual",
+          "efficiency": {
+            "value": 26.9,
+            "unit": "km/kg",
+            "basis": "ARAI (as reported by carhp.in)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2026 maruti brezza facelift introduction 01.jpg",
+          "localPath": "/cars/maruti-suzuki-brezza-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2026_maruti_brezza_facelift_introduction_01.jpg",
+          "author": "Blthippeswamy",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "2026 Maruti Suzuki Brezza facelift (photo dated Aug 2026), front view",
+          "match": "exact"
+        },
+        {
+          "file": "File:2022 Maruti Suzuki Brezza ZXi+ (India) front view 01.png",
+          "localPath": "/cars/maruti-suzuki-brezza-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Maruti_Suzuki_Brezza_ZXi%2B_(India)_front_view_01.png",
+          "author": "DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2022 Maruti Suzuki Brezza ZXi+ (India), front view; pre-2026-facelift car of the same generation",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Brezza page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/brezza",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Brezza variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/brezza/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "carhp.in - 2026 Maruti Suzuki Brezza full variant-wise price list",
+          "publisher": "carhp.in",
+          "url": "https://carhp.in/car-news/2026-maruti-suzuki-brezza-full-variant-wise-price-list",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "Autocar India - 2026 Maruti Brezza launched at Rs 7.40 lakh",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news-amp/2026-maruti-brezza-launched-at-rs-740-lakh-440286",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "Autocar India - 2026 Maruti Brezza scores 5-star Bharat NCAP rating",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news-amp/2026-maruti-brezza-scores-5-star-bharat-ncap-rating-440276",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "CarDekho - Brezza specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/brezza/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-7",
+          "type": "third-party",
+          "label": "CarDekho - Brezza",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/maruti/brezza",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-8",
+          "type": "third-party",
+          "label": "CarWale - Brezza",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/maruti-suzuki-cars/brezza/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Launch coverage quoted Rs 7.40 lakh for the turbo LXi; the official page now shows an 'introductory' Rs 7,49,900 start, which is used. The official variants page listed prices for only some variants (turbo LXi, and the 1.5 L automatic VXI/ZXI/ZXI+); others are left null.",
+        "The official page text for the variants listing was garbled in extraction, so turbo power/torque (110.12 PS / 170 Nm) and 20.47 km/l are cross-checked against Autocar India (110 PS, 170 Nm) and carhp.in (turbo MT 20.47 km/l for LXi/VXi, 19.96 km/l for ZXi/ZXi+).",
+        "1.5 L CNG power 88 PS and 1.5 L 103 PS / 139 Nm are from carhp.in/Autocar India launch coverage. Mileage figures are as reported by carhp.in; the official page does not list them.",
+        "Ground clearance and boot are not stated in the pages fetched. The Brezza is listed as a 5-seater and 48 L fuel tank by CarDekho.",
+        "Launch-time carhp.in prices (e.g. 1.5 L ZXI+ AT 13.55 lakh) differ from the official variants page (13,70,500); the official figure is used.",
+        "Boot of 328 L is stated by CarDekho and CarWale reviews; the CarDekho review says Maruti has not disclosed an official figure."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-ertiga",
+      "brand": "Maruti Suzuki",
+      "model": "Ertiga",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Seven-seat MPV with a 1.5 L Smart Hybrid petrol engine, 5-speed manual or 6-speed automatic, and an S-CNG option.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/ertiga",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4395,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1735,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1690,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2740,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 185,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 209,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "HEARTECT platform",
+          "ABS with EBD",
+          "Hill Hold Assist",
+          "Tyre pressure monitoring system"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 890000,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 1314100,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L petrol (Smart Hybrid) · 5-speed manual",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K15C Smart Hybrid",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.1,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 136.8,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 20.51,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 890000,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "LXi",
+              "priceInr": {
+                "v": 890000,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "VXi",
+              "priceInr": {
+                "v": 995300,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi",
+              "priceInr": {
+                "v": 1101500,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+",
+              "priceInr": {
+                "v": 1179100,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.5 L petrol (Smart Hybrid) · 6-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K15C Smart Hybrid",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.1,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 136.8,
+            "s": "src-2"
+          },
+          "transmission": "6-speed automatic with paddle shifters",
+          "efficiency": {
+            "value": 20.3,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1130300,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi AT",
+              "priceInr": {
+                "v": 1130300,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi AT",
+              "priceInr": {
+                "v": 1236500,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi+ AT",
+              "priceInr": {
+                "v": 1314100,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.5 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.5 L K15C S-CNG",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 121.5,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 26.11,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1093800,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "VXi CNG",
+              "priceInr": {
+                "v": 1093800,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "ZXi CNG",
+              "priceInr": {
+                "v": 1200000,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Maruti Suzuki Ertiga LXi.jpg",
+          "localPath": "/cars/maruti-suzuki-ertiga-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Maruti_Suzuki_Ertiga_LXi.jpg",
+          "author": "Ramakrishna Mission Vidyapith",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "caption": "2022 Maruti Suzuki Ertiga LXi (India), photo from a Dec 2022 handover event",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Ertiga page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/ertiga",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Ertiga variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/ertiga/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Ertiga specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/ertiga/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power 103.1 PS is converted from the official 75.8 kW (x1.3596); the page also prints '103 bhp'. Torque: the official main page says 139 Nm @ 4300 rpm while the variants page says 136.8 Nm @ 4400 rpm (petrol) and 121.5 Nm (CNG mode); 136.8 Nm is used.",
+        "CarDekho shows a Global NCAP '1 star' entry for the Ertiga while search results mention 3 stars for an earlier version; because the sources conflict and neither was fetched from Global NCAP, ncap is null.",
+        "Kerb weight is published only as ranges (1150-1205 kg petrol, 1250-1255 kg CNG) and is left null. Automatic efficiency is from CarDekho."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-xl6",
+      "brand": "Maruti Suzuki",
+      "model": "XL6",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 6,
+        "s": "src-3"
+      },
+      "summary": "Six-seat captain-chair MPV from Nexa on the Ertiga platform, with a 1.5 L Smart Hybrid petrol engine (manual or automatic) and an S-CNG option.",
+      "officialUrl": "https://www.nexaexperience.com/xl6",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4445,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1775,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1755,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2740,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 209,
+          "s": "src-3"
+        },
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "Electronic Stability Program",
+          "HEARTECT platform",
+          "Hill Hold Assist",
+          "360-degree view camera"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 1162000,
+          "s": "src-4"
+        },
+        "maxInr": {
+          "v": 1468000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L petrol (Smart Hybrid) · 5-speed manual",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K-Series Dual Jet, Dual VVT",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.1,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 136.8,
+            "s": "src-3"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 20.97,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1162000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta",
+              "priceInr": {
+                "v": 1162000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha",
+              "priceInr": {
+                "v": 1259000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha+",
+              "priceInr": {
+                "v": 1307000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.5 L petrol (Smart Hybrid) · 6-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K-Series Dual Jet, Dual VVT",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.1,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 136.8,
+            "s": "src-3"
+          },
+          "transmission": "6-speed automatic with paddle shifters",
+          "efficiency": {
+            "value": 20.27,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1297000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta AT",
+              "priceInr": {
+                "v": 1297000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha AT",
+              "priceInr": {
+                "v": 1394000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha+ AT Dual Tone",
+              "priceInr": {
+                "v": 1468000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.5 L S-CNG · 5-speed manual (Zeta)",
+          "fuel": "cng",
+          "engine": "1.5 L K15C S-CNG",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 87.8,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 121.5,
+            "s": "src-4"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 26.32,
+            "unit": "km/kg",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1261000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta CNG",
+              "priceInr": {
+                "v": 1261000,
+                "s": "src-4"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maruti Suzuki XL6 (front).jpg",
+          "localPath": "/cars/maruti-suzuki-xl6-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaruti_Suzuki_XL6_(front).jpg",
+          "author": "Agratsa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Maruti Suzuki XL6, front view (photo Feb 2020, launch-spec pre-facelift car)",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nexa - XL6 page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/xl6",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - XL6 specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/xl6/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - XL6 price, variants and mileage",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/xl6",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The Nexa XL6 page lists engines, features and variant names but no numbers; its meta text says 'Starting from 11.52 lakh', which differs from CarDekho's 11.62 lakh. CarDekho is used for consistency, and its prices are rounded to 0.01 lakh.",
+        "Power converted from CarDekho's 101.64 bhp (x1.0139) and 86.63 bhp CNG. CarDekho's two pages disagree on which of AT/CNG has the 20.97 km/l figure; the model-page table (MT 20.97, AT 20.27, CNG 26.32 km/kg) is used.",
+        "Ground clearance is not stated. Kerb weight (1225 kg on one page) is not tied to a variant and is left null. No NCAP rating found."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-grand-vitara",
+      "brand": "Maruti Suzuki",
+      "model": "Grand Vitara",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-4"
+      },
+      "summary": "Mid-size SUV from Nexa with a 1.5 L mild-hybrid petrol, a 1.5 L strong hybrid with e-CVT, an S-CNG option and AllGrip Select 4x4 on selected trims.",
+      "officialUrl": "https://www.nexaexperience.com/grand-vitara",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4345,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1795,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1645,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2600,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 210,
+          "s": "src-3"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "Suzuki TECT platform",
+          "Hill-Hold Assist and Hill-Descent Control",
+          "360-degree camera",
+          "Tyre pressure monitoring system",
+          "AllGrip Select 4x4 on select variants"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 1077000,
+          "s": "src-4"
+        },
+        "maxInr": {
+          "v": 1977000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "mild-hybrid-mt",
+          "label": "1.5 L mild-hybrid petrol · 5-speed manual",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K15C Smart Hybrid",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.1,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-4"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.11,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1077000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Sigma",
+              "priceInr": {
+                "v": 1077000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Delta",
+              "priceInr": {
+                "v": 1215000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Zeta",
+              "priceInr": {
+                "v": 1385000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha",
+              "priceInr": {
+                "v": 1535000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mild-hybrid-at",
+          "label": "1.5 L mild-hybrid petrol · 6-speed automatic (AllGrip Select 4x4 available)",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K15C Smart Hybrid",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.1,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-4"
+          },
+          "transmission": "6-speed automatic with paddle shifters",
+          "efficiency": {
+            "value": 20.58,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "Alpha AWD",
+              "priceInr": {
+                "v": 1805000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "strong-hybrid",
+          "label": "1.5 L strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "1.5 L M15D Atkinson-cycle petrol + electric motor",
+          "displacementCc": {
+            "v": 1490,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 115.6,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 141,
+            "s": "src-3"
+          },
+          "transmission": "e-CVT",
+          "efficiency": {
+            "value": 27.97,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1668000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Delta+ Hybrid",
+              "priceInr": {
+                "v": 1668000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha+ Hybrid",
+              "priceInr": {
+                "v": 1955000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.5 L S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.5 L K15C S-CNG",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 88.2,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 121.5,
+            "s": "src-4"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 26.6,
+            "unit": "km/kg",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Maruti Suzuki Grand Vitara Zeta Smart Hybrid (India) front view.jpg",
+          "localPath": "/cars/maruti-suzuki-grand-vitara-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Maruti_Suzuki_Grand_Vitara_Zeta_Smart_Hybrid_(India)_front_view.jpg",
+          "author": "Siddharth Antre",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2022 Maruti Suzuki Grand Vitara Zeta Smart Hybrid (India), front view",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nexa - Grand Vitara page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/grand-vitara",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Nexa - Grand Vitara price page (top variant Strong Hybrid Alpha+ (O))",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/grand-vitara/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Grand Vitara specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/grand-vitara/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Grand Vitara price, variants and mileage",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/grand-vitara",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The Nexa pages give no technical numbers; the 19,77,000 top price (Strong Hybrid Alpha+ (O)) is on the Nexa price page and the Rs 10.77 lakh start is in the Nexa page meta text and CarDekho. All other figures are from CarDekho, whose prices are rounded to 0.01 lakh.",
+        "Power is converted from CarDekho's bhp values (x1.0139): 101.64 bhp mild hybrid, 87 bhp CNG, and 114 bhp for the strong hybrid, where it is not stated whether this is engine-only or combined output.",
+        "The 4x4 'Alpha AWD' automatic is listed at 18.05 lakh; a lowest 2WD automatic price was not found, so the automatic option has no fromPriceInr. Boot (373 L petrol, 265 L hybrid per one CarDekho page) is not recorded because the pages are not consistent; kerb weight is published as a range.",
+        "No Global NCAP or Bharat NCAP rating was found for the Grand Vitara; ncap is null."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-jimny",
+      "brand": "Maruti Suzuki",
+      "model": "Jimny",
+      "generation": "Five-door (India)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 4,
+        "s": "src-3"
+      },
+      "summary": "Five-door off-road SUV from Nexa with a 1.5 L K15B petrol engine, ALLGRIP PRO 4WD, a 5-speed manual or 4-speed automatic, and six airbags.",
+      "officialUrl": "https://www.nexaexperience.com/jimny",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3985,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1645,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1720,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2590,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 210,
+          "s": "src-3"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 40,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (front, side, curtain)",
+          "Hill Hold Assist",
+          "Hill Descent Control",
+          "Brake LSD traction control",
+          "ALLGRIP PRO 4WD",
+          "Ladder-frame chassis"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 1259000,
+          "s": "src-4"
+        },
+        "maxInr": {
+          "v": 1467000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L petrol · 5-speed manual · 4WD",
+          "fuel": "petrol",
+          "engine": "1.5 L K15B 4-cylinder",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 104.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 134.2,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual (ALLGRIP PRO 4WD)",
+          "efficiency": {
+            "value": 16.94,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1259000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta",
+              "priceInr": {
+                "v": 1259000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha",
+              "priceInr": {
+                "v": 1346000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha Dual Tone",
+              "priceInr": {
+                "v": 1361000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.5 L petrol · 4-speed automatic · 4WD",
+          "fuel": "petrol",
+          "engine": "1.5 L K15B 4-cylinder",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-3"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 104.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 134.2,
+            "s": "src-1"
+          },
+          "transmission": "4-speed automatic (ALLGRIP PRO 4WD)",
+          "efficiency": {
+            "value": 16.39,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-4"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1365000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta AT",
+              "priceInr": {
+                "v": 1365000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha AT",
+              "priceInr": {
+                "v": 1452000,
+                "s": "src-4"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Suzuki Jimny 1.5 GLX 5-Door 2024 (1).jpg",
+          "localPath": "/cars/maruti-suzuki-jimny-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ASuzuki_Jimny_1.5_GLX_5-Door_2024_(1).jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2024 Suzuki Jimny 1.5 GLX 5-door, front view (non-India-market car; same five-door model)",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nexa - Jimny page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/jimny",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Jimny specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/jimny/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Jimny price, variants and mileage",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/jimny",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power (104.8 PS) and torque (134.2 Nm) are on the Nexa page. The Nexa page meta text says 'Starting from 12.32 lakh' (and a price page snippet says 12.59 lakh); CarDekho's 12.59 lakh is used. CarDekho prices are rounded to 0.01 lakh.",
+        "Boot is given as 211 L and 219 L on different CarDekho pages and is left null. Kerb weight (1205 kg) appears on one page only and is left null.",
+        "CarDekho states the 5-door version is not crash-tested by any NCAP body (the 3-door got 3 stars at Euro NCAP in 2018, a different vehicle), so ncap is null.",
+        "Max price 14,67,000 is the top of CarDekho's range; its variant table tops out at Alpha AT 14.52 lakh."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-invicto",
+      "brand": "Maruti Suzuki",
+      "model": "Invicto",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 8,
+        "s": "src-1"
+      },
+      "summary": "Premium MPV from Nexa powered by a 2.0 L strong-hybrid system with e-CVT, offered in 7- and 8-seat layouts.",
+      "officialUrl": "https://www.nexaexperience.com/invicto",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4755,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1850,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1790,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2850,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 185,
+          "s": "src-3"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 52,
+          "s": "src-3"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Bharat NCAP (adult 30.43/32, child 45/49)",
+          "s": "src-5",
+          "note": "Applies to the 2.0 L strong-hybrid CVT in Zeta+ 7-seat, Zeta+ 8-seat and Alpha+ 7-seat; result dated 25 Sep 2025."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (front, side, curtain)",
+          "360-degree view camera",
+          "Electronic power brake",
+          "Tyre pressure monitoring system",
+          "e-Call button via Suzuki Connect"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 2502000,
+          "s": "src-4"
+        },
+        "maxInr": {
+          "v": 2870000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "strong-hybrid",
+          "label": "2.0 L strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "2.0 L petrol strong hybrid (Intelligent Electric Hybrid)",
+          "displacementCc": {
+            "v": 1987,
+            "s": "src-3"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 188.6,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 206,
+            "s": "src-3"
+          },
+          "transmission": "e-CVT",
+          "efficiency": {
+            "value": 23.24,
+            "unit": "km/l",
+            "basis": "ARAI (as reported by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 2502000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta+ 7-seater",
+              "priceInr": {
+                "v": 2502000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Zeta+ 8-seater",
+              "priceInr": {
+                "v": 2537000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha+ 7-seater",
+              "priceInr": {
+                "v": 2870000,
+                "s": "src-4"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nexa - Invicto page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/invicto",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Invicto specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/invicto/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Invicto price and variants",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/invicto",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "Autocar India - Maruti Invicto receives 5-star Bharat NCAP safety rating",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news/maruti-invicto-receives-5-star-bharat-ncap-safety-rating-437418",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-09-25"
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The Nexa page confirms the 2.0 L strong hybrid, e-CVT, 7/8 seats and six airbags but states no numbers or prices (meta text says 'Starting from 24.97 lakh'; Autocar India quoted 24.97-28.61 lakh in Sep 2025; CarDekho's 25.02-28.70 lakh is used).",
+        "Power 188.6 PS is converted from CarDekho's 186 bhp (x1.0139); CarDekho also lists 186-188.9 bhp, and it is not stated whether this is engine-only or combined system output.",
+        "Boot is given as 239 L and 289 L on different CarDekho pages and is left null. Kerb weight (1685 kg) appears once and is left null.",
+        "No suitable free photo of the Invicto was found on Wikimedia Commons (the Toyota Innova Hycross it is based on was not used)."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-victoris",
+      "brand": "Maruti Suzuki",
+      "model": "Victoris",
+      "generation": "Launched 15 Sep 2025",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Mid-size SUV from Arena with 1.5 L Smart Hybrid petrol, S-CNG and strong-hybrid powertrains, optional AllGrip Select AWD, Level-2 ADAS and a five-star crash rating.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/victoris",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruti_Suzuki_Victoris",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4360,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1795,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1655,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2600,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 45,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Global NCAP new protocols (voluntary test)",
+          "s": "src-5",
+          "note": "Global NCAP release of 15 Sep 2025; six airbags, ESC, pedestrian protection and three-point belts in all positions. Bharat NCAP also reportedly rated it 5 stars (per search results; not fetched)."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard",
+          "Advanced Level 2 ADAS",
+          "360-degree HD view camera (11 views)",
+          "Electronic parking brake with Brake Hold",
+          "Suzuki TECT platform"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 1049900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1999000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.5 L Smart Hybrid petrol · 5-speed manual",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K15C Smart Hybrid",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.06,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 21.18,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1049900,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "LXI",
+              "priceInr": {
+                "v": 1050000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "VXI",
+              "priceInr": {
+                "v": 1185000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "ZXI",
+              "priceInr": {
+                "v": 1362000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-at",
+          "label": "1.5 L Smart Hybrid petrol · 6-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K15C Smart Hybrid",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.06,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic with paddle shifters",
+          "efficiency": {
+            "value": 21.06,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "ZXI AT",
+              "priceInr": {
+                "v": 1518000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "petrol-awd-at",
+          "label": "1.5 L Smart Hybrid petrol · 6-speed automatic · AllGrip Select AWD",
+          "fuel": "mild-hybrid",
+          "engine": "1.5 L K15C Smart Hybrid",
+          "displacementCc": {
+            "v": 1462,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 103.06,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 139,
+            "s": "src-1"
+          },
+          "transmission": "6-speed automatic (AllGrip Select AWD)",
+          "efficiency": {
+            "value": 19.07,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [
+            {
+              "name": "ZXI+ AT AWD",
+              "priceInr": {
+                "v": 1869000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.5 L petrol + S-CNG · 5-speed manual",
+          "fuel": "cng",
+          "engine": "1.5 L K15C S-CNG",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 87.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 121.5,
+            "s": "src-1"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 27.02,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1155000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "LXI CNG",
+              "priceInr": {
+                "v": 1155000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "strong-hybrid",
+          "label": "1.5 L strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "1.5 L Atkinson-cycle petrol + electric motor",
+          "displacementCc": {
+            "v": 1490,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 92.45,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 122,
+            "s": "src-1"
+          },
+          "transmission": "e-CVT",
+          "efficiency": {
+            "value": 28.65,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 1643000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "VXI Strong Hybrid",
+              "priceInr": {
+                "v": 1643000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "ZXI+ Strong Hybrid",
+              "priceInr": {
+                "v": 1952000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "ZXI+ (O) Strong Hybrid",
+              "priceInr": {
+                "v": 1999000,
+                "s": "src-4"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Suzuki Victoris CBG.jpg",
+          "localPath": "/cars/maruti-suzuki-victoris-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3ASuzuki_Victoris_CBG.jpg",
+          "author": "TTTNIS",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Suzuki Victoris CNG/CBG (photo dated Nov 2025); market of the photo not stated",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Victoris page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/victoris",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - Victoris specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/victoris/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - Victoris price and variants",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/victoris",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "ncap",
+          "label": "Global NCAP - Five star Victoris",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/five-star-victoris",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-09-15"
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Official page quotes: petrol 75.8 kW (103.06 PS), 139 Nm; CNG 74 kW (100.6 PS) petrol / 64.6 kW (87.8 PS) CNG with 137.1 / 121.5 Nm; strong hybrid engine 68 kW (92.45 PS), 122 Nm. The strong-hybrid figures are engine output, not combined system output.",
+        "Per-trim prices are from CarDekho and rounded to 0.01 lakh; the table is a 'selected variants' list, so from-prices for the automatic/AWD options are not stated. Max price 19.99 lakh is CarDekho's top (ZXI+ (O) Strong Hybrid).",
+        "Displacement 1462 cc (petrol) and 1490 cc (strong hybrid) are from CarDekho; CNG displacement is not recorded because the CarDekho pages are inconsistent. Ground clearance, boot (320-439 L range on CarDekho) and kerb weight are not recorded.",
+        "Seating (5) is from CarDekho."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-e-vitara",
+      "brand": "Maruti Suzuki",
+      "model": "e Vitara",
+      "generation": "Launched in India Feb 2026 (per CarDekho)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Electric SUV from Nexa with a front motor, Level-2 ADAS and a claimed range of up to 543 km on the larger battery.",
+      "officialUrl": "https://www.nexaexperience.com/e-vitara",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4275,
+          "s": "src-3"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-3"
+        },
+        "heightMm": {
+          "v": 1640,
+          "s": "src-3"
+        },
+        "wheelbaseMm": {
+          "v": 2700,
+          "s": "src-3"
+        },
+        "groundClearanceMm": {
+          "v": 185,
+          "s": "src-3"
+        },
+        "bootLitres": {
+          "v": 310,
+          "s": "src-3"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": "Bharat NCAP (adult 31.49/32, child 43/49)",
+          "s": "src-5",
+          "note": "Tested variant: Alpha trim with 61 kWh battery; motorbeam.com's page gives no exact date (search results place it in 2025)."
+        },
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Six airbags plus driver knee airbag",
+          "ADAS Level 2 (15+ features)",
+          "Electronic Stability Program",
+          "Rear-view camera with parking sensors"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 1619000,
+          "s": "src-4"
+        },
+        "maxInr": {
+          "v": 2021000,
+          "s": "src-4"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "ev-49",
+          "label": "49 kWh battery (Delta)",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous front motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "transmission": "Single-speed automatic (direct drive)",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 49,
+              "s": "src-4"
+            },
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 1619000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Delta",
+              "priceInr": {
+                "v": 1619000,
+                "s": "src-4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ev-61",
+          "label": "61 kWh battery (Zeta, Alpha)",
+          "fuel": "ev",
+          "engine": "Permanent magnet synchronous front motor (128 kW)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 174,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 193,
+            "s": "src-3"
+          },
+          "transmission": "Single-speed automatic (direct drive)",
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 61,
+              "s": "src-3"
+            },
+            "claimedRangeKm": {
+              "v": 543,
+              "s": "src-1"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "7.4 kW AC: about 9 hours (10-100%)",
+              "s": "src-3"
+            },
+            "dcFastChargeNote": {
+              "v": "50 kW DC: about 45 minutes (10-80%)",
+              "s": "src-3"
+            }
+          },
+          "fromPriceInr": {
+            "v": 1794000,
+            "s": "src-4"
+          },
+          "trims": [
+            {
+              "name": "Zeta",
+              "priceInr": {
+                "v": 1794000,
+                "s": "src-4"
+              }
+            },
+            {
+              "name": "Alpha",
+              "priceInr": {
+                "v": 2021000,
+                "s": "src-4"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 Suzuki e Vitara front view.jpg",
+          "localPath": "/cars/maruti-suzuki-e-vitara-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Suzuki_e_Vitara_front_view.jpg",
+          "author": "La Revue Automobile",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2025 Suzuki e Vitara, front view; market of the photo not stated",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Nexa - e VITARA page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.nexaexperience.com/e-vitara",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho - e Vitara specifications",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/e-vitara/specs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho - e Vitara price and variants",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/maruti/e-vitara",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "MotorBeam - Maruti e Vitara Bharat NCAP 5-star rating",
+          "publisher": "MotorBeam",
+          "url": "https://www.motorbeam.com/maruti-e-vitara-bharat-ncap-5-star-rating/amp",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "On sale: CarDekho shows prices of Rs 16.19-20.21 lakh and a launch on 17 Feb 2026. The Nexa page states 543 km claimed range but not the test standard, battery capacity, price or variants; battery sizes, motor and charging figures are from CarDekho.",
+        "Motor output 128 kW is converted to 174 PS (x1.3596); CarDekho also gives 142-172 bhp (105-127 kW) across variants, so the 49 kWh motor output is left null. The 543 km figure is attributed by CarDekho to ARAI; the 440 km figure it also lists is not mapped to a battery and not recorded.",
+        "Warranty is null: the general 3 yr/1,00,000 km press release was not confirmed to cover EV battery or the e Vitara, and CarDekho states none.",
+        "Ground clearance (185 mm), boot (310 L) come from one CarDekho fetch; a second fetch of a related page stated ground clearance 'not stated'. Kerb weight (1820 kg) appears once and is left null."
+      ]
+    },
+    {
+      "id": "maruti-suzuki-eeco",
+      "brand": "Maruti Suzuki",
+      "model": "Eeco",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 6,
+        "s": "src-1"
+      },
+      "summary": "Van-style people-mover and cargo vehicle with a 1.2 L K12N petrol engine and an S-CNG option, sold as a 5- or 6-seater and in ambulance form.",
+      "officialUrl": "https://www.marutisuzuki.com/arena/eeco",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 3675,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1475,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1825,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2350,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 32,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 970,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags as standard on passenger variants",
+          "ABS with EBD",
+          "Electronic Stability Program",
+          "Reverse parking sensors",
+          "3-point ELR rear seat belts"
+        ]
+      },
+      "warranty": {
+        "v": "3 years / 1,00,000 km (whichever is earlier)",
+        "s": "src-w"
+      },
+      "price": {
+        "minInr": {
+          "v": 528400,
+          "s": "src-2"
+        },
+        "maxInr": {
+          "v": 645800,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L K12N 4-cylinder",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 82.3,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 105.5,
+            "s": "src-2"
+          },
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 19.71,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 528400,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "5 Seater Standard",
+              "priceInr": {
+                "v": 528400,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "6 Seater Standard",
+              "priceInr": {
+                "v": 554900,
+                "s": "src-2"
+              }
+            },
+            {
+              "name": "5 Seater AC",
+              "priceInr": {
+                "v": 561300,
+                "s": "src-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cng-mt",
+          "label": "1.2 L S-CNG · 5-speed manual (5-seater AC)",
+          "fuel": "cng",
+          "engine": "1.2 L K12N S-CNG",
+          "displacementCc": {
+            "v": 1197,
+            "s": "src-2"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 71.7,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "transmission": "5-speed manual",
+          "efficiency": {
+            "value": 26.78,
+            "unit": "km/kg",
+            "basis": "ARAI",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 645800,
+            "s": "src-2"
+          },
+          "trims": [
+            {
+              "name": "5 Seater AC CNG",
+              "priceInr": {
+                "v": 645800,
+                "s": "src-2"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Maruti Suzuki Eeco.jpg",
+          "localPath": "/cars/maruti-suzuki-eeco-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMaruti_Suzuki_Eeco.jpg",
+          "author": "Theodorenerdfinch",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "caption": "Maruti Suzuki Eeco parked in Okhla Industrial Area, Delhi",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Eeco page",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/eeco",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki Arena - Eeco variants and price",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/arena/eeco/price",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-w",
+          "type": "manufacturer",
+          "label": "Maruti Suzuki India - Enhanced warranty programmes (press release, effective 9 Jul 2024)",
+          "publisher": "Maruti Suzuki India Ltd",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2024/july/maruti-suzuki-announces-enhanced-warranty-programmes",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Petrol power 82.3 PS is converted from the 60.5 kW on the variants page (x1.3596); CNG power 71.7 PS is converted from the 52.7 kW on the main page. CarDekho quotes different torque (95 Nm) and kerb weight (1050 kg) figures; the manufacturer's values are used.",
+        "Max price 6,45,800 is the highest passenger variant; the variants page also lists an Ambulance Shell (6,44,600) and Ambulance (8,09,000).",
+        "Ground clearance and boot are not stated by the manufacturer. CarDekho shows a Global NCAP '0 star' entry that was not verified against Global NCAP, so ncap is null."
+      ]
+    }
+  ]
+}

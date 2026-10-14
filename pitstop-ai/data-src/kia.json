@@ -1,0 +1,2344 @@
+{
+  "brand": {
+    "name": "Kia",
+    "slug": "kia",
+    "country": "South Korea",
+    "parent": "Hyundai Motor Group",
+    "indiaWebsite": "https://www.kia.com/in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia",
+    "founded": null
+  },
+  "models": [
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-seltos",
+      "model": "Seltos",
+      "generation": "Second generation (India launch January 2026)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The all-new Seltos is Kia India's mid-size SUV, offered with naturally aspirated and turbo petrol and diesel engines and six airbags as standard.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/seltos/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Seltos",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4460,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1830,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1635,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2690,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 447,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2026,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Adult occupant 31.70/32.00 and child occupant 45.00/49.00 points (combined 76.70) as reported by Hyundai Motor Group; the tested variant is not specified."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "24-feature standard safety pack (Kia)",
+          "Electronic stability control and hill-start assist in the standard pack",
+          "ADAS Level 2 on upper trims",
+          "Panoramic sunroof from HTK (O) onwards (per Kia India)"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 1124900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2156900,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 114.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 143.8,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 16.5,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-5"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.5 L petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1497,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 114.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 143.8,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-ivt",
+          "label": "1.5 L petrol · IVT automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 petrol",
+          "transmission": "IVT (CVT-type automatic)"
+        },
+        {
+          "displacementCc": {
+            "v": 1482,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 159.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.5,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-5"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-dct",
+          "label": "1.5 L turbo petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 T-GDi turbo petrol",
+          "transmission": "7-speed DCT"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 115.6,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 19.4,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-5"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-mt",
+          "label": "1.5 L diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1493,
+            "s": "src-4"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 115.6,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.8,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-5"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed automatic (torque converter)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Kia Seltos front Poznań Motor Show 2026.jpg",
+          "localPath": "/cars/kia-seltos-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKia_Seltos_front_Pozna%C5%84_Motor_Show_2026.jpg",
+          "author": "Peżot",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Second-generation Kia Seltos (SP3) on display at the 2026 Poznań Motor Show; European-market car shown, India-spec styling may differ slightly.",
+          "match": "same-model-other-market"
+        },
+        {
+          "file": "File:Kia Seltos rear Poznań Motor Show 2026.jpg",
+          "localPath": "/cars/kia-seltos-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKia_Seltos_rear_Pozna%C5%84_Motor_Show_2026.jpg",
+          "author": "Peżot",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Rear of the second-generation Kia Seltos (SP3) at the 2026 Poznań Motor Show (European market).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – All-New Seltos page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/seltos/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – All-New Seltos specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/seltos/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Hyundai Motor Group – Kia India Seltos 5-star Bharat NCAP",
+          "publisher": "Hyundai Motor Group",
+          "url": "https://www.hyundaimotorgroup.com/en/news/kia-india-seltos-5-star-bharat-ncap-safety",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-03-30"
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "ZigWheels – Kia Seltos",
+          "publisher": "ZigWheels (Tims Auto)",
+          "url": "https://www.zigwheels.com/newcars/Kia/Seltos",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "Autocar India – Kia Seltos",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/kia/seltos",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "India Car News – Kia Seltos ARAI mileage out",
+          "publisher": "India Car News",
+          "url": "https://www.indiacarnews.com/news/kia-seltos-arai-mileage-out-diesel-19-4kmpl-turbo-petrol-details-67682/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Kia's page quotes power in kW; converted to PS at x1.3596 (84.4 kW = 114.8 PS, 117.5 kW = 159.8 PS, 85 kW = 115.6 PS). Kia's own marketing quotes these as roughly 113 / 158 / 114 bhp elsewhere.",
+        "Displacement figures come from ZigWheels, not Kia's page.",
+        "Price range is Kia's quoted base HTE and top X-Line (O) ex-showroom starting prices; third-party sites show roughly 11.00-21.82 lakh.",
+        "Claimed mileage omitted: the only figures found (Autocar India listing) appeared to describe the previous-generation model.",
+        "Wikipedia's quoted length/height (4,430 / 1,600 mm) disagrees with Kia's 4,460 / 1,635 mm; Kia's figures used.",
+        "Seltos ARAI mileage (petrol MT 16.5, turbo DCT 17.5, diesel MT 19.4, diesel AT 17.8 km/l) filled from third parties: Autocar India and India Car News agree (the latter attributes the figures to Vahan Warta and is dated 2026-04-22). Petrol IVT left null: Autocar India lists 15.6 km/l, India Car News lists 16.5 km/l. Ground clearance left null: Autocar India says 190 mm, CarWale says 200 mm. Fuel tank, kerb weight and warranty not found."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-sonet",
+      "model": "Sonet",
+      "generation": "Facelift (India, 2024 onwards)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "The Sonet is Kia India's sub-four-metre compact SUV, offered with a 1.2 L petrol, a 1.0 L turbo petrol and a 1.5 L diesel.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/sonet/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sonet",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1790,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1610,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2500,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 385,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags (front, side, curtain) as standard",
+          "ADAS warnings with auto braking for vehicles, pedestrians and cyclists (upper trims)",
+          "10.25-inch digital cluster and 10.25-inch HD touchscreen",
+          "Front ventilated seats with 4-way power driver seat",
+          "Kia Connect with Alexa home-to-car, 70+ features"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 744900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1436000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 82.9,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 115,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 18.4,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 744900,
+            "s": "src-1"
+          },
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.2 L petrol · 5-speed manual",
+          "fuel": "petrol",
+          "engine": "1.2 L Smartstream G1.2 petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-imt",
+          "label": "1.0 L turbo petrol · 6-speed iMT",
+          "fuel": "petrol",
+          "engine": "1.0 L Smartstream G1.0 T-GDi turbo petrol",
+          "transmission": "6-speed iMT (clutchless manual)"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-dct",
+          "label": "1.0 L turbo petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.0 L Smartstream G1.0 T-GDi turbo petrol",
+          "transmission": "7-speed DCT"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 115,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 24.1,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-mt",
+          "label": "1.5 L diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 115,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed automatic (torque converter)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Kia Sonet 01.jpg",
+          "localPath": "/cars/kia-sonet-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKia_Sonet_01.jpg",
+          "author": "Ganesh Mohan T",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Kia Sonet (2024 facelift) photographed in Kerala, India.",
+          "match": "exact"
+        },
+        {
+          "file": "File:Kia Sonet 02.jpg",
+          "localPath": "/cars/kia-sonet-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKia_Sonet_02.jpg",
+          "author": "Ganesh Mohan T",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Kia Sonet (2024 facelift), white, photographed in Kerala, India.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Sonet page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/sonet/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Sonet specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/sonet/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia Sonet",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/sonet",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "wikipedia",
+          "label": "Wikipedia – Kia Sonet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kia_Sonet",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Seating (5) comes from CarDekho's Sonet overview page (https://www.cardekho.com/overview/Kia_Sonet/Kia_Sonet.htm), not Kia's page.",
+        "Kia quotes kW; the 1.2 L figure is converted (61 kW = 82.9 PS). Turbo petrol and diesel PS come from Wikipedia (120 PS / 115 PS).",
+        "Kia lists two heights (1,610 mm and 1,642 mm depending on trim); 1,610 mm shown.",
+        "Kia's own page lists a lowest price of 7,44,900 after the GST cut; the specs page widget showed 7,31,900. The page value 7,44,900 matches CarDekho. Maximum is a CarDekho figure (14.36 lakh).",
+        "Claimed mileage shown only for the 1.2 petrol and diesel manual; CarDekho's other per-transmission figures were ambiguous and are omitted.",
+        "Global NCAP tested a South Africa-spec, India-built Sonet with two airbags and no ESC (1 star adult, 3 star child, 2026); that does not represent the India-spec six-airbag car, so no rating is recorded. No Bharat NCAP result found.",
+        "Sonet ARAI mileage left null: Autocar India and CarDekho disagree (turbo DCT 18.7 vs 18.4; diesel AT 18.6 vs 24.1/19; turbo iMT 13.5 tested vs 18.4). Tank 45 L (CarDekho only), other fields not found."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-syros",
+      "model": "Syros",
+      "generation": "First generation (launched January 2025)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "The Syros is a tall-boy sub-four-metre SUV from Kia India sold with a 1.0 L turbo petrol or a 1.5 L diesel and six airbags as standard.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/syros/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Syros",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1805,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1625,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2550,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 390,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 5,
+          "year": 2025,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Adult occupant 30.21/32.00, child occupant 44.42/49.00 points; the tested variant is not specified."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "20-feature standard safety pack including parking sensors and ESC (per Kia FAQ)",
+          "Sunroof from HTK(O); dual-pane panoramic on HTK+, HTX and HTX+",
+          "Kia Connect 2.0 with 80+ features"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 841900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1582000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 18.2,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.0 L turbo petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.0 L Smartstream G1.0 T-GDi turbo petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 120,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 172,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.68,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-dct",
+          "label": "1.0 L turbo petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.0 L Smartstream G1.0 T-GDi turbo petrol",
+          "transmission": "7-speed DCT"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 116,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 20.75,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-mt",
+          "label": "1.5 L diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 116,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.65,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed automatic (torque converter)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 Kia Syros 1.5 HTX+ (O) (India) front view 01.jpg",
+          "localPath": "/cars/kia-syros-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Kia_Syros_1.5_HTX%2B_(O)_(India)_front_view_01.jpg",
+          "author": "The Drivers Hub",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2025 Kia Syros 1.5 HTX+ (O), India, front view.",
+          "match": "exact"
+        },
+        {
+          "file": "File:2025 Kia Syros 1.5 HTX+ (O) (India) rear view.jpg",
+          "localPath": "/cars/kia-syros-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Kia_Syros_1.5_HTX%2B_(O)_(India)_rear_view.jpg",
+          "author": "The Drivers Hub",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2025 Kia Syros 1.5 HTX+ (O), India, rear view.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Syros page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/syros/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Syros specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/syros/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia Syros",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/syros",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "Motorbeam – Kia Syros achieves 5 stars in BNCAP",
+          "publisher": "Motorbeam",
+          "url": "https://www.motorbeam.com/?p=317177",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-04-12"
+        },
+        {
+          "id": "src-5",
+          "type": "wikipedia",
+          "label": "Wikipedia – Kia Syros",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kia_Syros",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Seating (5) from CarDekho. Kia lists three heights (1,625 / 1,640 / 1,680 mm depending on wheels and roof rails); 1,625 mm (15-inch tyres) shown. Boot is 390 L, rising to 465 L with the rear seat slid forward.",
+        "CarDekho quotes 118 / 114 bhp; Kia's own page quotes 120 PS / 116 PS, which is used.",
+        "Maximum price is a CarDekho figure (15.82 lakh, Delhi). Bharat NCAP result also confirmed by Wikipedia (src-5); date taken from the Motorbeam article.",
+        "Mileage figures are as listed by CarDekho, not Kia."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-carens",
+      "model": "Carens",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The Carens is Kia India's three-row family MPV available in six- and seven-seat layouts with petrol, turbo petrol, CNG and diesel options.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/carens/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Carens",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4540,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1708,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2780,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 216,
+          "s": "src-7"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 3,
+          "adultOccupantStars": 3,
+          "childOccupantStars": 3,
+          "year": 2022,
+          "protocol": "Global NCAP new-market protocol (2022)",
+          "s": "src-4",
+          "note": "India-made Carens tested in basic specification with six airbags; rated 2022, before the current Carens line-up was refreshed."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags standard on all variants",
+          "ESC, hill-start assist and four-wheel disc brakes (per CarDekho)"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 1111900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1298000,
+          "s": "src-3"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 115,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 144,
+            "s": "src-3"
+          },
+          "efficiency": {
+            "value": 15.7,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-5"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.5 L petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "cng-mt",
+          "label": "1.5 L petrol-CNG · 6-speed manual",
+          "fuel": "cng",
+          "engine": "1.5 L Smartstream G1.5 CNG",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-imt",
+          "label": "1.5 L turbo petrol · 6-speed iMT",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 T-GDi turbo petrol",
+          "transmission": "6-speed iMT (clutchless manual)"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-dct",
+          "label": "1.5 L turbo petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 T-GDi turbo petrol",
+          "transmission": "7-speed DCT"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 116,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-3"
+          },
+          "efficiency": {
+            "value": 21.3,
+            "unit": "km/l",
+            "basis": "ARAI",
+            "s": "src-5"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-mt",
+          "label": "1.5 L diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed automatic (torque converter)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Kia Carens 1.4 Luxury Plus (India) front view 02.jpg",
+          "localPath": "/cars/kia-carens-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Kia_Carens_1.4_Luxury_Plus_(India)_front_view_02.jpg",
+          "author": "Kannada DriveSpark",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2022 Kia Carens 1.4 Luxury Plus, India (pre-refresh model).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Carens page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carens/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Carens specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carens/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia Carens",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/carens",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "ncap",
+          "label": "Global NCAP – Kia Carens rated 3 stars",
+          "publisher": "Global NCAP",
+          "url": "https://www.globalncap.org/news/kia-carens-rated-3-stars-and-mahindra-achieves-safer-choice-award-for-xuv-700",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2022-06-23"
+        },
+        {
+          "id": "src-5",
+          "type": "third-party",
+          "label": "Autocar India – Kia Carens mileage",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/kia/carens/mileage",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "CarWale – Kia Carens (2022-2023) mileage",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/kia-cars/carens-2022-2023/mileage/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-7",
+          "type": "third-party",
+          "label": "Autocar India – Kia Carens",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/kia/carens",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-8",
+          "type": "third-party",
+          "label": "ZigWheels – Kia Carens",
+          "publisher": "ZigWheels",
+          "url": "https://www.zigwheels.com/newcars/Kia/Carens",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Kia's page does not publish engine outputs; PS and Nm for the 1.5 petrol and 1.5 diesel come from CarDekho. Turbo, CNG and automatic outputs are not stated on the sources used.",
+        "Powertrain list (6MT, 6iMT, 7DCT, CNG, 6AT diesel) is taken from Kia's specs page, which lists them across trims.",
+        "Maximum price (12.98 lakh) is a CarDekho figure and may not reflect every powertrain.",
+        "Wheelbase 2,780 mm; height 1,708 mm applies to R16 wheels with roof rails. CarDekho's Carens page also mixes in Clavis-era content, so only price, PS and Nm were taken from it.",
+        "Claimed mileage omitted because the CarDekho figure was ambiguous for this model.",
+        "Carens ARAI mileage petrol MT 15.7 and diesel MT 21.3 km/l agree between Autocar India and CarWale (CarWale page is the 2022-2023 listing of the same engines). Autocar India states no figure for CNG, turbo or diesel AT; CarWale lists diesel AT 18.4 only (single source), so left null. Boot 216 L (all three rows up) is stated by Autocar India, CarDekho and ZigWheels. Ground clearance, tank, kerb weight, warranty not found."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-carens-clavis",
+      "model": "Carens Clavis",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The Carens Clavis is an upmarket, ADAS-equipped version of Kia India's three-row MPV with petrol, turbo petrol, CNG and diesel powertrains.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/carens-clavis/showroom.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4550,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1708,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2780,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 216,
+          "s": "src-4"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags as standard",
+          "18 standard safety features incl. ESC and rear occupant alert (Kia)",
+          "ADAS Level 2 with 20 autonomous functions",
+          "Kia Connect with 80+ features"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 1138900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2178900,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 114.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 143.8,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 15.34,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.5 L petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 96,
+            "s": "src-3"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "cng-mt",
+          "label": "1.5 L petrol-CNG · 6-speed manual",
+          "fuel": "cng",
+          "engine": "1.5 L Smartstream G1.5 CNG",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 159.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-mt",
+          "label": "1.5 L turbo petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 T-GDi turbo petrol",
+          "transmission": "6-speed manual (6iMT also listed by Kia)"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 159.8,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 16.66,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "turbo-dct",
+          "label": "1.5 L turbo petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.5 L Smartstream G1.5 T-GDi turbo petrol",
+          "transmission": "7-speed DCT"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 115.6,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 19.54,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-mt",
+          "label": "1.5 L diesel · 6-speed manual",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 115.6,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 250,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.5,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-at",
+          "label": "1.5 L diesel · 6-speed automatic",
+          "fuel": "diesel",
+          "engine": "1.5 L CRDi VGT diesel",
+          "transmission": "6-speed automatic (torque converter)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 kia Carens Clavis Facelift 1.5 T-GDi 7DCT (2).jpg",
+          "localPath": "/cars/kia-carens-clavis-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_kia_Carens_Clavis_Facelift_1.5_T-GDi_7DCT_(2).jpg",
+          "author": "Avante2025",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "Kia Carens Clavis 1.5 T-GDi 7DCT, rear three-quarter view, India registration plate.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Carens Clavis page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carens-clavis/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Carens Clavis specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carens-clavis/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia Carens Clavis",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/carens-clavis",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "Autocar India – Kia Carens Clavis",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/kia/carens-clavis",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Kia quotes kW; converted at x1.3596 (84.4 kW = 114.8 PS, 117.5 kW = 159.8 PS, 85 kW = 115.6 PS). CNG power is CarDekho's 94.67 bhp converted at x1.0139.",
+        "Price range is Kia's quoted base and top (GTX+ 7) starting prices after the GST cut; CarDekho shows 11.39-21.79 lakh. The specs page price widget showed an inconsistent figure and was ignored.",
+        "Mileage figures are CarDekho's; the turbo-manual figure (15.95) is ambiguous between 6MT and 6iMT and is omitted.",
+        "No Global/Bharat NCAP result found for the Clavis (the older Carens scored 3 stars in 2022).",
+        "Kia's own page states 6 or 7 seats; 7 shown as maximum.",
+        "Clavis boot 216 L (all rows up) stated by Autocar India, CarDekho and ZigWheels. Turbo MT and CNG MT mileage left null: Autocar India lists turbo iMT 15.95 but CarDekho/CarWale labels are ambiguous; CNG not stated. Fuel tank (45 L on CarDekho mileage page only), ground clearance, kerb weight, warranty not confirmed by two sources."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-carens-clavis-ev",
+      "model": "Carens Clavis EV",
+      "generation": null,
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "The Carens Clavis EV is Kia India's electric three-row MPV with 42 kWh and 51.4 kWh battery options and a Battery-as-a-Service purchase option.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/carens-clavis-ev/showroom.html",
+      "wikipediaUrl": null,
+      "dimensions": {
+        "lengthMm": {
+          "v": 4550,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1800,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1730,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2780,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 200,
+          "s": "src-3"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "ADAS Level 2 with 20 autonomous safety features",
+          "Vehicle-to-load (V2L)",
+          "Paddle shifters for i-Pedal and regenerative braking"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 1803900,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 134.8,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 255,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 42,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 404,
+              "s": "src-3"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "10-100% in about 4 h 45 min on an 11 kW AC charger",
+              "s": "src-3"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in about 39 minutes on a 100 kW DC charger",
+              "s": "src-3"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "ev-42",
+          "label": "42 kWh battery",
+          "fuel": "ev",
+          "engine": "Electric motor",
+          "transmission": "Single-speed automatic"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 171.3,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 255,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 51.4,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 490,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "10-100% in about 4 h 45 min on an 11 kW AC charger",
+              "s": "src-3"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in 39 minutes (Kia, with fast charger)",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "ev-51",
+          "label": "51.4 kWh Extended Range",
+          "fuel": "ev",
+          "engine": "Electric motor",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Carens Clavis EV page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carens-clavis-ev/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Carens Clavis EV specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carens-clavis-ev/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia Carens Clavis EV",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/carens-clavis-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Kia's FAQ gives a starting ex-showroom price of 18,03,900; Kia's headline price (12.88 lakh + Rs 3.3/km) is the Battery-as-a-Service chassis price and is not an ex-showroom price. CarDekho lists up to about 25 lakh; maximum left null.",
+        "Power was stated in bhp by CarDekho and converted to PS at x1.0139 (133 bhp = 134.9 PS, 169 bhp = 171.4 PS).",
+        "Range: 490 km (Kia, ARAI MIDC-Full, 51.4 kWh); 404 km for the 42 kWh pack is a CarDekho figure whose test standard is not stated there.",
+        "The base 42 kWh pack's range and the 'single-speed automatic' transmission label are descriptive; Kia's pages do not give a gearbox name. No NCAP result found. No suitable Commons photo found."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": {
+        "v": "Lifetime high-voltage battery warranty: 15 years, unlimited km",
+        "s": "src-1"
+      },
+      "id": "kia-syros-ev",
+      "model": "Syros EV",
+      "generation": "Electric variant of the Syros (launched July 2026)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "The Syros EV is the electric version of Kia's compact SUV with 42 kWh and 51.4 kWh battery options and a claimed range of up to 526 km.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/syros-ev/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Syros",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1805,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1670,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2550,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 390,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-4"
+        },
+        "keyFeatures": [
+          "6 airbags (base model, per CarDekho)",
+          "Level 2 ADAS on the top variant (per CarDekho)",
+          "Lifetime high-voltage battery warranty (Kia)"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 1349900,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 134.8,
+            "s": "src-4"
+          },
+          "torqueNm": {
+            "v": 255,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 42,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 443,
+              "s": "src-4"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "10-100% in about 4-5 hours on an 11 kW AC charger",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in about 39 minutes on a 100 kW DC charger",
+              "s": "src-4"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "ev-42",
+          "label": "42 kWh Standard Range",
+          "fuel": "ev",
+          "engine": "Front-mounted electric motor",
+          "transmission": "Single-speed automatic"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 171,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 255,
+            "s": "src-4"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 51.4,
+              "s": "src-5"
+            },
+            "claimedRangeKm": {
+              "v": 526,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": {
+              "v": "10-100% in about 4-5 hours on an 11 kW AC charger",
+              "s": "src-4"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in about 39 minutes on a 100 kW DC charger",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "ev-51",
+          "label": "51.4 kWh Extended Range",
+          "fuel": "ev",
+          "engine": "Front-mounted electric motor",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Syros EV page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/syros-ev/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Syros EV specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/syros-ev/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia Syros EV overview",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/overview/Kia_Syros_EV/Kia_Syros_EV.htm",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – Kia Syros EV",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/syros-ev",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-5",
+          "type": "wikipedia",
+          "label": "Wikipedia – Kia Syros",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kia_Syros",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price 13,49,900 is read from Kia's Syros EV page; Kia also advertises a BaaS price from 7.99 lakh plus Rs 3.3/km. CarDekho lists up to about 20 lakh; maximum left null.",
+        "42 kWh power was given in bhp by CarDekho and converted at x1.0139 (133 bhp = 134.9 PS). 51.4 kWh power (171 PS) and 526 km (ARAI MIDC-Full) are Kia's. 443 km for 42 kWh is a CarDekho figure (MIDC).",
+        "Seating and AC charging times are from CarDekho. The ICE Syros' Bharat NCAP rating is not applied to the EV. No suitable Commons photo of the EV found.",
+        "Syros EV ground clearance 197 mm appears on Autocar India only; CarDekho does not state it; left null."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-carnival",
+      "model": "Carnival",
+      "generation": "Fourth generation (India launch 2024)",
+      "bodyType": "mpv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The Carnival Limousine Plus is Kia India's flagship seven-seat MPV, sold with a 2.2 L diesel and 8-speed automatic.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/carnival/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Carnival",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5155,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1995,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1775,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3090,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": {
+          "v": 72,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "8 airbags",
+          "ADAS Level 2 with 23 features",
+          "Second-row powered relaxation seats with leg support",
+          "Dual sunroof",
+          "One-touch power sliding doors with hands-free function"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 5964900,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2151,
+            "s": "src-2"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 193,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 441,
+            "s": "src-3"
+          },
+          "efficiency": {
+            "value": 14.85,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-3"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5964900,
+            "s": "src-1"
+          },
+          "trims": [],
+          "id": "diesel-at",
+          "label": "2.2 L diesel · 8-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.2 L Smartstream 4-cylinder E-VGT CRDi",
+          "transmission": "8-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:KIA CARNIVAL (KA4) HONG KONG.jpg",
+          "localPath": "/cars/kia-carnival-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKIA_CARNIVAL_(KA4)_HONG_KONG.jpg",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Fourth-generation Kia Carnival (KA4) photographed in Hong Kong; India-spec styling is similar.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Carnival page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carnival/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Carnival specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/carnival/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia Carnival",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/carnival",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Only one variant (Limousine Plus) is sold per CarDekho, so minimum and maximum price are the same; max left null. Kia's FAQ states 59,64,900 'all India' ex-showroom (CarDekho 59.65 lakh).",
+        "Kia states torque as 45 kgf.m; CarDekho states 441 Nm (45 kgf.m x 9.80665 = 441.3), used. Height 1,775 mm is with roof rails.",
+        "No NCAP rating verified from an NCAP source, so none is recorded.",
+        "Carnival ground clearance 180 mm, boot 540 L (Autocar India only) not confirmed by a second source; left null. Kerb weight and warranty not found."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-ev6",
+      "model": "EV6",
+      "generation": "Facelift (India, 2025)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "The EV6 is Kia's imported, fully loaded electric crossover with an 84 kWh battery, dual-motor all-wheel drive and 350 kW fast-charging support.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/ev6/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_EV6",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4695,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1890,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1570,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2900,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-3"
+        },
+        "keyFeatures": [
+          "ADAS 2.0 with 27 features",
+          "Digital key 2.0",
+          "Vehicle-to-load (V2L)",
+          "Augmented-reality head-up display"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 6598000,
+          "s": "src-3"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 325,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 605,
+            "s": "src-2"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 84,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 663,
+              "s": "src-3"
+            },
+            "rangeStandard": null,
+            "acChargeNote": null,
+            "dcFastChargeNote": {
+              "v": "10-80% in 18 minutes on a 350 kW charger; 73 minutes on a 50 kW charger",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 6598000,
+            "s": "src-3"
+          },
+          "trims": [],
+          "id": "ev-84-awd",
+          "label": "84 kWh · dual-motor AWD",
+          "fuel": "ev",
+          "engine": "Dual permanent magnet synchronous motors",
+          "transmission": "Single-speed automatic (E-Shift)"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Kia EV6 (2024–) Autofrühling Ulm 2025 DSC 8698.jpg",
+          "localPath": "/cars/kia-ev6-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKia_EV6_(2024%E2%80%93)_Autofr%C3%BChling_Ulm_2025_DSC_8698.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Kia EV6 (2024 facelift) at Autofrühling Ulm 2025, Germany.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – EV6 page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/ev6/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – EV6 specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/ev6/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia EV6",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/ev6",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Kia's India page does not state a price; 65.98 lakh (Delhi ex-showroom) is CarDekho's.",
+        "Range 663 km is CarDekho's ARAI figure; Kia's page says '650+ km' without a number. The test standard is not stated in the CarDekho text.",
+        "Kia's specs page also lists a rear-drive 229 PS / 350 Nm configuration; CarDekho lists a single AWD GT Line variant, which is what is recorded.",
+        "Airbag count (8) from CarDekho. Imported (CBU), so no Bharat NCAP result; no NCAP rating recorded.",
+        "EV6 boot left null: Autocar India says 490 L, CarDekho and ZigWheels say 520 L. Ground clearance, kerb weight, warranty not confirmed."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-ev9",
+      "model": "EV9",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 6,
+        "s": "src-3"
+      },
+      "summary": "The EV9 is Kia's imported three-row electric SUV with a 99.8 kWh battery, dual-motor all-wheel drive and a claimed 561 km range.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/ev9/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_EV9",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5015,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1980,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1780,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3100,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 333,
+          "s": "src-4"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 10,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "10 airbags",
+          "ADAS Level 2 with 27 autonomous features",
+          "360-degree camera and blind view monitor",
+          "Vehicle-to-load (V2L)"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 12991312,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 384.23,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 700,
+            "s": "src-2"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 99.8,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 561,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI MIDC",
+            "acChargeNote": null,
+            "dcFastChargeNote": {
+              "v": "10-80% in 24 minutes on a 350 kW charger",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 12991312,
+            "s": "src-1"
+          },
+          "trims": [],
+          "id": "ev-99",
+          "label": "99.8 kWh · dual-motor AWD",
+          "fuel": "ev",
+          "engine": "Two permanent magnet synchronous motors (one per axle)",
+          "transmission": "Single-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Kia EV9 Auto Zuerich 2023 1X7A1127.jpg",
+          "localPath": "/cars/kia-ev9-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AKia_EV9_Auto_Zuerich_2023_1X7A1127.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Kia EV9 GT-Line at Auto Zürich 2023 (European market).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – EV9 page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/ev9/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – EV9 specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/ev9/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Kia EV9",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/kia/ev9",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "Autocar India – Kia EV9",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/kia/ev9",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Price is Kia's FAQ value (1,29,91,312 all-India ex-showroom). Range is 'ARAI MIDC-Full' per Kia's specs page.",
+        "Seating (6) is from CarDekho; Kia's page does not state it in the text retrieved.",
+        "CarDekho mentions a Euro NCAP 5-star (2023) result, but this was not verified against Euro NCAP itself, so no rating is recorded.",
+        "EV9 boot 333 L (all three rows up, plus 52 L frunk) stated by Autocar India, CarDekho and ZigWheels. Warranty (Autocar India: 3 years / 100000 km) is single-source, left null."
+      ]
+    },
+    {
+      "brand": "Kia",
+      "warranty": null,
+      "id": "kia-sorento",
+      "model": "Sorento",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "The Sorento is Kia India's premium three-row SUV launched in September 2026 with a 2.2 L diesel or a 1.6 L turbo strong hybrid.",
+      "officialUrl": "https://www.kia.com/in/our-vehicles/sorento/showroom.html",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sorento",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4815,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1900,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1785,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2820,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 10,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "10 airbags",
+          "360-degree camera and auto parking assistance (Autocar India)",
+          "Level 2+ ADAS on (A) trims (Autocar India)"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 2799000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 193,
+            "s": "src-3"
+          },
+          "torqueNm": {
+            "v": 442,
+            "s": "src-3"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "diesel-dct",
+          "label": "2.2 L diesel · 8-speed DCT",
+          "fuel": "diesel",
+          "engine": "2.2 L Smartstream D2.2 diesel",
+          "transmission": "8-speed DCT"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "hybrid-at",
+          "label": "1.6 L turbo strong hybrid · 6-speed automatic",
+          "fuel": "strong-hybrid",
+          "engine": "1.6 L turbo GDI petrol + electric motor",
+          "transmission": "6-speed automatic (torque converter)"
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Kia India – Sorento page",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/sorento/showroom.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Kia India – Sorento specifications",
+          "publisher": "Kia India Pvt Ltd",
+          "url": "https://www.kia.com/in/our-vehicles/sorento/specs.html",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "Autocar India – Kia Sorento launched at Rs 27.99 lakh",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/car-news-amp/kia-sorento-launched-at-rs-2799-lakh-440657",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2026-09-04"
+        }
+      ],
+      "notes": [
+        "Not on the candidate list; added because it is listed on Kia India's site with a price (27,99,000 starting).",
+        "Hybrid system output is not given as one figure: Autocar India lists a 180 PS / 265 Nm petrol engine plus a 65 PS / 264 Nm motor, so combined power is left null. Diesel displacement not stated.",
+        "Wheelbase 2,820 mm per Kia (Autocar says 2,815 mm). Top price differs by source (40.19 vs 40.39 lakh) so the maximum is left null.",
+        "No NCAP rating found. No confidently matching free photo found.",
+        "Sorento diesel DCT ARAI mileage not published (Autocar India: yet to be confirmed); other null fields not found."
+      ]
+    }
+  ]
+}

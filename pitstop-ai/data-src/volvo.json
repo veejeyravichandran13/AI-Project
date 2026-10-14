@@ -1,0 +1,841 @@
+{
+  "brand": {
+    "name": "Volvo",
+    "slug": "volvo",
+    "country": "China",
+    "parent": "Zhejiang Geely Holding Group",
+    "indiaWebsite": "https://www.volvocars.com/in",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Cars",
+    "founded": null
+  },
+  "models": [
+    {
+      "id": "volvo-xc90",
+      "brand": "Volvo",
+      "model": "XC90",
+      "generation": "Second generation (2026 model year facelift)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-2"
+      },
+      "summary": "A seven-seat large luxury SUV sold in India as the B5 AWD mild-hybrid petrol with an automatic gearbox.",
+      "officialUrl": "https://www.volvocars.com/in/cars/xc90/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_XC90",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4953,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1931,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1771,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2984,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 302,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 71,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 2080,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2015,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Euro NCAP result for the original 2015 second-generation XC90 (adult 97%, child 87%); not an India-spec or facelift test."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Pilot Assist (included on Ultra)",
+          "Matrix-design LED headlights with automatic high beam",
+          "Panoramic roof",
+          "Google built-in"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 9880000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "b5-awd-mhev",
+          "label": "B5 AWD mild hybrid petrol · automatic",
+          "fuel": "mild-hybrid",
+          "engine": "Mild-hybrid petrol (B5)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 250,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-2"
+          },
+          "transmission": "Automatic (AWD)",
+          "efficiency": {
+            "value": 12.39,
+            "unit": "km/l",
+            "basis": "Volvo combined consumption 8.072 l/100 km (test cycle not named)",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 9880000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Ultra",
+              "priceInr": {
+                "v": 9880000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2025 Volvo XC90 (facelift), front 4.11.25.jpg",
+          "localPath": "/cars/volvo-xc90-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Volvo_XC90_(facelift)%2C_front_4.11.25.jpg",
+          "author": "Kevauto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2025 Volvo XC90 facelift photographed in New York, USA (US spec, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – XC90 page",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/xc90/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – XC90 specifications",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/xc90/specifications/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volvo XC90",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Volvo_XC90",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Volvo's India site lists specifications per powertrain; the numbers here are for the single variant sold in India. Power is stated in hp by Volvo and equals PS (184 kW = 250 PS, 300 kW = 408 PS, 200 kW = 272 PS, 335 kW = 456 PS).",
+        "Engine displacement, cylinder count, warranty period and airbag count are not stated on Volvo India's pages and are left blank.",
+        "volvocars.com blocks automated fetching; pages were read through a browser session.",
+        "Weight is Volvo's 'mass in order' (running order), recorded as kerb weight.",
+        "Fuel consumption converted from 8.072 l/100 km (100 / 8.072 = 12.39 km/l)."
+      ]
+    },
+    {
+      "id": "volvo-xc60",
+      "brand": "Volvo",
+      "model": "XC60",
+      "generation": "Second generation (2027 model year)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A five-seat mid-size luxury SUV sold in India as the B5 AWD mild-hybrid petrol with an automatic gearbox.",
+      "officialUrl": "https://www.volvocars.com/in/cars/xc60/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_XC60",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4708,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1902,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1655,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2865,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 483,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 71,
+          "s": "src-2"
+        },
+        "kerbWeightKg": {
+          "v": 1900,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2017,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Euro NCAP result for the second-generation XC60 as tested in 2017 (adult 98%, child 85%); not an India-spec test."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Full LED Active High Beam headlights",
+          "Panoramic roof (Ultra)",
+          "Bowers & Wilkins audio (Ultra)",
+          "Four-zone climate system",
+          "Google built-in"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 7090000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "b5-awd-mhev",
+          "label": "B5 AWD mild hybrid petrol · automatic",
+          "fuel": "mild-hybrid",
+          "engine": "Mild-hybrid petrol (B5)",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 250,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 360,
+            "s": "src-2"
+          },
+          "transmission": "Automatic (AWD)",
+          "efficiency": {
+            "value": 12.9,
+            "unit": "km/l",
+            "basis": "Volvo combined consumption 7.750 l/100 km (test cycle not named)",
+            "s": "src-2"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 7090000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Ultra",
+              "priceInr": {
+                "v": 7090000,
+                "s": "src-1"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Volvo XC60 RECHARGE Plug-in Hybrid T6 AWD Inscription Expression (5LA-UB420XCP2) front.jpg",
+          "localPath": "/cars/volvo-xc60-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolvo_XC60_RECHARGE_Plug-in_Hybrid_T6_AWD_Inscription_Expression_(5LA-UB420XCP2)_front.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Volvo XC60 (post-2021 facelift body) T6 plug-in hybrid photographed at a show in Japan (not India-spec powertrain).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – XC60 page",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/xc60/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – XC60 specifications",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/xc60/specifications/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volvo XC60",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Volvo_XC60",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Volvo's India site lists specifications per powertrain; the numbers here are for the single variant sold in India. Power is stated in hp by Volvo and equals PS (184 kW = 250 PS, 300 kW = 408 PS, 200 kW = 272 PS, 335 kW = 456 PS).",
+        "Engine displacement, cylinder count, warranty period and airbag count are not stated on Volvo India's pages and are left blank.",
+        "volvocars.com blocks automated fetching; pages were read through a browser session.",
+        "Weight is Volvo's 'mass in order' (running order), recorded as kerb weight.",
+        "Fuel consumption converted from 7.750 l/100 km (= 12.90 km/l)."
+      ]
+    },
+    {
+      "id": "volvo-ec40",
+      "brand": "Volvo",
+      "model": "EC40",
+      "generation": "Renamed C40 Recharge (EC40 name from 2024)",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A five-seat fastback electric crossover sold in India with an 82 kWh battery and twin-motor all-wheel drive.",
+      "officialUrl": "https://www.volvocars.com/in/cars/ec40-electric/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_C40",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4440,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1873,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1591,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2702,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 404,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 2185,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Pixel LED headlights (84-pixel per unit)",
+          "Panoramic roof",
+          "Google built-in",
+          "Power-operated tailgate"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5900000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "twin-motor-82",
+          "label": "Twin Motor AWD · 82 kWh",
+          "fuel": "ev",
+          "engine": "Twin permanent-magnet electric motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 408,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 670,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic (AWD)",
+          "efficiency": {
+            "value": 6.62,
+            "unit": "km/kWh",
+            "basis": "NEDC combined consumption 15.1 kWh/100 km (Volvo)",
+            "s": "src-2"
+          },
+          "ev": {
+            "batteryKwh": {
+              "v": 82,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 551,
+              "s": "src-2"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "0-100% in 8 h (3-phase 16 A)",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in 28 min (200 kW DC)",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 5900000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Volvo EC40 Crystal White Pearl - front.jpg",
+          "localPath": "/cars/volvo-ec40-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolvo_EC40_Crystal_White_Pearl_-_front.jpg",
+          "author": "Ethan Llamas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Volvo EC40 in Crystal White Pearl photographed in the Philippines (not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – EC40 page",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/ec40-electric/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – EC40 specifications",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/ec40-electric/specifications/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Volvo's India site lists specifications per powertrain; the numbers here are for the single variant sold in India. Power is stated in hp by Volvo and equals PS (184 kW = 250 PS, 300 kW = 408 PS, 200 kW = 272 PS, 335 kW = 456 PS).",
+        "Engine displacement, cylinder count, warranty period and airbag count are not stated on Volvo India's pages and are left blank.",
+        "volvocars.com blocks automated fetching; pages were read through a browser session.",
+        "Weight is Volvo's 'mass in order' (running order), recorded as kerb weight.",
+        "Volvo's page gives range as 'up to 551 km' without naming the test standard (it names NEDC for the energy-consumption figure only), so rangeStandard is left blank.",
+        "Efficiency converted from 15.1 kWh/100 km (100 / 15.1 = 6.62 km/kWh).",
+        "No NCAP rating recorded: the fetched Wikipedia C40 page returned only the XC40 rating, so nothing verified for the C40/EC40."
+      ]
+    },
+    {
+      "id": "volvo-ex30",
+      "brand": "Volvo",
+      "model": "EX30",
+      "generation": null,
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "A compact five-seat electric SUV sold in India as a single Single Motor Extended Range (RWD) variant with a 69 kWh battery.",
+      "officialUrl": "https://www.volvocars.com/in/cars/ex30-electric/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_EX30",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4233,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1838,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1550,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2650,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 318,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 1850,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2024,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Euro NCAP result for the European EX30 Plus Single Motor Extended Range (adult 88%, child 85%); not an India-spec test."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Panoramic roof",
+          "Google built-in",
+          "Power-operated tailgate",
+          "11 kW on-board charger"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 4100000,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "sm-er-69",
+          "label": "Single Motor Extended Range RWD · 69 kWh",
+          "fuel": "ev",
+          "engine": "Single permanent-magnet electric motor",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 272,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 343,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic (RWD)",
+          "efficiency": {
+            "value": 6.9,
+            "unit": "km/kWh",
+            "basis": "NEDC combined consumption 14.5 kWh/100 km (Volvo)",
+            "s": "src-2"
+          },
+          "ev": {
+            "batteryKwh": {
+              "v": 69,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 480,
+              "s": "src-2"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "0-100% in 8 h (3-phase 16 A)",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in 28 min (175 kW DC)",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 4100000,
+            "s": "src-1"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Volvo EX30 Ultra Single Motor Extended Range (ZAA-2E400R) front.jpg",
+          "localPath": "/cars/volvo-ex30-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolvo_EX30_Ultra_Single_Motor_Extended_Range_(ZAA-2E400R)_front.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Volvo EX30 Ultra Single Motor Extended Range at a show in Japan (not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – EX30 page",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/ex30-electric/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – EX30 specifications",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/ex30-electric/specifications/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volvo EX30",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Volvo_EX30",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Volvo's India site lists specifications per powertrain; the numbers here are for the single variant sold in India. Power is stated in hp by Volvo and equals PS (184 kW = 250 PS, 300 kW = 408 PS, 200 kW = 272 PS, 335 kW = 456 PS).",
+        "Engine displacement, cylinder count, warranty period and airbag count are not stated on Volvo India's pages and are left blank.",
+        "volvocars.com blocks automated fetching; pages were read through a browser session.",
+        "Weight is Volvo's 'mass in order' (running order), recorded as kerb weight.",
+        "Volvo's page does not name the range standard for the 480 km figure (third-party reports call it WLTP); rangeStandard left blank.",
+        "Price Rs 41 lakh is the 'from' price on Volvo India's page; a limited pre-reserve price of Rs 39.99 lakh was reported in 2025 and is not used."
+      ]
+    },
+    {
+      "id": "volvo-ex90",
+      "brand": "Volvo",
+      "model": "EX90",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 6,
+        "s": "src-2"
+      },
+      "summary": "A six-seat large electric SUV sold in India with a 106 kWh battery, twin-motor all-wheel drive and an 800 V system.",
+      "officialUrl": "https://www.volvocars.com/in/cars/ex90-electric/",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_EX90",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5037,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1964,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1744,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2985,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 324,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 2725,
+          "s": "src-2"
+        }
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2025,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Euro NCAP result for the European EX90 Plus (adult 92%, child 93%); not an India-spec test."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "800 V electrical system",
+          "Panoramic roof",
+          "Google built-in",
+          "11 kW on-board charger"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 12600000,
+          "s": "src-4"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "India (starting)",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "id": "twin-motor-106",
+          "label": "Twin Motor AWD · 106 kWh",
+          "fuel": "ev",
+          "engine": "Twin permanent-magnet electric motors",
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 456,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 670,
+            "s": "src-2"
+          },
+          "transmission": "Single-speed automatic (AWD)",
+          "efficiency": {
+            "value": 5.15,
+            "unit": "km/kWh",
+            "basis": "NEDC combined consumption 19.4 kWh/100 km (Volvo)",
+            "s": "src-2"
+          },
+          "ev": {
+            "batteryKwh": {
+              "v": 106,
+              "s": "src-2"
+            },
+            "claimedRangeKm": {
+              "v": 625,
+              "s": "src-2"
+            },
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "0-100% in 10 h (3-phase 16 A)",
+              "s": "src-2"
+            },
+            "dcFastChargeNote": {
+              "v": "10-80% in 22 min (350 kW DC)",
+              "s": "src-2"
+            }
+          },
+          "fromPriceInr": {
+            "v": 12600000,
+            "s": "src-4"
+          },
+          "trims": []
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Volvo EX90, Auto 2024, Zurich (PANA0993).jpg",
+          "localPath": "/cars/volvo-ex90-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AVolvo_EX90%2C_Auto_2024%2C_Zurich_(PANA0993).jpg",
+          "author": "Matti Blume",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+          "caption": "Volvo EX90 rear three-quarter view at Auto Zurich 2024 (European car, not India-spec).",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – EX90 page",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/ex90-electric/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "manufacturer",
+          "label": "Volvo Cars India – EX90 specifications",
+          "publisher": "Volvo Car India",
+          "url": "https://www.volvocars.com/in/cars/ex90-electric/specifications/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "wikipedia",
+          "label": "Wikipedia – Volvo EX90",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "CarDekho – Volvo EX90",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/volvo/ex90",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Volvo's India site lists specifications per powertrain; the numbers here are for the single variant sold in India. Power is stated in hp by Volvo and equals PS (184 kW = 250 PS, 300 kW = 408 PS, 200 kW = 272 PS, 335 kW = 456 PS).",
+        "Engine displacement, cylinder count, warranty period and airbag count are not stated on Volvo India's pages and are left blank.",
+        "volvocars.com blocks automated fetching; pages were read through a browser session.",
+        "Weight is Volvo's 'mass in order' (running order), recorded as kerb weight.",
+        "Volvo India's EX90 page shows no price ('request a quote'); the Rs 1.26 crore ex-showroom price comes from CarDekho and is consistent with CarWale and Autocar India's model list, which all show Rs 1.26 crore and a 12 October 2026 launch.",
+        "Airbag count conflicts across third-party pages (8 vs 9) and is left blank.",
+        "Autocar India's EX90 page separately says 'around Rs 1.40 to Rs 1.50 crore'; the Rs 1.26 crore figure used here is supported by three listings."
+      ]
+    }
+  ]
+}

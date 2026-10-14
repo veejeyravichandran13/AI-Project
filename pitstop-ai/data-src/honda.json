@@ -1,0 +1,941 @@
+{
+  "brand": {
+    "name": "Honda",
+    "slug": "honda",
+    "country": "Japan",
+    "parent": "Honda Motor Co., Ltd.",
+    "indiaWebsite": "https://www.hondacarindia.com/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda",
+    "founded": null
+  },
+  "models": [
+    {
+      "brand": "Honda",
+      "warranty": {
+        "v": "3 years / unlimited km (standard)",
+        "s": "src-5"
+      },
+      "id": "honda-amaze",
+      "model": "Amaze",
+      "generation": "Third generation (launched 2024)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The third-generation Amaze is Honda's sub-four-metre sedan with a 1.2 L i-VTEC petrol engine, manual or CVT, and six airbags as standard.",
+      "officialUrl": "https://www.hondacarindia.com/honda-amaze",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Amaze",
+      "dimensions": {
+        "lengthMm": {
+          "v": 3995,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1733,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1500,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2470,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 172,
+          "s": "src-6"
+        },
+        "bootLitres": {
+          "v": 416,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Bharat NCAP",
+          "stars": 5,
+          "adultOccupantStars": 5,
+          "childOccupantStars": 4,
+          "year": 2025,
+          "protocol": null,
+          "s": "src-4",
+          "note": "Adult 28.33/32.00, child 40.81/49.00 points per Motorbeam; Wikipedia gives adult 27.85/32.00. Reported to apply to all variants of the third-generation model."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Six airbags",
+          "Vehicle Stability Assist",
+          "3-point ELR seat belts",
+          "Honda SENSING ADAS (higher variants)",
+          "28+ active and passive safety features (Honda)"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 765400,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 90,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 110,
+            "s": "src-3"
+          },
+          "efficiency": {
+            "value": 18.65,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.2 L i-VTEC petrol · manual",
+          "fuel": "petrol",
+          "engine": "1.2 L SOHC i-VTEC 4-cylinder petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 90,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 110,
+            "s": "src-3"
+          },
+          "efficiency": {
+            "value": 19.46,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-cvt",
+          "label": "1.2 L i-VTEC petrol · CVT",
+          "fuel": "petrol",
+          "engine": "1.2 L SOHC i-VTEC 4-cylinder petrol",
+          "transmission": "CVT automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024 Honda Amaze ZX.png",
+          "localPath": "/cars/honda-amaze-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Honda_Amaze_ZX.png",
+          "author": "Ashwin's Garage",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2024 Honda Amaze ZX, India-market third-generation car.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Honda Cars India – Amaze page",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-amaze",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "wikipedia",
+          "label": "Wikipedia – Honda Amaze",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honda_Amaze",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarDekho – Honda Amaze",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/honda/amaze",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-4",
+          "type": "third-party",
+          "label": "Motorbeam – Honda Amaze earns BNCAP 5-star safety rating",
+          "publisher": "Motorbeam",
+          "url": "https://www.motorbeam.com/?p=322502",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2025-11-28"
+        },
+        {
+          "id": "src-5",
+          "type": "manufacturer",
+          "label": "Honda Cars India - Warranty",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-services/service-products/warranty",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-6",
+          "type": "third-party",
+          "label": "Autocar India - Honda Amaze",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/honda/amaze",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-7",
+          "type": "third-party",
+          "label": "ZigWheels - Honda Amaze",
+          "publisher": "ZigWheels",
+          "url": "https://www.zigwheels.com/newcars/Honda/Amaze",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price 7,65,400 (ex-showroom Delhi) is from the Honda page's price strip and FAQ; the page's structured data still lists 7,40,800 to 10,97,900, which looks outdated, so no maximum is recorded. CarDekho lists about 7.65-10 lakh.",
+        "Power (90 PS) is from Wikipedia (66 kW); CarDekho's 89 bhp is consistent. Torque 110 Nm and 5-seat layout are consistent across CarDekho; Honda's page does not state power, torque or dimensions.",
+        "Mileage figures are Honda's claimed values (with T&C). Honda lists variants V, VX and ZX per CarDekho.",
+        "Warranty from Honda India warranty page: standard 3 years with unlimited km, listed for Amaze, City, Elevate (page text truncated in fetch); extended warranty and \"Anytime Warranty\" also offered.",
+        "Ground clearance 172 mm filled from third-party sources (Autocar India and ZigWheels agree; CarDekho also lists 172 mm). Autocar page lists wheelbase 2,740 mm, which conflicts with the 2,470 mm used here; wheelbase left unchanged.",
+        "Fuel tank (35 L) and kerb weight (952-986 kg) appear only on CarDekho (single source); left null."
+      ]
+    },
+    {
+      "brand": "Honda",
+      "warranty": {
+        "v": "3 years / unlimited km (standard)",
+        "s": "src-3"
+      },
+      "id": "honda-amaze-2nd-gen",
+      "model": "Amaze (2nd gen)",
+      "generation": "Second generation (2018 design, still sold alongside the new Amaze)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Honda continues to sell the second-generation Amaze as a lower-priced sedan with a 1.2 L i-VTEC petrol engine and dual front airbags.",
+      "officialUrl": "https://www.hondacarindia.com/honda-amaze-2g",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Amaze",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 420,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 2,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Dual front airbags",
+          "ABS with EBD",
+          "ISOFIX seat anchors",
+          "ACE body structure",
+          "ECU immobilizer"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 697700,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 966000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 89.7,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 110,
+            "s": "src-2"
+          },
+          "efficiency": {
+            "value": 18.6,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.2 L i-VTEC petrol · manual",
+          "fuel": "petrol",
+          "engine": "1.2 L i-VTEC 4-cylinder petrol",
+          "transmission": "5-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1199,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 89.7,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 110,
+            "s": "src-2"
+          },
+          "efficiency": {
+            "value": 18.3,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-cvt",
+          "label": "1.2 L i-VTEC petrol · CVT",
+          "fuel": "petrol",
+          "engine": "1.2 L i-VTEC 4-cylinder petrol",
+          "transmission": "CVT automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Honda Amaze 2018 (front) in Uttar Pradesh.jpg",
+          "localPath": "/cars/honda-amaze-2g-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AHonda_Amaze_2018_(front)_in_Uttar_Pradesh.jpg",
+          "author": "Agratsa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2018 Honda Amaze (second generation) front view, Uttar Pradesh, India.",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Honda Cars India – Amaze 2nd Gen page",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-amaze-2g",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Honda Amaze 2nd gen",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/honda/amaze-2nd-gen",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Honda Cars India - Warranty",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-services/service-products/warranty",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Starting price 6,97,700 is on Honda's price strip and FAQ; the maximum (9,66,000) comes from the page's structured data and may be dated. CarDekho's 5.99-7.80 lakh listing is out of date and was not used.",
+        "Power was given as 88.5 bhp by CarDekho and converted to PS at x1.0139. Dimensions are not stated on the pages used. Honda's page lists a 5-speed manual and CVT.",
+        "Global NCAP tested the second-generation Amaze (CarDekho cites 2 stars adult), but the result was not confirmed from the NCAP site, so no rating is recorded.",
+        "Warranty from Honda India warranty page: standard 3 years with unlimited km, listed for Amaze, City, Elevate (page text truncated in fetch); extended warranty and \"Anytime Warranty\" also offered.",
+        "Honda India page still lists this older Amaze as sold. Ground clearance, tank, kerb weight left null: only CarDekho states tank (35 L) and kerb (920 kg); no second source. Warranty is the model-line standard from the Honda warranty page."
+      ]
+    },
+    {
+      "brand": "Honda",
+      "warranty": {
+        "v": "3 years / unlimited km (standard)",
+        "s": "src-4"
+      },
+      "id": "honda-city",
+      "model": "City",
+      "generation": "Facelift (2026)",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "The City is Honda's mid-size sedan, sold with a 1.5 L i-VTEC petrol (manual or CVT) and a 1.5 L e:HEV strong hybrid.",
+      "officialUrl": "https://www.hondacarindia.com/honda-city",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_City",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4594,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1748,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1489,
+          "s": "src-2"
+        },
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 506,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 40,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Global NCAP",
+          "stars": 4,
+          "adultOccupantStars": 4,
+          "childOccupantStars": 4,
+          "year": 2022,
+          "protocol": null,
+          "s": "src-3",
+          "note": "Applies to the earlier India-made (pre-facelift) City tested in base spec with two front airbags; the current City has not been re-tested."
+        },
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-2"
+        },
+        "keyFeatures": [
+          "Honda SENSING ADAS (CMBS, LKAS, road departure mitigation, auto high-beam)",
+          "Adaptive cruise control with low-speed follow (e:HEV)",
+          "6 airbags standard (per CarDekho)"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 1199900,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 2136000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 121,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 145,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.77,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.5 L i-VTEC petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L DOHC i-VTEC petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 121,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 145,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.97,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-cvt",
+          "label": "1.5 L i-VTEC petrol · CVT",
+          "fuel": "petrol",
+          "engine": "1.5 L DOHC i-VTEC petrol",
+          "transmission": "CVT automatic"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 126,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 253,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 27.26,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "ehev",
+          "label": "1.5 L e:HEV strong hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "1.5 L Atkinson-cycle i-VTEC with two-motor e:HEV system",
+          "transmission": "e-CVT automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2022 Honda City ZX i-VTEC (India) front view.jpg",
+          "localPath": "/cars/honda-city-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Honda_City_ZX_i-VTEC_(India)_front_view.jpg",
+          "author": "Dairokkan9",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2022 Honda City ZX i-VTEC, India, front view (before the 2026 update).",
+          "match": "same-model-other-generation"
+        },
+        {
+          "file": "File:2022 Honda City ZX i-VTEC (India) rear view.jpg",
+          "localPath": "/cars/honda-city-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Honda_City_ZX_i-VTEC_(India)_rear_view.jpg",
+          "author": "Dairokkan9",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2022 Honda City ZX i-VTEC, India, rear view (before the 2026 update).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Honda Cars India – City page",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-city",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Honda City",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/honda/city",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarIndia – Honda City and Jazz receive four stars in Global NCAP tests",
+          "publisher": "carindia.in",
+          "url": "https://carindia.in/honda-city-and-jazz-receive-a-four-star-rating-in-global-ncap-crash-tests/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": "2022-02-17"
+        },
+        {
+          "id": "src-4",
+          "type": "manufacturer",
+          "label": "Honda Cars India - Warranty",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-services/service-products/warranty",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Power/torque/mileage are Honda's page values (121 PS / 145 Nm petrol; 126 PS combined / 253 Nm e:HEV). e:HEV is sold only in the ZX+ grade; petrol comes in SV, V, ZX, ZX+ (MT) and V, ZX, ZX+ (CVT).",
+        "Minimum price (11,99,900) is Honda's; the maximum (21.36 lakh, ZX+ hybrid) is CarDekho's. Dimensions and airbag count are CarDekho's (Honda's page does not state them).",
+        "Boot is 506 L for the petrol and 410 L for the hybrid per CarDekho; petrol figure shown. Kerb weight per Honda: petrol 1,123-1,168 kg depending on grade, e:HEV 1,294 kg.",
+        "Honda labels the mileage figures only as claimed (T&C). Global NCAP result was published in February 2022 per the cited article.",
+        "Warranty from Honda India warranty page: standard 3 years with unlimited km, listed for Amaze, City, Elevate (page text truncated in fetch); extended warranty and \"Anytime Warranty\" also offered.",
+        "Ground clearance (165 mm) and kerb weight (1,294 kg) appear only on CarDekho; left null for lack of a second source (Autocar India, CarWale, ZigWheels do not state them)."
+      ]
+    },
+    {
+      "brand": "Honda",
+      "warranty": {
+        "v": "3 years / unlimited km (standard)",
+        "s": "src-3"
+      },
+      "id": "honda-elevate",
+      "model": "Elevate",
+      "generation": "Facelift (2026)",
+      "bodyType": "compact-suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "The Elevate is Honda's compact SUV, powered by a 1.5 L i-VTEC petrol with a 6-speed manual or CVT and six airbags as standard.",
+      "officialUrl": "https://www.hondacarindia.com/honda-elevate",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Elevate",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4312,
+          "s": "src-1"
+        },
+        "widthMm": {
+          "v": 1790,
+          "s": "src-1"
+        },
+        "heightMm": {
+          "v": 1650,
+          "s": "src-1"
+        },
+        "wheelbaseMm": {
+          "v": 2650,
+          "s": "src-1"
+        },
+        "groundClearanceMm": {
+          "v": 220,
+          "s": "src-1"
+        },
+        "bootLitres": {
+          "v": 458,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 40,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 6,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "6 airbags",
+          "Honda SENSING ADAS with adaptive cruise control",
+          "Vehicle Stability Assist",
+          "ABS with EBD",
+          "Hill start assist",
+          "360-degree surround camera",
+          "LaneWatch camera",
+          "Rear parking sensors"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 1180000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 1840000,
+          "s": "src-2"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 121,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 145,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 15.31,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-mt",
+          "label": "1.5 L i-VTEC petrol · 6-speed manual",
+          "fuel": "petrol",
+          "engine": "1.5 L DOHC i-VTEC 4-cylinder petrol",
+          "transmission": "6-speed manual"
+        },
+        {
+          "displacementCc": {
+            "v": 1498,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 121,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 145,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 16.61,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": null,
+          "trims": [],
+          "id": "petrol-cvt",
+          "label": "1.5 L i-VTEC petrol · CVT",
+          "fuel": "petrol",
+          "engine": "1.5 L DOHC i-VTEC 4-cylinder petrol",
+          "transmission": "CVT automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Honda Elevate VX (India) front view.jpg",
+          "localPath": "/cars/honda-elevate-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Honda_Elevate_VX_(India)_front_view.jpg",
+          "author": "Hulchul TV",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "caption": "2023 Honda Elevate VX, India, front view (pre-2026 facelift).",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Honda Cars India – Elevate page",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-elevate",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Honda Elevate",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/honda/elevate",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "manufacturer",
+          "label": "Honda Cars India - Warranty",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-services/service-products/warranty",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Specs (dimensions, 121 PS, 145 Nm, ground clearance, boot, tank) are from Honda's page content and structured data. Honda's structured data lists CVT mileage as 16.92 km/l while its FAQ states 16.61; the FAQ figure is used.",
+        "Starting price 11,80,000 is Honda's page value (structured data shows 11,80,700); maximum 18.40 lakh is CarDekho's. No diesel option is sold.",
+        "The Elevate (sold as WR-V in Japan) scored 5 stars in Japan NCAP, which is outside the accepted NCAP bodies here; Honda has not submitted it to Global or Bharat NCAP, so no rating is recorded.",
+        "Warranty from Honda India warranty page: standard 3 years with unlimited km, listed for Amaze, City, Elevate (page text truncated in fetch); extended warranty and \"Anytime Warranty\" also offered.",
+        "Kerb weight not stated on Honda India, Autocar India, or other fetched pages; left null."
+      ]
+    },
+    {
+      "brand": "Honda",
+      "warranty": null,
+      "id": "honda-zr-v",
+      "model": "ZR-V",
+      "generation": null,
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "The ZR-V is Honda's imported premium SUV in India, sold as a single fully loaded variant with a 2.0 L e:HEV sports hybrid and eight airbags.",
+      "officialUrl": "https://www.hondacarindia.com/honda-zrv",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_ZR-V",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 380,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": {
+          "v": 1569,
+          "s": "src-1"
+        }
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "8 airbags",
+          "Honda SENSING ADAS with adaptive cruise control and low-speed follow",
+          "360-degree surround view camera",
+          "Driver attention monitor",
+          "Front and rear parking sensors",
+          "Hill descent control",
+          "Vehicle Stability Assist"
+        ]
+      },
+      "price": {
+        "minInr": {
+          "v": 4999900,
+          "s": "src-1"
+        },
+        "maxInr": null,
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 183.5,
+            "s": "src-2"
+          },
+          "torqueNm": {
+            "v": 315,
+            "s": "src-2"
+          },
+          "efficiency": {
+            "value": 22.8,
+            "unit": "km/l",
+            "basis": "Claimed (Honda India)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 4999900,
+            "s": "src-1"
+          },
+          "trims": [],
+          "id": "ehev",
+          "label": "2.0 L e:HEV sports hybrid · e-CVT",
+          "fuel": "strong-hybrid",
+          "engine": "2.0 L e:HEV two-motor hybrid",
+          "transmission": "e-CVT automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:HONDA ZR-V China (2).jpg",
+          "localPath": "/cars/honda-zr-v-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AHONDA_ZR-V_China_(2).jpg",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Honda ZR-V (China-market GAC Honda car) in a dealership; India's imported car is the same model family.",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "manufacturer",
+          "label": "Honda Cars India – ZR-V page",
+          "publisher": "Honda Cars India Ltd",
+          "url": "https://www.hondacarindia.com/honda-zrv",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "CarDekho – Honda ZR-V",
+          "publisher": "CarDekho (Girnar Software)",
+          "url": "https://www.cardekho.com/honda/zr-v",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "Price 49,99,900 (ex-showroom Delhi) and 22.8 km/l are Honda's page values. Power (181 bhp, converted to PS at x1.0139), torque, boot (380 L) and seating are CarDekho's; Honda's page does not state power or fuel tank capacity.",
+        "CarDekho describes the car as a fully imported CBU launched in July 2026. It also cites Euro NCAP / ANCAP 4-star ratings, which were not verified here, so no NCAP rating is recorded.",
+        "Dimensions not stated on pages used. The photo is a China-market ZR-V.",
+        "Ground clearance, fuel tank (CarDekho only: 57 L) and warranty (not listed for ZR-V on Honda warranty page) left null: no second source."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2761 @@
+{
+  "brand": {
+    "name": "Mercedes-Benz",
+    "slug": "mercedes-benz",
+    "country": "Germany",
+    "parent": "Mercedes-Benz Group AG",
+    "indiaWebsite": "https://www.mercedes-benz.co.in/",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz",
+    "founded": null
+  },
+  "models": [
+    {
+      "wikipediaUrl": null,
+      "generation": "H247 facelift (2024)",
+      "id": "mercedes-benz-gla",
+      "model": "GLA",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Compact luxury SUV from Mercedes-Benz sold in India with a 1.3 L turbo-petrol and a 2.0 L turbo-diesel.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4412,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1834,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1616,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2729,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 183,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 425,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 50,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "360° camera",
+          "Blind spot assist",
+          "Keyless-Go with hands-free tailgate",
+          "ADAS"
+        ]
+      },
+      "warranty": {
+        "v": "8 years (engine and transmission), as listed by CarDekho",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 5180000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 5500000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1332,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 163,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 270,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 17.4,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5180000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLA 200",
+              "priceInr": {
+                "v": 5180000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "petrol-dct",
+          "label": "1.3 L turbo-petrol · 7-speed DCT",
+          "fuel": "petrol",
+          "engine": "1.3 L 4-cylinder turbo petrol",
+          "transmission": "7-speed DCT"
+        },
+        {
+          "displacementCc": {
+            "v": 1950,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 190,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 18.9,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5300000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLA 220d 4MATIC",
+              "priceInr": {
+                "v": 5300000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "GLA 220d 4MATIC AMG Line",
+              "priceInr": {
+                "v": 5500000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "diesel-dct",
+          "label": "2.0 L turbo-diesel 4MATIC · 8-speed DCT",
+          "fuel": "diesel",
+          "engine": "2.0 L 4-cylinder turbo diesel",
+          "transmission": "8-speed DCT"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2023 Mercedes-Benz GLA 200d AMG Line Premium - 1950cc 2.0 (150PS) Diesel - Grey - 05-2024, Front.jpg",
+          "localPath": "/cars/mercedes-benz-gla-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3A2023_Mercedes-Benz_GLA_200d_AMG_Line_Premium_-_1950cc_2.0_(150PS)_Diesel_-_Grey_-_05-2024%2C_Front.jpg",
+          "author": "Harvey Bold",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "caption": "2023 GLA 200d AMG Line (H247), UK-registered car, front three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz GLA page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/gla",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz GLA page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/gla",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Boot: CarDekho 425 L (stated as 425-427), Autocar India 435 L; CarDekho used.",
+        "Autocar India quotes mileage as 14.39-16.94 km/l (WLTP-claimed); CarDekho's ARAI figures used.",
+        "Euro NCAP 5 stars is mentioned by Autocar India without a year, so no NCAP block recorded."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "W206",
+      "id": "mercedes-benz-c-class",
+      "model": "C-Class",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Mid-size luxury sedan from Mercedes-Benz, sold in India with 1.5 L and 2.0 L petrol and a 2.0 L diesel, all with a 9-speed automatic.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 540,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360° camera",
+          "Active brake assist",
+          "ESP"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5990000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 6560000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1496,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 204,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5990000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "C 200",
+              "priceInr": {
+                "v": 5990000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "c200-petrol",
+          "label": "C 200 · 1.5 L petrol · 9-speed automatic",
+          "fuel": "petrol",
+          "engine": "1.5 L 4-cylinder petrol",
+          "transmission": "9-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 1993,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 200,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 440,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 23,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 5990000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "C 220d",
+              "priceInr": {
+                "v": 5990000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "c220d-diesel",
+          "label": "C 220d · 2.0 L diesel · 9-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L 4-cylinder diesel",
+          "transmission": "9-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 1999,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 258,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 6560000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "C 300",
+              "priceInr": {
+                "v": 6560000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "c300-petrol",
+          "label": "C 300 · 2.0 L petrol · 9-speed automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L 4-cylinder petrol",
+          "transmission": "9-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz W206 IMG 5793.jpg",
+          "localPath": "/cars/mercedes-benz-c-class-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_W206_IMG_5793.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "W206 C 220d, rear three-quarter, Germany",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz C-Class page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/c-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz C-Class page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/c-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Airbags: CarDekho says 6, Autocar India says 7; left null.",
+        "Petrol mileage listed only as a 15-16.9 km/l range across variants, so not assigned to an option.",
+        "A Celebration Edition at Rs 62.40 lakh is listed by CarDekho but its engine is not stated, so it is not placed under an option."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "X254",
+      "id": "mercedes-benz-glc",
+      "model": "GLC",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Mid-size luxury SUV from Mercedes-Benz with 48V mild-hybrid 2.0 L petrol and diesel engines and 4MATIC all-wheel drive.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4716,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1890,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1640,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2888,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 201,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 620,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 62,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "ABS with EBD",
+          "ISOFIX mounts",
+          "360° camera",
+          "Adaptive cruise control",
+          "Lane keep assist",
+          "Auto emergency braking",
+          "Blind spot detection"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 7700000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 7700000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1993,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 197,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 440,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 19.4,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 7700000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLC 220d",
+              "priceInr": {
+                "v": 7700000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "diesel-at",
+          "label": "GLC 220d · 2.0 L mild-hybrid diesel · 9-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "2.0 L turbo diesel with 48V mild hybrid",
+          "transmission": "9-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 1999,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 258,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 400,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 7700000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLC 300",
+              "priceInr": {
+                "v": 7700000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "petrol-at",
+          "label": "GLC 300 · 2.0 L mild-hybrid petrol · 9-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "2.0 L turbo petrol with 48V mild hybrid",
+          "transmission": "9-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz X254 1X7A6345.jpg",
+          "localPath": "/cars/mercedes-benz-glc-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_X254_1X7A6345.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "2023 GLC (X254), Germany, front three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz GLC page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/glc",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz GLC page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/glc",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Both variants priced the same (Rs 77 lakh) on CarDekho.",
+        "Euro NCAP 5 stars (Euro-spec) is mentioned by both pages without a year, so no NCAP block recorded; Autocar India says not tested by Bharat NCAP."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "W214 (LWB for India)",
+      "id": "mercedes-benz-e-class",
+      "model": "E-Class",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Executive luxury sedan from Mercedes-Benz sold in India in long-wheelbase form with petrol and diesel engines.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5082,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1880,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1492,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3094,
+          "s": "src-2"
+        },
+        "groundClearanceMm": {
+          "v": 135,
+          "s": "src-2"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "360° camera",
+          "Electronic stability control",
+          "ABS with EBD",
+          "Traction control",
+          "Level 2 ADAS"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 8000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 9350000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1999,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 8000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "E 200",
+              "priceInr": {
+                "v": 8000000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "e200-petrol",
+          "label": "E 200 · 2.0 L petrol · automatic",
+          "fuel": "petrol",
+          "engine": "2.0 L 4-cylinder petrol",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 1993,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 440,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 15,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 8200000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "E 220d",
+              "priceInr": {
+                "v": 8200000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "e220d-diesel",
+          "label": "E 220d · 2.0 L diesel · automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L 4-cylinder diesel",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 2998,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 9350000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "E 450 4MATIC",
+              "priceInr": {
+                "v": 9350000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "e450-petrol",
+          "label": "E 450 4MATIC · 3.0 L petrol · automatic",
+          "fuel": "petrol",
+          "engine": "3.0 L 6-cylinder petrol",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz W214 1X7A1841.jpg",
+          "localPath": "/cars/mercedes-benz-e-class-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_W214_1X7A1841.jpg",
+          "author": "Alexander-93",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "W214 E-Class (standard-wheelbase), Germany, front three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz E-Class page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/e-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz E-Class page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/e-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power is listed by CarDekho in 'hp' (204 hp / 197 hp / 381 hp), which is ambiguous versus PS, so powerPs left null.",
+        "A Celebration Edition at Rs 82.70 lakh is listed but its engine is unclear, so not placed under an option.",
+        "Euro NCAP 5 stars mentioned by Autocar India without a year; no NCAP block recorded. The photo shows the standard-wheelbase car; India gets the long-wheelbase version."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "V167",
+      "id": "mercedes-benz-gle",
+      "model": "GLE",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Large luxury SUV from Mercedes-Benz with 4MATIC all-wheel drive and diesel or six-cylinder petrol power.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 4926,
+          "s": "src-2"
+        },
+        "widthMm": null,
+        "heightMm": {
+          "v": 1797,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 2995,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 630,
+          "s": "src-1"
+        },
+        "fuelTankLitres": {
+          "v": 85,
+          "s": "src-2"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-2"
+        },
+        "keyFeatures": []
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 10000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 11700000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1950,
+            "s": "src-1"
+          },
+          "cylinders": 4,
+          "powerPs": {
+            "v": 269,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 10000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLE 300d 4Matic AMG Line",
+              "priceInr": {
+                "v": 10000000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "GLE 300d Night Edition",
+              "priceInr": {
+                "v": 10500000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "300d-diesel",
+          "label": "GLE 300d 4MATIC · 2.0 L diesel · automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L 4-cylinder diesel",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 2999,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 381,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 11100000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLE 450 4Matic",
+              "priceInr": {
+                "v": 11100000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "GLE 450 Night Edition",
+              "priceInr": {
+                "v": 11400000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "450-petrol",
+          "label": "GLE 450 4MATIC · 3.0 L petrol · automatic",
+          "fuel": "petrol",
+          "engine": "3.0 L 6-cylinder petrol",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 2989,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 750,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 11700000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLE 450d 4Matic",
+              "priceInr": {
+                "v": 11700000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "450d-diesel",
+          "label": "GLE 450d 4MATIC · 3.0 L diesel · automatic",
+          "fuel": "diesel",
+          "engine": "3.0 L 6-cylinder diesel",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz GLE-Klasse (V167) GLE 350 4MATIC (2023) (53651855136).jpg",
+          "localPath": "/cars/mercedes-benz-gle-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_GLE-Klasse_(V167)_GLE_350_4MATIC_(2023)_(53651855136).jpg",
+          "author": "Charles from Port Chester, New York",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "caption": "GLE 350 4MATIC (V167), USA, rear three-quarter; may be a pre-facelift car",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz GLE page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/gle",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz GLE page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/gle",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power converted from bhp: 265.52 bhp x1.0139 = 269 PS; 375.48 bhp x1.0139 = 381 PS. 450d power and 450 torque not stated.",
+        "Seating: CarDekho says 7-seater, Autocar India says 5; Autocar India used.",
+        "Width of 2,157 mm on Autocar India looks like a mirrors-included figure, so left null.",
+        "Mileage listed only as ranges (8.6-16 km/l), so not assigned. Euro NCAP 5 stars mentioned by Autocar India without a year."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "X167",
+      "id": "mercedes-benz-gls",
+      "model": "GLS",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Full-size luxury SUV from Mercedes-Benz with 48V mild-hybrid six-cylinder petrol and diesel engines and a 9-speed automatic.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5209,
+          "s": "src-2"
+        },
+        "widthMm": {
+          "v": 1956,
+          "s": "src-2"
+        },
+        "heightMm": {
+          "v": 1823,
+          "s": "src-2"
+        },
+        "wheelbaseMm": {
+          "v": 3135,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 355,
+          "s": "src-2"
+        },
+        "fuelTankLitres": {
+          "v": 90,
+          "s": "src-1"
+        },
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "360° camera",
+          "Electronic stability control",
+          "ISOFIX mounts",
+          "Level-2 ADAS (lane keep assist, adaptive cruise control)"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 13800000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 14300000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2999,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 381,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 12,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 13800000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLS 450 4MATIC AMG Line",
+              "priceInr": {
+                "v": 13800000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "GLS 450 Night Edition",
+              "priceInr": {
+                "v": 14100000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "450-petrol",
+          "label": "GLS 450 4MATIC · 3.0 L mild-hybrid petrol · 9-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "3.0 L 6-cylinder turbo petrol with 48V mild hybrid",
+          "transmission": "9-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 2925,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 367,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 750,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 12,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 14000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLS 450d 4MATIC AMG Line",
+              "priceInr": {
+                "v": 14000000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "GLS 450d Night Edition",
+              "priceInr": {
+                "v": 14300000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "450d-diesel",
+          "label": "GLS 450d 4MATIC · 3.0 L mild-hybrid diesel · 9-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "3.0 L 6-cylinder turbo diesel with 48V mild hybrid",
+          "transmission": "9-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:MERCEDES-BENZ GLS (X167) China (9).jpg",
+          "localPath": "/cars/mercedes-benz-gls-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMERCEDES-BENZ_GLS_(X167)_China_(9).jpg",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "GLS (X167), China, front three-quarter; pre-facelift styling",
+          "match": "same-model-other-generation"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz GLS page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/gls",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz GLS page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/gls",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Airbags: CarDekho says 7, Autocar India says 9; left null.",
+        "Autocar India gives 8.5 km/l combined versus CarDekho's 12 km/l; CarDekho used.",
+        "Seats: CarDekho 7-seater, Autocar India 5-7. Boot 355 L is Autocar India's figure (likely 7-seat layout). The photo appears to be the pre-facelift X167."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "W223 (2026 facelift per CarDekho)",
+      "id": "mercedes-benz-s-class",
+      "model": "S-Class",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-3"
+      },
+      "summary": "Flagship luxury sedan from Mercedes-Benz, sold in India as the S 450e plug-in hybrid.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5304,
+          "s": "src-3"
+        },
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 3216,
+          "s": "src-3"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 345,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 15,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Level-2 ADAS",
+          "Automatic parking assist",
+          "Tyre pressure monitoring",
+          "Surround-view camera"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 22000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 23800000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2999,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 435,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 680,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 32.3,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 22000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "S 450e",
+              "priceInr": {
+                "v": 22000000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "S 450e AMG Line",
+              "priceInr": {
+                "v": 23800000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "s450e-phev",
+          "label": "S 450e · 3.0 L plug-in hybrid · 9-speed automatic",
+          "fuel": "strong-hybrid",
+          "engine": "3.0 L inline-six petrol plug-in hybrid",
+          "transmission": "9-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:MERCEDES-BENZ S-CLASS (W223) China (23).jpg",
+          "localPath": "/cars/mercedes-benz-s-class-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMERCEDES-BENZ_S-CLASS_(W223)_China_(23).jpg",
+          "author": "Dinkun Chen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "W223 S-Class, China, front three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz S-Class page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/s-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz S-Class page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/s-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-3",
+          "type": "third-party",
+          "label": "CarWale – Mercedes-Benz S 450e page (via search result text)",
+          "publisher": "CarWale",
+          "url": "https://www.carwale.com/mercedes-benz-cars/s-class/s-450e/",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power 435 PS is the combined system output as stated by CarDekho (429.12 bhp engine figure also shown). Plug-in hybrid recorded as 'strong-hybrid' (closest allowed fuel type).",
+        "Boot: CarDekho 345 L, Autocar India 540 L; CarDekho used. Autocar India gives 32.2 km/l on WLTP versus CarDekho's 32.3 ARAI.",
+        "Seats, length and wheelbase come from CarWale text seen in a search result."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "W463A",
+      "id": "mercedes-benz-g-class",
+      "model": "G-Class",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Iconic luxury off-road SUV from Mercedes-Benz in India with a 3.0 L diesel and the AMG G 63 V8 petrol.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 667,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "360° camera",
+          "Dual 12.3-inch MBUX displays"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 25500000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 43000000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": 6,
+          "powerPs": {
+            "v": 335,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 700,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 25500000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "G 400d Adventure Edition",
+              "priceInr": {
+                "v": 25500000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "G 400d AMG Line",
+              "priceInr": {
+                "v": 29000000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "G 450d Mild Hybrid",
+              "priceInr": {
+                "v": 29000000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "400d-450d-diesel",
+          "label": "G 400d / G 450d · 3.0 L diesel · automatic",
+          "fuel": "diesel",
+          "engine": "3.0 L 6-cylinder diesel",
+          "transmission": "Automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 3982,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": {
+            "v": 593,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 950,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 8.47,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 37400000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "AMG G 63",
+              "priceInr": {
+                "v": 37400000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "AMG G 63 Collector's Edition",
+              "priceInr": {
+                "v": 43000000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "g63-petrol",
+          "label": "AMG G 63 · 4.0 L twin-turbo V8 · automatic",
+          "fuel": "petrol",
+          "engine": "4.0 L V8 twin-turbo petrol",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz G 350d Genf 2019 1Y7A5114.jpg",
+          "localPath": "/cars/mercedes-benz-g-class-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_G_350d_Genf_2019_1Y7A5114.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "G 350 d (W463A) on display at the 2019 Geneva Motor Show",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz G-Class page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/g-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz G-Class page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/g-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power converted from bhp: 330 bhp x1.0139 = 335 PS; 585 bhp x1.0139 = 593 PS. Diesel displacement given only as a 2925-2989 cc range, so left null.",
+        "G 63 torque: CarDekho 950 Nm, Autocar India 850 Nm; CarDekho used. Diesel mileage given only as a 6.1-10 km/l range.",
+        "Euro NCAP 5 stars mentioned by Autocar India without a year; no NCAP block recorded. AMG G 63 is shown as an option, not a separate model."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "X296",
+      "id": "mercedes-benz-eqs-suv",
+      "model": "EQS SUV",
+      "bodyType": "suv",
+      "seats": {
+        "v": 7,
+        "s": "src-1"
+      },
+      "summary": "Electric luxury SUV from Mercedes-Benz with a 122 kWh battery, offered as the EQS 450 4MATIC and EQS 580 4MATIC.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 3210,
+          "s": "src-2"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 645,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": {
+          "body": "Euro NCAP",
+          "stars": 5,
+          "adultOccupantStars": null,
+          "childOccupantStars": null,
+          "year": 2023,
+          "protocol": null,
+          "s": "src-1",
+          "note": "As stated by CarDekho ('Five-star, EuroNCAP, December 2023'); European-market rating, not an India test."
+        },
+        "airbagsStandard": null,
+        "keyFeatures": [
+          "Active brake assist",
+          "Blind spot assist",
+          "Lane keeping aid",
+          "DISTRONIC"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 13300000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 14800000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 360,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 775,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 122,
+              "s": "src-1"
+            },
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "22 kW: full charge in about 6.25 hours",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "200 kW: 10-80% in about 31 minutes",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 13300000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "EQS SUV 450 4MATIC",
+              "priceInr": {
+                "v": 13300000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "EQS SUV 450 Celebration Edition",
+              "priceInr": {
+                "v": 13400000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "eqs450",
+          "label": "EQS 450 4MATIC · 122 kWh",
+          "fuel": "ev",
+          "engine": "Dual electric motors, AWD",
+          "transmission": "Single-speed"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 544,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 858,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 122,
+              "s": "src-1"
+            },
+            "claimedRangeKm": null,
+            "rangeStandard": null,
+            "acChargeNote": {
+              "v": "22 kW: full charge in about 6.25 hours",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "200 kW: 10-80% in about 31 minutes",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 14800000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "EQS SUV 580 4MATIC",
+              "priceInr": {
+                "v": 14800000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "EQS SUV 580 Celebration Edition",
+              "priceInr": {
+                "v": 14800000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "eqs580",
+          "label": "EQS 580 4MATIC · 122 kWh",
+          "fuel": "ev",
+          "engine": "Dual electric motors, AWD",
+          "transmission": "Single-speed"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz X296 1X7A6215.jpg",
+          "localPath": "/cars/mercedes-benz-eqs-suv-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_X296_1X7A6215.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "EQS SUV (X296), Germany, front three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz EQS SUV page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/eqs-suv",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz EQS SUV page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/eqs-suv",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Claimed ARAI range is stated as 809-820 km (CarDekho) without a per-variant split, so per-option range is null.",
+        "Power converted from bhp: 355 bhp x1.0139 = 360 PS; 536.4 bhp x1.0139 = 544 PS (Autocar India also says 544 hp). 450 torque: CarDekho 775 Nm, Autocar India 800 Nm; CarDekho used.",
+        "Seats: 5 or 7 (third row for children); 7 is the maximum. Airbags 'up to 11'. Warranty: CarDekho 10-year battery warranty vs Autocar India 3 years/unlimited km, so left null."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "V297",
+      "id": "mercedes-benz-eqs",
+      "model": "EQS",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-2"
+      },
+      "summary": "Electric luxury liftback sedan from Mercedes-Benz, sold in India as the EQS 580 4MATIC with a 107.8 kWh battery.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 124,
+          "s": "src-2"
+        },
+        "bootLitres": {
+          "v": 610,
+          "s": "src-2"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "MBUX Hyperscreen",
+          "AIRMATIC suspension with rear-axle steering",
+          "DISTRONIC with steering assist",
+          "Advanced ADAS"
+        ]
+      },
+      "warranty": {
+        "v": "Battery: 8 years, unlimited km (CarDekho); Autocar India lists 3 years for the vehicle",
+        "s": "src-1"
+      },
+      "price": {
+        "minInr": {
+          "v": 13000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 14800000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 858,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 107.8,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 813,
+              "s": "src-2"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "22 kW onboard charger",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "200 kW: 0-80% in about 31 minutes",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 13000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "EQS 580 4MATIC Celebration Edition",
+              "priceInr": {
+                "v": 13000000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "EQS 580 4MATIC",
+              "priceInr": {
+                "v": 14800000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "eqs580",
+          "label": "EQS 580 4MATIC · 107.8 kWh",
+          "fuel": "ev",
+          "engine": "Dual electric motors, AWD",
+          "transmission": "Single-speed"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz EQS 004.jpg",
+          "localPath": "/cars/mercedes-benz-eqs-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_EQS_004.jpg",
+          "author": "JustAnotherCarDesigner",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "EQS 580 4MATIC Edition 1 on a show-floor display (2021); crowded background",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz EQS page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/eqs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        },
+        {
+          "id": "src-2",
+          "type": "third-party",
+          "label": "Autocar India – Mercedes-Benz EQS page",
+          "publisher": "Autocar India",
+          "url": "https://www.autocarindia.com/cars/mercedes-benz/eqs",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Range: CarDekho 813-857 km, Autocar India 813 km ARAI; 813 km used. Torque: CarDekho 858 Nm, Autocar India 855 Nm.",
+        "Power left null: CarDekho gives a confusing 536-750.97 bhp range and Autocar India says 523 hp.",
+        "Dimensions: only ground clearance and boot found; length/wheelbase were given only as rounded metres."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "X167 (Mercedes-Maybach GLS 600)",
+      "id": "mercedes-benz-maybach-gls",
+      "model": "Maybach GLS",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Ultra-luxury Mercedes-Maybach SUV powered by a 4.0 L twin-turbo V8 with EQ Boost and 4MATIC all-wheel drive.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 520,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 8,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "E-ACTIVE BODY CONTROL suspension",
+          "Head-up display"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 27500000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 41000000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 3982,
+            "s": "src-1"
+          },
+          "cylinders": 8,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": {
+            "value": 10,
+            "unit": "km/l",
+            "basis": "ARAI (as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 27500000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "GLS 600 4MATIC",
+              "priceInr": {
+                "v": 27500000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "GLS 600 Night Series",
+              "priceInr": {
+                "v": 32300000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "GLS 600 Celebration Edition",
+              "priceInr": {
+                "v": 41000000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "gls600-petrol",
+          "label": "GLS 600 4MATIC · 4.0 L V8 petrol · automatic",
+          "fuel": "petrol",
+          "engine": "4.0 L V8 biturbo petrol with EQ Boost",
+          "transmission": "Automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Maybach X167 FL GLS 600 MANUFAKTUR Cote d'Azur Light Blue (1).jpg",
+          "localPath": "/cars/mercedes-benz-maybach-gls-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Maybach_X167_FL_GLS_600_MANUFAKTUR_Cote_d'Azur_Light_Blue_(1).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Mercedes-Maybach GLS 600 (facelift X167) on display, front view",
+          "match": "exact"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz Maybach GLS page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/maybach-gls",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power and torque are given only as ranges (550-557 bhp, 700-770 Nm), so left null.",
+        "Photo is a show display of the facelift GLS 600 (location not stated); India-market match not confirmed."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "Z223 (S 580 e)",
+      "id": "mercedes-benz-maybach-s-class",
+      "model": "Maybach S-Class",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 4,
+        "s": "src-1"
+      },
+      "summary": "Ultra-luxury long-wheelbase Mercedes-Maybach sedan sold in India as the S 580 e plug-in hybrid with four seats.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 330,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 15,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "ADAS with front, side and rear cameras and radars",
+          "Air suspension with 10-degree rear-axle steering"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 33500000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 33500000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 2998,
+            "s": "src-1"
+          },
+          "cylinders": 6,
+          "powerPs": {
+            "v": 585,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 750,
+            "s": "src-1"
+          },
+          "efficiency": {
+            "value": 34.48,
+            "unit": "km/l",
+            "basis": "WLTP (claimed, as listed by CarDekho)",
+            "s": "src-1"
+          },
+          "ev": null,
+          "fromPriceInr": {
+            "v": 33500000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "S 580 e",
+              "priceInr": {
+                "v": 33500000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "s580e-phev",
+          "label": "S 580 e · 3.0 L plug-in hybrid · 9-speed automatic",
+          "fuel": "strong-hybrid",
+          "engine": "3.0 L inline-six petrol plug-in hybrid, AWD",
+          "transmission": "9-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Maybach S-Class (Z223) 001.jpg",
+          "localPath": "/cars/mercedes-benz-maybach-s-class-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Maybach_S-Class_(Z223)_001.jpg",
+          "author": "Callum Gill",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Mercedes-Maybach S-Class (Z223), China, front three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz Maybach S-Class page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/maybach-s-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power converted: 577 bhp x1.0139 = 585 PS (CarDekho also mentions 593 PS 'in some contexts'). Plug-in hybrid recorded as 'strong-hybrid'. Electric-only range 100 km (WLTP) and up to 60 kW DC charging per CarDekho. Single variant."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "X296 (EQS 680 SUV)",
+      "id": "mercedes-benz-maybach-eqs-suv",
+      "model": "Maybach EQS SUV",
+      "bodyType": "suv",
+      "seats": {
+        "v": 4,
+        "s": "src-1"
+      },
+      "summary": "Electric Mercedes-Maybach SUV with a 122 kWh battery and a four-seat chauffeur-style cabin.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 11,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "56-inch MBUX Hyperscreen",
+          "Panoramic sunroof"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 24000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 26500000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 658,
+            "s": "src-1"
+          },
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 122,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 611,
+              "s": "src-1"
+            },
+            "rangeStandard": "ARAI",
+            "acChargeNote": {
+              "v": "22 kW: 0-100% in about 6.25 hours",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "200 kW: 10-80% in about 31 minutes",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 24000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "Maybach EQS 680",
+              "priceInr": {
+                "v": 24000000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "Maybach EQS 680 Night Series",
+              "priceInr": {
+                "v": 26500000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "eqs680",
+          "label": "EQS 680 · 122 kWh",
+          "fuel": "ev",
+          "engine": "Dual electric motors, AWD",
+          "transmission": "Single-speed"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Maybach X296 EQS 680 SUV Obsidian Black (1).jpg",
+          "localPath": "/cars/mercedes-benz-maybach-eqs-suv-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Maybach_X296_EQS_680_SUV_Obsidian_Black_(1).jpg",
+          "author": "Damian B Oh",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "Mercedes-Maybach EQS 680 SUV, South Korea, front view",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz Maybach EQS SUV page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/maybach-eqs-suv",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power converted: 649 bhp x1.0139 = 658 PS. Torque not stated."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "C193 (launched India 2026)",
+      "id": "mercedes-benz-cla-electric",
+      "model": "CLA Electric",
+      "bodyType": "sedan",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Compact electric sedan from Mercedes-Benz on an 800V platform, offered with 58 kWh and 85.5 kWh batteries.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": null,
+        "bootLitres": {
+          "v": 405,
+          "s": "src-1"
+        },
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "Level 2 ADAS",
+          "360° camera",
+          "Lane keeping",
+          "Adaptive cruise control",
+          "Blind spot assist"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 5650000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 6400000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": null,
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 58,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 542,
+              "s": "src-1"
+            },
+            "rangeStandard": "WLTP",
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 5650000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "CLA 200",
+              "priceInr": {
+                "v": 5650000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "cla200",
+          "label": "CLA 200 · 58 kWh",
+          "fuel": "ev",
+          "engine": "Electric motor, 800V architecture",
+          "transmission": "2-speed"
+        },
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": null,
+          "torqueNm": {
+            "v": 335,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 85.5,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 792,
+              "s": "src-1"
+            },
+            "rangeStandard": "WLTP",
+            "acChargeNote": null,
+            "dcFastChargeNote": null
+          },
+          "fromPriceInr": {
+            "v": 5900000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "CLA 250 Plus",
+              "priceInr": {
+                "v": 5900000,
+                "s": "src-1"
+              }
+            },
+            {
+              "name": "CLA 250 Plus Launch Edition",
+              "priceInr": {
+                "v": 6400000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "cla250plus",
+          "label": "CLA 250+ · 85.5 kWh",
+          "fuel": "ev",
+          "engine": "Electric motor, 800V architecture",
+          "transmission": "2-speed"
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz CLA Electric page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/cla-electric",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "Power is given only as a 221.26-268.2 bhp range across variants, so left null. CarDekho notes 320 kW DC charging (10-80% in 20 minutes) and 11 kW AC (6.5 hours), not tied to a variant.",
+        "No suitable free photo of the new electric CLA found on Commons, so images is empty. Range is WLTP as stated, not ARAI."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "W465 (G 580 with EQ Technology)",
+      "id": "mercedes-benz-g-class-electric",
+      "model": "G-Class Electric",
+      "bodyType": "suv",
+      "seats": {
+        "v": 5,
+        "s": "src-1"
+      },
+      "summary": "Battery-electric G-Class with four motors and a 116 kWh battery, sold in India as a CBU import.",
+      "dimensions": {
+        "lengthMm": null,
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": null,
+        "groundClearanceMm": {
+          "v": 250,
+          "s": "src-1"
+        },
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 9,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "360° camera with transparent bonnet",
+          "Level-2 ADAS",
+          "Dual 12.3-inch MBUX displays"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 31000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 31000000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": null,
+          "cylinders": null,
+          "powerPs": {
+            "v": 587,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 1164,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": {
+            "batteryKwh": {
+              "v": 116,
+              "s": "src-1"
+            },
+            "claimedRangeKm": {
+              "v": 455,
+              "s": "src-1"
+            },
+            "rangeStandard": "WLTP",
+            "acChargeNote": {
+              "v": "11 kW: 0-100% in about 11.7 hours",
+              "s": "src-1"
+            },
+            "dcFastChargeNote": {
+              "v": "200 kW: 10-80% in about 32 minutes",
+              "s": "src-1"
+            }
+          },
+          "fromPriceInr": {
+            "v": 31000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "G 580 with EQ Technology",
+              "priceInr": {
+                "v": 31000000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "g580",
+          "label": "G 580 with EQ Technology · 116 kWh",
+          "fuel": "ev",
+          "engine": "Quad electric motors (one per wheel), AWD",
+          "transmission": "Single-speed"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz G 580 with EQ Technology DSC 8257.jpg",
+          "localPath": "/cars/mercedes-benz-g-class-electric-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_G_580_with_EQ_Technology_DSC_8257.jpg",
+          "author": "Alexander Migl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "caption": "G 580 with EQ Technology (W465), Germany, rear three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz G-Class Electric page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/g-class-electric",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "CarDekho states WLTP range as '455 km / 473 km'; 455 used. Its Euro NCAP 5-star mention refers to the petrol/diesel G-Class (2019), so no NCAP block is recorded."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    },
+    {
+      "wikipediaUrl": null,
+      "generation": "W447 (Extra-long)",
+      "id": "mercedes-benz-v-class",
+      "model": "V-Class",
+      "bodyType": "mpv",
+      "seats": {
+        "v": 6,
+        "s": "src-1"
+      },
+      "summary": "Luxury MPV from Mercedes-Benz in India in extra-long form with a 2.0 L petrol (mild-hybrid) or diesel engine.",
+      "dimensions": {
+        "lengthMm": {
+          "v": 5370,
+          "s": "src-1"
+        },
+        "widthMm": null,
+        "heightMm": null,
+        "wheelbaseMm": {
+          "v": 3470,
+          "s": "src-1"
+        },
+        "groundClearanceMm": null,
+        "bootLitres": null,
+        "fuelTankLitres": null,
+        "kerbWeightKg": null
+      },
+      "safety": {
+        "ncap": null,
+        "airbagsStandard": {
+          "v": 7,
+          "s": "src-1"
+        },
+        "keyFeatures": [
+          "ESC",
+          "Attention Assist",
+          "Blind spot monitoring",
+          "TPMS",
+          "ADAS",
+          "360° camera with park assist"
+        ]
+      },
+      "warranty": null,
+      "price": {
+        "minInr": {
+          "v": 14000000,
+          "s": "src-1"
+        },
+        "maxInr": {
+          "v": 14000000,
+          "s": "src-1"
+        },
+        "basis": "ex-showroom",
+        "location": "Delhi",
+        "asOf": "2026-10-12"
+      },
+      "options": [
+        {
+          "displacementCc": {
+            "v": 1999,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 231,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 370,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 14000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "V 300",
+              "priceInr": {
+                "v": 14000000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "v300-petrol",
+          "label": "V 300 · 2.0 L mild-hybrid petrol · 9-speed automatic",
+          "fuel": "mild-hybrid",
+          "engine": "2.0 L petrol with mild hybrid",
+          "transmission": "9-speed automatic"
+        },
+        {
+          "displacementCc": {
+            "v": 1951,
+            "s": "src-1"
+          },
+          "cylinders": null,
+          "powerPs": {
+            "v": 237,
+            "s": "src-1"
+          },
+          "torqueNm": {
+            "v": 500,
+            "s": "src-1"
+          },
+          "efficiency": null,
+          "ev": null,
+          "fromPriceInr": {
+            "v": 14000000,
+            "s": "src-1"
+          },
+          "trims": [
+            {
+              "name": "V 300d",
+              "priceInr": {
+                "v": 14000000,
+                "s": "src-1"
+              }
+            }
+          ],
+          "id": "v300d-diesel",
+          "label": "V 300d · 2.0 L diesel · 9-speed automatic",
+          "fuel": "diesel",
+          "engine": "2.0 L diesel",
+          "transmission": "9-speed automatic"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mercedes-Benz V 300 d 4MATIC Exklusive Lang (V 447, 2. Facelift) – f 05072025.jpg",
+          "localPath": "/cars/mercedes-benz-v-class-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_V_300_d_4MATIC_Exklusive_Lang_(V_447%2C_2._Facelift)_%E2%80%93_f_05072025.jpg",
+          "author": "© M 93",
+          "license": "CC BY-SA 3.0 de",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+          "caption": "V 300 d (W447, second facelift), Germany, front three-quarter",
+          "match": "same-model-other-market"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-1",
+          "type": "third-party",
+          "label": "CarDekho – Mercedes-Benz V-Class page",
+          "publisher": "CarDekho",
+          "url": "https://www.cardekho.com/mercedes-benz/v-class",
+          "retrievedAt": "2026-10-12",
+          "publishedAt": null
+        }
+      ],
+      "notes": [
+        "The official mercedes-benz.co.in site could not be fetched from this environment (requests timed out), so all figures come from third-party pages (CarDekho/Autocar India) and are labelled as such; officialUrl is the brand India homepage because no model page could be verified.",
+        "V 300 petrol is listed as '231 PS + 20 PS (mild-hybrid)' and '370 Nm + 200 Nm'; only the base figures are recorded.",
+        "CarDekho's boot figure of 5,010 L looks like a maximum-cargo figure and was not used. Euro NCAP 5 stars is mentioned without a year; no NCAP block recorded. Mileage not stated."
+      ],
+      "brand": "Mercedes-Benz",
+      "officialUrl": "https://www.mercedes-benz.co.in/"
+    }
+  ]
+}
